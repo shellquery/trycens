@@ -2742,4 +2742,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 24 · Intersections & Right of Way · Q231–240 ──────────────────────
+{
+  id:231, cat:'rightofway',
+  en:{q:'At a two-way stop, who has the right of way?',opts:['The vehicle on the right','Traffic on the through street has right of way over stopped traffic','Whoever was waiting longest','The larger vehicle'],exp:'At a two-way stop (only two sides have stop signs), traffic on the un-signed through street has the right of way. Vehicles with stop signs must yield to all traffic on the through road. This is different from a four-way stop where all must stop first.'},
+  zh:{q:'在双向停车路口，谁有优先通行权？',opts:['右侧车辆','通行街道上的交通优先于停止的交通','等待时间最长的人','较大的车辆'],exp:'在双向停车路口（只有两边有停车标志），无标志通行街道上的交通有优先通行权。有停车标志的车辆必须让行通行道路上的所有交通。这与四路停车不同，四路停车时所有车辆都必须先停车。'},
+  zhTW:{q:'在雙向停車路口，誰有優先通行權？',opts:['右側車輛','通行街道上的交通優先於停止的交通','等待時間最長的人','較大的車輛'],exp:'在雙向停車路口（只有兩邊有停車標誌），無標誌通行街道上的交通有優先通行權。有停車標誌的車輛必須讓行通行道路上的所有交通。這與四路停車不同，四路停車時所有車輛都必須先停車。'},
+  es:{q:'En una parada de dos vías, ¿quién tiene el derecho de paso?',opts:['El vehículo de la derecha','El tráfico en la calle de paso tiene derecho de paso sobre el tráfico detenido','Quien llevaba más tiempo esperando','El vehículo más grande'],exp:'En una parada de dos vías (solo dos lados tienen señales de stop), el tráfico en la calle de paso sin señal tiene el derecho de paso. Los vehículos con señales de stop deben ceder a todo el tráfico en la carretera de paso. Esto es diferente de una parada de cuatro vías donde todos deben detenerse primero.'},
+  ans:1
+},
+{
+  id:232, cat:'rightofway',
+  en:{q:'Two vehicles are facing each other, both waiting to turn left. Who goes first?',opts:['The vehicle that has been waiting longer','Either can proceed — they should turn in front of each other (front-to-front)','The vehicle on the right','Both must wait for each other indefinitely'],exp:'When two vehicles face each other both waiting to turn left, each should pass to the right of the other and complete the left turn (front-to-front turns). This is safer than turning behind each other, as it maintains visibility of oncoming traffic.'},
+  zh:{q:'两辆车面对面，都在等待左转。谁先行？',opts:['等待时间更长的车辆','任何一辆都可以——它们应该互相转向（前对前）','右侧车辆','两辆必须无限期互相等待'],exp:'当两辆车面对面都等待左转时，每辆车应该在对方右侧通过并完成左转（前对前转弯）。这比在对方后面转弯更安全，因为它保持了对对向交通的能见度。'},
+  zhTW:{q:'兩輛車面對面，都在等待左轉。誰先行？',opts:['等待時間更長的車輛','任何一輛都可以——它們應該互相轉向（前對前）','右側車輛','兩輛必須無限期互相等待'],exp:'當兩輛車面對面都等待左轉時，每輛車應該在對方右側通過並完成左轉（前對前轉彎）。這比在對方後面轉彎更安全，因為它保持了對對向交通的能見度。'},
+  es:{q:'Dos vehículos están frente a frente, ambos esperando girar a la izquierda. ¿Quién va primero?',opts:['El vehículo que ha esperado más tiempo','Cualquiera puede proceder — deben girar frente a frente (frente-a-frente)','El vehículo de la derecha','Ambos deben esperarse indefinidamente'],exp:'Cuando dos vehículos se enfrentan ambos esperando girar a la izquierda, cada uno debe pasar a la derecha del otro y completar el giro a la izquierda (giros frente a frente). Esto es más seguro que girar detrás del otro, ya que mantiene la visibilidad del tráfico que viene en sentido contrario.'},
+  ans:1
+},
+{
+  id:233, cat:'rightofway',
+  en:{q:'Who has the right of way at an uncontrolled intersection (no signs or signals)?',opts:['The vehicle on the left','The vehicle on the right','The vehicle that is going straight','The first vehicle to enter the intersection'],exp:'At an uncontrolled intersection (no signs or signals), the vehicle on the RIGHT has the right of way. This is California\'s basic right-of-way rule: yield to the vehicle approaching from your right. If you arrive at the same time, the vehicle on the right goes first.'},
+  zh:{q:'在无控制路口（无标志或信号灯），谁有优先通行权？',opts:['左侧车辆','右侧车辆','直行车辆','最先进入路口的车辆'],exp:'在无控制路口（无标志或信号灯），右侧的车辆有优先通行权。这是加州基本的优先通行权规则：让行从您右侧靠近的车辆。如果同时到达，右侧的车辆先行。'},
+  zhTW:{q:'在無控制路口（無標誌或信號燈），誰有優先通行權？',opts:['左側車輛','右側車輛','直行車輛','最先進入路口的車輛'],exp:'在無控制路口（無標誌或信號燈），右側的車輛有優先通行權。這是加州基本的優先通行權規則：讓行從您右側靠近的車輛。如果同時到達，右側的車輛先行。'},
+  es:{q:'¿Quién tiene el derecho de paso en una intersección no controlada (sin señales o semáforos)?',opts:['El vehículo de la izquierda','El vehículo de la derecha','El vehículo que va recto','El primer vehículo en entrar a la intersección'],exp:'En una intersección no controlada (sin señales o semáforos), el vehículo de la DERECHA tiene el derecho de paso. Esta es la regla básica de derecho de paso de California: ceda al vehículo que se aproxima desde su derecha. Si llegan al mismo tiempo, el vehículo de la derecha va primero.'},
+  ans:1
+},
+{
+  id:234, cat:'rightofway',
+  en:{q:'A vehicle is already in the intersection when the light turns red. What should that vehicle do?',opts:['Stop immediately in the intersection','Back out of the intersection quickly','Complete the turn or proceed through safely','Wait in the intersection until the next green light'],exp:'A vehicle that has already entered an intersection on a green or yellow light may complete its turn or proceed through safely even if the light turns red while in the intersection. Stopping in the middle of an intersection is dangerous and blocks cross traffic.'},
+  zh:{q:'当灯变红时一辆车已经在路口内。那辆车应该怎么做？',opts:['立即在路口内停车','迅速倒退出路口','安全地完成转弯或继续通过','在路口内等待直到下一个绿灯'],exp:'在路口内已经在绿灯或黄灯时进入路口的车辆，即使灯在路口内变红，也可以安全地完成转弯或继续通过。在路口中间停车很危险，会阻塞横向交通。'},
+  zhTW:{q:'當燈變紅時一輛車已經在路口內。那輛車應該怎麼做？',opts:['立即在路口內停車','迅速倒退出路口','安全地完成轉彎或繼續通過','在路口內等待直到下一個綠燈'],exp:'在路口內已經在綠燈或黃燈時進入路口的車輛，即使燈在路口內變紅，也可以安全地完成轉彎或繼續通過。在路口中間停車很危險，會阻塞橫向交通。'},
+  es:{q:'Un vehículo ya está en la intersección cuando el semáforo se pone en rojo. ¿Qué debe hacer ese vehículo?',opts:['Detenerse inmediatamente en la intersección','Retroceder rápidamente de la intersección','Completar el giro o proceder con seguridad','Esperar en la intersección hasta el próximo semáforo verde'],exp:'Un vehículo que ya ha entrado a una intersección con semáforo verde o amarillo puede completar su giro o proceder con seguridad incluso si el semáforo se pone en rojo mientras está en la intersección. Detenerse en medio de una intersección es peligroso y bloquea el tráfico cruzado.'},
+  ans:2
+},
+{
+  id:235, cat:'rightofway',
+  en:{q:'You want to turn right at a red light. When is this allowed?',opts:['Always — right on red is always legal in California','After coming to a complete stop, yielding to traffic and pedestrians, if no sign prohibits it','Whenever there is no oncoming traffic','Only when traffic is light'],exp:'You may turn right on a red light in California after making a complete stop, yielding to all traffic and pedestrians, and only when no sign prohibits the turn. Some intersections have "No Turn on Red" signs — you must obey these. Always check for pedestrians before turning.'},
+  zh:{q:'您想在红灯时右转。什么时候允许这样做？',opts:['始终允许——在加州在红灯右转始终合法','完全停车后，在让行车辆和行人的情况下，如果没有标志禁止','当没有对向车辆时','只有当交通稀少时'],exp:'在加州，完全停车、让行所有车辆和行人，且没有标志禁止转弯时，您可以在红灯右转。有些路口有"红灯不得右转"标志——您必须遵守这些标志。转弯前始终检查行人。'},
+  zhTW:{q:'您想在紅燈時右轉。什麼時候允許這樣做？',opts:['始終允許——在加州在紅燈右轉始終合法','完全停車後，在讓行車輛和行人的情況下，如果沒有標誌禁止','當沒有對向車輛時','只有當交通稀少時'],exp:'在加州，完全停車、讓行所有車輛和行人，且沒有標誌禁止轉彎時，您可以在紅燈右轉。有些路口有「紅燈不得右轉」標誌——您必須遵守這些標誌。轉彎前始終檢查行人。'},
+  es:{q:'Quiere girar a la derecha en un semáforo en rojo. ¿Cuándo está permitido?',opts:['Siempre — girar a la derecha en rojo siempre es legal en California','Después de detenerse completamente, cediendo al tráfico y peatones, si ninguna señal lo prohíbe','Cuando no hay tráfico en sentido contrario','Solo cuando el tráfico es ligero'],exp:'Puede girar a la derecha en un semáforo en rojo en California después de hacer una parada completa, cediendo a todo el tráfico y peatones, y solo cuando ninguna señal prohíbe el giro. Algunas intersecciones tienen señales de "No Girar en Rojo" — debe obedecerlas. Siempre revise los peatones antes de girar.'},
+  ans:1
+},
+{
+  id:236, cat:'rightofway',
+  en:{q:'Who has the right of way when an emergency vehicle is approaching from behind?',opts:['You do — maintain your speed','The emergency vehicle — pull to the right and stop','The vehicle ahead of you — follow their lead','Traffic signals override emergency vehicles'],exp:'Emergency vehicles with lights and sirens always have the right of way. Pull to the right side of the road and stop, regardless of which direction the emergency vehicle is coming from. Do not block intersections. Once the vehicle passes, check for additional emergency vehicles before proceeding.'},
+  zh:{q:'当紧急车辆从后方靠近时，谁有优先通行权？',opts:['您——保持速度','紧急车辆——靠右停车','前方的车辆——跟随他们的行动','交通信号灯优先于紧急车辆'],exp:'有警灯和警报声的紧急车辆始终有优先通行权。无论紧急车辆从哪个方向来，都要靠右停在路边。不要阻塞路口。车辆通过后，在继续前检查是否还有其他紧急车辆。'},
+  zhTW:{q:'當緊急車輛從後方靠近時，誰有優先通行權？',opts:['您——保持速度','緊急車輛——靠右停車','前方的車輛——跟隨他們的行動','交通信號燈優先於緊急車輛'],exp:'有警燈和警報聲的緊急車輛始終有優先通行權。無論緊急車輛從哪個方向來，都要靠右停在路邊。不要阻塞路口。車輛通過後，在繼續前檢查是否還有其他緊急車輛。'},
+  es:{q:'¿Quién tiene el derecho de paso cuando un vehículo de emergencia se aproxima por detrás?',opts:['Usted — mantenga su velocidad','El vehículo de emergencia — orillese a la derecha y detenga','El vehículo de adelante — siga su ejemplo','Los semáforos tienen prioridad sobre los vehículos de emergencia'],exp:'Los vehículos de emergencia con luces y sirenas siempre tienen el derecho de paso. Orillese al lado derecho de la carretera y detenga, independientemente de la dirección de la que venga el vehículo de emergencia. No bloquee las intersecciones. Una vez que el vehículo pase, revise si hay vehículos de emergencia adicionales antes de proceder.'},
+  ans:1
+},
+{
+  id:237, cat:'rightofway',
+  en:{q:'You are driving in a traffic circle (roundabout) and someone wants to enter. Who has the right of way?',opts:['The entering vehicle','You — vehicles inside the roundabout have the right of way','Whoever signals first','The vehicle that has been waiting longer'],exp:'In a roundabout, vehicles already circulating inside have the right of way over vehicles entering. Entering drivers must yield to all traffic in the circle. This differs from a regular intersection where different rules apply. Roundabouts flow counterclockwise in the U.S.'},
+  zh:{q:'您在交通转盘（环形路口）内行驶，有人想进入。谁有优先通行权？',opts:['进入的车辆','您——环形路内的车辆有优先通行权','谁先打转向灯','等待时间更长的车辆'],exp:'在环形路口，已在内部行驶的车辆对进入的车辆享有优先通行权。进入的驾驶者必须让行环形路内的所有交通。这与不同规则适用的普通路口不同。美国的环形交叉路口逆时针流动。'},
+  zhTW:{q:'您在交通轉盤（環形路口）內行駛，有人想進入。誰有優先通行權？',opts:['進入的車輛','您——環形路內的車輛有優先通行權','誰先打方向燈','等待時間更長的車輛'],exp:'在環形路口，已在內部行駛的車輛對進入的車輛享有優先通行權。進入的駕駛者必須讓行環形路內的所有交通。這與不同規則適用的普通路口不同。美國的環形交叉路口逆時針流動。'},
+  es:{q:'Está conduciendo en un círculo de tráfico (rotonda) y alguien quiere entrar. ¿Quién tiene el derecho de paso?',opts:['El vehículo que entra','Usted — los vehículos dentro de la rotonda tienen el derecho de paso','Quien señalice primero','El vehículo que ha esperado más tiempo'],exp:'En una rotonda, los vehículos que ya circulan dentro tienen el derecho de paso sobre los vehículos que entran. Los conductores que entran deben ceder a todo el tráfico en el círculo. Esto difiere de una intersección regular donde aplican diferentes reglas. Las rotondas fluyen en sentido contrario a las agujas del reloj en los EE.UU.'},
+  ans:1
+},
+{
+  id:238, cat:'rightofway',
+  en:{q:'A pedestrian begins crossing against the "Don\'t Walk" signal. Do you have to yield?',opts:['No — the pedestrian was wrong to cross','Yes — pedestrians always have the right of way, even if they crossed illegally','Only if they are in your lane','Only if a police officer is present'],exp:'Even if a pedestrian crosses against the signal (jaywalking), you must still yield to avoid hitting them. While the pedestrian may be at fault legally, you have a duty to avoid causing harm. This is not just a legal obligation but a moral one — the consequences of hitting a pedestrian are severe.'},
+  zh:{q:'行人在"禁止通行"信号时开始过街。您必须让行吗？',opts:['不必——行人过街是错误的','是——行人始终有优先通行权，即使他们违规过街','只有当他们在您的车道时','只有当有警察在场时'],exp:'即使行人在信号灯反对下过街（闯红灯），您仍然必须让行以避免撞到他们。虽然行人在法律上可能有过错，但您有避免造成伤害的责任。这不仅是法律义务，也是道德义务——撞到行人的后果很严重。'},
+  zhTW:{q:'行人在「禁止通行」信號時開始過街。您必須讓行嗎？',opts:['不必——行人過街是錯誤的','是——行人始終有優先通行權，即使他們違規過街','只有當他們在您的車道時','只有當有警察在場時'],exp:'即使行人在信號燈反對下過街（闖紅燈），您仍然必須讓行以避免撞到他們。雖然行人在法律上可能有過錯，但您有避免造成傷害的責任。這不僅是法律義務，也是道德義務——撞到行人的後果很嚴重。'},
+  es:{q:'Un peatón comienza a cruzar contra la señal de "No Caminar". ¿Debe ceder?',opts:['No — el peatón se equivocó al cruzar','Sí — los peatones siempre tienen el derecho de paso, incluso si cruzaron ilegalmente','Solo si están en su carril','Solo si hay un oficial de policía presente'],exp:'Incluso si un peatón cruza contra la señal (cruce imprudente), todavía debe ceder para evitar atropellarlo. Aunque el peatón puede ser culpable legalmente, usted tiene el deber de evitar causar daño. Esto no es solo una obligación legal sino moral — las consecuencias de atropellar a un peatón son graves.'},
+  ans:1
+},
+{
+  id:239, cat:'rightofway',
+  en:{q:'When must you yield to an oncoming vehicle when turning left from a one-way street?',opts:['Only when the oncoming vehicle is within 100 feet','Always — oncoming traffic has right of way over your left turn','Never — one-way streets eliminate left-turn conflicts','Only when a yield sign is posted'],exp:'Even on a one-way street, when turning left you must yield to oncoming traffic that is already in or approaching the intersection. The general rule holds: oncoming through traffic has priority over turning vehicles. Signal your intention and wait for a safe gap.'},
+  zh:{q:'从单行道左转时，您何时必须让行对向车辆？',opts:['只有当对向车辆在100英尺以内时','始终——对向交通优先于您的左转','永远不用——单行道消除了左转冲突','只有当有让行标志时'],exp:'即使在单行道上，左转时也必须让行已在路口内或正在靠近路口的对向交通。一般规则适用：对向直行交通优先于转弯车辆。发出意图信号并等待安全间隙。'},
+  zhTW:{q:'從單行道左轉時，您何時必須讓行對向車輛？',opts:['只有當對向車輛在100英尺以內時','始終——對向交通優先於您的左轉','永遠不用——單行道消除了左轉衝突','只有當有讓行標誌時'],exp:'即使在單行道上，左轉時也必須讓行已在路口內或正在靠近路口的對向交通。一般規則適用：對向直行交通優先於轉彎車輛。發出意圖信號並等待安全間隙。'},
+  es:{q:'¿Cuándo debe ceder al tráfico que viene en sentido contrario al girar a la izquierda desde una calle de sentido único?',opts:['Solo cuando el vehículo que viene en sentido contrario está dentro de 100 pies','Siempre — el tráfico en sentido contrario tiene prioridad sobre su giro a la izquierda','Nunca — las calles de sentido único eliminan los conflictos de giro a la izquierda','Solo cuando hay una señal de ceder publicada'],exp:'Incluso en una calle de sentido único, al girar a la izquierda debe ceder al tráfico que viene en sentido contrario que ya está en la intersección o que se aproxima. La regla general se aplica: el tráfico en sentido contrario tiene prioridad sobre los vehículos que giran. Señalice su intención y espere un hueco seguro.'},
+  ans:1
+},
+{
+  id:240, cat:'rightofway',
+  en:{q:'You are on a residential street and a child on a bicycle enters the road ahead of you. What should you do?',opts:['Honk to warn the child and proceed','Slow down significantly and be prepared to stop — children are unpredictable','Maintain speed — the child should yield to motor vehicles','Swerve to the opposite lane to avoid the child'],exp:'Children on bicycles are unpredictable and may swerve or stop suddenly. Slow down significantly, give the child extra space, and be ready to stop. Never assume children will behave predictably in traffic. In residential areas, assume children could be anywhere at any time.'},
+  zh:{q:'您在住宅街道上行驶，一名骑自行车的儿童进入您前方的道路。您应该怎么做？',opts:['鸣喇叭警告儿童然后继续','大幅减速并准备停车——儿童是不可预测的','保持速度——儿童应该让行机动车','转向对向车道以避开儿童'],exp:'骑自行车的儿童是不可预测的，可能会突然转向或停下。大幅减速，给儿童更多空间，准备好停车。永远不要假设儿童在交通中的行为是可预测的。在住宅区，假设儿童可能随时随地出现。'},
+  zhTW:{q:'您在住宅街道上行駛，一名騎自行車的兒童進入您前方的道路。您應該怎麼做？',opts:['鳴喇叭警告兒童然後繼續','大幅減速並準備停車——兒童是不可預測的','保持速度——兒童應該讓行機動車','轉向對向車道以避開兒童'],exp:'騎自行車的兒童是不可預測的，可能會突然轉向或停下。大幅減速，給兒童更多空間，準備好停車。永遠不要假設兒童在交通中的行為是可預測的。在住宅區，假設兒童可能隨時隨地出現。'},
+  es:{q:'Está en una calle residencial y un niño en bicicleta entra a la carretera frente a usted. ¿Qué debe hacer?',opts:['Toque la bocina para advertir al niño y proceda','Reduzca significativamente la velocidad y prepárese para detenerse — los niños son impredecibles','Mantenga la velocidad — el niño debe ceder a los vehículos de motor','Gire hacia el carril opuesto para evitar al niño'],exp:'Los niños en bicicleta son impredecibles y pueden girar o detenerse repentinamente. Reduzca significativamente la velocidad, dele al niño espacio adicional y esté listo para detenerse. Nunca asuma que los niños se comportarán de manera predecible en el tráfico. En áreas residenciales, asuma que los niños pueden estar en cualquier lugar en cualquier momento.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
