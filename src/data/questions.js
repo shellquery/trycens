@@ -2250,4 +2250,86 @@ export const questions = [
   ans:2
 },
 
+// ── Batch 18 · DUI & Drugs (Advanced) · Q171–180 ────────────────────────────
+{
+  id:171, cat:'dui',
+  en:{q:'At what BAC (blood alcohol content) is it illegal to drive a vehicle if you are under 21?',opts:['0.08%','0.05%','0.04%','0.01%'],exp:'California has a "Zero Tolerance" law for drivers under 21. Any measurable BAC of 0.01% or higher will result in a license suspension. For drivers 21 and over, the legal limit is 0.08%. Commercial drivers have a limit of 0.04%.'},
+  zh:{q:'21岁以下驾驶员，血液酒精含量（BAC）达到多少就是非法驾驶？',opts:['0.08%','0.05%','0.04%','0.01%'],exp:'加州对21岁以下驾驶员实行"零容忍"法律。任何0.01%或以上的可测量BAC都将导致驾照被暂停。21岁及以上驾驶员的合法限制为0.08%。商业驾驶员的限制为0.04%。'},
+  zhTW:{q:'21歲以下駕駛員，血液酒精含量（BAC）達到多少就是非法駕駛？',opts:['0.08%','0.05%','0.04%','0.01%'],exp:'加州對21歲以下駕駛員實行「零容忍」法律。任何0.01%或以上的可測量BAC都將導致駕照被暫停。21歲及以上駕駛員的合法限制為0.08%。商業駕駛員的限制為0.04%。'},
+  es:{q:'¿A qué BAC (contenido de alcohol en sangre) es ilegal conducir un vehículo si tiene menos de 21 años?',opts:['0.08%','0.05%','0.04%','0.01%'],exp:'California tiene una ley de "Tolerancia Cero" para conductores menores de 21 años. Cualquier BAC medible de 0.01% o superior resultará en suspensión de licencia. Para conductores de 21 años o más, el límite legal es 0.08%. Los conductores comerciales tienen un límite de 0.04%.'},
+  ans:3
+},
+{
+  id:172, cat:'dui',
+  en:{q:'What is the minimum license suspension for a first DUI conviction in California?',opts:['1 month','6 months','1 year','2 years'],exp:'For a first DUI conviction in California, your license is suspended for 6 months. Additionally, you may face fines, DUI school, probation, and possibly jail time. If your BAC was 0.16% or higher, penalties are enhanced. Refusing a chemical test results in a separate 1-year suspension.'},
+  zh:{q:'在加州首次DUI定罪的最低驾照暂停期是多久？',opts:['1个月','6个月','1年','2年'],exp:'在加州首次DUI定罪后，您的驾照将被暂停6个月。此外，您可能面临罚款、DUI课程、缓刑及可能的监禁时间。如果您的BAC为0.16%或更高，处罚将加重。拒绝化学测试将导致单独的1年暂停。'},
+  zhTW:{q:'在加州首次DUI定罪的最低駕照暫停期是多久？',opts:['1個月','6個月','1年','2年'],exp:'在加州首次DUI定罪後，您的駕照將被暫停6個月。此外，您可能面臨罰款、DUI課程、緩刑及可能的監禁時間。如果您的BAC為0.16%或更高，處罰將加重。拒絕化學測試將導致單獨的1年暫停。'},
+  es:{q:'¿Cuál es la suspensión mínima de licencia por una primera condena por DUI en California?',opts:['1 mes','6 meses','1 año','2 años'],exp:'Por una primera condena por DUI en California, su licencia se suspende por 6 meses. Además, puede enfrentar multas, escuela de DUI, libertad condicional y posiblemente tiempo en cárcel. Si su BAC fue 0.16% o más alto, las penalizaciones se incrementan. Rechazar una prueba química resulta en una suspensión separada de 1 año.'},
+  ans:1
+},
+{
+  id:173, cat:'dui',
+  en:{q:'What is "implied consent" in California driving law?',opts:['Your consent to let police search your vehicle','Your agreement to follow all traffic laws','Your automatic consent to chemical testing when lawfully arrested for DUI','Your permission for insurance companies to access your records'],exp:'"Implied consent" means that by holding a California driver\'s license and driving on public roads, you have automatically agreed to submit to a chemical test (breath, blood, or urine) if lawfully arrested for DUI. Refusing the test results in automatic license suspension and enhanced penalties.'},
+  zh:{q:'加州驾驶法律中的"默示同意"是什么？',opts:['您同意警察搜查您的车辆','您同意遵守所有交通法律','在因DUI被合法逮捕时，您自动同意接受化学测试','您允许保险公司查阅您的记录'],exp:'"默示同意"意味着通过持有加州驾驶执照并在公共道路上驾驶，您已自动同意在因DUI被合法逮捕时接受化学测试（呼气、血液或尿液）。拒绝测试会导致驾照自动暂停和加重处罚。'},
+  zhTW:{q:'加州駕駛法律中的「默示同意」是什麼？',opts:['您同意警察搜查您的車輛','您同意遵守所有交通法律','在因DUI被合法逮捕時，您自動同意接受化學測試','您允許保險公司查閱您的記錄'],exp:'"默示同意"意味著通過持有加州駕駛執照並在公共道路上駕駛，您已自動同意在因DUI被合法逮捕時接受化學測試（呼氣、血液或尿液）。拒絕測試會導致駕照自動暫停和加重處罰。'},
+  es:{q:'¿Qué es el "consentimiento implícito" en la ley de conducción de California?',opts:['Su consentimiento para dejar que la policía registre su vehículo','Su acuerdo de seguir todas las leyes de tráfico','Su consentimiento automático a las pruebas químicas cuando es arrestado legalmente por DUI','Su permiso para que las compañías de seguros accedan a sus registros'],exp:'"Consentimiento implícito" significa que al tener una licencia de conducir de California y conducir en carreteras públicas, ha acordado automáticamente someterse a una prueba química (aliento, sangre u orina) si es arrestado legalmente por DUI. Rechazar la prueba resulta en suspensión automática de licencia y penalizaciones mejoradas.'},
+  ans:2
+},
+{
+  id:174, cat:'dui',
+  en:{q:'How does marijuana (cannabis) affect your ability to drive?',opts:['It improves reaction time and focus','It has no effect on driving ability','It can impair judgment, reaction time, and coordination — making driving dangerous','It only affects driving if combined with alcohol'],exp:'Marijuana impairs driving just as alcohol does. THC affects judgment, reaction time, coordination, and concentration. In California, it is illegal to drive under the influence of marijuana. You can be arrested for DUI even if you have a medical marijuana card.'},
+  zh:{q:'大麻（cannabis）如何影响您的驾驶能力？',opts:['它改善反应时间和注意力','对驾驶能力没有影响','它可以损害判断力、反应时间和协调能力——使驾驶变得危险','只有与酒精结合时才影响驾驶'],exp:'大麻与酒精一样会损害驾驶能力。THC影响判断力、反应时间、协调能力和注意力。在加州，在大麻影响下驾驶是非法的。即使您持有医疗大麻卡，也可能因DUI被捕。'},
+  zhTW:{q:'大麻（cannabis）如何影響您的駕駛能力？',opts:['它改善反應時間和注意力','對駕駛能力沒有影響','它可以損害判斷力、反應時間和協調能力——使駕駛變得危險','只有與酒精結合時才影響駕駛'],exp:'大麻與酒精一樣會損害駕駛能力。THC影響判斷力、反應時間、協調能力和注意力。在加州，在大麻影響下駕駛是非法的。即使您持有醫療大麻卡，也可能因DUI被捕。'},
+  es:{q:'¿Cómo afecta la marihuana (cannabis) su capacidad de conducir?',opts:['Mejora el tiempo de reacción y el enfoque','No tiene efecto en la capacidad de conducir','Puede deteriorar el juicio, el tiempo de reacción y la coordinación — haciendo peligroso conducir','Solo afecta la conducción si se combina con alcohol'],exp:'La marihuana deteriora la conducción igual que el alcohol. El THC afecta el juicio, el tiempo de reacción, la coordinación y la concentración. En California, es ilegal conducir bajo la influencia de marihuana. Puede ser arrestado por DUI incluso si tiene una tarjeta de marihuana medicinal.'},
+  ans:2
+},
+{
+  id:175, cat:'dui',
+  en:{q:'If convicted of DUI and someone was killed, what charge could you face?',opts:['Misdemeanor DUI only','Felony DUI with mandatory prison time','Traffic infraction','Civil liability only'],exp:'If you drive under the influence and kill someone, you can be charged with second-degree murder or vehicular manslaughter with gross negligence in California. This can result in 15 years to life in prison. California has a "Watson Murder" rule — once convicted of DUI, you are notified that future DUI causing death may result in murder charges.'},
+  zh:{q:'如果DUI定罪且有人死亡，您可能面临什么指控？',opts:['仅轻罪DUI','强制监禁的重罪DUI','交通违规','仅民事责任'],exp:'如果您在酒驾影响下驾驶并导致他人死亡，在加州可能被指控为二级谋杀罪或严重过失车辆伤亡罪。这可能导致15年至终身监禁。加州有"沃森谋杀"规则——一旦DUI定罪，您将被通知未来导致死亡的DUI可能导致谋杀指控。'},
+  zhTW:{q:'如果DUI定罪且有人死亡，您可能面臨什麼指控？',opts:['僅輕罪DUI','強制監禁的重罪DUI','交通違規','僅民事責任'],exp:'如果您在酒駕影響下駕駛並導致他人死亡，在加州可能被指控為二級謀殺罪或嚴重過失車輛傷亡罪。這可能導致15年至終身監禁。加州有「沃森謀殺」規則——一旦DUI定罪，您將被通知未來導致死亡的DUI可能導致謀殺指控。'},
+  es:{q:'Si es condenado por DUI y alguien murió, ¿qué cargo podría enfrentar?',opts:['Solo DUI de delito menor','DUI de delito grave con tiempo obligatorio en prisión','Infracción de tráfico','Solo responsabilidad civil'],exp:'Si conduce bajo la influencia y mata a alguien, puede ser acusado de asesinato en segundo grado o homicidio vehicular con negligencia grave en California. Esto puede resultar en 15 años a cadena perpetua en prisión. California tiene una regla de "Asesinato Watson" — una vez condenado por DUI, se le notifica que futuros DUI que causen muerte pueden resultar en cargos de asesinato.'},
+  ans:1
+},
+{
+  id:176, cat:'dui',
+  en:{q:'Does drinking coffee or eating food help sober you up after drinking alcohol?',opts:['Yes — coffee counteracts alcohol','Yes — food absorbs alcohol in your stomach','No — only time allows your body to process alcohol','Yes — exercise speeds up alcohol metabolism'],exp:'Nothing speeds up the metabolism of alcohol in your body — only time works. Coffee may make you feel more alert but does not lower your BAC or improve your driving ability. Food eaten before drinking slows alcohol absorption, but once alcohol is in your blood, only time will reduce it.'},
+  zh:{q:'饮酒后喝咖啡或吃东西能帮助清醒吗？',opts:['是的——咖啡能抵消酒精','是的——食物会吸收胃中的酒精','不——只有时间才能让您的身体代谢酒精','是的——运动加速酒精代谢'],exp:'没有任何东西能加速您体内酒精的代谢——只有时间有效。咖啡可能让您感觉更清醒，但不会降低您的BAC或改善驾驶能力。饮酒前吃东西会减慢酒精吸收，但一旦酒精进入血液，只有时间才能降低它。'},
+  zhTW:{q:'飲酒後喝咖啡或吃東西能幫助清醒嗎？',opts:['是的——咖啡能抵消酒精','是的——食物會吸收胃中的酒精','不——只有時間才能讓您的身體代謝酒精','是的——運動加速酒精代謝'],exp:'沒有任何東西能加速您體內酒精的代謝——只有時間有效。咖啡可能讓您感覺更清醒，但不會降低您的BAC或改善駕駛能力。飲酒前吃東西會減慢酒精吸收，但一旦酒精進入血液，只有時間才能降低它。'},
+  es:{q:'¿Beber café o comer alimentos ayuda a sobriarse después de beber alcohol?',opts:['Sí — el café contrarresta el alcohol','Sí — los alimentos absorben el alcohol en su estómago','No — solo el tiempo permite que su cuerpo procese el alcohol','Sí — el ejercicio acelera el metabolismo del alcohol'],exp:'Nada acelera el metabolismo del alcohol en su cuerpo — solo el tiempo funciona. El café puede hacerle sentir más alerta pero no reduce su BAC ni mejora su capacidad de conducir. Los alimentos comidos antes de beber ralentizan la absorción del alcohol, pero una vez que el alcohol está en su sangre, solo el tiempo lo reducirá.'},
+  ans:2
+},
+{
+  id:177, cat:'dui',
+  en:{q:'Can prescription medications cause you to be charged with DUI in California?',opts:['No — prescription drugs are legal','Only if combined with alcohol','Yes — any drug that impairs driving can result in a DUI charge','Only illegal drugs can cause a DUI charge'],exp:'In California, DUI laws apply to any substance that impairs your ability to drive — including legal prescription medications. If a prescription drug impairs your judgment, reaction time, or coordination, you can be charged with DUI under Vehicle Code 23152(f) even though the medication was prescribed.'},
+  zh:{q:'处方药会导致您在加州被指控DUI吗？',opts:['不——处方药是合法的','只有与酒精结合时','是的——任何损害驾驶的药物都可能导致DUI指控','只有非法药物才能导致DUI指控'],exp:'在加州，DUI法律适用于任何损害驾驶能力的物质——包括合法处方药。如果处方药损害了您的判断力、反应时间或协调能力，即使药物是处方的，您也可能根据《车辆法典》23152(f)被指控DUI。'},
+  zhTW:{q:'處方藥會導致您在加州被指控DUI嗎？',opts:['不——處方藥是合法的','只有與酒精結合時','是的——任何損害駕駛的藥物都可能導致DUI指控','只有非法藥物才能導致DUI指控'],exp:'在加州，DUI法律適用於任何損害駕駛能力的物質——包括合法處方藥。如果處方藥損害了您的判斷力、反應時間或協調能力，即使藥物是處方的，您也可能根據《車輛法典》23152(f)被指控DUI。'},
+  es:{q:'¿Los medicamentos recetados pueden causarle ser acusado de DUI en California?',opts:['No — los medicamentos recetados son legales','Solo si se combinan con alcohol','Sí — cualquier droga que deteriore la conducción puede resultar en un cargo de DUI','Solo las drogas ilegales pueden causar un cargo de DUI'],exp:'En California, las leyes de DUI aplican a cualquier sustancia que deteriore su capacidad de conducir — incluyendo medicamentos recetados legales. Si un medicamento recetado deteriora su juicio, tiempo de reacción o coordinación, puede ser acusado de DUI bajo el Código de Vehículos 23152(f) aunque el medicamento haya sido recetado.'},
+  ans:2
+},
+{
+  id:178, cat:'dui',
+  en:{q:'What happens to your car insurance after a DUI conviction in California?',opts:['Nothing changes','Rates may increase slightly for 1 year','Rates typically increase dramatically and you may need an SR-22 for 3 years','Insurance is automatically cancelled'],exp:'After a DUI conviction in California, you will likely need to file an SR-22 form (proof of insurance) with the DMV for 3 years. Your insurance rates will typically increase significantly — often 50–100% or more. Some insurers may cancel your policy, and you may need to obtain high-risk insurance.'},
+  zh:{q:'在加州DUI定罪后，您的汽车保险会发生什么？',opts:['什么都不变','费率可能稍微上涨1年','费率通常大幅上涨，您可能需要提供SR-22保险3年','保险会自动取消'],exp:'在加州DUI定罪后，您可能需要向DMV提交SR-22表格（保险证明）3年。您的保险费率通常会大幅上涨——通常增加50-100%或更多。一些保险公司可能取消您的保单，您可能需要获得高风险保险。'},
+  zhTW:{q:'在加州DUI定罪後，您的汽車保險會發生什麼？',opts:['什麼都不變','費率可能稍微上漲1年','費率通常大幅上漲，您可能需要提供SR-22保險3年','保險會自動取消'],exp:'在加州DUI定罪後，您可能需要向DMV提交SR-22表格（保險證明）3年。您的保險費率通常會大幅上漲——通常增加50-100%或更多。一些保險公司可能取消您的保單，您可能需要獲得高風險保險。'},
+  es:{q:'¿Qué le sucede a su seguro de automóvil después de una condena por DUI en California?',opts:['Nada cambia','Las tasas pueden aumentar ligeramente por 1 año','Las tasas típicamente aumentan dramáticamente y puede necesitar un SR-22 por 3 años','El seguro se cancela automáticamente'],exp:'Después de una condena por DUI en California, probablemente necesitará presentar un formulario SR-22 (prueba de seguro) con el DMV por 3 años. Sus tasas de seguro típicamente aumentarán significativamente — a menudo 50–100% o más. Algunos aseguradores pueden cancelar su póliza y puede necesitar obtener seguro de alto riesgo.'},
+  ans:2
+},
+{
+  id:179, cat:'dui',
+  en:{q:'What is an Ignition Interlock Device (IID)?',opts:['A GPS tracker installed after a DUI','A breathalyzer connected to your ignition that prevents starting the car if alcohol is detected','A device that limits your maximum speed after a DUI','A dash camera required after a DUI conviction'],exp:'An Ignition Interlock Device (IID) is a breathalyzer connected to your car\'s ignition. You must blow into it before starting the car. If alcohol above a set threshold is detected, the car will not start. In California, IIDs are often required after DUI convictions.'},
+  zh:{q:'什么是点火互锁装置（IID）？',opts:['DUI后安装的GPS追踪器','连接到点火装置的呼气测试仪，如果检测到酒精则阻止启动汽车','DUI后限制您最高速度的设备','DUI定罪后要求安装的行车记录仪'],exp:'点火互锁装置（IID）是连接到汽车点火系统的呼气测试仪。您必须在启动汽车前吹气测试。如果检测到超过设定阈值的酒精，汽车将无法启动。在加州，DUI定罪后通常需要安装IID。'},
+  zhTW:{q:'什麼是點火互鎖裝置（IID）？',opts:['DUI後安裝的GPS追蹤器','連接到點火裝置的呼氣測試儀，如果檢測到酒精則阻止啟動汽車','DUI後限制您最高速度的設備','DUI定罪後要求安裝的行車記錄儀'],exp:'點火互鎖裝置（IID）是連接到汽車點火系統的呼氣測試儀。您必須在啟動汽車前吹氣測試。如果檢測到超過設定閾值的酒精，汽車將無法啟動。在加州，DUI定罪後通常需要安裝IID。'},
+  es:{q:'¿Qué es un Dispositivo Interbloqueo de Encendido (IID)?',opts:['Un rastreador GPS instalado después de un DUI','Un alcoholímetro conectado a su encendido que evita arrancar el auto si se detecta alcohol','Un dispositivo que limita su velocidad máxima después de un DUI','Una cámara del tablero requerida después de una condena por DUI'],exp:'Un Dispositivo Interbloqueo de Encendido (IID) es un alcoholímetro conectado al encendido de su auto. Debe soplar en él antes de arrancar el auto. Si se detecta alcohol por encima de un umbral establecido, el auto no arrancará. En California, los IID a menudo se requieren después de condenas por DUI.'},
+  ans:1
+},
+{
+  id:180, cat:'dui',
+  en:{q:'What is the legal BAC limit for operating a commercial vehicle in California?',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'The legal BAC limit for commercial vehicle operators in California is 0.04% — half the regular 0.08% limit. This lower limit applies because commercial drivers operate larger, heavier vehicles that are harder to control. A conviction at 0.04% will result in loss of commercial driving privileges.'},
+  zh:{q:'在加州驾驶商业车辆的合法BAC限制是多少？',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'加州商业车辆驾驶员的合法BAC限制为0.04%——是常规0.08%限制的一半。这个较低的限制适用是因为商业驾驶员驾驶更大、更重的车辆，更难控制。在0.04%下被定罪将导致失去商业驾驶特权。'},
+  zhTW:{q:'在加州駕駛商業車輛的合法BAC限制是多少？',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'加州商業車輛駕駛員的合法BAC限制為0.04%——是常規0.08%限制的一半。這個較低的限制適用是因為商業駕駛員駕駛更大、更重的車輛，更難控制。在0.04%下被定罪將導致失去商業駕駛特權。'},
+  es:{q:'¿Cuál es el límite legal de BAC para operar un vehículo comercial en California?',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'El límite legal de BAC para operadores de vehículos comerciales en California es 0.04% — la mitad del límite regular de 0.08%. Este límite más bajo aplica porque los conductores comerciales operan vehículos más grandes y pesados que son más difíciles de controlar. Una condena a 0.04% resultará en pérdida de privilegios de conducción comercial.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
