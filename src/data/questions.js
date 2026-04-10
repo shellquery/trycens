@@ -1672,4 +1672,87 @@ export const questions = [
   ans:0
 },
 
+
+// ── Batch 11 · Right of Way · Q101–110 ───────────────────────
+{
+  id:101,cat:'rightofway',
+  en:{q:'At an uncontrolled intersection (no signs or signals), who has the right of way?',opts:['The vehicle that arrived first; if simultaneous, the vehicle on the right','The vehicle traveling at a higher speed','The larger vehicle always goes first','The vehicle going straight always has priority'],exp:'At an uncontrolled intersection, the first vehicle to arrive has the right of way. If two vehicles arrive at the same time, the vehicle on the LEFT must yield to the vehicle on the RIGHT. This is the "yield to the right" rule.'},
+  zh:{q:'在无控制路口（无标志或信号灯），谁有优先通行权？',opts:['先到的车辆；同时到达时，右侧车辆优先','行驶速度较快的车辆','较大的车辆始终先行','直行车辆始终具有优先权'],exp:'在无控制路口，先到的车辆有优先通行权。如果两辆车同时到达，左侧车辆必须让右侧车辆先行。这就是"让右侧车辆先行"规则。'},
+  zhTW:{q:'在無控制路口（無標誌或信號燈），誰有優先通行權？',opts:['先到的車輛；同時到達時，右側車輛優先','行駛速度較快的車輛','較大的車輛始終先行','直行車輛始終具有優先權'],exp:'在無控制路口，先到的車輛有優先通行權。如果兩輛車同時到達，左側車輛必須讓右側車輛先行。這就是「讓右側車輛先行」規則。'},
+  es:{q:'En una intersección no controlada (sin señales o semáforos), ¿quién tiene el derecho de paso?',opts:['El vehículo que llegó primero; si es simultáneo, el vehículo de la derecha','El vehículo que viaja a mayor velocidad','El vehículo más grande siempre va primero','El vehículo que va recto siempre tiene prioridad'],exp:'En una intersección no controlada, el primer vehículo en llegar tiene el derecho de paso. Si dos vehículos llegan al mismo tiempo, el vehículo de la IZQUIERDA debe ceder el paso al vehículo de la DERECHA. Esta es la regla de "ceder a la derecha".'},
+  ans:0
+},
+{
+  id:102,cat:'rightofway',
+  en:{q:'When must you yield to pedestrians?',opts:['Always — in crosswalks (marked or unmarked), and whenever a pedestrian is in your path','Only in marked crosswalks with a walk signal','Only when a traffic officer is present','Only in school zones'],exp:'You must yield to pedestrians in all crosswalks — marked and unmarked. An unmarked crosswalk exists at every intersection where sidewalks meet the street. You must also yield to pedestrians you may have endangered by turning. Pedestrians always have the right of way in crosswalks.'},
+  zh:{q:'您何时必须让行人先行？',opts:['始终——在人行横道（有标线或无标线）中，以及任何行人在您行进路线上时','仅在有行人通行信号的标线人行横道中','仅在有交警在场时','仅在学区内'],exp:'您必须在所有人行横道——有标线和无标线的——让行人先行。每个路口人行道与街道相交处都存在无标线人行横道。您还必须让您可能因转弯而置于危险中的行人先行。行人在人行横道中始终具有优先权。'},
+  zhTW:{q:'您何時必須讓行人先行？',opts:['始終——在人行橫道（有標線或無標線）中，以及任何行人在您行進路線上時','僅在有行人通行信號的標線人行橫道中','僅在有交警在場時','僅在學區內'],exp:'您必須在所有人行橫道——有標線和無標線的——讓行人先行。每個路口人行道與街道相交處都存在無標線人行橫道。您還必須讓您可能因轉彎而置於危險中的行人先行。行人在人行橫道中始終具有優先權。'},
+  es:{q:'¿Cuándo debe ceder el paso a los peatones?',opts:['Siempre — en cruces peatonales (marcados o no marcados), y cuando un peatón está en su camino','Solo en cruces marcados con señal de cruce','Solo cuando hay un oficial de tráfico presente','Solo en zonas escolares'],exp:'Debe ceder el paso a los peatones en todos los cruces — marcados y no marcados. Un cruce no marcado existe en cada intersección donde las aceras se encuentran con la calle. También debe ceder el paso a los peatones que pueda haber puesto en peligro al girar.'},
+  ans:0
+},
+{
+  id:103,cat:'rightofway',
+  en:{q:'When a school bus displays flashing red lights and a STOP arm, what must you do?',opts:['Stop — traffic from both directions must stop and wait until the lights stop flashing and the arm is retracted','Only stop if you are behind the bus','Slow to 15 mph and proceed with caution','Stop only on two-lane roads'],exp:'When a school bus has its red lights flashing and STOP arm extended, ALL traffic in BOTH directions must stop at least 25 feet from the bus — unless on a divided highway with a physical barrier, where only traffic behind the bus must stop. Wait until lights stop and arm retracts.'},
+  zh:{q:'当校车亮起闪烁红灯并展开停车臂时，您必须怎么做？',opts:['停车——两个方向的车辆均须停车，直到红灯停止闪烁且停车臂收回','仅当您在校车后方时才需停车','减速至15英里/小时并谨慎通过','仅在双车道道路上停车'],exp:'当校车亮起闪烁红灯并展开停车臂时，两个方向的所有车辆均须在距校车至少25英尺处停车——除非在有实体隔离带的分隔公路上，此时仅校车后方的车辆须停车。等待红灯停止闪烁且停车臂收回。'},
+  zhTW:{q:'當校車亮起閃爍紅燈並展開停車臂時，您必須怎麼做？',opts:['停車——兩個方向的車輛均須停車，直到紅燈停止閃爍且停車臂收回','僅當您在校車後方時才需停車','減速至15英里/小時並謹慎通過','僅在雙車道道路上停車'],exp:'當校車亮起閃爍紅燈並展開停車臂時，兩個方向的所有車輛均須在距校車至少25英尺處停車——除非在有實體隔離帶的分隔公路上，此時僅校車後方的車輛須停車。等待紅燈停止閃爍且停車臂收回。'},
+  es:{q:'Cuando un autobús escolar muestra luces rojas intermitentes y un brazo de STOP, ¿qué debe hacer?',opts:['Detenerse — el tráfico de ambas direcciones debe parar y esperar hasta que las luces dejen de parpadear y el brazo se retraiga','Solo detenerse si está detrás del autobús','Reducir a 15 mph y proceder con precaución','Detenerse solo en carreteras de dos carriles'],exp:'Cuando un autobús escolar tiene sus luces rojas intermitentes y el brazo de STOP extendido, TODO el tráfico en AMBAS direcciones debe detenerse a al menos 25 pies del autobús — a menos que esté en una autopista dividida con barrera física.'},
+  ans:0
+},
+{
+  id:104,cat:'rightofway',
+  en:{q:'When an emergency vehicle (police, fire, ambulance) approaches with lights and sirens, you must:',opts:['Pull over to the right edge of the road and stop until it passes','Speed up to get out of its way quickly','Stop in your lane immediately','Continue driving — emergency vehicles will go around you'],exp:'When an emergency vehicle approaches from any direction with lights and/or siren, you must pull over to the right edge and stop. If you are in an intersection, pull through the intersection first then pull over. Stay stopped until the emergency vehicle passes. Do not block intersections.'},
+  zh:{q:'当警车、消防车或救护车等紧急车辆开着灯光和警报器接近时，您必须：',opts:['靠右停在路边，直到它通过','加速让路','立即在您的车道内停车','继续行驶——紧急车辆会绕过您'],exp:'当紧急车辆从任何方向开着灯光和/或警报器接近时，您必须靠右停在路边。如果您正在路口内，先通过路口再靠边停车。保持停车直到紧急车辆通过。不要堵塞路口。'},
+  zhTW:{q:'當警車、消防車或救護車等緊急車輛開著燈光和警報器接近時，您必須：',opts:['靠右停在路邊，直到它通過','加速讓路','立即在您的車道內停車','繼續行駛——緊急車輛會繞過您'],exp:'當緊急車輛從任何方向開著燈光和/或警報器接近時，您必須靠右停在路邊。如果您正在路口內，先通過路口再靠邊停車。保持停車直到緊急車輛通過。不要堵塞路口。'},
+  es:{q:'Cuando un vehículo de emergencia (policía, bomberos, ambulancia) se aproxima con luces y sirenas, debe:',opts:['Orillarse al borde derecho de la carretera y detenerse hasta que pase','Acelerar para quitarse del camino rápidamente','Detenerse en su carril inmediatamente','Continuar conduciendo — los vehículos de emergencia lo rodearán'],exp:'Cuando un vehículo de emergencia se aproxima desde cualquier dirección con luces y/o sirena, debe orillarse al borde derecho y detenerse. Si está en una intersección, pase por ella primero y luego orillese. Permanezca detenido hasta que el vehículo de emergencia pase.'},
+  ans:0
+},
+{
+  id:105,cat:'rightofway',
+  en:{q:'California\'s "Move Over" law requires you to do what when passing a stationary emergency or work vehicle with flashing lights on the freeway?',opts:['Move over one lane away from the vehicle, or slow to a safe speed if you cannot change lanes','Speed up to pass the scene quickly','Stop your vehicle on the freeway until the vehicle moves','Flash your headlights and honk as a warning'],exp:'The Move Over law requires drivers to move over one lane away from stationary emergency vehicles, tow trucks, and Caltrans vehicles with flashing lights. If moving over is not safe or possible, you must slow to a safe and reasonable speed. Violation is a traffic infraction with significant fines.'},
+  zh:{q:'加州的"让道"法律要求您在高速公路上经过有闪烁灯光的静止紧急或施工车辆时怎么做？',opts:['向远离车辆的方向变换一条车道，如无法变道则降低至安全速度','加速快速通过现场','在高速公路上停车直到该车辆移开','闪灯并鸣笛作为警告'],exp:'"让道"法律要求驾驶员在静止的紧急车辆、拖车和有闪烁灯光的加州交通部车辆旁边变换一条车道远离这些车辆。如果变道不安全或不可能，您必须降低到安全合理的速度。违规属于交通违规行为，罚款金额较高。'},
+  zhTW:{q:'加州的「讓道」法律要求您在高速公路上經過有閃爍燈光的靜止緊急或施工車輛時怎麼做？',opts:['向遠離車輛的方向變換一條車道，如無法變道則降低至安全速度','加速快速通過現場','在高速公路上停車直到該車輛移開','閃燈並鳴笛作為警告'],exp:'「讓道」法律要求駕駛員在靜止的緊急車輛、拖車和有閃爍燈光的加州交通部車輛旁邊變換一條車道遠離這些車輛。如果變道不安全或不可能，您必須降低到安全合理的速度。違規屬於交通違規行為，罰款金額較高。'},
+  es:{q:'La ley de "Ceder el Paso" de California le requiere qué hacer cuando pasa un vehículo de emergencia o de trabajo estacionario con luces intermitentes en la autopista?',opts:['Cambie un carril alejándose del vehículo, o reduzca a una velocidad segura si no puede cambiar de carril','Acelere para pasar la escena rápidamente','Detenga su vehículo en la autopista hasta que el vehículo se mueva','Haga destellos de luz y toque la bocina como advertencia'],exp:'La ley de Ceder el Paso requiere que los conductores se muevan un carril alejándose de vehículos de emergencia estacionarios, grúas y vehículos de Caltrans con luces intermitentes. Si moverse no es seguro o posible, debe reducir a una velocidad segura y razonable.'},
+  ans:0
+},
+{
+  id:106,cat:'rightofway',
+  en:{q:'You are turning left at a green light. Who has the right of way?',opts:['Oncoming traffic going straight or turning right — you must yield before turning left','You do — the green light gives you the right of way','Pedestrians only — all vehicles must yield to you','You do, since you signaled your turn'],exp:'When turning left at a green light (not a green arrow), you must yield to oncoming traffic and pedestrians. Oncoming vehicles going straight or turning right have the right of way. Wait for a safe gap before turning. A green arrow means the intersection is clear and you may turn.'},
+  zh:{q:'您在绿灯时左转。谁有优先通行权？',opts:['直行或右转的对向车辆——您在左转前必须让行','您有——绿灯赋予您优先通行权','仅行人——所有车辆必须让您先行','您有——因为您已打了转向灯'],exp:'在绿灯时左转（不是绿色箭头），您必须让行对向车辆和行人。直行或右转的对向车辆具有优先通行权。等待安全间隙后再转弯。绿色箭头意味着路口已清空，您可以转弯。'},
+  zhTW:{q:'您在綠燈時左轉。誰有優先通行權？',opts:['直行或右轉的對向車輛——您在左轉前必須讓行','您有——綠燈賦予您優先通行權','僅行人——所有車輛必須讓您先行','您有——因為您已打了轉向燈'],exp:'在綠燈時左轉（不是綠色箭頭），您必須讓行對向車輛和行人。直行或右轉的對向車輛具有優先通行權。等待安全間隙後再轉彎。綠色箭頭意味著路口已清空，您可以轉彎。'},
+  es:{q:'Está girando a la izquierda en un semáforo verde. ¿Quién tiene el derecho de paso?',opts:['El tráfico que viene en sentido contrario yendo recto o girando a la derecha — debe ceder antes de girar a la izquierda','Usted — la luz verde le da el derecho de paso','Solo los peatones — todos los vehículos deben cederle el paso','Usted — porque señalizó su giro'],exp:'Al girar a la izquierda en un semáforo verde (no una flecha verde), debe ceder el paso al tráfico en sentido contrario y a los peatones. Los vehículos que vienen en sentido contrario yendo recto o girando a la derecha tienen el derecho de paso.'},
+  ans:0
+},
+{
+  id:107,cat:'rightofway',
+  en:{q:'A blind pedestrian with a white cane or guide dog is at an intersection. What must you do?',opts:['Come to a complete stop and wait until the pedestrian has completely crossed','Slow down and proceed carefully past them','Honk lightly to alert them of your presence','Proceed normally — they will hear your engine'],exp:'California law gives blind pedestrians the absolute right of way. When a person with a white cane or guide dog is at or in a crosswalk, all vehicles must come to a complete stop and remain stopped until the pedestrian has completely crossed the road. Violating this law carries significant penalties.'},
+  zh:{q:'一位持白色手杖或导盲犬的盲人行人站在路口。您必须怎么做？',opts:['完全停车并等待行人完全穿过道路','减速并小心地经过他们','轻按喇叭提醒他们您的存在','正常通行——他们会听到您的引擎声'],exp:'加州法律赋予盲人行人绝对优先权。当持白色手杖或导盲犬的人站在或位于人行横道时，所有车辆必须完全停车并保持停止，直到行人完全穿过道路。违反此法律将受到严重处罚。'},
+  zhTW:{q:'一位持白色手杖或導盲犬的盲人行人站在路口。您必須怎麼做？',opts:['完全停車並等待行人完全穿過道路','減速並小心地經過他們','輕按喇叭提醒他們您的存在','正常通行——他們會聽到您的引擎聲'],exp:'加州法律賦予盲人行人絕對優先權。當持白色手杖或導盲犬的人站在或位於人行橫道時，所有車輛必須完全停車並保持停止，直到行人完全穿過道路。違反此法律將受到嚴重處罰。'},
+  es:{q:'Un peatón ciego con bastón blanco o perro guía está en una intersección. ¿Qué debe hacer?',opts:['Detenerse completamente y esperar hasta que el peatón haya cruzado completamente','Reducir la velocidad y pasar con cuidado','Tocar el claxon suavemente para alertarles de su presencia','Proceder normalmente — escucharán su motor'],exp:'La ley de California otorga a los peatones ciegos el derecho de paso absoluto. Cuando una persona con bastón blanco o perro guía está en o en un cruce peatonal, todos los vehículos deben detenerse completamente y permanecer detenidos hasta que el peatón haya cruzado completamente la carretera.'},
+  ans:0
+},
+{
+  id:108,cat:'rightofway',
+  en:{q:'At a T-intersection (where one road ends), who yields?',opts:['The driver on the road that ends must yield to traffic on the through road','The driver on the through road must yield to entering traffic','Whoever arrives last yields','The driver on the left always yields'],exp:'At a T-intersection, the driver on the terminating road (the one that dead-ends) must yield to all traffic on the through road. This applies even if there are no signs. Think of it as entering a stream of traffic — you yield to what\'s already flowing.'},
+  zh:{q:'在T形路口（其中一条路终止），谁必须让行？',opts:['终止道路上的驾驶员必须让通行道路上的车辆先行','通行道路上的驾驶员必须让进入的车辆先行','最后到达的驾驶员让行','左侧驾驶员始终让行'],exp:'在T形路口，终止道路（死路）上的驾驶员必须让通行道路上的所有车辆先行。即使没有标志，这一规则也适用。可以将其理解为进入车流——您须让正在行驶的车辆先行。'},
+  zhTW:{q:'在T形路口（其中一條路終止），誰必須讓行？',opts:['終止道路上的駕駛員必須讓通行道路上的車輛先行','通行道路上的駕駛員必須讓進入的車輛先行','最後到達的駕駛員讓行','左側駕駛員始終讓行'],exp:'在T形路口，終止道路（死路）上的駕駛員必須讓通行道路上的所有車輛先行。即使沒有標誌，這一規則也適用。可以將其理解為進入車流——您須讓正在行駛的車輛先行。'},
+  es:{q:'En una intersección en T (donde una carretera termina), ¿quién cede el paso?',opts:['El conductor en la carretera que termina debe ceder al tráfico en la carretera continua','El conductor en la carretera continua debe ceder al tráfico que entra','El que llega último cede el paso','El conductor de la izquierda siempre cede'],exp:'En una intersección en T, el conductor en la carretera que termina (la que es un callejón sin salida) debe ceder el paso a todo el tráfico en la carretera continua. Esto aplica incluso si no hay señales. Piénselo como entrar a una corriente de tráfico — usted cede a lo que ya fluye.'},
+  ans:0
+},
+{
+  id:109,cat:'rightofway',
+  en:{q:'When entering a roundabout (traffic circle), who has the right of way?',opts:['Vehicles already circulating inside the roundabout','Vehicles entering from the right','The first vehicle to reach the yield line','Larger vehicles always have priority'],exp:'When entering a roundabout, you must yield to all traffic already circulating inside. Look left for approaching vehicles, yield if necessary, then enter the roundabout and travel counterclockwise. Signal when you plan to exit. Never stop inside the roundabout unless forced to by traffic.'},
+  zh:{q:'进入环形交叉口（转盘）时，谁有优先通行权？',opts:['已在环形道内行驶的车辆','右侧进入的车辆','第一个到达让行线的车辆','较大车辆始终具有优先权'],exp:'进入环形交叉口时，您必须让行已在环形道内行驶的所有车辆。向左查看接近的车辆，必要时让行，然后进入环形交叉口并逆时针行驶。计划驶出时打转向灯。除非被交通迫使，否则切勿在环形交叉口内停车。'},
+  zhTW:{q:'進入環形交叉口（轉盤）時，誰有優先通行權？',opts:['已在環形道內行駛的車輛','右側進入的車輛','第一個到達讓行線的車輛','較大車輛始終具有優先權'],exp:'進入環形交叉口時，您必須讓行已在環形道內行駛的所有車輛。向左查看接近的車輛，必要時讓行，然後進入環形交叉口並逆時針行駛。計劃駛出時打轉向燈。除非被交通迫使，否則切勿在環形交叉口內停車。'},
+  es:{q:'Al entrar a una glorieta (círculo de tráfico), ¿quién tiene el derecho de paso?',opts:['Los vehículos que ya circulan dentro de la glorieta','Los vehículos que entran desde la derecha','El primer vehículo en llegar a la línea de ceda el paso','Los vehículos más grandes siempre tienen prioridad'],exp:'Al entrar a una glorieta, debe ceder el paso a todo el tráfico que ya circula dentro. Mire a la izquierda para vehículos que se aproximan, ceda si es necesario, luego entre a la glorieta y viaje en sentido antihorario. Señalice cuando planee salir.'},
+  ans:0
+},
+{
+  id:110,cat:'rightofway',
+  en:{q:'You are backing out of a driveway onto a street. Who has the right of way?',opts:['All traffic on the street and pedestrians on the sidewalk — you must yield','You do — you were there first','Traffic coming from the left only','Only vehicles coming at high speed'],exp:'When backing out of a driveway or alley, you must yield to all pedestrians on the sidewalk and all traffic on the street. Check all mirrors and blind spots, and proceed slowly. It is your responsibility to ensure the path is clear before and during backing.'},
+  zh:{q:'您从车道倒车进入街道。谁有优先通行权？',opts:['街道上的所有车辆和人行道上的行人——您必须让行','您有——您先到那里','仅来自左侧的车辆','仅高速行驶的车辆'],exp:'从车道或小巷倒车时，您必须让行人行道上的所有行人和街道上的所有车辆。检查所有后视镜和盲区，缓慢行进。在倒车前和倒车过程中确保路径畅通是您的责任。'},
+  zhTW:{q:'您從車道倒車進入街道。誰有優先通行權？',opts:['街道上的所有車輛和人行道上的行人——您必須讓行','您有——您先到那裡','僅來自左側的車輛','僅高速行駛的車輛'],exp:'從車道或小巷倒車時，您必須讓行人行道上的所有行人和街道上的所有車輛。檢查所有後視鏡和盲區，緩慢行進。在倒車前和倒車過程中確保路徑暢通是您的責任。'},
+  es:{q:'Está retrocediendo desde una entrada hacia una calle. ¿Quién tiene el derecho de paso?',opts:['Todo el tráfico en la calle y los peatones en la acera — debe ceder el paso','Usted — usted llegó primero','Solo el tráfico que viene desde la izquierda','Solo los vehículos que vienen a alta velocidad'],exp:'Al retroceder desde una entrada o callejón, debe ceder el paso a todos los peatones en la acera y a todo el tráfico en la calle. Revise todos los espejos y puntos ciegos, y proceda lentamente. Es su responsabilidad asegurarse de que el camino esté despejado.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
