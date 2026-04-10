@@ -4208,8 +4208,6 @@ export const questions = [
   es:{q:'¿Qué es el aquaplaning y cómo puede prevenirlo?',opts:['Un auto que se sobrecalienta en carreteras mojadas — prevenirlo manteniendo el refrigerante lleno','Cuando los neumáticos pierden contacto con la superficie mojada y se deslizan sobre el agua — prevenirlo reduciendo la velocidad y manteniendo los neumáticos bien inflados','Cuando los frenos se sobrecalientan al pasar por charcos — use el freno del motor','Cuando los limpiaparabrisas fallan bajo la lluvia — siempre lleve repuestos'],exp:'El aquaplaning ocurre cuando los neumáticos viajan sobre una película de agua en lugar de agarrar la superficie del camino, causando pérdida de control de dirección y frenado. Para prevenir: reduzca la velocidad bajo la lluvia, asegure profundidad de banda de rodadura adecuada, mantenga los neumáticos bien inflados y evite maniobras bruscas.'},
   ans:1
 },
-
-,
 {
   id:411, cat:'signs',
   en:{q:'What does a pennant-shaped (triangular) sign on the left side of the road mean?',opts:['Yield to oncoming traffic','No passing zone begins here','Merge left ahead','Slow down — curve ahead'],exp:'A pennant-shaped sign (a yellow triangle pointing to the right) posted on the left side of the road marks the beginning of a no-passing zone. You must not overtake or pass other vehicles in this section of road.'},
@@ -4290,8 +4288,6 @@ export const questions = [
   es:{q:'¿Cuál es la "ley de velocidad básica" en California?',opts:['Siempre debe conducir al límite de velocidad o por debajo','Nunca debe conducir más rápido de lo que sea seguro para las condiciones actuales de carretera, clima y tráfico — incluso si está por debajo del límite','Debe mantener la velocidad mínima en autopistas en todo momento','El límite de velocidad siempre es 65 mph en carreteras estatales a menos que se indique lo contrario'],exp:'La ley de velocidad básica de California establece que nadie debe conducir a una velocidad mayor de lo que sea razonable o prudente dado el clima, visibilidad, tráfico y condiciones de la superficie vial. Incluso si conduce por debajo del límite, puede ser multado si su velocidad es insegura para las condiciones — por ejemplo, conduciendo 55 mph en niebla densa.'},
   ans:1
 },
-
-,
 {
   id:421, cat:'signs',
   en:{q:'What does an orange sign with black lettering mean when seen in a work zone?',opts:['Stop — construction workers are present','Warning of road construction or maintenance ahead — slow down and be alert','Detour — follow the orange signs','End of work zone — normal speed resumes'],exp:'Orange signs are used exclusively in construction and maintenance work zones. They warn drivers of changing road conditions, workers, equipment, and altered traffic patterns ahead. Speeding fines are doubled in active work zones. Always slow down and stay alert when you see orange signs.'},
@@ -4372,8 +4368,6 @@ export const questions = [
   es:{q:'Está conduciendo bajo lluvia intensa y su auto comienza a deslizarse. ¿Qué debe hacer?',opts:['Frene inmediatamente a fondo para detenerse','Dirija hacia el derrape (gire el volante en la dirección que se desliza la parte trasera) y suelte el acelerador gradualmente — no frene fuerte','Gire el volante bruscamente en la dirección opuesta al derrape','Acelere para recuperar tracción'],exp:'Si su auto derrapa, dirija suavemente en la dirección que quiere que vaya el frente del auto (que es la misma dirección que se desliza la parte trasera — "hacia el derrape"). Suelte el acelerador gradualmente. Evite frenar fuerte, ya que puede empeorar el derrape. Con ABS, puede aplicar presión constante en el freno. Sin ABS, bombee suavemente los frenos.'},
   ans:1
 },
-
-,
 {
   id:431, cat:'laws',
   en:{q:'When is it legal to drive in a bike lane in California?',opts:['Never — bike lanes are exclusively for cyclists','Only when turning right — you may merge into the bike lane up to 200 feet before an intersection','When traffic is backed up and the bike lane is empty','When passing a slow-moving vehicle'],exp:'Drivers may enter a bike lane only when making a right turn and only within 200 feet of the intersection. You must yield to cyclists already in the lane. At all other times, driving, parking, or stopping in a bike lane is illegal. Some locations also allow driving in a bike lane when entering or exiting a driveway.'},
@@ -4454,8 +4448,6 @@ export const questions = [
   es:{q:'¿Cuál es la ley "Move Over" (Ceda el Paso) en California?',opts:['Debe cambiar de carril al pasar a un ciclista','Al acercarse a un vehículo de emergencia o grúa estacionado con luces encendidas en la orilla de la carretera, debe moverse un carril o reducir a una velocidad segura','Debe moverse a la derecha cuando un vehículo más rápido se aproxima desde atrás','Debe moverse cuando el vehículo de adelante señala un cambio de carril'],exp:'La ley Move Over de California requiere que los conductores cambien un carril al alejarse de un vehículo de emergencia, grúa u otro vehículo autorizado estacionado con luces intermitentes en la orilla. Si no es seguro o posible cambiar de carril, debe reducir la velocidad a una velocidad segura para las condiciones. Violar esta ley es una infracción de tráfico.'},
   ans:1
 },
-
-,
 {
   id:441, cat:'signs',
   en:{q:'What does a sign showing a truck on a downgrade (sloped symbol) mean?',opts:['No trucks allowed on this road','Steep hill ahead — trucks should use lower gear to control speed','Trucks must use the right lane only','Runaway truck ramp ahead'],exp:'A sign showing a truck on a downgrade warns of a steep downhill grade ahead. Trucks (and drivers of any heavy vehicle) should downshift to a lower gear before the descent to use engine braking and maintain control. This prevents brake overheating and runaway vehicle situations. These signs are especially common on mountain roads.'},
@@ -4536,8 +4528,6 @@ export const questions = [
   es:{q:'En California, ¿cuándo es legal hacer un giro en U?',opts:['Siempre que no haya tráfico en sentido contrario','En cualquier intersección a menos que un letrero lo prohíba, y solo cuando se pueda hacer de forma segura sin afectar a otro tráfico','Solo en áreas designadas de giro en U con letrero','Solo en autopistas divididas con mediana'],exp:'En California, los giros en U son legales en intersecciones a menos que lo prohíba un letrero, y solo cuando puede completar el giro de forma segura sin crear un peligro. Los giros en U están prohibidos: en distritos comerciales excepto en intersecciones, donde haya un letrero "No U-Turn", en curvas o colinas donde no puede ser visto, cerca de entradas de estaciones de bomberos.'},
   ans:1
 },
-
-,
 {
   id:451, cat:'signs',
   en:{q:'A yellow diamond sign shows a deer. What does this mean?',opts:['Deer hunting is permitted in the area','Watch for deer crossing the road — animals may appear suddenly','A wildlife reserve is ahead — no vehicles allowed','Deer crossing only permitted at designated crossings'],exp:'Yellow diamond warning signs with animal silhouettes (deer, elk, cattle, etc.) alert drivers that these animals are common in the area and may cross the road unexpectedly. Slow down, especially at dawn and dusk when animals are most active. If you see one deer, expect more — they travel in groups. Do not swerve drastically; reduce speed and use your horn.'},
@@ -4618,8 +4608,6 @@ export const questions = [
   es:{q:'En California, debe detenerse y ceder el paso a los peatones en un cruce peatonal. Esto aplica a:',opts:['Solo cruces peatonales marcados con líneas pintadas','Tanto cruces peatonales marcados como no marcados (el cruce implícito en cualquier intersección)','Solo cuando la señal peatonal muestra "CAMINAR"','Solo cuando cruzan niños o personas mayores'],exp:'La ley de California requiere que los conductores se detengan y cedan el paso a los peatones en cruces peatonales marcados y no marcados. Un cruce peatonal no marcado existe virtualmente en cada intersección, incluso sin líneas pintadas — es la extensión en ángulo recto implícita de las aceras. Los peatones tienen el derecho de paso en los cruces en todo momento.'},
   ans:1
 },
-
-,
 {
   id:461, cat:'signs',
   en:{q:'What does a sign with "SPEED LIMIT 65" mean on a California freeway?',opts:['65 mph is the recommended speed for good conditions','The maximum legal speed is 65 mph — you cannot lawfully drive faster','You may drive up to 70 mph if traffic is light','65 mph is the minimum speed — slower traffic must move to the right'],exp:'A "SPEED LIMIT 65" sign means the maximum legal speed at that location is 65 mph. You cannot legally exceed this speed under any circumstances, including good weather, light traffic, or late hours. Some vehicles (trucks, buses, vehicles towing trailers) have lower maximum speeds. Always drive at or below the posted speed limit, and adjust lower for conditions.'},
@@ -4700,8 +4688,6 @@ export const questions = [
   es:{q:'¿Qué debe hacer un conductor de California cuando está involucrado en un accidente de tráfico que resulta en lesiones, muerte o daños materiales superiores a $1,000?',opts:['Nada si el otro conductor tuvo la culpa','Intercambiar información de seguro y contacto con todas las partes involucradas, y reportar el accidente al DMV dentro de 10 días','Solo llamar a la policía si hay una lesión','Solo notificar al DMV si alguien murió'],exp:'Cuando está involucrado en un accidente con lesiones, muerte o daños materiales superiores a $1,000, los conductores de California deben: detenerse inmediatamente, prestar ayuda a los heridos, intercambiar información de licencia, registro y seguro, llamar a las fuerzas del orden si es necesario, y presentar un Informe de Accidente de Tráfico (SR 1) al DMV dentro de 10 días.'},
   ans:1
 },
-
-,
 {
   id:471, cat:'signs',
   en:{q:'A sign shows a pedestrian silhouette inside a triangle with the word "PED XING." What does this mean?',opts:['Pedestrians must stop and wait for traffic','Pedestrian crossing ahead — yield to pedestrians in and approaching the crosswalk','School children only crossing — no adult pedestrians','Pedestrians are prohibited from crossing here'],exp:'"PED XING" (short for Pedestrian Crossing) signs warn drivers that a crosswalk is nearby and pedestrians may be crossing. Slow down and be prepared to stop. Yield to all pedestrians in the crosswalk or who appear about to enter it. These signs are placed before marked crosswalks, especially in locations with high pedestrian activity.'},
@@ -4782,8 +4768,6 @@ export const questions = [
   es:{q:'En California, ¿cuál de los siguientes pasajeros NO está obligado a usar cinturón de seguridad?',opts:['Un pasajero en el asiento trasero que tiene 16 años','Un pasajero de 8 años en el asiento delantero','Un conductor que tiene una exención médica de un médico con licencia','Todos los ocupantes del vehículo deben usar cinturón de seguridad — no hay exenciones'],exp:'La ley obligatoria de cinturón de seguridad de California requiere que todos los ocupantes del vehículo usen cinturón de seguridad. El conductor es responsable de asegurar que todos los pasajeros menores de 16 años usen cinturones. Los pasajeros de 16 años o más son responsables de abrocharse ellos mismos. Las exenciones médicas pueden ser emitidas por un médico con licencia.'},
   ans:2
 },
-
-,
 {
   id:481, cat:'signs',
   en:{q:'A sign reads "BEGIN RIGHT TURN LANE MUST TURN RIGHT." What does this mean?',opts:['All vehicles entering from the right must turn right','Only vehicles in the right turn lane must turn right — vehicles in other lanes can go straight','All vehicles on this road must turn right ahead','Turning right is optional for vehicles already in the right lane'],exp:'This sign means that a dedicated right-turn-only lane is beginning. Vehicles that enter and drive in this right turn lane MUST turn right — they cannot go straight or turn left. Vehicles in other lanes may continue straight or turn. This sign helps drivers understand that the right lane is a mandatory turn lane, not a through lane.'},
@@ -4864,8 +4848,6 @@ export const questions = [
   es:{q:'¿Qué requiere la "regla de 3 pies" de California para ciclistas a los conductores?',opts:['Los ciclistas deben mantenerse a 3 pies del borde de la carretera','Los conductores deben dar a los ciclistas al menos 3 pies de espacio al pasarlos','Los ciclistas deben mantener un espacio de 3 pies de los autos estacionados','Los conductores deben reducir a 3 mph al pasar a un ciclista'],exp:'La Ley de Tres Pies para Seguridad de California (Código de Vehículos 21760) requiere que los conductores den a los ciclistas un mínimo de 3 pies (aproximadamente un metro) de espacio al pasarlos. Si el conductor no puede proporcionar de forma segura 3 pies de espacio, debe reducir la velocidad a una velocidad segura y solo pasar cuando sea seguro. Violar esta ley puede resultar en una multa de $35 ($220 si causa una colisión).'},
   ans:1
 },
-
-,
 {
   id:491, cat:'signs',
   en:{q:'What does a "NO STANDING" sign at the side of the road mean?',opts:['You may stop briefly to drop off or pick up a passenger, but you may not wait','You may not stop at all — not even briefly','You may park here for up to 5 minutes','Only buses may stop here'],exp:'A "NO STANDING" sign means you may not stop your vehicle except to immediately pick up or discharge passengers, as long as you remain in the vehicle and are ready to move at any moment. You may not wait for someone who has gone inside a building. "No Standing" is more restrictive than "No Parking" (which allows brief stops to load/unload) but less restrictive than "No Stopping" (which prohibits all stops).'},
@@ -4946,8 +4928,6 @@ export const questions = [
   es:{q:'¿Cuál es el único dispositivo de seguridad más efectivo en un vehículo para prevenir la muerte o lesiones graves en un accidente?',opts:['Bolsas de aire','Frenos antibloqueo (ABS)','El cinturón de seguridad','Control electrónico de estabilidad (ESC)'],exp:'El cinturón de seguridad es el dispositivo de seguridad vehicular más efectivo. La NHTSA estima que los cinturones de seguridad salvan más de 15,000 vidas por año en EE.UU. Los cinturones previenen que los ocupantes sean expulsados durante un accidente y distribuyen las fuerzas del impacto en las partes más fuertes del cuerpo. Las bolsas de aire complementan los cinturones — una bolsa de aire que se despliega sin cinturón puede causar lesiones graves. Siempre abróchese en cada viaje.'},
   ans:2
 },
-
-,
 {
   id:501, cat:'signs',
   en:{q:'What does a sign with two arrows pointing in opposite directions (one up, one down) on a single road mean?',opts:['One-way traffic only','Two-way traffic — vehicles travel in both directions on this road','Divided highway begins ahead','This road has separate uphill and downhill lanes for trucks'],exp:'A two-way traffic sign (showing two arrows pointing in opposite directions) warns drivers who are leaving a one-way road that they are entering a two-way road. Drivers must be prepared to share the road with oncoming traffic. Stay in the right lane and watch for vehicles coming toward you.'},
@@ -5028,8 +5008,6 @@ export const questions = [
   es:{q:'En California, ¿qué debe hacer si está involucrado en una colisión y no hay otra parte presente (por ejemplo, chocó un auto estacionado sin atención)?',opts:['Alejarse si el daño es menor','Dejar una nota con su nombre, dirección y número de teléfono en el vehículo dañado, y reportar la colisión a la policía si es necesario','Tomar una foto del daño y alejarse','Esperar en la escena por al menos 10 minutos'],exp:'Si choca con un vehículo o propiedad sin atención, debe detenerse inmediatamente y localizar al propietario si es posible. Si no puede encontrar al propietario, deje una nota escrita con su nombre, dirección y número de registro del vehículo en un lugar visible en el vehículo dañado. También debe notificar al departamento de policía local. No dejar una nota es una violación de huida del lugar del accidente.'},
   ans:1
 },
-
-,
 {
   id:511, cat:'safety',
   en:{q:'What is the correct hand position on the steering wheel recommended by modern driving safety experts?',opts:['10 and 2 o\'clock','9 and 3 o\'clock','8 and 4 o\'clock','Both hands at 12 o\'clock'],exp:'Modern driving safety experts and the NHTSA now recommend the 9 and 3 o\'clock position (or 8 and 4). This gives maximum steering control, keeps arms clear of the airbag deployment zone (which can cause injury if arms are in the 10–2 position during airbag deployment), and reduces driver fatigue. The traditional 10 and 2 position predates modern airbags and is now considered less safe.'},
@@ -5110,8 +5088,6 @@ export const questions = [
   es:{q:'¿Qué significa un letrero con una flecha blanca apuntando hacia abajo sobre una caja negra en una autopista?',opts:['Sentido incorrecto — dé la vuelta inmediatamente','Manténgase a la derecha — permanezca en el carril derecho o muévase a la derecha','El carril termina — fusiónese a la izquierda','Solo un carril adelante — ambos carriles se fusionan en uno'],exp:'Un letrero con una flecha blanca hacia abajo sobre fondo negro (a veces llamado letrero de "control de carril" o "mantenerse a la derecha") indica que los conductores deben mantenerse en el lado derecho de la carretera o carril. Estos letreros se publican frecuentemente en medianas o en divisiones de carriles de autopistas. Recuerdan a los conductores que deben mantenerse a la derecha excepto cuando adelantan.'},
   ans:1
 },
-
-,
 {
   id:521, cat:'laws',
   en:{q:'What is "road rage," and what should you do if another driver acts aggressively toward you?',opts:['Road rage is speeding — report it to police immediately','Road rage is aggressive or violent driving behavior — avoid eye contact, do not respond aggressively, create distance, and call 911 if in danger','Road rage is illegal only on freeways','Road rage means you have the right to defend yourself physically'],exp:'Road rage involves aggressive driving behaviors such as tailgating, cutting off, obscene gestures, threatening, or even physical violence. If targeted: do not make eye contact or engage; do not retaliate with gestures or horn; calmly move away; do not go home if followed — go to a police station or busy public place; call 911 if threatened. Never underestimate road rage — it can turn deadly quickly.'},
@@ -5192,8 +5168,6 @@ export const questions = [
   es:{q:'¿Cuándo debe usar los faros de luz alta?',opts:['Solo en lluvia intensa y nieve','En carreteras abiertas cuando no hay vehículos que vengan en sentido contrario dentro de 500 pies y no está siguiendo a otro vehículo dentro de 300 pies','En todo momento en carreteras rurales sin iluminación independientemente del tráfico','Solo cuando no puede ver más de 100 pies adelante'],exp:'Use luces altas en carreteras abiertas y áreas sin iluminación cuando no hay tráfico en sentido contrario dentro de 500 pies y no está siguiendo a otro vehículo dentro de 300 pies. Cambie a luces bajas cuando se acerquen vehículos en sentido contrario, cuando siga de cerca a otro vehículo, en niebla (las luces altas reflejan y reducen la visibilidad) y en lluvia o nieve.'},
   ans:1
 },
-
-,
 {
   id:531, cat:'signs',
   en:{q:'A white pentagon-shaped sign is used to mark what?',opts:['School zones and school crossings','Interstate highway routes','No-passing zones on two-lane roads','Temporary construction speed limits'],exp:'Pentagon-shaped signs (five-sided, point up) are used exclusively to mark school zones and school crossings in the United States. These signs are yellow-green with black text and alert drivers to the presence of children. Drivers must obey reduced speed limits posted in school zones and watch carefully for children crossing the road. The distinctive shape makes them recognizable even before the text can be read.'},
@@ -5274,8 +5248,6 @@ export const questions = [
   es:{q:'¿Qué le sucede a su licencia de conducir si se niega a tomar una prueba química (alcoholímetro o análisis de sangre) cuando es arrestado legalmente por DUI en California?',opts:['Nada — tiene derecho a negarse a cualquier prueba','Su licencia se suspende por 1 año por una primera infracción','Recibe una pequeña multa pero conserva su licencia','El oficial debe liberarlo sin cargos'],exp:'Bajo la ley de "consentimiento implícito" de California, cualquier persona que conduzca un vehículo motorizado se considera que ha dado su consentimiento para pruebas químicas si es arrestada legalmente por DUI. Negarse a una prueba química resulta en suspensión automática de licencia: 1 año por primera negativa, 2 años por segunda negativa en 10 años, 3 años por tercera negativa o más.'},
   ans:1
 },
-
-,
 {
   id:541, cat:'rightofway',
   en:{q:'A pedestrian is crossing the street at a marked crosswalk. You are turning left at a green light. What should you do?',opts:['Proceed through the turn — you have a green light','Honk to alert the pedestrian to wait','Yield to the pedestrian — pedestrians always have the right of way in a crosswalk','Wave the pedestrian to cross quickly so you can proceed'],exp:'Pedestrians in a crosswalk always have the right of way, even when you have a green light. When turning at any intersection, you must yield to pedestrians who are crossing in the crosswalk in your path. It is illegal to interfere with, intimidate, or fail to yield to a pedestrian in a marked or unmarked crosswalk. This applies to both marked crosswalks and legal unmarked crosswalks at intersections.'},
@@ -5356,8 +5328,6 @@ export const questions = [
   es:{q:'¿Cuál es la acción más segura si se vuelve somnoliento mientras conduce en una autopista?',opts:['Abrir la ventana y subir la música para mantenerse despierto','Tomar café o una bebida energética mientras conduce','Salir en la próxima salida o área de descanso y dormir al menos 15-20 minutos','Aumentar su velocidad para llegar a su destino más rápido'],exp:'Si se vuelve somnoliento mientras conduce, la única opción verdaderamente segura es dejar de conducir y descansar. Salga en la próxima salida o área de descanso y duerma al menos 15-20 minutos. Las siestas breves de 15-20 minutos mejoran significativamente el estado de alerta. Abrir ventanas, música fuerte y cafeína pueden proporcionar alivio a corto plazo pero no son confiables.'},
   ans:2
 },
-
-,
 {
   id:551, cat:'laws',
   en:{q:'What must you do when you move to a new address in California?',opts:['Nothing — you can update your address at your next renewal','Notify the DMV within 10 days of moving','Notify the DMV within 30 days of moving','Only notify the DMV if you get a ticket'],exp:'California law requires you to notify the DMV of your new address within 10 days of moving. You can do this online, by mail, or in person. Your driver\'s license does not need to be replaced immediately, but you must keep your address current with the DMV. Failure to notify the DMV can result in not receiving important notices (such as registration renewals or license suspension notices). Your vehicle registration address must also be kept current.'},
@@ -5438,8 +5408,6 @@ export const questions = [
   es:{q:'¿Cuándo se le requiere usar los faros en California?',opts:['Solo de noche (después del atardecer y antes del amanecer)','Desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer, y cualquier momento en que la visibilidad sea inferior a 1,000 pies','Siempre que llueva, nieve o haya niebla','Solo cuando conduzca en carreteras sin iluminación de noche'],exp:'La ley de California requiere faros desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer. También se requieren faros cuando la visibilidad es inferior a 1,000 pies debido al clima u otras condiciones. California también requiere faros cuando los limpiaparabrisas están en uso continuo. Las luces de marcha diurna (DRL) solas no satisfacen el requisito de faros.'},
   ans:1
 },
-
-,
 {
   id:561, cat:'rightofway',
   en:{q:'You are making a left turn at an intersection. An oncoming vehicle is going straight. Who has the right of way?',opts:['You do — left turns have priority','The oncoming vehicle going straight','Whoever signals first','It depends on who was at the intersection first'],exp:'When making a left turn, you must yield to oncoming traffic going straight. A vehicle going straight always has the right of way over a vehicle turning left. This applies at intersections with or without traffic signals. You must wait for a safe gap in oncoming traffic before completing your left turn. Failing to yield the right of way while turning left is one of the leading causes of intersection collisions.'},
@@ -5520,8 +5488,6 @@ export const questions = [
   es:{q:'¿Cuál es el propósito de un carril HOV (Vehículo de Alta Ocupación) y quién puede usarlo?',opts:['Es un carril más rápido para cualquier conductor dispuesto a pagar un peaje','Está reservado para vehículos con dos o más ocupantes (varía según el letrero) para reducir la congestión de tráfico','Es solo para camiones comerciales y autobuses','Es solo para vehículos de emergencia y fuerzas del orden'],exp:'Los carriles HOV (también llamados carriles de carpool o carriles de diamante, marcados con un símbolo de diamante) están reservados para vehículos con un número mínimo de ocupantes indicado por los letreros (generalmente 2+ o 3+ personas). Las motocicletas también pueden usar carriles HOV independientemente de los ocupantes. Los carriles HOV están diseñados para reducir la congestión de tráfico alentando el carpool.'},
   ans:1
 },
-
-,
 {
   id:571, cat:'safety',
   en:{q:'What should you do before changing lanes on a highway?',opts:['Signal and move immediately','Check your mirrors, signal, check your blind spot, then move if safe','Just check your mirrors','Only signal — mirrors and blind spots are optional'],exp:'Before changing lanes: 1) Check your mirrors (rear-view and side). 2) Signal your intention with the turn signal for at least 3–5 seconds. 3) Check your blind spot by briefly glancing over your shoulder in the direction of the lane change. 4) Move into the lane if safe. This sequence prevents collisions with vehicles that may be in your blind spot or approaching from behind. Failing to check blind spots is a major cause of lane-change accidents. Never change lanes in an intersection.'},
@@ -5602,8 +5568,6 @@ export const questions = [
   es:{q:'¿Qué es una infracción de "No Ceder el Paso" en California?',opts:['Conducir por debajo del límite de velocidad mínimo en una autopista','No ceder el derecho de paso a quienes lo tienen legalmente, como peatones, ciclistas u otros vehículos','Pasar un letrero de stop','No usar señales de giro cuando se requiere'],exp:'Una infracción de "No Ceder el Paso" ocurre cuando un conductor no da el derecho de paso a quienes tienen derecho legal a él. Los ejemplos incluyen: no ceder a los peatones en los cruces, no ceder al girar a la izquierda frente al tráfico en sentido contrario, no ceder ante una señal de ceda el paso y no ceder a los vehículos de emergencia.'},
   ans:1
 },
-
-,
 {
   id:581, cat:'signs',
   en:{q:'What does a DO NOT ENTER sign look like and what does it mean?',opts:['A red octagon — stop before entering','A red square with a white horizontal bar — you cannot enter that road from this direction','A white circle with a red border — no through traffic','A red triangle — yield before entering'],exp:'A DO NOT ENTER sign is a red square with a white horizontal bar ("no entry" symbol). It means you cannot drive into that roadway from that direction. These signs are commonly placed at one-way street entrances, freeway exit ramps, and restricted areas. Entering a road with a DO NOT ENTER sign is extremely dangerous because you will be driving against oncoming traffic (the wrong way). If you accidentally enter, stop and carefully reverse to safety.'},
@@ -5684,8 +5648,6 @@ export const questions = [
   es:{q:'¿Qué advierte un letrero que muestra un auto con líneas onduladas debajo (auto derrapando)?',opts:['Construcción de carreteras y pavimento rugoso adelante','Carretera resbaladiza cuando está mojada — reduzca la velocidad en condiciones de lluvia','Curvas pronunciadas adelante que requieren velocidad reducida','Arcén blando — no conduzca fuera del pavimento'],exp:'Un letrero que muestra un auto con líneas onduladas debajo (o símbolo de auto derrapando) advierte sobre una carretera resbaladiza cuando está mojada. Esta es una señal de precaución colocada donde la superficie de la carretera se vuelve particularmente resbaladiza durante la lluvia — a menudo en puentes, superficies metálicas, carreteras recién asfaltadas o carreteras con marcas pintadas.'},
   ans:1
 },
-
-,
 {
   id:591, cat:'laws',
   en:{q:'In California, who is required to wear a seatbelt?',opts:['Only the driver','The driver and all front-seat passengers','The driver and all passengers regardless of seating position','Only passengers under 18'],exp:'California law requires the driver and ALL passengers to wear a seatbelt, regardless of their position in the vehicle (front or back seat). The driver is responsible for ensuring that all passengers under 16 are buckled up. Passengers 16 and older are responsible for their own seatbelt use. Failure to wear a seatbelt is a primary offense — police can stop and cite you just for not wearing one. Seatbelts are the single most effective safety device in vehicles, dramatically reducing injury and death in crashes.'},
@@ -5693,6 +5655,78 @@ export const questions = [
   zhTW:{q:'在加州，誰被要求系安全帶？',opts:['只有駕駛員','駕駛員和所有前排乘客','駕駛員和所有乘客，無論座位位置','只有18歲以下的乘客'],exp:'加州法律要求駕駛員和所有乘客系安全帶，無論在車輛中的位置（前排或後排）。駕駛員負責確保所有16歲以下的乘客系好安全帶。16歲及以上的乘客負責自己的安全帶使用。不系安全帶是主要違規行為——警察可以僅因為您不系安全帶就攔下並開罰單。安全帶是車輛中最有效的單一安全裝置，在碰撞中顯著降低受傷和死亡。'},
   es:{q:'En California, ¿quién está obligado a usar el cinturón de seguridad?',opts:['Solo el conductor','El conductor y todos los pasajeros del asiento delantero','El conductor y todos los pasajeros independientemente de la posición del asiento','Solo los pasajeros menores de 18 años'],exp:'La ley de California requiere que el conductor y TODOS los pasajeros usen el cinturón de seguridad, independientemente de su posición en el vehículo (asiento delantero o trasero). El conductor es responsable de asegurarse de que todos los pasajeros menores de 16 años estén abrochados. Los pasajeros de 16 años o más son responsables de su propio uso del cinturón de seguridad. No usar el cinturón de seguridad es una infracción principal. Los cinturones de seguridad son el dispositivo de seguridad más efectivo en los vehículos.'},
   ans:2
+},
+{
+  id:592, cat:'rightofway',
+  en:{q:'Who has the right of way when a driver is backing out of a driveway onto a street?',opts:['The driver backing out — they were there first','Traffic on the street always has the right of way','Whoever honks first','The driver backing out, if they signal'],exp:'When backing out of a driveway, alley, or parking space onto a street, you must yield to all traffic on the street, as well as pedestrians and cyclists. The driver entering the roadway must wait for a clear opportunity. Back out slowly and carefully, checking all directions. Use your mirrors and physically turn to look before and during backing. Never assume oncoming drivers will slow for you.'},
+  zh:{q:'当驾驶员从车道倒退上街道时，谁有先行权？',opts:['倒车的驾驶员——他们先到那里','街道上的交通始终有先行权','先鸣喇叭的人','倒车的驾驶员，如果他们打信号'],exp:'从车道、小巷或停车位倒退上街道时，必须向街道上所有交通以及行人和骑车人让行。进入道路的驾驶员必须等待安全机会。缓慢谨慎地倒车，检查所有方向。使用后视镜并在倒车前和倒车过程中转头查看。不要假设对向驾驶员会为您减速。'},
+  zhTW:{q:'當駕駛員從車道倒退上街道時，誰有先行權？',opts:['倒車的駕駛員——他們先到那裡','街道上的交通始終有先行權','先鳴喇叭的人','倒車的駕駛員，如果他們打信號'],exp:'從車道、小巷或停車位倒退上街道時，必須向街道上所有交通以及行人和騎車人讓行。進入道路的駕駛員必須等待安全機會。緩慢謹慎地倒車，檢查所有方向。使用後視鏡並在倒車前和倒車過程中轉頭查看。不要假設對向駕駛員會為您減速。'},
+  es:{q:'¿Quién tiene el derecho de paso cuando un conductor está saliendo marcha atrás de una entrada para autos hacia una calle?',opts:['El conductor que da marcha atrás — ellos llegaron primero','El tráfico en la calle siempre tiene el derecho de paso','El que toque la bocina primero','El conductor que da marcha atrás, si señaliza'],exp:'Al salir marcha atrás de una entrada, callejón o espacio de estacionamiento hacia una calle, debe ceder a todo el tráfico en la calle, así como a peatones y ciclistas. El conductor que entra a la calzada debe esperar una oportunidad segura. Salga lentamente y con cuidado, revisando todas las direcciones.'},
+  ans:1
+},
+{
+  id:593, cat:'safety',
+  en:{q:'What should you do if a tire blows out while driving at highway speed?',opts:['Brake hard immediately to stop as quickly as possible','Grip the wheel firmly, ease off the gas, steer straight, and slow gradually before pulling safely off the road','Immediately turn the steering wheel toward the blown-out tire side','Turn on your hazard lights then immediately stop in your lane'],exp:'If a tire blows out at highway speed: 1) Grip the steering wheel firmly with both hands — the car will pull toward the blown tire. 2) Do NOT brake hard — this can cause a spin. 3) Ease off the accelerator gradually. 4) Steer straight ahead to maintain control. 5) Let the car slow naturally, then gently apply brakes. 6) Pull safely off the road and onto the shoulder. A front tire blowout pulls the car to that side; a rear blowout may cause fishtailing.'},
+  zh:{q:'如果在高速公路速度行驶时轮胎爆裂，您应该怎么做？',opts:['立即猛踩刹车尽快停车','牢牢握住方向盘，松开油门，保持直线行驶，逐渐减速后安全驶离道路','立即将方向盘转向爆胎侧','打开危险灯后立即在车道内停车'],exp:'在高速公路速度行驶时如果轮胎爆裂：1）两手牢牢握住方向盘——车辆会向爆胎的一侧偏转。2）不要猛踩刹车——这可能导致打转。3）逐渐松开加速踏板。4）保持直线行驶以维持控制。5）让车自然减速，然后轻轻踩刹车。6）安全驶到路肩。前轮爆胎会将车拉向该侧；后轮爆胎可能导致甩尾。'},
+  zhTW:{q:'如果在高速公路速度行駛時輪胎爆裂，您應該怎麼做？',opts:['立即猛踩刹車盡快停車','牢牢握住方向盤，鬆開油門，保持直線行駛，逐漸減速後安全駛離道路','立即將方向盤轉向爆胎側','打開危險燈後立即在車道內停車'],exp:'在高速公路速度行駛時如果輪胎爆裂：1）兩手牢牢握住方向盤——車輛會向爆胎的一側偏轉。2）不要猛踩刹車——這可能導致打轉。3）逐漸鬆開加速踏板。4）保持直線行駛以維持控制。5）讓車自然減速，然後輕輕踩刹車。6）安全駛到路肩。前輪爆胎會將車拉向該側；後輪爆胎可能導致甩尾。'},
+  es:{q:'¿Qué debe hacer si un neumático revienta mientras conduce a velocidad de autopista?',opts:['Frene fuerte inmediatamente para detenerse lo más rápido posible','Agarre firmemente el volante, suelte el gas, dirija recto y desacelere gradualmente antes de salirse de la carretera con seguridad','Gire inmediatamente el volante hacia el lado del neumático reventado','Encienda las luces de emergencia y luego deténgase inmediatamente en su carril'],exp:'Si un neumático revienta a velocidad de autopista: 1) Agarre firmemente el volante con ambas manos. 2) NO frene fuerte. 3) Suelte el acelerador gradualmente. 4) Dirija recto para mantener el control. 5) Deje que el auto se desacelere naturalmente, luego aplique los frenos suavemente. 6) Salga a la berma.'},
+  ans:1
+},
+{
+  id:594, cat:'laws',
+  en:{q:'In California, what is the law regarding U-turns at intersections with traffic signals?',opts:['U-turns are always prohibited at signalized intersections','U-turns are permitted at traffic signals unless a sign prohibits them or it is unsafe','U-turns are permitted only on one-way streets','U-turns are permitted only when there are no other vehicles present'],exp:'In California, U-turns at intersections controlled by traffic signals are generally permitted UNLESS a sign specifically prohibits them, the turn cannot be made safely, it is on a divided highway near a center divider opening, or other restrictions apply. Always check for "No U-Turn" signs. You may only make a U-turn when no vehicle is close enough to be a hazard, and you must have a clear view of at least 200 feet in each direction.'},
+  zh:{q:'在加州，关于有信号灯路口的U形转弯有什么法律规定？',opts:['有信号灯路口始终禁止U形转弯','除非标志禁止或不安全，交通信号灯处允许U形转弯','只有在单行道上才允许U形转弯','只有在没有其他车辆时才允许U形转弯'],exp:'在加州，除非标志明确禁止、转弯无法安全完成、在分隔公路中央分隔带开口附近，或有其他限制，否则通常允许在交通信号灯控制的路口进行U形转弯。请始终检查"禁止U形转弯"标志。只有在没有车辆足够近到造成危险时才可以进行U形转弯，并且每个方向至少有200英尺的清晰视野。'},
+  zhTW:{q:'在加州，關於有信號燈路口的U形轉彎有什麼法律規定？',opts:['有信號燈路口始終禁止U形轉彎','除非標誌禁止或不安全，交通信號燈處允許U形轉彎','只有在單行道上才允許U形轉彎','只有在沒有其他車輛時才允許U形轉彎'],exp:'在加州，除非標誌明確禁止、轉彎無法安全完成、在分隔公路中央分隔帶開口附近，或有其他限制，否則通常允許在交通信號燈控制的路口進行U形轉彎。請始終檢查「禁止U形轉彎」標誌。只有在沒有車輛足夠近到造成危險時才可以進行U形轉彎，並且每個方向至少有200英尺的清晰視野。'},
+  es:{q:'En California, ¿cuál es la ley con respecto a los giros en U en intersecciones con semáforos?',opts:['Los giros en U siempre están prohibidos en intersecciones con semáforos','Los giros en U están permitidos en semáforos a menos que un letrero los prohíba o sea inseguro','Los giros en U están permitidos solo en calles de sentido único','Los giros en U están permitidos solo cuando no hay otros vehículos presentes'],exp:'En California, los giros en U en intersecciones controladas por semáforos generalmente están PERMITIDOS A MENOS QUE un letrero los prohíba específicamente, el giro no pueda realizarse con seguridad, o apliquen otras restricciones. Siempre verifique si hay letreros de "Prohibido el giro en U". Solo puede hacer un giro en U cuando ningún vehículo esté suficientemente cerca como para ser un peligro.'},
+  ans:1
+},
+{
+  id:595, cat:'signs',
+  en:{q:'What does a sign with an arrow curving back (U-turn arrow) with a red circle and line through it mean?',opts:['Sharp curve ahead — slow down','No U-turns permitted at this location','U-turns are permitted for the next half mile','Reverse direction — the road becomes one-way ahead'],exp:'A red circle with a diagonal bar over a U-turn arrow symbol means "No U-Turn" — U-turns are prohibited at that location. This is a regulatory sign that you must obey. U-turns may be prohibited for safety reasons (limited visibility, heavy traffic, divided highway) or legal reasons. Disobeying a "No U-Turn" sign is a traffic violation. Always look for this sign before attempting a U-turn at an intersection.'},
+  zh:{q:'带有红色圆圈和斜杠覆盖U形转弯箭头的标志意味着什么？',opts:['前方急转弯——减速','该位置禁止U形转弯','接下来半英里允许U形转弯','反向——前方道路变为单行道'],exp:'红色圆圈加红色斜杠覆盖在U形转弯箭头符号上意味着"禁止U形转弯"——在该位置禁止U形转弯。这是一个必须遵守的法规标志。U形转弯可能因安全原因（能见度有限、交通繁忙、分隔公路）或法律原因被禁止。不遵守"禁止U形转弯"标志是交通违规。在路口尝试U形转弯之前，请始终寻找此标志。'},
+  zhTW:{q:'帶有紅色圓圈和斜杠覆蓋U形轉彎箭頭的標誌意味著什麼？',opts:['前方急轉彎——減速','該位置禁止U形轉彎','接下來半英里允許U形轉彎','反向——前方道路變為單行道'],exp:'紅色圓圈加紅色斜杠覆蓋在U形轉彎箭頭符號上意味著「禁止U形轉彎」——在該位置禁止U形轉彎。這是一個必須遵守的法規標誌。U形轉彎可能因安全原因（能見度有限、交通繁忙、分隔公路）或法律原因被禁止。不遵守「禁止U形轉彎」標誌是交通違規。在路口嘗試U形轉彎之前，請始終尋找此標誌。'},
+  es:{q:'¿Qué significa un letrero con una flecha curva hacia atrás (flecha de giro en U) con un círculo rojo y una línea a través?',opts:['Curva pronunciada adelante — reduzca la velocidad','No se permiten giros en U en esta ubicación','Los giros en U están permitidos por la próxima media milla','Dirección inversa — la carretera se convierte en de sentido único adelante'],exp:'Un círculo rojo con una barra diagonal sobre un símbolo de flecha de giro en U significa "Prohibido el giro en U" — los giros en U están prohibidos en esa ubicación. Esta es una señal regulatoria que debe obedecer. Desobedecer una señal de "Prohibido el giro en U" es una infracción de tráfico.'},
+  ans:1
+},
+{
+  id:596, cat:'speed',
+  en:{q:'What is the prima facie speed limit when driving within 100 feet of a railroad crossing where you cannot see the tracks for 400 feet in each direction?',opts:['10 mph','15 mph','25 mph','35 mph'],exp:'The prima facie speed limit when approaching a railroad crossing within 100 feet, where you cannot see the tracks for 400 feet in both directions, is 15 mph. This low speed ensures you have enough time to stop if a train is approaching. Always look and listen before crossing railroad tracks. Never stop on or attempt to cross if a warning signal is active. The combination of a blind approach and moving trains makes this one of the most dangerous road situations.'},
+  zh:{q:'在距铁路道口100英尺以内行驶，且无法看到两侧400英尺轨道时，基准限速是多少？',opts:['10英里/小时','15英里/小时','25英里/小时','35英里/小时'],exp:'在距铁路道口100英尺以内接近，且两侧均无法看到400英尺轨道时，基准限速为每小时15英里。这个低速度确保您有足够的时间停车，如果火车正在接近。穿越铁路轨道之前始终要查看和倾听。如果警告信号启动，永远不要停在轨道上或尝试穿越。盲目接近与行驶中的火车的结合使这成为最危险的道路情况之一。'},
+  zhTW:{q:'在距鐵路道口100英尺以內行駛，且無法看到兩側400英尺軌道時，基準限速是多少？',opts:['10英里/小時','15英里/小時','25英里/小時','35英里/小時'],exp:'在距鐵路道口100英尺以內接近，且兩側均無法看到400英尺軌道時，基準限速為每小時15英里。這個低速度確保您有足夠的時間停車，如果火車正在接近。穿越鐵路軌道之前始終要查看和傾聽。如果警告信號啟動，永遠不要停在軌道上或嘗試穿越。'},
+  es:{q:'¿Cuál es el límite de velocidad prima facie cuando conduce dentro de 100 pies de un cruce ferroviario donde no puede ver las vías por 400 pies en cada dirección?',opts:['10 mph','15 mph','25 mph','35 mph'],exp:'El límite de velocidad prima facie al acercarse a un cruce ferroviario dentro de 100 pies, donde no puede ver las vías por 400 pies en ambas direcciones, es de 15 mph. Esta baja velocidad asegura que tiene suficiente tiempo para detenerse si se acerca un tren. Siempre mire y escuche antes de cruzar las vías del tren.'},
+  ans:1
+},
+{
+  id:597, cat:'dui',
+  en:{q:'In California, if you are involved in a traffic collision and a law enforcement officer suspects you are under the influence, what are you required to do?',opts:['You may refuse any test if you have not been formally arrested','Submit to a preliminary alcohol screening (PAS) test if you are under 21 or on DUI probation; if arrested, submit to a chemical test','Provide only your license and registration — no testing required unless you consent','Request a lawyer before any testing begins'],exp:'In California, if you are under 21 or on DUI probation, you must submit to a Preliminary Alcohol Screening (PAS) breath test if asked by an officer. If you are lawfully ARRESTED for DUI at any age, you must submit to a chemical test (breath or blood) under the implied consent law. Refusing after arrest results in automatic license suspension. A PAS test before arrest is technically optional for adults 21+ not on DUI probation, but refusing may be used as evidence.'},
+  zh:{q:'在加州，如果您卷入交通碰撞，执法人员怀疑您处于酒精影响下，您被要求做什么？',opts:['如果您尚未被正式逮捕，您可以拒绝任何测试','如果您未满21岁或处于DUI缓刑期，请接受初步酒精筛查（PAS）测试；如果被逮捕，请接受化学测试','只提供您的驾照和行驶证——除非您同意，否则不需要测试','在任何测试开始前要求律师'],exp:'在加州，如果您未满21岁或处于DUI缓刑期，如果警察要求，您必须接受初步酒精筛查（PAS）呼气测试。如果您在任何年龄被依法逮捕DUI，根据默示同意法，您必须接受化学测试（呼气或血液）。逮捕后拒绝会导致自动暂停驾照。对于21岁以上且不在DUI缓刑期的成年人，逮捕前的PAS测试在技术上是可选的，但拒绝可能作为证据使用。'},
+  zhTW:{q:'在加州，如果您捲入交通碰撞，執法人員懷疑您處於酒精影響下，您被要求做什麼？',opts:['如果您尚未被正式逮捕，您可以拒絕任何測試','如果您未滿21歲或處於DUI緩刑期，請接受初步酒精篩查（PAS）測試；如果被逮捕，請接受化學測試','只提供您的駕照和行駛證——除非您同意，否則不需要測試','在任何測試開始前要求律師'],exp:'在加州，如果您未滿21歲或處於DUI緩刑期，如果警察要求，您必須接受初步酒精篩查（PAS）呼氣測試。如果您在任何年齡被依法逮捕DUI，根據默示同意法，您必須接受化學測試（呼氣或血液）。逮捕後拒絕會導致自動暫停駕照。'},
+  es:{q:'En California, si está involucrado en una colisión de tráfico y un oficial de policía sospecha que está bajo la influencia, ¿qué está obligado a hacer?',opts:['Puede negarse a cualquier prueba si no ha sido arrestado formalmente','Someterse a una prueba preliminar de detección de alcohol (PAS) si tiene menos de 21 años o está en libertad condicional por DUI; si es arrestado, someterse a una prueba química','Proporcionar solo su licencia y registro — no se requieren pruebas a menos que dé su consentimiento','Solicitar un abogado antes de que comience cualquier prueba'],exp:'En California, si tiene menos de 21 años o está en libertad condicional por DUI, debe someterse a una prueba de aliento de Detección Preliminar de Alcohol (PAS) si un oficial se lo pide. Si es arrestado legalmente por DUI a cualquier edad, debe someterse a una prueba química bajo la ley de consentimiento implícito.'},
+  ans:1
+},
+{
+  id:598, cat:'parking',
+  en:{q:'What does a green curb indicate?',opts:['No parking at any time','Parking permitted for a limited time — usually 10 or 15 minutes','Parking reserved for government vehicles','Parking reserved for electric vehicle charging only'],exp:'A green curb means parking is permitted for a limited time, as indicated by posted signs (typically 10 or 15 minutes). Green curbs are used in high-turnover areas where short stops are needed, such as near retail stores, post offices, and restaurants. You must move your vehicle within the time limit. Returning to the same spot and re-parking to reset the clock ("feeding the meter") is not permitted. Always check nearby signs for the exact time limit.'},
+  zh:{q:'绿色路缘代表什么？',opts:['任何时候禁止停车','允许限时停车——通常为10或15分钟','政府车辆专用停车','仅供电动汽车充电停车'],exp:'绿色路缘意味着允许限时停车，如张贴标志所示（通常为10或15分钟）。绿色路缘用于需要短暂停靠的高周转区域，如零售商店、邮局和餐厅附近。您必须在时限内移动车辆。返回同一地点重新停车以重置计时（"补钱"）是不允许的。请始终检查附近的标志以了解确切的时限。'},
+  zhTW:{q:'綠色路緣代表什麼？',opts:['任何時候禁止停車','允許限時停車——通常為10或15分鐘','政府車輛專用停車','僅供電動汽車充電停車'],exp:'綠色路緣意味著允許限時停車，如張貼標誌所示（通常為10或15分鐘）。綠色路緣用於需要短暫停靠的高周轉區域，如零售商店、郵局和餐廳附近。您必須在時限內移動車輛。返回同一地點重新停車以重置計時是不允許的。請始終檢查附近的標誌以了解確切的時限。'},
+  es:{q:'¿Qué indica un bordillo verde?',opts:['No estacionar en ningún momento','Estacionamiento permitido por tiempo limitado — generalmente 10 o 15 minutos','Estacionamiento reservado para vehículos gubernamentales','Estacionamiento reservado solo para carga de vehículos eléctricos'],exp:'Un bordillo verde significa que el estacionamiento está permitido por tiempo limitado, como lo indican los letreros publicados (típicamente 10 o 15 minutos). Los bordillos verdes se usan en áreas de alta rotación donde se necesitan paradas cortas. Debe mover su vehículo dentro del límite de tiempo. Regresar al mismo lugar y volver a estacionar para restablecer el reloj no está permitido.'},
+  ans:1
+},
+{
+  id:599, cat:'highway',
+  en:{q:'What should you do if your vehicle breaks down on a freeway?',opts:['Stop in the nearest lane and turn on your hazard lights','Pull completely off the road onto the right shoulder, turn on hazard lights, stay in the vehicle if safe, and call for help','Stop in the HOV lane — it is the safest place','Stay in your lane and coast to the nearest exit'],exp:'If your vehicle breaks down on a freeway: 1) Try to safely move to the right shoulder or emergency pull-off area. 2) Turn on your hazard lights immediately. 3) If you must stop in a lane, stay buckled — do not stand outside the vehicle. 4) On the shoulder: stay inside the vehicle if possible (exiting on a busy freeway is dangerous), turn wheels away from traffic, use flares or reflectors if available. 5) Call for help and wait for assistance. Never walk on a freeway.'},
+  zh:{q:'如果您的车辆在高速公路上抛锚，您应该怎么做？',opts:['在最近的车道停车并打开危险灯','完全驶离道路到右侧路肩，打开危险灯，安全时留在车内，并寻求帮助','在HOV车道停车——那是最安全的地方','留在车道内滑行到最近的出口'],exp:'如果您的车辆在高速公路上抛锚：1）尝试安全移动到右侧路肩或紧急停车区。2）立即打开危险灯。3）如果必须在车道内停车，系好安全带留在车内——不要站在车外。4）在路肩上：如果可能，留在车内（在繁忙的高速公路上下车很危险），将车轮转离交通方向，如果有的话使用信号弹或反光器。5）寻求帮助并等待救援。永远不要在高速公路上行走。'},
+  zhTW:{q:'如果您的車輛在高速公路上拋錨，您應該怎麼做？',opts:['在最近的車道停車並打開危險燈','完全駛離道路到右側路肩，打開危險燈，安全時留在車內，並尋求幫助','在HOV車道停車——那是最安全的地方','留在車道內滑行到最近的出口'],exp:'如果您的車輛在高速公路上拋錨：1）嘗試安全移動到右側路肩或緊急停車區。2）立即打開危險燈。3）如果必須在車道內停車，系好安全帶留在車內——不要站在車外。4）在路肩上：如果可能，留在車內，將車輪轉離交通方向。5）尋求幫助並等待救援。永遠不要在高速公路上行走。'},
+  es:{q:'¿Qué debe hacer si su vehículo se avería en una autopista?',opts:['Deténgase en el carril más cercano y encienda las luces de emergencia','Salga completamente de la carretera al arcén derecho, encienda las luces de emergencia, permanezca en el vehículo si es seguro y llame pidiendo ayuda','Deténgase en el carril HOV — es el lugar más seguro','Permanezca en su carril y ruede hasta la salida más cercana'],exp:'Si su vehículo se avería en una autopista: 1) Trate de moverse con seguridad al arcén derecho. 2) Encienda las luces de emergencia inmediatamente. 3) En el arcén: permanezca dentro del vehículo si es posible, gire las ruedas alejándolas del tráfico. 4) Llame pidiendo ayuda y espere asistencia. Nunca camine en una autopista.'},
+  ans:1
+},
+{
+  id:600, cat:'safety',
+  en:{q:'What is the single most important thing you can do to survive a car crash?',opts:['Drive a large, heavy vehicle','Always wear your seatbelt','Keep both hands on the wheel at all times','Never drive above 55 mph'],exp:'Wearing a seatbelt is the single most effective action you can take to survive a crash. Seatbelts reduce the risk of death in a crash by about 45% for front seat passengers and 60% for light truck occupants. They keep you inside the vehicle, prevent ejection (which is almost always fatal), distribute crash forces across the strongest parts of your body, and prevent you from hitting the steering wheel or windshield. Always buckle up on every trip, no matter how short.'},
+  zh:{q:'在车祸中生存下来，您能做的最重要的一件事是什么？',opts:['驾驶大型重型车辆','始终系好安全带','始终将双手放在方向盘上','永远不超过55英里/小时驾驶'],exp:'系安全带是您在碰撞中生存可以采取的最有效的单一行动。安全带可以将前排乘客的碰撞死亡风险降低约45%，轻型卡车乘员降低约60%。它们将您保持在车辆内，防止被甩出（几乎总是致命的），将碰撞力分布到您身体最强壮的部位，并防止您撞到方向盘或挡风玻璃。无论路程多短，每次出行都要系好安全带。'},
+  zhTW:{q:'在車禍中生存下來，您能做的最重要的一件事是什麼？',opts:['駕駛大型重型車輛','始終系好安全帶','始終將雙手放在方向盤上','永遠不超過55英里/小時駕駛'],exp:'系安全帶是您在碰撞中生存可以採取的最有效的單一行動。安全帶可以將前排乘客的碰撞死亡風險降低約45%，輕型卡車乘員降低約60%。它們將您保持在車輛內，防止被甩出（幾乎總是致命的），將碰撞力分布到您身體最強壯的部位，並防止您撞到方向盤或擋風玻璃。無論路程多短，每次出行都要系好安全帶。'},
+  es:{q:'¿Cuál es la cosa más importante que puede hacer para sobrevivir a un accidente de auto?',opts:['Conducir un vehículo grande y pesado','Siempre use el cinturón de seguridad','Mantenga ambas manos en el volante en todo momento','Nunca conduzca por encima de 55 mph'],exp:'Usar el cinturón de seguridad es la acción más efectiva que puede tomar para sobrevivir a un accidente. Los cinturones de seguridad reducen el riesgo de muerte en un accidente en aproximadamente un 45% para los pasajeros del asiento delantero. Lo mantienen dentro del vehículo, previenen la expulsión y distribuyen las fuerzas del choque en las partes más fuertes de su cuerpo. Abróchese en cada viaje, sin importar qué tan corto sea.'},
+  ans:1
 }
 
-] // end — 600 questions (IDs 1–591, 91 new added)
+] // end — 600 questions
