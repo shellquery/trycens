@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { questions } from '../data/questions.js'
 
-const COUNT_OPTIONS = [10, 20, 50, 100, 'all']
+const COUNT_OPTIONS = [12, 24, 36]
+export const EXAM_COUNT = 36        // CA DMV standard: 36 questions, pass with 30+
+export const PASS_THRESHOLD = 30/36 // ≈83.3% — real DMV standard
 
 // Icons for each category
 export const CAT_ICONS = {
@@ -39,12 +41,12 @@ const catCounts = questions.reduce((acc, q) => {
 }, {})
 
 export default function Home({ lang, onStart, onOpenWrongBank, totalQuestions, categories, wrongCount }) {
-  const [count, setCount]       = useState(20)
+  const [count, setCount]       = useState(36)
   const [category, setCategory] = useState('all')
 
   const catKeys = ['all', ...Object.keys(categories)]
   const effectiveCount = category === 'all' ? totalQuestions : (catCounts[category] || 0)
-  const actualCount    = count === 'all' ? effectiveCount : Math.min(count, effectiveCount)
+  const actualCount    = Math.min(count, effectiveCount)
 
   return (
     <main className="page fade-in">
@@ -81,8 +83,8 @@ export default function Home({ lang, onStart, onOpenWrongBank, totalQuestions, c
         <div className="config-label">{t('perSess', lang)}</div>
         <div className="chip-group">
           {COUNT_OPTIONS.map(c => (
-            <button key={c} className={`chip${count === c ? ' active' : ''}`} onClick={() => setCount(c)}>
-              {c === 'all' ? t('allCount', lang) : c}
+            <button key={c} className={`chip${count === c ? ' active' : ''}${c === EXAM_COUNT ? ' chip-exam' : ''}`} onClick={() => setCount(c)}>
+              {c === EXAM_COUNT ? `${c} 🎓` : c}
             </button>
           ))}
         </div>
@@ -108,9 +110,9 @@ export default function Home({ lang, onStart, onOpenWrongBank, totalQuestions, c
       </div>
 
       {/* Start */}
-      <button className="start-btn" onClick={() => onStart({ count: count === 'all' ? effectiveCount : count, category })}>
+      <button className="start-btn" onClick={() => onStart({ count: actualCount, category })}>
         {t('startBtn', lang)}
-        {actualCount < (count === 'all' ? effectiveCount : count) && (
+        {actualCount < count && (
           <span style={{ fontSize: 13, opacity: .75, marginLeft: 6 }}>({actualCount})</span>
         )}
       </button>

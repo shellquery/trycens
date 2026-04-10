@@ -1,10 +1,11 @@
-import { CAT_ICONS } from './Home.jsx'
+import { CAT_ICONS, EXAM_COUNT, PASS_THRESHOLD } from './Home.jsx'
 
 const UI = {
   passed:      { en: 'Passed!',          zh: '通过！',       zhTW: '通過！',       es: '¡Aprobado!' },
   failed:      { en: 'Not Yet',          zh: '继续加油',     zhTW: '繼續加油',     es: 'Sigue Practicando' },
-  passNote:    { en: 'You passed the DMV threshold (≥70%)', zh: '超过加州DMV及格线（≥70%）', zhTW: '超過加州DMV及格線（≥70%）', es: 'Superaste el umbral del DMV (≥70%)' },
-  failNote:    { en: 'Review mistakes and try again',       zh: '查看错题后再试一次',         zhTW: '查看錯題後再試一次',         es: 'Revisa errores e inténtalo de nuevo' },
+  passNote:    { en: 'You passed the DMV standard (30/36 = 83%)', zh: '达到加州DMV标准（30/36 = 83%）', zhTW: '達到加州DMV標準（30/36 = 83%）', es: 'Superaste el estándar DMV (30/36 = 83%)' },
+  passNoteShort:{ en: 'Above DMV pass rate (≥83%)', zh: '达到及格线（≥83%）', zhTW: '達到及格線（≥83%）', es: 'Sobre el umbral del DMV (≥83%)' },
+  failNote:    { en: 'Need 30/36 correct to pass — keep practicing!', zh: '需要36题中答对30题才能通过，继续加油！', zhTW: '需要36題中答對30題才能通過，繼續加油！', es: '¡Necesitas 30/36 correctas para pasar — sigue practicando!' },
   correct:     { en: 'Correct',    zh: '正确', zhTW: '正確', es: 'Correctas' },
   incorrect:   { en: 'Incorrect',  zh: '错误', zhTW: '錯誤', es: 'Incorrectas' },
   time:        { en: 'Time',       zh: '用时', zhTW: '用時', es: 'Tiempo' },
@@ -34,9 +35,10 @@ function getGrade(pct) {
 }
 
 export default function Results({ lang, score, elapsed, questions, answers, onReview, onRetry, onHome, onOpenWrongBank, categories, wrongCount, quizSource }) {
-  const pct    = Math.round((score.correct / score.total) * 100)
-  const passed = pct >= 70
-  const grade  = getGrade(pct)
+  const pct       = Math.round((score.correct / score.total) * 100)
+  const passed    = score.correct / score.total >= PASS_THRESHOLD   // 30/36 ≈ 83.3%
+  const isExamMode = score.total === EXAM_COUNT
+  const grade     = getGrade(pct)
   const wrongInThisQuiz = answers.filter((a, i) => a !== null && a !== questions[i]?.ans).length
 
   // Per-category breakdown
@@ -57,7 +59,14 @@ export default function Results({ lang, score, elapsed, questions, answers, onRe
           <span className="result-grade" style={{ color: grade.color }}>{grade.letter}</span>
           <span className="result-verdict">{passed ? t('passed', lang) : t('failed', lang)}</span>
         </div>
-        <p className="result-meta">{passed ? t('passNote', lang) : t('failNote', lang)}</p>
+        <p className="result-meta">{passed ? (isExamMode ? t('passNote', lang) : t('passNoteShort', lang)) : t('failNote', lang)}</p>
+        {isExamMode && (
+          <div className="exam-mode-badge">
+            {passed
+              ? (lang === 'zh' ? '🎓 考试模式通过' : lang === 'zhTW' ? '🎓 考試模式通過' : lang === 'es' ? '🎓 Modo Examen: Aprobado' : '🎓 Exam Mode: Passed')
+              : (lang === 'zh' ? '📝 考试模式未通过' : lang === 'zhTW' ? '📝 考試模式未通過' : lang === 'es' ? '📝 Modo Examen: No Aprobado' : '📝 Exam Mode: Failed')}
+          </div>
+        )}
 
         <div className="result-breakdown">
           <div className="breakdown-pill">

@@ -249,6 +249,15 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   border-color: var(--accent);
   font-weight: 600;
 }
+.chip.chip-exam {
+  border-color: var(--warning);
+  color: var(--warning);
+}
+.chip.chip-exam.active {
+  background: rgba(217,119,6,.12);
+  border-color: var(--warning);
+  color: var(--warning);
+}
 .chip:hover:not(.active) { border-color: var(--border); color: var(--text); }
 .chip-count {
   font-size: 11px;
@@ -509,7 +518,20 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .result-grade  { font-size: 28px; font-weight: 900; }
 .result-verdict{ font-size: 20px; font-weight: 700; }
 
-.result-meta { font-size: 13px; color: var(--text2); margin-bottom: 22px; }
+.result-meta { font-size: 13px; color: var(--text2); margin-bottom: 10px; }
+.exam-mode-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  background: var(--warning);
+  color: #fff;
+  opacity: .9;
+}
 
 .result-breakdown {
   display: grid;
