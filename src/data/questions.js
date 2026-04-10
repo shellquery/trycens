@@ -3885,4 +3885,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:371, cat:'safety',
+  en:{q:'What should you do if your brakes fail while driving?',opts:['Immediately turn off the ignition','Pump the brakes rapidly, downshift, and use the emergency/parking brake gradually — steer toward a safe area','Swerve into the nearest barrier to slow down','Hold the brake pedal to the floor and wait'],exp:'If brakes fail: 1) Pump the brakes rapidly — this can restore hydraulic pressure. 2) Downshift to use engine braking. 3) Apply the emergency/parking brake gradually (not all at once or you may skid). 4) Look for a safe escape route — uphill ramps, open fields, or brush. Honk and use hazard lights.'},
+  zh:{q:'行驶中刹车失灵，您应该怎么做？',opts:['立即关闭点火开关','快速踩刹车，降档，逐渐使用驻车制动——向安全区域驾驶','朝最近的障碍物偏转以减速','将刹车踏板踩到底等待'],exp:'刹车失灵时：1）快速踩踏刹车——这可以恢复液压。2）降档使用发动机制动。3）逐渐施加驻车制动（不要一次用力，否则可能打滑）。4）寻找安全逃生路线——上坡道、开阔地或灌木丛。鸣喇叭并使用危险警示灯。'},
+  zhTW:{q:'行駛中剎車失靈，您應該怎麼做？',opts:['立即關閉點火開關','快速踩剎車，降檔，逐漸使用駐車制動——向安全區域駕駛','朝最近的障礙物偏轉以減速','將剎車踏板踩到底等待'],exp:'剎車失靈時：1）快速踩踏剎車——這可以恢復液壓。2）降檔使用發動機制動。3）逐漸施加駐車制動（不要一次用力，否則可能打滑）。4）尋找安全逃生路線——上坡道、開闊地或灌木叢。鳴喇叭並使用危險警示燈。'},
+  es:{q:'¿Qué debe hacer si los frenos fallan mientras conduce?',opts:['Apague el encendido inmediatamente','Bombee los frenos rápidamente, reduzca la marcha y use el freno de emergencia gradualmente — dirija hacia un área segura','Gire hacia la barrera más cercana para frenar','Mantenga el pedal del freno al piso y espere'],exp:'Si los frenos fallan: 1) Bombee los frenos rápidamente — esto puede restaurar la presión hidráulica. 2) Reduzca la marcha para usar el freno del motor. 3) Aplique el freno de emergencia gradualmente. 4) Busque una ruta de escape segura. Toque la bocina y use luces de emergencia.'},
+  ans:1
+},
+{
+  id:372, cat:'laws',
+  en:{q:'In California, children under what age must ride in an approved child safety seat in the rear seat?',opts:['Under 4 years old and under 40 pounds','Under 8 years old OR under 4 feet 9 inches tall','Under 6 years old','Under 5 years old or under 60 pounds'],exp:'California law requires children under 8 years old OR under 4 feet 9 inches tall to ride in an appropriate child safety seat in the back seat. Infants must be in rear-facing seats until age 2 (unless the child exceeds the seat\'s height/weight limits). Violations carry significant fines.'},
+  zh:{q:'在加州，多大以下的儿童必须坐在后座的经批准儿童安全座椅中？',opts:['4岁以下且体重低于40磅','8岁以下或身高低于4英尺9英寸','6岁以下','5岁以下或体重低于60磅'],exp:'加州法律要求8岁以下或身高低于4英尺9英寸的儿童坐在后座的适当儿童安全座椅中。婴儿必须使用后向座椅直到2岁（除非儿童超过座椅的身高/重量限制）。违规将面临重大罚款。'},
+  zhTW:{q:'在加州，多大以下的兒童必須坐在後座的經批准兒童安全座椅中？',opts:['4歲以下且體重低於40磅','8歲以下或身高低於4英尺9英寸','6歲以下','5歲以下或體重低於60磅'],exp:'加州法律要求8歲以下或身高低於4英尺9英寸的兒童坐在後座的適當兒童安全座椅中。嬰兒必須使用後向座椅直到2歲（除非兒童超過座椅的身高/重量限制）。違規將面臨重大罰款。'},
+  es:{q:'En California, ¿los niños menores de qué edad deben viajar en una silla de seguridad para niños aprobada en el asiento trasero?',opts:['Menores de 4 años y menos de 40 libras','Menores de 8 años O menores de 4 pies 9 pulgadas de altura','Menores de 6 años','Menores de 5 años o menos de 60 libras'],exp:'La ley de California requiere que los niños menores de 8 años O menores de 4 pies 9 pulgadas de altura viajen en una silla de seguridad apropiada en el asiento trasero. Los bebés deben estar en asientos orientados hacia atrás hasta los 2 años.'},
+  ans:1
+},
+{
+  id:373, cat:'rightofway',
+  en:{q:'You are driving on a road and see a fire truck approaching from behind with lights and sirens on. What must you do?',opts:['Speed up to clear the road ahead','Immediately pull to the right edge of the road and stop','Slow down to 25 mph and keep moving','Pull to the left if there is more room'],exp:'When an emergency vehicle with lights/sirens approaches from any direction, you must pull to the right edge of the road and stop, unless you are in an intersection (move through it first, then pull right and stop). Remain stopped until the emergency vehicle passes.'},
+  zh:{q:'您在道路上行驶，看到消防车从后方带着灯光和警报声驶来。您必须怎么做？',opts:['加速清空前方道路','立即靠到道路右侧边缘停车','减速至25英里/小时并继续移动','如果左侧空间更大则靠左行驶'],exp:'当带有灯光/警报声的紧急车辆从任何方向驶来时，您必须靠到道路右侧边缘停车，除非您在路口（先通过路口，然后靠右停车）。保持停车直到紧急车辆通过。'},
+  zhTW:{q:'您在道路上行駛，看到消防車從後方帶著燈光和警報聲駛來。您必須怎麼做？',opts:['加速清空前方道路','立即靠到道路右側邊緣停車','減速至25英里/小時並繼續移動','如果左側空間更大則靠左行駛'],exp:'當帶有燈光/警報聲的緊急車輛從任何方向駛來時，您必須靠到道路右側邊緣停車，除非您在路口（先通過路口，然後靠右停車）。保持停車直到緊急車輛通過。'},
+  es:{q:'Conduce en una carretera y ve una ambulancia acercándose desde atrás con luces y sirenas. ¿Qué debe hacer?',opts:['Acelere para despejar el camino adelante','Orillese inmediatamente al lado derecho del camino y deténgase','Reduzca a 25 mph y siga moviéndose','Diríjase a la izquierda si hay más espacio'],exp:'Cuando un vehículo de emergencia con luces/sirenas se acerca desde cualquier dirección, debe orillarse al lado derecho del camino y detenerse, a menos que esté en una intersección (pásela primero, luego oríllese y deténgase). Permanezca detenido hasta que el vehículo de emergencia pase.'},
+  ans:1
+},
+{
+  id:374, cat:'signs',
+  en:{q:'What does a green traffic signal mean?',opts:['You have the absolute right of way and may proceed without checking','You may proceed if the intersection is clear, but you must still yield to pedestrians and other vehicles already in the intersection','Speed up to get through before the light changes','Only trucks and large vehicles must stop'],exp:'A green light means you may proceed, but you must still yield to pedestrians crossing legally and to any vehicles already in the intersection. Green does not grant absolute right of way — you must make sure the intersection is clear before entering.'},
+  zh:{q:'绿色交通信号灯意味着什么？',opts:['您有绝对优先权，可以不检查就前行','如果路口畅通，您可以前行，但仍须让行正在穿越的行人和已在路口的其他车辆','加速以在灯变之前通过','只有卡车和大型车辆必须停车'],exp:'绿灯意味着您可以前行，但仍须让行合法穿越的行人和已在路口的任何车辆。绿灯不给予绝对优先权——进入路口前必须确保路口畅通。'},
+  zhTW:{q:'綠色交通信號燈意味著什麼？',opts:['您有絕對優先權，可以不檢查就前行','如果路口暢通，您可以前行，但仍須讓行正在穿越的行人和已在路口的其他車輛','加速以在燈變之前通過','只有卡車和大型車輛必須停車'],exp:'綠燈意味著您可以前行，但仍須讓行合法穿越的行人和已在路口的任何車輛。綠燈不給予絕對優先權——進入路口前必須確保路口暢通。'},
+  es:{q:'¿Qué significa una señal de tráfico verde?',opts:['Tiene el derecho de paso absoluto y puede proceder sin verificar','Puede proceder si la intersección está despejada, pero aún debe ceder a los peatones y otros vehículos ya en la intersección','Acelere para cruzar antes de que cambie la luz','Solo los camiones y vehículos grandes deben detenerse'],exp:'Una luz verde significa que puede proceder, pero aún debe ceder el paso a los peatones que cruzan legalmente y a cualquier vehículo ya en la intersección. La luz verde no otorga derecho de paso absoluto — debe asegurarse de que la intersección esté despejada antes de entrar.'},
+  ans:1
+},
+{
+  id:375, cat:'speed',
+  en:{q:'What is the speed limit in a school zone when children are present?',opts:['10 mph','15 mph','25 mph','35 mph'],exp:'The prima facie speed limit in a school zone in California is 25 mph when children are present or during school hours. Some school zones may have lower posted limits. Watch for crossing guards and school buses, and be prepared to stop.'},
+  zh:{q:'当有儿童在场时，学校区的限速是多少？',opts:['10英里/小时','15英里/小时','25英里/小时','35英里/小时'],exp:'加州学校区在有儿童在场或上学时间的初步限速为25英里/小时。某些学校区可能有更低的标注限速。注意过路守卫和校车，准备停车。'},
+  zhTW:{q:'當有兒童在場時，學校區的限速是多少？',opts:['10英里/小時','15英里/小時','25英里/小時','35英里/小時'],exp:'加州學校區在有兒童在場或上學時間的初步限速為25英里/小時。某些學校區可能有更低的標注限速。注意過路守衛和校車，準備停車。'},
+  es:{q:'¿Cuál es el límite de velocidad en una zona escolar cuando hay niños presentes?',opts:['10 mph','15 mph','25 mph','35 mph'],exp:'El límite de velocidad prima facie en una zona escolar en California es 25 mph cuando hay niños presentes o durante el horario escolar. Algunas zonas escolares pueden tener límites más bajos publicados. Esté atento a los guardias de cruce y autobuses escolares.'},
+  ans:2
+},
+{
+  id:376, cat:'dui',
+  en:{q:'Which of the following can impair your driving as much as alcohol?',opts:['Eating while driving','Prescription medications, over-the-counter drugs, or marijuana','Listening to music','Adjusting air conditioning'],exp:'Many prescription and over-the-counter medications can impair driving just as much as alcohol — including antihistamines, sleep aids, pain medications, and anxiety drugs. Marijuana also impairs driving, even when used medicinally. It is illegal to drive under the influence of any substance that impairs your driving.'},
+  zh:{q:'以下哪项可以像酒精一样损害您的驾驶能力？',opts:['边开车边吃东西','处方药、非处方药或大麻','听音乐','调节空调'],exp:'许多处方药和非处方药可以像酒精一样损害驾驶——包括抗组胺药、安眠药、止痛药和抗焦虑药。大麻也会损害驾驶，即使是医疗用途。在任何损害驾驶能力的物质影响下驾驶都是违法的。'},
+  zhTW:{q:'以下哪項可以像酒精一樣損害您的駕駛能力？',opts:['邊開車邊吃東西','處方藥、非處方藥或大麻','聽音樂','調節空調'],exp:'許多處方藥和非處方藥可以像酒精一樣損害駕駛——包括抗組胺藥、安眠藥、止痛藥和抗焦慮藥。大麻也會損害駕駛，即使是醫療用途。在任何損害駕駛能力的物質影響下駕駛都是違法的。'},
+  es:{q:'¿Cuál de los siguientes puede deteriorar su conducción tanto como el alcohol?',opts:['Comer mientras conduce','Medicamentos recetados, de venta libre, o marihuana','Escuchar música','Ajustar el aire acondicionado'],exp:'Muchos medicamentos recetados y de venta libre pueden deteriorar la conducción tanto como el alcohol — incluyendo antihistamínicos, somníferos, analgésicos y medicamentos para la ansiedad. La marihuana también deteriora la conducción, incluso cuando se usa medicinalmente.'},
+  ans:1
+},
+{
+  id:377, cat:'parking',
+  en:{q:'You are parked on a level street and want to leave. You are parallel parked between two cars. Which way do you pull out?',opts:['Accelerate forward quickly to avoid traffic','Turn wheels to the right and back up first, then turn left and pull out when safe','Always pull forward first, then reverse to straighten','It does not matter — either direction is equally safe'],exp:'When pulling out of a parallel parking space, first check for traffic and signal. Typically, back up close to the car behind (turning wheels right), then turn left and pull forward when there is a safe gap. Always check your blind spots and mirrors before moving.'},
+  zh:{q:'您停在平坦街道上，想要离开。您被平行停在两辆车之间，如何驶出？',opts:['迅速向前加速以避开交通','将方向盘向右转先倒车，然后向左转在安全时驶出','先向前行驶，然后倒车调整','方向无所谓——两个方向同样安全'],exp:'从平行停车位驶出时，先检查交通并打转向灯。通常，向后靠近后车（将方向盘向右转），然后在有安全间隙时向左转并向前驶出。移动前始终检查盲点和后视镜。'},
+  zhTW:{q:'您停在平坦街道上，想要離開。您被平行停在兩輛車之間，如何駛出？',opts:['迅速向前加速以避開交通','將方向盤向右轉先倒車，然後向左轉在安全時駛出','先向前行駛，然後倒車調整','方向無所謂——兩個方向同樣安全'],exp:'從平行停車位駛出時，先檢查交通並打轉向燈。通常，向後靠近後車（將方向盤向右轉），然後在有安全間隙時向左轉並向前駛出。移動前始終檢查盲點和後視鏡。'},
+  es:{q:'Está estacionado en una calle nivelada y quiere salir. Está estacionado en paralelo entre dos autos. ¿Hacia dónde sale?',opts:['Acelere hacia adelante rápidamente para evitar el tráfico','Gire las ruedas a la derecha y retroceda primero, luego gire a la izquierda y salga cuando sea seguro','Siempre avance primero, luego retroceda para enderezar','No importa — cualquier dirección es igualmente segura'],exp:'Al salir de un espacio de estacionamiento en paralelo, primero verifique el tráfico y señalice. Típicamente, retroceda hacia el auto de atrás (girando las ruedas a la derecha), luego gire a la izquierda y avance cuando haya un espacio seguro.'},
+  ans:1
+},
+{
+  id:378, cat:'highway',
+  en:{q:'What does "HOV lane" stand for and who may use it?',opts:['High-Output Vehicle — any vehicle with a large engine','High-Occupancy Vehicle — vehicles with 2 or more persons (or as posted), plus certain clean-air vehicles','Hazardous or Oversized Vehicle — trucks and wide loads','High-Override Vehicle — emergency vehicles only'],exp:'HOV stands for High-Occupancy Vehicle. California HOV lanes (also called "carpool" or "diamond" lanes) typically require 2 or more occupants unless otherwise posted. Some HOV lanes require 3 persons during peak hours. Certain clean-air vehicles with a special DMV sticker may also use HOV lanes.'},
+  zh:{q:'"HOV车道"代表什么，谁可以使用它？',opts:['高输出车辆——任何大发动机车辆','高乘载率车辆——乘坐2人或以上的车辆（或按标注），加上某些清洁能源车辆','危险或超尺寸车辆——卡车和宽载','高优先级车辆——仅限紧急车辆'],exp:'HOV代表高乘载率车辆。加州HOV车道（也称为"拼车"或"钻石"车道）通常要求2名或以上乘客，除非另有标注。某些HOV车道在高峰时段要求3人。拥有特殊DMV贴纸的某些清洁能源车辆也可以使用HOV车道。'},
+  zhTW:{q:'"HOV車道"代表什麼，誰可以使用它？',opts:['高輸出車輛——任何大發動機車輛','高乘載率車輛——乘坐2人或以上的車輛（或按標注），加上某些清潔能源車輛','危險或超尺寸車輛——卡車和寬載','高優先級車輛——僅限緊急車輛'],exp:'HOV代表高乘載率車輛。加州HOV車道（也稱為「拼車」或「鑽石」車道）通常要求2名或以上乘客，除非另有標注。某些HOV車道在高峰時段要求3人。擁有特殊DMV貼紙的某些清潔能源車輛也可以使用HOV車道。'},
+  es:{q:'¿Qué significa "carril HOV" y quién puede usarlo?',opts:['Vehículo de Alto Rendimiento — cualquier vehículo con motor grande','Vehículo de Alta Ocupación — vehículos con 2 o más personas (o según lo publicado), más ciertos vehículos de aire limpio','Vehículo Peligroso o Sobredimensionado — camiones y cargas anchas','Vehículo de Alta Prioridad — solo vehículos de emergencia'],exp:'HOV significa Vehículo de Alta Ocupación. Los carriles HOV de California (también llamados carriles de "carpool" o "diamante") típicamente requieren 2 o más ocupantes a menos que se indique lo contrario. Ciertos vehículos de aire limpio con una calcomanía especial del DMV también pueden usar los carriles HOV.'},
+  ans:1
+},
+{
+  id:379, cat:'laws',
+  en:{q:'If you are involved in a collision and there is no other party present (e.g., you hit a parked car), what must you do?',opts:['Drive away — there is no one to report to','Leave a note with your name, address, and phone number in a visible place on the damaged vehicle','Only report to police — you do not need to leave a note','Call DMV and wait for instructions'],exp:'If you hit an unattended vehicle, you must leave a note with your name, address, and phone number in a visible place (such as under the windshield wiper). You must also report the accident to police if property damage exceeds $1,000. Leaving the scene of an accident is a crime.'},
+  zh:{q:'如果您卷入碰撞事故且没有其他当事人在场（例如，您撞了一辆停着的车），您必须怎么做？',opts:['开车离开——没有人需要向其报告','在受损车辆显眼位置留下含有您姓名、地址和电话号码的便条','只需向警察报告——您不需要留便条','致电DMV并等待指示'],exp:'如果您撞了一辆无人看管的车辆，您必须在显眼位置（如挡风玻璃刮水器下）留下含有您姓名、地址和电话号码的便条。如果财产损失超过$1,000，还必须向警察报告事故。逃离事故现场是犯罪行为。'},
+  zhTW:{q:'如果您捲入碰撞事故且沒有其他當事人在場（例如，您撞了一輛停著的車），您必須怎麼做？',opts:['開車離開——沒有人需要向其報告','在受損車輛顯眼位置留下含有您姓名、地址和電話號碼的便條','只需向警察報告——您不需要留便條','致電DMV並等待指示'],exp:'如果您撞了一輛無人看管的車輛，您必須在顯眼位置（如擋風玻璃刮水器下）留下含有您姓名、地址和電話號碼的便條。如果財產損失超過$1,000，還必須向警察報告事故。逃離事故現場是犯罪行為。'},
+  es:{q:'Si está involucrado en una colisión y no hay otra parte presente (por ejemplo, golpeó un auto estacionado), ¿qué debe hacer?',opts:['Manejarse — no hay nadie a quien reportar','Dejar una nota con su nombre, dirección y número de teléfono en un lugar visible del vehículo dañado','Solo reportar a la policía — no necesita dejar nota','Llamar al DMV y esperar instrucciones'],exp:'Si golpea un vehículo desatendido, debe dejar una nota con su nombre, dirección y número de teléfono en un lugar visible (como bajo el limpiaparabrisas). También debe reportar el accidente a la policía si el daño a la propiedad supera $1,000. Abandonar la escena de un accidente es un delito.'},
+  ans:1
+},
+{
+  id:380, cat:'safety',
+  en:{q:'What is the safest headrest position to reduce whiplash injury in a rear-end collision?',opts:['Tilted back as far as possible','Centered directly behind your head with the top level with the top of your head','Pushed forward to the minimum position','Removed entirely for better visibility'],exp:'The headrest should be adjusted so the center is level with the top of your ears (approximately the top of your head), and the headrest should be as close to the back of your head as possible without touching it. This position minimizes whiplash (neck hyperextension) in rear-end collisions.'},
+  zh:{q:'减少追尾碰撞中挥鞭伤的最安全头枕位置是什么？',opts:['尽可能向后倾斜','中心直接在您头部后方，顶部与您头顶齐平','推到最前位置','完全移除以改善视野'],exp:'头枕应调整到中心与您耳顶（大约头顶）齐平，并且头枕应尽可能靠近头部后方但不接触。这个位置可最小化追尾碰撞中的挥鞭伤（颈部过度伸展）。'},
+  zhTW:{q:'減少追尾碰撞中揮鞭傷的最安全頭枕位置是什麼？',opts:['盡可能向後傾斜','中心直接在您頭部後方，頂部與您頭頂齊平','推到最前位置','完全移除以改善視野'],exp:'頭枕應調整到中心與您耳頂（大約頭頂）齊平，並且頭枕應盡可能靠近頭部後方但不接觸。這個位置可最小化追尾碰撞中的揮鞭傷（頸部過度伸展）。'},
+  es:{q:'¿Cuál es la posición más segura del reposacabezas para reducir la lesión por latigazo en una colisión trasera?',opts:['Inclinado hacia atrás lo más posible','Centrado directamente detrás de su cabeza con la parte superior al nivel de la cima de su cabeza','Empujado hacia adelante a la posición mínima','Removido por completo para mejor visibilidad'],exp:'El reposacabezas debe ajustarse para que el centro esté al nivel de la parte superior de sus orejas (aproximadamente la cima de su cabeza), y el reposacabezas debe estar lo más cerca posible de la parte posterior de su cabeza sin tocarla. Esta posición minimiza el latigazo en colisiones traseras.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
