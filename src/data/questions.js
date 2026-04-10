@@ -4209,4 +4209,86 @@ export const questions = [
   ans:1
 },
 
+,
+{
+  id:411, cat:'signs',
+  en:{q:'What does a pennant-shaped (triangular) sign on the left side of the road mean?',opts:['Yield to oncoming traffic','No passing zone begins here','Merge left ahead','Slow down — curve ahead'],exp:'A pennant-shaped sign (a yellow triangle pointing to the right) posted on the left side of the road marks the beginning of a no-passing zone. You must not overtake or pass other vehicles in this section of road.'},
+  zh:{q:'道路左侧的三角形（旗帜形）标志意味着什么？',opts:['让行对向来车','禁止超车区从此开始','前方向左合并','减速——前方有弯道'],exp:'道路左侧的三角形（黄色向右三角形）标志标记禁止超车区的开始。在这段路上不得超越其他车辆。'},
+  zhTW:{q:'道路左側的三角形（旗幟形）標誌意味著什麼？',opts:['讓行對向來車','禁止超車區從此開始','前方向左合併','減速——前方有彎道'],exp:'道路左側的三角形（黃色向右三角形）標誌標記禁止超車區的開始。在這段路上不得超越其他車輛。'},
+  es:{q:'¿Qué significa un letrero en forma de banderín (triangular) en el lado izquierdo de la carretera?',opts:['Ceda el paso al tráfico en sentido contrario','Comienza zona de no adelantamiento','Fusión a la izquierda adelante','Reduzca la velocidad — curva adelante'],exp:'Un letrero en forma de banderín (triángulo amarillo apuntando a la derecha) colocado en el lado izquierdo de la carretera marca el inicio de una zona de no adelantamiento. No puede adelantar otros vehículos en esta sección.'},
+  ans:1
+},
+{
+  id:412, cat:'rightofway',
+  en:{q:'A blind pedestrian with a white cane or guide dog is crossing the street. What must you do?',opts:['Slow down and pass carefully if the path is clear','Yield completely — stop and wait until they have crossed the lane','Honk briefly to alert them and continue','Wait only if they are in a marked crosswalk'],exp:'California law requires you to yield the right-of-way to a blind person using a white cane or guide dog at any intersection or crosswalk — marked or unmarked. You must stop and wait until they have fully crossed your lane before proceeding.'},
+  zh:{q:'一位持白色手杖或导盲犬的盲人正在过街。你必须怎么做？',opts:['减速，如果路径清晰可小心通过','完全让行——停下来等待直到他们穿越车道','简短鸣笛提醒他们并继续','只在有标记人行横道时才等待'],exp:'加州法律要求在任何路口或人行横道（有标记或无标记），你必须让行给使用白色手杖或导盲犬的盲人。必须停下来等待他们完全穿越你的车道后再继续行驶。'},
+  zhTW:{q:'一位持白色手杖或導盲犬的盲人正在過街。你必須怎麼做？',opts:['減速，如果路徑清晰可小心通過','完全讓行——停下來等待直到他們穿越車道','簡短鳴笛提醒他們並繼續','只在有標記人行橫道時才等待'],exp:'加州法律要求在任何路口或人行橫道（有標記或無標記），你必須讓行給使用白色手杖或導盲犬的盲人。必須停下來等待他們完全穿越你的車道後再繼續行駛。'},
+  es:{q:'Un peatón ciego con bastón blanco o perro guía está cruzando la calle. ¿Qué debe hacer?',opts:['Disminuya y pase con cuidado si el camino está despejado','Ceda completamente — deténgase y espere hasta que hayan cruzado el carril','Toque brevemente el claxon para alertarlos y continúe','Espere solo si están en un cruce marcado'],exp:'La ley de California requiere que ceda el paso a una persona ciega usando bastón blanco o perro guía en cualquier intersección o cruce — marcado o no marcado. Debe detenerse y esperar hasta que hayan cruzado completamente su carril.'},
+  ans:1
+},
+{
+  id:413, cat:'speed',
+  en:{q:'What is the prima facie speed limit in a residential district in California?',opts:['20 mph','25 mph','30 mph','35 mph'],exp:'The prima facie (assumed) speed limit in a residence district in California is 25 mph unless otherwise posted. This applies even if no sign is present. A residence district is defined as an area where buildings are used primarily for dwelling purposes along the highway.'},
+  zh:{q:'加州住宅区的法定速度限制是多少？',opts:['20英里/小时','25英里/小时','30英里/小时','35英里/小时'],exp:'加州住宅区的法定（推定）速度限制为25英里/小时，除非另有标志。即使没有标志也适用。住宅区定义为沿公路建筑物主要用于居住目的的区域。'},
+  zhTW:{q:'加州住宅區的法定速度限制是多少？',opts:['20英里/小時','25英里/小時','30英里/小時','35英里/小時'],exp:'加州住宅區的法定（推定）速度限制為25英里/小時，除非另有標誌。即使沒有標誌也適用。住宅區定義為沿公路建築物主要用於居住目的的區域。'},
+  es:{q:'¿Cuál es el límite de velocidad prima facie en un distrito residencial en California?',opts:['20 mph','25 mph','30 mph','35 mph'],exp:'El límite de velocidad prima facie (asumido) en un distrito residencial en California es 25 mph a menos que se indique lo contrario. Aplica incluso si no hay letrero. Un distrito residencial se define como un área donde los edificios se usan principalmente para vivienda a lo largo de la carretera.'},
+  ans:1
+},
+{
+  id:414, cat:'parking',
+  en:{q:'When parallel parking downhill with a curb, which direction should your front wheels be turned?',opts:['Straight ahead','Away from the curb (left, toward traffic)','Toward the curb (right)','It does not matter — just set the parking brake'],exp:'When parking downhill next to a curb, turn your front wheels toward the curb (to the right). If the vehicle rolls forward, the curb will stop it. When parking downhill without a curb, turn wheels away from traffic. When parking uphill with a curb, turn wheels away from the curb so they catch on the curb if the vehicle rolls back.'},
+  zh:{q:'在有路缘石的下坡路段平行停车时，前轮应该朝哪个方向转？',opts:['直行方向','远离路缘石（向左，朝向交通流）','朝向路缘石（向右）','无所谓——只需拉手刹'],exp:'在有路缘石的下坡路段停车时，将前轮朝向路缘石（向右）。如果车辆向前滚动，路缘石会阻止它。在无路缘石的下坡路段停车时，轮胎远离交通方向。在有路缘石的上坡路段停车时，轮胎远离路缘石，这样如果车辆向后滚动，路缘石会挡住轮胎。'},
+  zhTW:{q:'在有路緣石的下坡路段平行停車時，前輪應該朝哪個方向轉？',opts:['直行方向','遠離路緣石（向左，朝向交通流）','朝向路緣石（向右）','無所謂——只需拉手剎'],exp:'在有路緣石的下坡路段停車時，將前輪朝向路緣石（向右）。如果車輛向前滾動，路緣石會阻止它。在無路緣石的下坡路段停車時，輪胎遠離交通方向。在有路緣石的上坡路段停車時，輪胎遠離路緣石，這樣如果車輛向後滾動，路緣石會擋住輪胎。'},
+  es:{q:'Al estacionar en paralelo cuesta abajo con bordillo, ¿en qué dirección deben girar sus ruedas delanteras?',opts:['Recto hacia adelante','Lejos del bordillo (izquierda, hacia el tráfico)','Hacia el bordillo (derecha)','No importa — solo ponga el freno de mano'],exp:'Al estacionar cuesta abajo junto a un bordillo, gire las ruedas delanteras hacia el bordillo (a la derecha). Si el vehículo rueda hacia adelante, el bordillo lo detendrá. Al estacionar cuesta abajo sin bordillo, gire las ruedas lejos del tráfico. Al estacionar cuesta arriba con bordillo, gire las ruedas lejos del bordillo para que lo detengan si el vehículo rueda hacia atrás.'},
+  ans:2
+},
+{
+  id:415, cat:'laws',
+  en:{q:'In California, when are you required to use your headlights?',opts:['Only after dark (sunset to sunrise)','Whenever visibility is less than 1,000 feet, including when using windshield wipers in rain or snow','Only in tunnels and at night','Whenever driving on a freeway'],exp:'California law requires headlights from 30 minutes after sunset to 30 minutes before sunrise, and any time visibility is less than 1,000 feet. Importantly, you must also use headlights any time you use your windshield wipers due to weather conditions (rain, snow, fog), not just when it is dark.'},
+  zh:{q:'在加州，什么情况下必须开车头灯？',opts:['只在天黑后（日落到日出）','任何能见度低于1,000英尺时，包括因雨雪使用雨刷时','只在隧道和夜间','在高速公路行驶时'],exp:'加州法律要求在日落后30分钟到日出前30分钟，以及任何能见度低于1,000英尺时开大灯。重要的是，每当因天气状况（雨、雪、雾）使用挡风玻璃雨刷时，也必须开车头灯，不仅限于夜间。'},
+  zhTW:{q:'在加州，什麼情況下必須開車頭燈？',opts:['只在天黑後（日落到日出）','任何能見度低於1,000英尺時，包括因雨雪使用雨刷時','只在隧道和夜間','在高速公路行駛時'],exp:'加州法律要求在日落後30分鐘到日出前30分鐘，以及任何能見度低於1,000英尺時開大燈。重要的是，每當因天氣狀況（雨、雪、霧）使用擋風玻璃雨刷時，也必須開車頭燈，不僅限於夜間。'},
+  es:{q:'En California, ¿cuándo está obligado a usar los faros delanteros?',opts:['Solo después del anochecer (de puesta a salida del sol)','Cuando la visibilidad es menor de 1,000 pies, incluso cuando usa los limpiaparabrisas por lluvia o nieve','Solo en túneles y de noche','Cuando conduce en una autopista'],exp:'La ley de California requiere faros desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer, y cuando la visibilidad es inferior a 1,000 pies. Importante: también debe usar los faros cuando use los limpiaparabrisas por condiciones climáticas (lluvia, nieve, niebla), no solo cuando está oscuro.'},
+  ans:1
+},
+{
+  id:416, cat:'dui',
+  en:{q:'If you refuse to take a chemical test (breath, blood, or urine) when suspected of DUI in California, what happens?',opts:['Nothing — you have the right to refuse any test','Your license is automatically suspended for 1 year for a first offense, and refusal can be used as evidence against you','You are arrested but face no additional penalties','You must take a field sobriety test instead'],exp:'Under California\'s implied consent law, driving on California roads means you have implicitly agreed to chemical testing when lawfully arrested for DUI. Refusing the test results in automatic license suspension: 1 year for a first offense, 2 years for a second, and 3 years for a third. The refusal itself can also be used as evidence of guilt in court.'},
+  zh:{q:'在加州，如果你在涉嫌DUI时拒绝接受化学测试（呼气、血液或尿液），会发生什么？',opts:['什么都不会——你有权拒绝任何测试','驾照自动暂停1年（首次），拒绝可被用作对你不利的证据','你会被逮捕但没有额外惩罚','你必须改为接受现场清醒测试'],exp:'根据加州的隐含同意法，在加州道路上驾驶意味着你已隐含地同意在合法逮捕DUI时接受化学测试。拒绝测试会导致驾照自动暂停：首次1年，第二次2年，第三次3年。拒绝本身也可在法庭上作为有罪证据使用。'},
+  zhTW:{q:'在加州，如果你在涉嫌DUI時拒絕接受化學測試（呼氣、血液或尿液），會發生什麼？',opts:['什麼都不會——你有權拒絕任何測試','駕照自動暫停1年（首次），拒絕可被用作對你不利的證據','你會被逮捕但沒有額外懲罰','你必須改為接受現場清醒測試'],exp:'根據加州的隱含同意法，在加州道路上駕駛意味著你已隱含地同意在合法逮捕DUI時接受化學測試。拒絕測試會導致駕照自動暫停：首次1年，第二次2年，第三次3年。拒絕本身也可在法庭上作為有罪證據使用。'},
+  es:{q:'Si se niega a tomar una prueba química (aliento, sangre u orina) cuando se sospecha de DUI en California, ¿qué sucede?',opts:['Nada — tiene derecho a rechazar cualquier prueba','Su licencia es suspendida automáticamente por 1 año (primera infracción), y la negativa puede usarse como evidencia en su contra','Es arrestado pero sin penalidades adicionales','Debe tomar una prueba de sobriedad de campo en su lugar'],exp:'Bajo la ley de consentimiento implícito de California, conducir en carreteras de California significa que ha acordado implícitamente las pruebas químicas al ser legalmente arrestado por DUI. Negarse resulta en suspensión automática: 1 año primera infracción, 2 años segunda, 3 años tercera. La negativa también puede usarse como evidencia de culpabilidad en el tribunal.'},
+  ans:1
+},
+{
+  id:417, cat:'highway',
+  en:{q:'What is the correct procedure when you miss your exit on a freeway?',opts:['Stop and back up to the exit','Make a U-turn at the nearest median opening','Continue to the next exit, get off, and find a way back','Cross over the painted gore area (striped triangular area) to catch the exit'],exp:'If you miss a freeway exit, never stop, back up, or cross the painted gore area (the striped triangular area between the freeway and off-ramp). These actions are illegal and extremely dangerous. Simply continue driving to the next exit, exit the freeway, and find a route back. Plan ahead by watching for exit signs 1 mile and ½ mile in advance.'},
+  zh:{q:'在高速公路上错过出口后应该怎么做？',opts:['停车并倒车到出口','在最近的中央分隔带开口处掉头','继续开到下一个出口，下高速，找路返回','越过油漆喇叭区（条纹三角形区域）赶上出口'],exp:'如果错过高速公路出口，切勿停车、倒车或越过油漆喇叭区（高速公路与出口匝道之间的条纹三角形区域）。这些行为是违法且极其危险的。只需继续驾驶到下一个出口，下高速，找路返回。提前注意1英里和半英里处的出口指示牌。'},
+  zhTW:{q:'在高速公路上錯過出口後應該怎麼做？',opts:['停車並倒車到出口','在最近的中央分隔帶開口處掉頭','繼續開到下一個出口，下高速，找路返回','越過油漆喇叭區（條紋三角形區域）趕上出口'],exp:'如果錯過高速公路出口，切勿停車、倒車或越過油漆喇叭區（高速公路與出口匝道之間的條紋三角形區域）。這些行為是違法且極其危險的。只需繼續駕駛到下一個出口，下高速，找路返回。提前注意1英里和半英里處的出口指示牌。'},
+  es:{q:'¿Cuál es el procedimiento correcto cuando se pierde una salida en la autopista?',opts:['Detenerse y retroceder hasta la salida','Hacer un giro en U en la abertura de mediana más cercana','Continuar hasta la próxima salida, salir y encontrar un camino de regreso','Cruzar la zona pintada de gore (área triangular rayada) para alcanzar la salida'],exp:'Si se pierde una salida de autopista, nunca se detenga, retroceda, ni cruce la zona gore pintada (área triangular rayada entre la autopista y la rampa de salida). Estas acciones son ilegales y extremadamente peligrosas. Simplemente continúe hasta la próxima salida, salga de la autopista y encuentre una ruta de regreso.'},
+  ans:2
+},
+{
+  id:418, cat:'safety',
+  en:{q:'What should you do if your brakes fail while driving?',opts:['Immediately turn off the engine and coast to a stop','Pump the brakes rapidly to build pressure, shift to a lower gear, use the parking brake gradually, and steer toward a safe area','Steer sharply to the side of the road and open the door to slow down','Swerve back and forth to create friction and slow the car'],exp:'If your brakes fail: first try pumping the brake pedal rapidly to build hydraulic pressure. Downshift to use engine braking. Apply the parking/emergency brake gradually (not suddenly, to avoid spinning). Steer toward a safe area — use a runaway truck ramp, open space, or soft surface to slow down. Turn on hazard lights and honk to warn others.'},
+  zh:{q:'如果行驶中刹车失灵，应该怎么做？',opts:['立即关闭发动机并滑行停车','快速踩踏刹车以建立压力，换低挡，逐渐使用驻车刹车，并转向安全区域','猛地转向路边并打开车门减速','左右蛇行产生摩擦来减速'],exp:'如果刹车失灵：首先快速踩踏刹车踏板以建立液压压力。降挡使用发动机制动。逐渐（而非突然）施加驻车/紧急刹车以避免打滑。转向安全区域——使用失控卡车匝道、开阔空间或软质地面减速。打开危险警告灯并鸣笛警告他人。'},
+  zhTW:{q:'如果行駛中剎車失靈，應該怎麼做？',opts:['立即關閉發動機並滑行停車','快速踩踏剎車以建立壓力，換低檔，逐漸使用駐車剎車，並轉向安全區域','猛地轉向路邊並打開車門減速','左右蛇行產生摩擦來減速'],exp:'如果剎車失靈：首先快速踩踏剎車踏板以建立液壓壓力。降檔使用發動機制動。逐漸（而非突然）施加駐車/緊急剎車以避免打滑。轉向安全區域——使用失控卡車匝道、開闊空間或軟質地面減速。打開危險警告燈並鳴笛警告他人。'},
+  es:{q:'¿Qué debe hacer si los frenos fallan mientras conduce?',opts:['Apague el motor inmediatamente y ruede hasta detenerse','Bombee los frenos rápidamente para generar presión, cambie a una marcha más baja, use el freno de mano gradualmente y dirija hacia un área segura','Gire bruscamente hacia el lado de la carretera y abra la puerta para reducir velocidad','Zigzaguee para crear fricción y reducir la velocidad del carro'],exp:'Si fallan los frenos: primero intente bombear el pedal del freno rápidamente para construir presión hidráulica. Baje a una marcha más baja para usar el freno del motor. Aplique el freno de estacionamiento/emergencia gradualmente (no de golpe, para evitar derrapar). Dirija hacia un área segura — use una rampa de camiones desbocados, espacio abierto o superficie suave para reducir velocidad.'},
+  ans:1
+},
+{
+  id:419, cat:'signs',
+  en:{q:'What does a blue rectangular sign on a highway indicate?',opts:['A rest area or viewpoint ahead','Motorist services ahead — such as gas, food, or lodging','A toll booth is ahead','Hospital or medical services only'],exp:'Blue rectangular signs on highways indicate motorist services. They show that services such as gasoline stations, restaurants, lodging (hotels/motels), and camping are available at the upcoming exit or nearby. These signs help drivers plan stops without having to exit to discover what services are available.'},
+  zh:{q:'高速公路上的蓝色矩形标志表示什么？',opts:['前方有休息区或观景点','前方有驾驶员服务——如加油站、餐厅或住宿','前方有收费站','仅限医院或医疗服务'],exp:'高速公路上的蓝色矩形标志表示驾驶员服务。它们显示即将到来的出口或附近有加油站、餐厅、住宿（酒店/汽车旅馆）和露营地等服务。这些标志帮助驾驶员计划停靠，而无需先下出口查看有哪些服务。'},
+  zhTW:{q:'高速公路上的藍色矩形標誌表示什麼？',opts:['前方有休息區或觀景點','前方有駕駛員服務——如加油站、餐廳或住宿','前方有收費站','僅限醫院或醫療服務'],exp:'高速公路上的藍色矩形標誌表示駕駛員服務。它們顯示即將到來的出口或附近有加油站、餐廳、住宿（酒店/汽車旅館）和露營地等服務。這些標誌幫助駕駛員計劃停靠，而無需先下出口查看有哪些服務。'},
+  es:{q:'¿Qué indica un letrero rectangular azul en una autopista?',opts:['Hay un área de descanso o mirador adelante','Servicios para automovilistas adelante — como gasolina, comida u hospedaje','Hay una caseta de peaje adelante','Solo hospital o servicios médicos'],exp:'Los letreros rectangulares azules en autopistas indican servicios para automovilistas. Muestran que hay gasolineras, restaurantes, hospedaje (hoteles/moteles) y campamentos disponibles en la próxima salida o cerca. Estos letreros ayudan a los conductores a planificar paradas sin tener que salir para descubrir qué servicios hay.'},
+  ans:1
+},
+{
+  id:420, cat:'laws',
+  en:{q:'What is the "basic speed law" in California?',opts:['You must always drive at or below the posted speed limit','You must never drive faster than is safe for current road, weather, and traffic conditions — even if below the posted limit','You must maintain the minimum speed limit at all times on freeways','The speed limit is always 65 mph on state highways unless otherwise posted'],exp:'California\'s basic speed law states that no person shall drive a vehicle at a speed greater than is reasonable or prudent, given weather, visibility, traffic, and road surface conditions. Even if you are driving below the posted speed limit, you can be cited if your speed is unsafe for conditions — for example, driving 55 mph during dense fog.'},
+  zh:{q:'加州的"基本速度法则"是什么？',opts:['必须始终在限速或以下行驶','永远不得以超过当前道路、天气和交通状况安全速度行驶——即使低于限速','在高速公路上必须始终保持最低限速','除非另有标志，州立公路限速始终为65英里/小时'],exp:'加州基本速度法则规定，考虑到天气、能见度、交通和路面状况，任何人不得以超过合理或谨慎的速度驾驶车辆。即使低于限速行驶，如果速度对当前状况不安全，也可能被罚款——例如在浓雾中以55英里/小时行驶。'},
+  zhTW:{q:'加州的"基本速度法則"是什麼？',opts:['必須始終在限速或以下行駛','永遠不得以超過當前道路、天氣和交通狀況安全速度行駛——即使低於限速','在高速公路上必須始終保持最低限速','除非另有標誌，州立公路限速始終為65英里/小時'],exp:'加州基本速度法則規定，考慮到天氣、能見度、交通和路面狀況，任何人不得以超過合理或謹慎的速度駕駛車輛。即使低於限速行駛，如果速度對當前狀況不安全，也可能被罰款——例如在濃霧中以55英里/小時行駛。'},
+  es:{q:'¿Cuál es la "ley de velocidad básica" en California?',opts:['Siempre debe conducir al límite de velocidad o por debajo','Nunca debe conducir más rápido de lo que sea seguro para las condiciones actuales de carretera, clima y tráfico — incluso si está por debajo del límite','Debe mantener la velocidad mínima en autopistas en todo momento','El límite de velocidad siempre es 65 mph en carreteras estatales a menos que se indique lo contrario'],exp:'La ley de velocidad básica de California establece que nadie debe conducir a una velocidad mayor de lo que sea razonable o prudente dado el clima, visibilidad, tráfico y condiciones de la superficie vial. Incluso si conduce por debajo del límite, puede ser multado si su velocidad es insegura para las condiciones — por ejemplo, conduciendo 55 mph en niebla densa.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
