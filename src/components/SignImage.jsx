@@ -283,7 +283,7 @@ export default function SignImage({ type, size = 120 }) {
       <svg width={s} height={s} viewBox="0 0 120 120" className="sign-svg">
         <polygon points="60,4 116,60 60,116 4,60" fill="#FFCC00" stroke="black" strokeWidth="3"/>
         <line x1="50" y1="90" x2="50" y2="40" stroke="black" strokeWidth="5" strokeLinecap="round"/>
-        <line x1="72" y1="90" x2="72" y2,"58" stroke="black" strokeWidth="5" strokeLinecap="round"/>
+        <line x1="72" y1="90" x2="72" y2="58" stroke="black" strokeWidth="5" strokeLinecap="round"/>
         <path d="M72,58 Q72,42 58,36 L50,32" fill="none" stroke="black" strokeWidth="5" strokeLinecap="round"/>
         <polygon points="43,36 57,28 50,42" fill="black"/>
       </svg>

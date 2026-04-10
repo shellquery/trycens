@@ -1,32 +1,40 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import SignImage from './SignImage.jsx'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
 const UI = {
-  next:        { en: 'Next', zh: '下一题', zhTW: '下一題', es: 'Siguiente' },
-  finish:      { en: 'Finish', zh: '完成', zhTW: '完成', es: 'Terminar' },
-  exit:        { en: 'Exit', zh: '退出', zhTW: '退出', es: 'Salir' },
-  explanation: { en: 'Explanation', zh: '解析', zhTW: '解析', es: 'Explicación' },
-  question:    { en: 'Question', zh: '第', zhTW: '第', es: 'Pregunta' },
-  of:          { en: 'of', zh: '/', zhTW: '/', es: 'de' },
+  next:        { en: 'Next',        zh: '下一题', zhTW: '下一題', es: 'Siguiente' },
+  finish:      { en: 'Finish',      zh: '完成',   zhTW: '完成',   es: 'Terminar' },
+  exit:        { en: 'Exit',        zh: '退出',   zhTW: '退出',   es: 'Salir' },
+  explanation: { en: 'Explanation', zh: '解析',   zhTW: '解析',   es: 'Explicación' },
+  question:    { en: 'Question',    zh: '第',     zhTW: '第',     es: 'Pregunta' },
+  of:          { en: 'of',          zh: '/',      zhTW: '/',      es: 'de' },
+  keyHint:     { en: 'Press 1–4 to answer · Enter to continue', zh: '按 1–4 选答案 · 回车继续', zhTW: '按 1–4 選答案 · 回車繼續', es: 'Presiona 1–4 para responder · Enter para continuar' },
 }
 function t(key, lang) { return UI[key]?.[lang] || UI[key]?.en || key }
 
-function fmtTime(ms) {
-  const s = Math.floor(ms / 1000)
+function fmtTime(s) {
   const m = Math.floor(s / 60)
   return `${m}:${String(s % 60).padStart(2, '0')}`
 }
 
 export default function Quiz({ lang, questions, onFinish, onExit, categories }) {
-  const [idx, setIdx]         = useState(0)
-  const [answers, setAnswers] = useState(new Array(questions.length).fill(null))
-  const [selected, setSelected] = useState(null)   // current selection
-  const [revealed, setRevealed] = useState(false)  // answer shown?
-  const [startMs]             = useState(Date.now())
+  const [idx, setIdx]           = useState(0)
+  const [answers, setAnswers]   = useState(() => new Array(questions.length).fill(null))
+  const [selected, setSelected] = useState(null)
+  const [revealed, setRevealed] = useState(false)
+  const [secs, setSecs]         = useState(0)
+  const startRef                = useRef(Date.now())
+  const timerRef                = useRef(null)
 
-  const q = questions[idx]
+  // Live timer
+  useEffect(() => {
+    timerRef.current = setInterval(() => setSecs(Math.floor((Date.now() - startRef.current) / 1000)), 1000)
+    return () => clearInterval(timerRef.current)
+  }, [])
+
+  const q     = questions[idx]
   const qData = q?.[lang] || q?.en
   const isLast = idx === questions.length - 1
 
@@ -43,26 +51,25 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
 
   const advance = useCallback(() => {
     if (isLast) {
-      onFinish(
-        answers.map((a, i) => (i === idx ? selected : a)),
-        Date.now() - startMs
-      )
+      clearInterval(timerRef.current)
+      // answers[idx] is already set; read via functional update to get latest
+      setAnswers(prev => {
+        onFinish(prev, Date.now() - startRef.current)
+        return prev
+      })
     } else {
       setIdx(i => i + 1)
       setSelected(null)
       setRevealed(false)
     }
-  }, [isLast, idx, selected, answers, onFinish, startMs])
+  }, [isLast, onFinish])
 
-  // keyboard shortcuts
+  // Keyboard shortcuts
   useEffect(() => {
     const handler = (e) => {
-      if (['1','2','3','4'].includes(e.key) && !revealed) {
-        pickAnswer(+e.key - 1)
-      }
-      if ((e.key === 'Enter' || e.key === ' ') && revealed) {
-        advance()
-      }
+      if (e.target.tagName === 'BUTTON') return
+      if (['1','2','3','4'].includes(e.key) && !revealed) pickAnswer(+e.key - 1)
+      if ((e.key === 'Enter' || e.key === ' ') && revealed) { e.preventDefault(); advance() }
     }
     window.addEventListener('keydown', handler)
     return () => window.removeEventListener('keydown', handler)
@@ -70,12 +77,14 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
 
   if (!q) return null
 
-  const pct = Math.round(((idx) / questions.length) * 100)
+  const answeredCount = answers.filter(a => a !== null).length
+  const pct = Math.round((answeredCount / questions.length) * 100)
   const catLabel = categories[q.cat]?.[lang] || categories[q.cat]?.en || q.cat
+  const isCorrect = selected === q.ans
 
   return (
-    <main className="page fade-in">
-      {/* Progress */}
+    <main className="page">
+      {/* Progress bar */}
       <div className="progress-wrap">
         <div className="progress-bar" style={{ width: `${pct}%` }} />
       </div>
@@ -84,44 +93,50 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
       <div className="quiz-meta">
         <span className="quiz-counter">
           {lang === 'zh' || lang === 'zhTW'
-            ? `${t('question', lang)} ${idx + 1} ${t('of', lang)} ${questions.length} 题`
+            ? `第 ${idx + 1} / ${questions.length} 题`
             : `${t('question', lang)} ${idx + 1} ${t('of', lang)} ${questions.length}`}
         </span>
+        <span className="quiz-timer">{fmtTime(secs)}</span>
         <span className="quiz-cat">{catLabel}</span>
       </div>
 
-      {/* Question card */}
+      {/* Question card — key forces remount = animation replay */}
       <div className="q-card pop-in" key={idx}>
-        {/* Sign image */}
         {q.sign && (
           <div className="sign-wrap">
-            <SignImage type={q.sign} size={120} />
+            <SignImage type={q.sign} size={130} />
           </div>
         )}
 
         <p className="q-text">{qData?.q}</p>
 
-        {/* Options */}
         <div className="options-list">
           {qData?.opts?.map((opt, i) => {
             let cls = 'option-btn'
             if (revealed) {
-              if (i === q.ans) cls += ' correct'
-              else if (i === selected && selected !== q.ans) cls += ' incorrect'
+              if (i === q.ans)                           cls += ' correct'
+              else if (i === selected && !isCorrect)     cls += ' incorrect'
             }
             return (
-              <button
-                key={i}
-                className={cls}
-                onClick={() => pickAnswer(i)}
-                disabled={revealed}
-              >
+              <button key={i} className={cls} onClick={() => pickAnswer(i)} disabled={revealed}>
                 <span className="option-letter">{LETTERS[i]}</span>
-                <span>{opt}</span>
+                <span className="option-text">{opt}</span>
+                {revealed && i === q.ans   && <span className="option-icon">✓</span>}
+                {revealed && i === selected && !isCorrect && i !== q.ans && <span className="option-icon">✗</span>}
               </button>
             )
           })}
         </div>
+
+        {/* Result flash */}
+        {revealed && (
+          <div className={`result-flash ${isCorrect ? 'flash-correct' : 'flash-incorrect'} fade-in`}>
+            {isCorrect ? '✓ ' : '✗ '}
+            {isCorrect
+              ? (lang === 'zh' ? '回答正确！' : lang === 'zhTW' ? '回答正確！' : lang === 'es' ? '¡Correcto!' : 'Correct!')
+              : (lang === 'zh' ? '答错了' : lang === 'zhTW' ? '答錯了' : lang === 'es' ? 'Incorrecto' : 'Incorrect')}
+          </div>
+        )}
 
         {/* Explanation */}
         {revealed && qData?.exp && (
@@ -135,10 +150,12 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
       {/* Footer */}
       <div className="quiz-footer">
         <button className="exit-btn" onClick={onExit}>{t('exit', lang)}</button>
-        {revealed && (
+        {revealed ? (
           <button className="next-btn" onClick={advance}>
             {isLast ? t('finish', lang) : t('next', lang)} →
           </button>
+        ) : (
+          <span className="key-hint">{t('keyHint', lang)}</span>
         )}
       </div>
     </main>

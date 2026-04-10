@@ -1,46 +1,55 @@
 import { useState } from 'react'
+import { questions } from '../data/questions.js'
 
 const COUNT_OPTIONS = [10, 20, 50, 100, 'all']
 
 const UI = {
-  subtitle:    { en: 'California DMV · 500 Questions · 4 Languages', zh: '加州驾照考试 · 500题 · 四语切换', zhTW: '加州駕照考試 · 500題 · 四語切換', es: 'Examen DMV California · 500 preguntas · 4 idiomas' },
-  questionsLabel: { en: 'Questions per session', zh: '每次练习题数', zhTW: '每次練習題數', es: 'Preguntas por sesión' },
-  categoryLabel:  { en: 'Category', zh: '题目分类', zhTW: '題目分類', es: 'Categoría' },
-  startBtn:    { en: 'Start Practice Test', zh: '开始练习', zhTW: '開始練習', es: 'Comenzar Práctica' },
-  all:         { en: 'All Categories', zh: '全部分类', zhTW: '全部分類', es: 'Todas las categorías' },
-  allCount:    { en: 'All', zh: '全部', zhTW: '全部', es: 'Todo' },
-  totalQ:      { en: 'Total Questions', zh: '题目总数', zhTW: '題目總數', es: 'Total de Preguntas' },
-  cats:        { en: 'Categories', zh: '题目分类', zhTW: '題目分類', es: 'Categorías' },
-  langs:       { en: 'Languages', zh: '支持语言', zhTW: '支持語言', es: 'Idiomas' },
+  sub:      { en: '500 questions · 4 languages · Day & Night mode', zh: '500题精选 · 四语切换 · 昼夜模式', zhTW: '500題精選 · 四語切換 · 晝夜模式', es: '500 preguntas · 4 idiomas · Modo día y noche' },
+  perSess:  { en: 'Questions per session', zh: '每次题数', zhTW: '每次題數', es: 'Preguntas por sesión' },
+  catLabel: { en: 'Category', zh: '题目分类', zhTW: '題目分類', es: 'Categoría' },
+  startBtn: { en: 'Start Practice Test', zh: '开始练习 →', zhTW: '開始練習 →', es: 'Comenzar →' },
+  allCats:  { en: 'All', zh: '全部', zhTW: '全部', es: 'Todas' },
+  allCount: { en: 'All', zh: '全部', zhTW: '全部', es: 'Todo' },
+  qTotal:   { en: 'Questions', zh: '题目', zhTW: '題目', es: 'Preguntas' },
+  cats:     { en: 'Categories', zh: '分类', zhTW: '分類', es: 'Categorías' },
+  langs:    { en: 'Languages', zh: '语言', zhTW: '語言', es: 'Idiomas' },
+  tip:      { en: 'Tip: use keys 1–4 to answer and Enter to advance', zh: '提示：按1–4选答案，按回车前进', zhTW: '提示：按1–4選答案，按回車前進', es: 'Consejo: teclas 1–4 para responder, Enter para avanzar' },
 }
-
 function t(key, lang) { return UI[key]?.[lang] || UI[key]?.en || key }
+
+// Count questions per category
+const catCounts = questions.reduce((acc, q) => {
+  acc[q.cat] = (acc[q.cat] || 0) + 1
+  return acc
+}, {})
 
 export default function Home({ lang, onStart, totalQuestions, categories }) {
   const [count, setCount]       = useState(20)
   const [category, setCategory] = useState('all')
 
   const catKeys = ['all', ...Object.keys(categories)]
+  const effectiveCount = category === 'all' ? totalQuestions : (catCounts[category] || 0)
+  const actualCount    = count === 'all' ? effectiveCount : Math.min(count, effectiveCount)
 
   return (
     <main className="page fade-in">
       {/* Hero */}
       <div className="home-hero">
-        <div className="home-badge">🚗 CA DMV</div>
+        <div className="home-badge">CA DMV</div>
         <h1 className="home-title">
           {lang === 'zh' ? '加州驾考宝典' :
            lang === 'zhTW' ? '加州駕考寶典' :
-           lang === 'es' ? 'Guía de Examen DMV' :
-           'CA DMV Study Guide'}
+           lang === 'es'   ? 'Guía DMV California' :
+                             'CA DMV Study Guide'}
         </h1>
-        <p className="home-subtitle">{t('subtitle', lang)}</p>
+        <p className="home-subtitle">{t('sub', lang)}</p>
       </div>
 
       {/* Stats */}
-      <div className="stats-row" style={{ marginBottom: 20 }}>
+      <div className="stats-row">
         <div className="stat-pill">
           <div className="stat-number">{totalQuestions}</div>
-          <div className="stat-label">{t('totalQ', lang)}</div>
+          <div className="stat-label">{t('qTotal', lang)}</div>
         </div>
         <div className="stat-pill">
           <div className="stat-number">{Object.keys(categories).length}</div>
@@ -52,44 +61,44 @@ export default function Home({ lang, onStart, totalQuestions, categories }) {
         </div>
       </div>
 
-      {/* Question count */}
+      {/* Count picker */}
       <div className="config-card">
-        <div className="config-label">{t('questionsLabel', lang)}</div>
+        <div className="config-label">{t('perSess', lang)}</div>
         <div className="chip-group">
           {COUNT_OPTIONS.map(c => (
-            <button
-              key={c}
-              className={`chip${count === c ? ' active' : ''}`}
-              onClick={() => setCount(c)}
-            >
+            <button key={c} className={`chip${count === c ? ' active' : ''}`} onClick={() => setCount(c)}>
               {c === 'all' ? t('allCount', lang) : c}
             </button>
           ))}
         </div>
       </div>
 
-      {/* Category */}
+      {/* Category picker */}
       <div className="config-card">
-        <div className="config-label">{t('categoryLabel', lang)}</div>
+        <div className="config-label">{t('catLabel', lang)}</div>
         <div className="chip-group">
-          {catKeys.map(k => (
-            <button
-              key={k}
-              className={`chip${category === k ? ' active' : ''}`}
-              onClick={() => setCategory(k)}
-            >
-              {k === 'all' ? t('all', lang) : (categories[k]?.[lang] || categories[k]?.en)}
-            </button>
-          ))}
+          {catKeys.map(k => {
+            const cnt = k === 'all' ? totalQuestions : (catCounts[k] || 0)
+            const label = k === 'all' ? t('allCats', lang) : (categories[k]?.[lang] || categories[k]?.en)
+            return (
+              <button key={k} className={`chip${category === k ? ' active' : ''}`} onClick={() => setCategory(k)}>
+                {label}
+                <span className="chip-count">{cnt}</span>
+              </button>
+            )
+          })}
         </div>
       </div>
 
-      <button
-        className="start-btn"
-        onClick={() => onStart({ count: count === 'all' ? totalQuestions : count, category })}
-      >
-        {t('startBtn', lang)} →
+      {/* Start */}
+      <button className="start-btn" onClick={() => onStart({ count: count === 'all' ? effectiveCount : count, category })}>
+        {t('startBtn', lang)}
+        {actualCount < (count === 'all' ? effectiveCount : count) && (
+          <span style={{ fontSize: 13, opacity: .75, marginLeft: 6 }}>({actualCount})</span>
+        )}
       </button>
+
+      <p className="home-tip">{t('tip', lang)}</p>
     </main>
   )
 }
