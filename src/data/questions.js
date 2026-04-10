@@ -2496,4 +2496,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 21 · Road Signs (More) · Q201–210 ─────────────────────────────────
+{
+  id:201, cat:'signs', sign:'curve-right',
+  en:{q:'What does this sign warn drivers about?',opts:['A sharp right turn ahead','A slight curve to the right ahead','A right lane ending soon','Traffic merging from the right'],exp:'This yellow warning sign indicates a curve to the right ahead. Slow down before entering the curve. The advisory speed (if shown) tells the maximum safe speed for this curve. Do not brake in the curve — brake before entering it.'},
+  zh:{q:'这个标志提醒驾驶者注意什么？',opts:['前方急右转','前方有向右弯道','右侧车道即将结束','车辆从右侧汇入'],exp:'这个黄色警告标志表示前方有向右弯道。在进入弯道前减速。咨询速度（如有显示）告知该弯道的最大安全速度。不要在弯道中制动——在进入弯道前制动。'},
+  zhTW:{q:'這個標誌提醒駕駛者注意什麼？',opts:['前方急右轉','前方有向右彎道','右側車道即將結束','車輛從右側匯入'],exp:'這個黃色警告標誌表示前方有向右彎道。在進入彎道前減速。諮詢速度（如有顯示）告知該彎道的最大安全速度。不要在彎道中制動——在進入彎道前制動。'},
+  es:{q:'¿De qué advierte esta señal a los conductores?',opts:['Una curva brusca a la derecha adelante','Una curva suave a la derecha adelante','Un carril derecho que termina pronto','Tráfico incorporándose desde la derecha'],exp:'Esta señal de advertencia amarilla indica una curva a la derecha adelante. Reduzca la velocidad antes de entrar a la curva. La velocidad recomendada (si se muestra) indica la velocidad máxima segura para esta curva. No frene en la curva — frene antes de entrar.'},
+  ans:0
+},
+{
+  id:202, cat:'signs', sign:'winding-road',
+  en:{q:'This sign indicates:',opts:['Multiple curves ahead in a winding road','Road construction ahead','A scenic road suitable for slow driving','Slippery road conditions'],exp:'The winding road sign warns of a series of curves ahead. Reduce your speed, do not pass, and stay alert for the full length of the winding section. This sign is common in mountain roads and coastal highways.'},
+  zh:{q:'这个标志表示：',opts:['前方蜿蜒路段有多处弯道','前方有道路施工','适合慢速行驶的风景道路','滑溜路面状况'],exp:'蜿蜒道路标志警告前方有一系列弯道。降低速度，不要超车，在整个蜿蜒路段保持警觉。这个标志常见于山路和海岸公路。'},
+  zhTW:{q:'這個標誌表示：',opts:['前方蜿蜒路段有多處彎道','前方有道路施工','適合慢速行駛的風景道路','滑溜路面狀況'],exp:'蜿蜒道路標誌警告前方有一系列彎道。降低速度，不要超車，在整個蜿蜒路段保持警覺。這個標誌常見於山路和海岸公路。'},
+  es:{q:'Esta señal indica:',opts:['Múltiples curvas adelante en una carretera sinuosa','Construcción de carretera adelante','Una carretera escénica adecuada para conducción lenta','Condiciones de carretera resbaladiza'],exp:'La señal de carretera sinuosa advierte de una serie de curvas adelante. Reduzca su velocidad, no adelante y manténgase alerta durante toda la longitud de la sección sinuosa. Esta señal es común en carreteras de montaña y autopistas costeras.'},
+  ans:0
+},
+{
+  id:203, cat:'signs', sign:'slippery',
+  en:{q:'What should you do when you see this sign?',opts:['Check your tires for wear before proceeding','Reduce speed and avoid sudden braking or steering','Come to a complete stop and wait for conditions to improve','Turn on high-beam headlights'],exp:'The slippery when wet sign (a car with wavy skid marks) warns that the road surface may become very slippery when wet. Slow down, increase following distance, and avoid sudden braking, accelerating, or steering. This sign is often posted near bridges, shaded areas, and roads with special surfaces.'},
+  zh:{q:'看到这个标志时您应该怎么做？',opts:['继续前行前检查轮胎磨损','减速并避免急刹车或急转向','完全停车等待条件改善','打开远光灯'],exp:'"湿滑"标志（带波浪形轮胎痕迹的汽车图案）警告路面在湿润时可能变得非常滑。减速，增加跟车距离，避免急刹车、急加速或急转向。这个标志常见于桥梁、阴影区域和特殊路面道路旁。'},
+  zhTW:{q:'看到這個標誌時您應該怎麼做？',opts:['繼續前行前檢查輪胎磨損','減速並避免急剎車或急轉向','完全停車等待條件改善','打開遠光燈'],exp:'"濕滑"標誌（帶波浪形輪胎痕跡的汽車圖案）警告路面在濕潤時可能變得非常滑。減速，增加跟車距離，避免急剎車、急加速或急轉向。這個標誌常見於橋梁、陰影區域和特殊路面道路旁。'},
+  es:{q:'¿Qué debe hacer cuando ve esta señal?',opts:['Revise el desgaste de sus neumáticos antes de proceder','Reduzca la velocidad y evite frenado o dirección repentinos','Detenga completamente y espere a que mejoren las condiciones','Encienda los faros de luz alta'],exp:'La señal de resbaladizo cuando está mojado (un auto con marcas de patinaje onduladas) advierte que la superficie de la carretera puede volverse muy resbaladiza cuando está mojada. Reduzca la velocidad, aumente la distancia de seguimiento y evite frenado, aceleración o dirección repentinos. Esta señal a menudo se publica cerca de puentes, áreas sombreadas y carreteras con superficies especiales.'},
+  ans:1
+},
+{
+  id:204, cat:'signs', sign:'merge',
+  en:{q:'This sign means:',opts:['Two lanes of traffic merging into one','Your lane is ending — move to the right','Road under construction — merge left','Two roads splitting in opposite directions'],exp:'The merge sign indicates that two lanes of traffic are coming together into one lane ahead. Be prepared to adjust your speed and position. Yield to traffic already in the lane you are merging into, and do not force your way in.'},
+  zh:{q:'这个标志意味着：',opts:['两条车道的交通向前合并为一条','您的车道结束——向右移动','道路施工——向左合并','两条道路向相反方向分叉'],exp:'合并标志表示前方两条车道的交通合并为一条。准备好调整速度和位置。让行您正在合并进入的车道中已有的交通，不要强行插入。'},
+  zhTW:{q:'這個標誌意味著：',opts:['兩條車道的交通向前合併為一條','您的車道結束——向右移動','道路施工——向左合併','兩條道路向相反方向分叉'],exp:'合併標誌表示前方兩條車道的交通合併為一條。準備好調整速度和位置。讓行您正在合併進入的車道中已有的交通，不要強行插入。'},
+  es:{q:'Esta señal significa:',opts:['Dos carriles de tráfico fusionándose en uno','Su carril termina — muévase a la derecha','Carretera en construcción — fusiónese a la izquierda','Dos carreteras dividiéndose en direcciones opuestas'],exp:'La señal de fusión indica que dos carriles de tráfico se están juntando en un carril adelante. Esté preparado para ajustar su velocidad y posición. Ceda al tráfico ya en el carril al que se está fusionando y no se fuerce a entrar.'},
+  ans:0
+},
+{
+  id:205, cat:'signs', sign:'lane-ends',
+  en:{q:'What must you do when you see this sign?',opts:['Stop — the road ends ahead','Your lane is ending — merge safely into the adjacent lane','One lane is closed due to construction — use alternate route','Traffic must yield to on-ramp traffic'],exp:'This sign warns that your current lane ends ahead and you must merge into the adjacent lane. Begin merging early, signal your intention, and yield to traffic already in that lane. Do not race to the merge point and force your way in — merge cooperatively.'},
+  zh:{q:'看到这个标志时您必须怎么做？',opts:['停车——前方道路结束','您的车道结束——安全并入相邻车道','由于施工一条车道关闭——使用替代路线','交通必须让行上匝道交通'],exp:'这个标志警告您的当前车道前方结束，您必须并入相邻车道。尽早开始合并，发出意图信号，并让行已在该车道的交通。不要飞速行驶到合并点并强行插入——合作地合并。'},
+  zhTW:{q:'看到這個標誌時您必須怎麼做？',opts:['停車——前方道路結束','您的車道結束——安全並入相鄰車道','由於施工一條車道關閉——使用替代路線','交通必須讓行上匝道交通'],exp:'這個標誌警告您的當前車道前方結束，您必須並入相鄰車道。儘早開始合併，發出意圖信號，並讓行已在該車道的交通。不要飛速行駛到合併點並強行插入——合作地合併。'},
+  es:{q:'¿Qué debe hacer cuando ve esta señal?',opts:['Detenga — la carretera termina adelante','Su carril termina — fusiónese de forma segura al carril adyacente','Un carril está cerrado debido a construcción — use ruta alternativa','El tráfico debe ceder al tráfico de la rampa de acceso'],exp:'Esta señal advierte que su carril actual termina adelante y debe fusionarse al carril adyacente. Comience a fusionarse temprano, señalice su intención y ceda al tráfico ya en ese carril. No corra hasta el punto de fusión y se fuerce a entrar — fusiónese de manera cooperativa.'},
+  ans:1
+},
+{
+  id:206, cat:'signs', sign:'ped-crossing',
+  en:{q:'This sign warns that:',opts:['Pedestrians are not allowed to cross here','A pedestrian crosswalk is ahead — watch for people crossing','A school zone begins here','Walking trail crosses the road ahead'],exp:'The pedestrian crossing sign (a figure of a person walking) warns that a crosswalk is nearby and pedestrians may be crossing. Slow down, be prepared to stop, and scan for pedestrians — including those who may not be visible yet. These signs are common near parks, malls, and senior centers.'},
+  zh:{q:'这个标志警告：',opts:['行人不允许在此过马路','前方有人行横道——注意过街的人','学校区域从这里开始','步行道穿越前方道路'],exp:'行人过街标志（行走的人物图案）警告附近有人行横道，行人可能正在过街。减速，准备停车，并扫视行人——包括那些可能还不可见的人。这些标志常见于公园、购物中心和老年人中心附近。'},
+  zhTW:{q:'這個標誌警告：',opts:['行人不允許在此過馬路','前方有人行橫道——注意過街的人','學校區域從這裡開始','步行道穿越前方道路'],exp:'行人過街標誌（行走的人物圖案）警告附近有人行橫道，行人可能正在過街。減速，準備停車，並掃視行人——包括那些可能還不可見的人。這些標誌常見於公園、購物中心和老年人中心附近。'},
+  es:{q:'Esta señal advierte que:',opts:['Los peatones no pueden cruzar aquí','Hay un cruce peatonal adelante — esté atento a personas cruzando','Comienza una zona escolar aquí','Un sendero peatonal cruza la carretera adelante'],exp:'La señal de cruce peatonal (figura de una persona caminando) advierte que hay un cruce peatonal cerca y los peatones pueden estar cruzando. Reduzca la velocidad, prepárese para detenerse y escanee los peatones — incluyendo los que pueden no ser visibles todavía. Estas señales son comunes cerca de parques, centros comerciales y centros para personas mayores.'},
+  ans:1
+},
+{
+  id:207, cat:'signs', sign:'deer',
+  en:{q:'What does this sign warn about?',opts:['A wildlife sanctuary area — no hunting','Deer or other animals frequently cross this road','Deer meat sold ahead','Farm animals may be on the road'],exp:'The deer crossing sign warns that deer (and other wildlife) frequently cross the road in this area. Be especially cautious at dawn and dusk when deer are most active. If you see one deer, watch for more — they rarely travel alone. Slow down and scan the roadside carefully.'},
+  zh:{q:'这个标志警告什么？',opts:['野生动物保护区——禁止狩猎','鹿或其他动物经常穿越这条道路','前方有鹿肉出售','农场动物可能在道路上'],exp:'鹿穿越标志警告鹿（和其他野生动物）在此区域经常穿越道路。在黎明和黄昏时尤其要小心，因为那时鹿最为活跃。如果您看到一只鹿，注意更多的——它们很少单独行动。减速并仔细扫视路旁。'},
+  zhTW:{q:'這個標誌警告什麼？',opts:['野生動物保護區——禁止狩獵','鹿或其他動物經常穿越這條道路','前方有鹿肉出售','農場動物可能在道路上'],exp:'鹿穿越標誌警告鹿（和其他野生動物）在此區域經常穿越道路。在黎明和黃昏時尤其要小心，因為那時鹿最為活躍。如果您看到一隻鹿，注意更多的——它們很少單獨行動。減速並仔細掃視路旁。'},
+  es:{q:'¿De qué advierte esta señal?',opts:['Un área de santuario de vida silvestre — sin caza','Los ciervos u otros animales cruzan frecuentemente esta carretera','Carne de venado vendida adelante','Animales de granja pueden estar en la carretera'],exp:'La señal de cruce de ciervos advierte que los ciervos (y otros animales salvajes) cruzan frecuentemente la carretera en esta área. Sea especialmente cauteloso al amanecer y al anochecer cuando los ciervos son más activos. Si ve un ciervo, esté atento a más — rara vez viajan solos. Reduzca la velocidad y escanee el costado de la carretera cuidadosamente.'},
+  ans:1
+},
+{
+  id:208, cat:'signs', sign:'construction',
+  en:{q:'What does an orange sign with a worker symbol indicate?',opts:['Road closed permanently','Construction or maintenance work zone ahead — slow down','Detour route for heavy trucks','Orange is a background color with no special meaning'],exp:'Orange signs indicate construction and maintenance work zones. Speed limits are reduced in work zones and fines are doubled for violations. Workers and equipment may be present. Pay close attention to flaggers (people with flags directing traffic) who have the same authority as traffic signals.'},
+  zh:{q:'带有工人符号的橙色标志表示什么？',opts:['道路永久关闭','前方有建筑或维护工作区——减速','重型卡车绕行路线','橙色是没有特殊含义的背景色'],exp:'橙色标志表示建筑和维护工作区。工作区内的速度限制降低，违规罚款翻倍。工人和设备可能在场。密切关注旗手（持旗指挥交通的人），他们与交通信号具有同等权威。'},
+  zhTW:{q:'帶有工人符號的橙色標誌表示什麼？',opts:['道路永久關閉','前方有建築或維護工作區——減速','重型卡車繞行路線','橙色是沒有特殊含義的背景色'],exp:'橙色標誌表示建築和維護工作區。工作區內的速度限制降低，違規罰款翻倍。工人和設備可能在場。密切關注旗手（持旗指揮交通的人），他們與交通信號具有同等權威。'},
+  es:{q:'¿Qué indica una señal naranja con símbolo de trabajador?',opts:['Carretera cerrada permanentemente','Zona de trabajo de construcción o mantenimiento adelante — reduzca la velocidad','Ruta de desvío para camiones pesados','Naranja es un color de fondo sin significado especial'],exp:'Las señales naranjas indican zonas de trabajo de construcción y mantenimiento. Los límites de velocidad se reducen en las zonas de trabajo y las multas se duplican por infracciones. Trabajadores y equipos pueden estar presentes. Preste mucha atención a los abanderadores (personas con banderas que dirigen el tráfico) que tienen la misma autoridad que las señales de tráfico.'},
+  ans:1
+},
+{
+  id:209, cat:'signs', sign:'divided-begins',
+  en:{q:'This sign means:',opts:['You are entering a divided highway — keep right','A divided highway is ending ahead','Two-way traffic begins here','Passing is prohibited ahead'],exp:'The "Divided Highway Begins" sign warns that you are approaching a divided highway (with a median or barrier separating opposing traffic). Keep to the right side. You will no longer have oncoming traffic in your lane, but pay attention to the median openings for turning vehicles.'},
+  zh:{q:'这个标志意味着：',opts:['您正在进入分隔公路——靠右行驶','前方分隔公路结束','双向交通从这里开始','前方禁止超车'],exp:'"分隔公路开始"标志警告您正在接近分隔公路（中间有隔离带或隔离物分隔对向交通）。靠右行驶。您的车道将不再有对向交通，但注意转弯车辆的隔离带开口。'},
+  zhTW:{q:'這個標誌意味著：',opts:['您正在進入分隔公路——靠右行駛','前方分隔公路結束','雙向交通從這裡開始','前方禁止超車'],exp:'"分隔公路開始"標誌警告您正在接近分隔公路（中間有隔離帶或隔離物分隔對向交通）。靠右行駛。您的車道將不再有對向交通，但注意轉彎車輛的隔離帶開口。'},
+  es:{q:'Esta señal significa:',opts:['Está entrando a una autopista dividida — manténgase a la derecha','Una autopista dividida termina adelante','El tráfico de dos vías comienza aquí','Adelantar está prohibido adelante'],exp:'La señal "Comienza Autopista Dividida" advierte que se está aproximando a una autopista dividida (con una mediana o barrera que separa el tráfico opuesto). Manténgase a la derecha. Ya no tendrá tráfico en sentido contrario en su carril, pero preste atención a las aperturas medianas para los vehículos que giran.'},
+  ans:0
+},
+{
+  id:210, cat:'signs', sign:'two-way',
+  en:{q:'What does this sign warn you about?',opts:['Road splits into two separate one-way roads ahead','Two-way traffic — be prepared for oncoming vehicles','Passing is allowed in both directions','Two lanes are available in your direction'],exp:'The "Two-Way Traffic" sign warns that you are entering or returning to a two-way road with traffic coming from both directions. This sign is common where a one-way road or divided highway transitions to a two-way road. Stay right and watch for oncoming traffic.'},
+  zh:{q:'这个标志警告您什么？',opts:['前方道路分为两条单行道','双向交通——准备好面对对向车辆','双向都允许超车','您方向有两条车道'],exp:'"双向交通"标志警告您正在进入或返回到有双向交通的双向道路。这个标志常见于单行道或分隔公路转变为双向道路的地方。靠右行驶，注意对向交通。'},
+  zhTW:{q:'這個標誌警告您什麼？',opts:['前方道路分為兩條單行道','雙向交通——準備好面對對向車輛','雙向都允許超車','您方向有兩條車道'],exp:'"雙向交通"標誌警告您正在進入或返回到有雙向交通的雙向道路。這個標誌常見於單行道或分隔公路轉變為雙向道路的地方。靠右行駛，注意對向交通。'},
+  es:{q:'¿De qué le advierte esta señal?',opts:['La carretera se divide en dos carreteras de sentido único adelante','Tráfico de dos vías — prepárese para vehículos que vienen en sentido contrario','Adelantar está permitido en ambas direcciones','Dos carriles están disponibles en su dirección'],exp:'La señal de "Tráfico de Dos Vías" advierte que está entrando o regresando a una carretera de dos vías con tráfico viniendo de ambas direcciones. Esta señal es común donde una carretera de sentido único o autopista dividida transiciona a una carretera de dos vías. Manténgase a la derecha y esté atento al tráfico en sentido contrario.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
