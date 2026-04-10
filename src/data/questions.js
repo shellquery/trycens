@@ -1454,4 +1454,139 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 9 — Freeway Driving (Q81–90)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 81, cat: 'highway',
+  en: {
+    q: 'What is an HOV lane and who may use it?',
+    opts: ['High-Occupancy Vehicle lane — requires 2 or more occupants (unless otherwise posted) or a clean-air vehicle sticker', 'Any vehicle may use it when traffic is heavy', 'Only buses and carpools of 3 or more', 'Motorcycles and bicycles only'],
+    exp: 'HOV (High-Occupancy Vehicle) lanes, also called carpool lanes, are marked with a diamond symbol. They generally require 2 or more people in the vehicle during posted hours. Motorcycles, buses, and vehicles with a valid Clean Air Vehicle sticker may also use HOV lanes.'
+  },
+  zh: { q: '什么是HOV车道，谁可以使用？', opts: ['高乘载车辆车道——需要2人或以上（除非另有标示）或清洁能源车辆贴纸', '交通拥堵时任何车辆均可使用', '仅限公共汽车和3人以上拼车', '仅限摩托车和自行车'], exp: 'HOV（高乘载车辆）车道，也称为拼车车道，以菱形符号标示。在标示时间内通常需要车内有2人或以上。摩托车、公共汽车以及有效清洁空气车辆贴纸的车辆也可以使用HOV车道。' },
+  zhTW: { q: '什麼是HOV車道，誰可以使用？', opts: ['高乘載車輛車道——需要2人或以上（除非另有標示）或清潔能源車輛貼紙', '交通擁堵時任何車輛均可使用', '僅限公共汽車和3人以上拼車', '僅限摩托車和自行車'], exp: 'HOV（高乘載車輛）車道，也稱為拼車車道，以菱形符號標示。在標示時間內通常需要車內有2人或以上。摩托車、公共汽車以及有效清潔空氣車輛貼紙的車輛也可以使用HOV車道。' },
+  es: { q: '¿Qué es un carril HOV y quién puede usarlo?', opts: ['Carril de alta ocupación — requiere 2 o más ocupantes (a menos que se indique lo contrario) o calcomanía de vehículo de aire limpio', 'Cualquier vehículo puede usarlo cuando el tráfico es pesado', 'Solo autobuses y carpools de 3 o más', 'Solo motocicletas y bicicletas'], exp: 'Los carriles HOV (Vehículo de Alta Ocupación), también llamados carriles de carpool, están marcados con un símbolo de diamante. Generalmente requieren 2 o más personas en el vehículo durante las horas publicadas. Las motocicletas, autobuses y vehículos con calcomanía de Vehículo de Aire Limpio válida también pueden usar carriles HOV.' },
+  ans: 0
+},
+
+{
+  id: 82, cat: 'highway',
+  en: {
+    q: 'How should you enter a freeway from an on-ramp?',
+    opts: ['Accelerate to match freeway traffic speed, then merge smoothly into a gap', 'Stop at the end of the ramp and wait for a large gap', 'Enter at any speed — freeway drivers must yield to merging traffic', 'Use the shoulder to merge gradually'],
+    exp: 'When entering a freeway, use the acceleration lane to build up speed matching the freeway traffic. Check mirrors and blind spots, signal, find a safe gap, and merge smoothly. Stopping on the ramp is extremely dangerous. Freeway drivers are not required to yield, but courteous drivers often adjust.'
+  },
+  zh: { q: '如何从入口匝道进入高速公路？', opts: ['加速到与高速公路车流速度匹配，然后平稳并入间隙', '在匝道末端停车，等待较大的间隙', '以任何速度进入——高速公路驾驶员必须给并入车辆让行', '使用路肩逐渐并入'], exp: '进入高速公路时，使用加速车道将速度提高到与高速公路车流相匹配。检查后视镜和盲区，打转向灯，找到安全间隙，平稳并入。在匝道上停车极其危险。高速公路上的驾驶员无需让行，但礼貌的驾驶员通常会适当调整。' },
+  zhTW: { q: '如何從入口匝道進入高速公路？', opts: ['加速到與高速公路車流速度匹配，然後平穩並入間隙', '在匝道末端停車，等待較大的間隙', '以任何速度進入——高速公路駕駛員必須給並入車輛讓行', '使用路肩逐漸並入'], exp: '進入高速公路時，使用加速車道將速度提高到與高速公路車流相匹配。檢查後視鏡和盲區，打轉向燈，找到安全間隙，平穩並入。在匝道上停車極其危險。高速公路上的駕駛員無需讓行，但禮貌的駕駛員通常會適當調整。' },
+  es: { q: '¿Cómo debe entrar a una autopista desde una rampa de acceso?', opts: ['Acelere para igualar la velocidad del tráfico de la autopista, luego fusiónese suavemente en un espacio', 'Deténgase al final de la rampa y espere un espacio grande', 'Entre a cualquier velocidad — los conductores de la autopista deben ceder al tráfico que se fusiona', 'Use el hombro para fusionarse gradualmente'], exp: 'Al entrar a una autopista, use el carril de aceleración para aumentar la velocidad igualando el tráfico. Revise espejos y puntos ciegos, señalice, encuentre un espacio seguro y fusiónese suavemente. Detenerse en la rampa es extremadamente peligroso.' },
+  ans: 0
+},
+
+{
+  id: 83, cat: 'highway',
+  en: {
+    q: 'What is the correct lane to drive in on a freeway (when not passing)?',
+    opts: ['The right lane — keep right except to pass', 'The center lane for maximum safety', 'The left (fast) lane for best visibility', 'Any lane — lane choice does not matter on freeways'],
+    exp: 'On a freeway, you should generally stay in the right lanes and use left lanes only for passing. California law requires drivers not to impede traffic by driving in the left lane at slow speeds. Keep right except to pass keeps traffic flowing safely.'
+  },
+  zh: { q: '在高速公路上（不超车时）应行驶在哪个车道？', opts: ['右侧车道——除超车外靠右行驶', '中间车道以获得最大安全性', '左侧（快速）车道以获得最佳视野', '任何车道——高速公路上车道选择无关紧要'], exp: '在高速公路上，您通常应行驶在右侧车道，仅在超车时使用左侧车道。加州法律要求驾驶员不得以低速行驶在左侧车道妨碍交通。除超车外靠右行驶可保持交通安全顺畅。' },
+  zhTW: { q: '在高速公路上（不超車時）應行駛在哪個車道？', opts: ['右側車道——除超車外靠右行駛', '中間車道以獲得最大安全性', '左側（快速）車道以獲得最佳視野', '任何車道——高速公路上車道選擇無關緊要'], exp: '在高速公路上，您通常應行駛在右側車道，僅在超車時使用左側車道。加州法律要求駕駛員不得以低速行駛在左側車道妨礙交通。除超車外靠右行駛可保持交通安全順暢。' },
+  es: { q: '¿En qué carril debe conducir en una autopista (cuando no está adelantando)?', opts: ['El carril derecho — manténgase a la derecha excepto para adelantar', 'El carril central para máxima seguridad', 'El carril izquierdo (rápido) para mejor visibilidad', 'Cualquier carril — la elección de carril no importa en autopistas'], exp: 'En una autopista, generalmente debe mantenerse en los carriles derechos y usar los carriles izquierdos solo para adelantar. La ley de California requiere que los conductores no obstaculicen el tráfico conduciendo en el carril izquierdo a baja velocidad.' },
+  ans: 0
+},
+
+{
+  id: 84, cat: 'highway',
+  en: {
+    q: 'Your vehicle breaks down on the freeway. What should you do?',
+    opts: ['Pull as far off the road as possible, turn on hazard lights, stay behind guardrail, and call for help', 'Stop in the travel lane and raise your hood', 'Walk along the freeway to the nearest exit', 'Turn on hazard lights and remain in your vehicle in the travel lane'],
+    exp: 'If your vehicle breaks down: (1) Signal and pull completely off the freeway onto the shoulder or beyond the guardrail if possible. (2) Turn on hazard lights. (3) Stay in your vehicle if safely off the road, or exit and stand behind the guardrail. (4) Call for help. Never stand behind your vehicle on the freeway.'
+  },
+  zh: { q: '您的车辆在高速公路上抛锚了。您应该怎么做？', opts: ['尽可能靠边停车，开启危险灯，站在护栏后方，并打电话求助', '在行车道上停车并打开引擎盖', '沿着高速公路步行到最近的出口', '开启危险灯并留在行车道上的车内'], exp: '车辆抛锚时：(1) 打转向灯并完全驶离高速公路到路肩或护栏外侧（如有可能）。(2) 开启危险灯。(3) 如果安全离开路面，可留在车内，或下车站在护栏后方。(4) 打电话求助。切勿站在高速公路上您车辆的后方。' },
+  zhTW: { q: '您的車輛在高速公路上拋錨了。您應該怎麼做？', opts: ['盡可能靠邊停車，開啟危險燈，站在護欄後方，並打電話求助', '在行車道上停車並打開引擎蓋', '沿著高速公路步行到最近的出口', '開啟危險燈並留在行車道上的車內'], exp: '車輛拋錨時：(1) 打轉向燈並完全駛離高速公路到路肩或護欄外側（如有可能）。(2) 開啟危險燈。(3) 如果安全離開路面，可留在車內，或下車站在護欄後方。(4) 打電話求助。切勿站在高速公路上您車輛的後方。' },
+  es: { q: 'Su vehículo se avería en la autopista. ¿Qué debe hacer?', opts: ['Orillarse lo más posible, encender las luces de emergencia, mantenerse detrás del guardacarril y pedir ayuda', 'Detenerse en el carril de tránsito y levantar el capó', 'Caminar por la autopista hasta la salida más cercana', 'Encender las luces de emergencia y permanecer en su vehículo en el carril de tránsito'], exp: 'Si su vehículo se avería: (1) Señalice y salga completamente de la autopista al hombro o más allá del guardacarril si es posible. (2) Encienda las luces de emergencia. (3) Permanezca en su vehículo si está fuera de la carretera de forma segura, o salga y párese detrás del guardacarril. (4) Pida ayuda.' },
+  ans: 0
+},
+
+{
+  id: 85, cat: 'highway',
+  en: {
+    q: 'You miss your freeway exit. What should you do?',
+    opts: ['Continue to the next exit and turn around — never reverse on a freeway', 'Stop and back up on the shoulder to the exit', 'Make a U-turn at the nearest crossover', 'Cut across the painted gore area to reach the exit'],
+    exp: 'If you miss your exit, continue to the next exit, leave the freeway, and find your way back. Never reverse on a freeway, back up on the shoulder, or cut across painted median areas. These actions are extremely dangerous and illegal.'
+  },
+  zh: { q: '您错过了高速公路出口。您应该怎么做？', opts: ['继续到下一个出口并掉头——切勿在高速公路上倒车', '在路肩倒车回到出口', '在最近的中央分隔带开口处掉头', '穿越涂色楔形区到达出口'], exp: '如果错过出口，请继续行驶到下一个出口，离开高速公路，然后找路返回。切勿在高速公路上倒车、在路肩倒车，或穿越涂色中央分隔带区域。这些行为极其危险且违法。' },
+  zhTW: { q: '您錯過了高速公路出口。您應該怎麼做？', opts: ['繼續到下一個出口並掉頭——切勿在高速公路上倒車', '在路肩倒車回到出口', '在最近的中央分隔帶開口處掉頭', '穿越塗色楔形區到達出口'], exp: '如果錯過出口，請繼續行駛到下一個出口，離開高速公路，然後找路返回。切勿在高速公路上倒車、在路肩倒車，或穿越塗色中央分隔帶區域。這些行為極其危險且違法。' },
+  es: { q: 'Se pierde su salida de la autopista. ¿Qué debe hacer?', opts: ['Continuar hasta la próxima salida y dar vuelta — nunca reversa en una autopista', 'Detenerse y dar marcha atrás en el hombro hasta la salida', 'Hacer un giro en U en el cruce mediano más cercano', 'Cruzar el área pintada de cuña para llegar a la salida'], exp: 'Si pierde su salida, continúe hasta la siguiente salida, salga de la autopista y encuentre su camino de regreso. Nunca dé marcha atrás en una autopista, en el hombro, ni cruce áreas medianas pintadas. Estas acciones son extremadamente peligrosas e ilegales.' },
+  ans: 0
+},
+
+{
+  id: 86, cat: 'highway',
+  en: {
+    q: 'What is a safe following distance when driving behind a large truck on the freeway?',
+    opts: ['At least 4 seconds — large trucks have large blind spots and long stopping distances', '2 seconds — same as for regular vehicles', 'Stay as close as possible to reduce wind drag', '1 car length per 10 mph of speed'],
+    exp: 'When following a large truck, maintain at least a 4-second following distance (more in bad weather). Large trucks have much longer stopping distances than cars and have large "no-zones" (blind spots) on all four sides. If you cannot see the truck\'s mirrors, the driver cannot see you.'
+  },
+  zh: { q: '在高速公路上跟在大型卡车后面行驶时，安全的跟车距离是多少？', opts: ['至少4秒——大型卡车有较大盲区和较长的停车距离', '2秒——与普通车辆相同', '尽量靠近以减少风阻', '每10英里/小时车速保持1辆车身距离'], exp: '跟在大型卡车后面时，保持至少4秒的跟车距离（恶劣天气下更长）。大型卡车的停车距离比轿车长得多，且四面都有较大的"盲区"。如果您看不到卡车的后视镜，驾驶员也看不到您。' },
+  zhTW: { q: '在高速公路上跟在大型卡車後面行駛時，安全的跟車距離是多少？', opts: ['至少4秒——大型卡車有較大盲區和較長的停車距離', '2秒——與普通車輛相同', '盡量靠近以減少風阻', '每10英里/小時車速保持1輛車身距離'], exp: '跟在大型卡車後面時，保持至少4秒的跟車距離（惡劣天氣下更長）。大型卡車的停車距離比轎車長得多，且四面都有較大的「盲區」。如果您看不到卡車的後視鏡，駕駛員也看不到您。' },
+  es: { q: '¿Cuál es una distancia de seguimiento segura cuando conduce detrás de un camión grande en la autopista?', opts: ['Al menos 4 segundos — los camiones grandes tienen grandes puntos ciegos y largas distancias de frenado', '2 segundos — igual que para vehículos regulares', 'Mantenerse lo más cerca posible para reducir la resistencia del viento', '1 largo de auto por cada 10 mph de velocidad'], exp: 'Cuando sigue a un camión grande, mantenga al menos 4 segundos de distancia (más en mal clima). Los camiones grandes tienen distancias de frenado mucho más largas que los autos y tienen grandes "zonas de no-visión" (puntos ciegos) en los cuatro lados.' },
+  ans: 0
+},
+
+{
+  id: 87, cat: 'highway',
+  en: {
+    q: 'Is lane splitting (riding a motorcycle between lanes of slow or stopped traffic) legal in California?',
+    opts: ['Yes — California is the only US state where it is explicitly legal', 'No — it is illegal in all situations', 'Only on freeways, not city streets', 'Only when traffic is completely stopped'],
+    exp: 'California is the only U.S. state where lane splitting by motorcycles is explicitly legal (AB 51, signed in 2016). The California Highway Patrol recommends motorcyclists go no more than 10 mph faster than surrounding traffic and not split lanes above 30 mph.'
+  },
+  zh: { q: '摩托车分道行驶（在缓行或停止的车流之间行驶）在加州合法吗？', opts: ['合法——加州是美国唯一明确允许的州', '违法——在任何情况下均违法', '仅限高速公路，不适用于城市街道', '仅当交通完全停止时'], exp: '加州是美国唯一明确允许摩托车分道行驶的州（2016年签署的AB 51法案）。加州公路巡逻队建议摩托车手行驶速度不超过周围车流10英里/小时，且分道行驶时速度不超过30英里/小时。' },
+  zhTW: { q: '摩托車分道行駛（在緩行或停止的車流之間行駛）在加州合法嗎？', opts: ['合法——加州是美國唯一明確允許的州', '違法——在任何情況下均違法', '僅限高速公路，不適用於城市街道', '僅當交通完全停止時'], exp: '加州是美國唯一明確允許摩托車分道行駛的州（2016年簽署的AB 51法案）。加州公路巡邏隊建議摩托車手行駛速度不超過周圍車流10英里/小時，且分道行駛時速度不超過30英里/小時。' },
+  es: { q: '¿Es legal el filtrado de carril (conducir una motocicleta entre carriles de tráfico lento o detenido) en California?', opts: ['Sí — California es el único estado de EE.UU. donde es explícitamente legal', 'No — es ilegal en todas las situaciones', 'Solo en autopistas, no en calles de ciudad', 'Solo cuando el tráfico está completamente detenido'], exp: 'California es el único estado de EE.UU. donde el filtrado de carril por motocicletas es explícitamente legal (AB 51, firmado en 2016). La CHP recomienda que los motociclistas no vayan más de 10 mph más rápido que el tráfico circundante y no filtren por encima de 30 mph.' },
+  ans: 0
+},
+
+{
+  id: 88, cat: 'highway',
+  en: {
+    q: 'What should you do when exiting a freeway?',
+    opts: ['Signal early, move into the exit lane, reduce speed in the deceleration lane, not on the freeway', 'Brake hard to slow down before reaching the exit ramp', 'Exit at freeway speed and brake on the ramp', 'Change multiple lanes at once to reach the exit'],
+    exp: 'When exiting a freeway: (1) Signal at least 5 seconds before moving to the exit lane. (2) Move into the exit lane early. (3) Begin slowing only after you are in the deceleration lane (not on the main freeway). (4) Obey the ramp\'s advisory speed limit. Sudden braking on the freeway is dangerous.'
+  },
+  zh: { q: '在高速公路上出口时应该怎么做？', opts: ['提前打转向灯，驶入出口车道，在减速车道而非高速公路上减速', '到达出口匝道前急刹车减速', '以高速公路速度驶出后在匝道上刹车', '一次变换多条车道以到达出口'], exp: '高速公路出口时：(1) 在变换到出口车道前至少5秒打转向灯。(2) 提前驶入出口车道。(3) 只在进入减速车道后才开始减速（不是在高速公路主路上）。(4) 遵守匝道建议限速。在高速公路上突然刹车非常危险。' },
+  zhTW: { q: '在高速公路上出口時應該怎麼做？', opts: ['提前打轉向燈，駛入出口車道，在減速車道而非高速公路上減速', '到達出口匝道前急剎車減速', '以高速公路速度駛出後在匝道上剎車', '一次變換多條車道以到達出口'], exp: '高速公路出口時：(1) 在變換到出口車道前至少5秒打轉向燈。(2) 提前駛入出口車道。(3) 只在進入減速車道後才開始減速（不是在高速公路主路上）。(4) 遵守匝道建議限速。在高速公路上突然剎車非常危險。' },
+  es: { q: '¿Qué debe hacer cuando sale de una autopista?', opts: ['Señalice con anticipación, muévase al carril de salida, reduzca la velocidad en el carril de desaceleración, no en la autopista', 'Frene fuerte para reducir la velocidad antes de llegar a la rampa de salida', 'Salga a velocidad de autopista y frene en la rampa', 'Cambie múltiples carriles a la vez para llegar a la salida'], exp: 'Al salir de una autopista: (1) Señalice al menos 5 segundos antes de moverse al carril de salida. (2) Muévase al carril de salida con anticipación. (3) Comience a frenar solo después de estar en el carril de desaceleración. (4) Respete el límite de velocidad de aviso de la rampa.' },
+  ans: 0
+},
+
+{
+  id: 89, cat: 'highway',
+  en: {
+    q: 'What does a double solid yellow line in the center of the road mean?',
+    opts: ['No crossing — passing or turning left across the lines is not permitted', 'You may cross to pass if it is safe', 'The left lane is reversible during peak hours', 'Bicycle lane boundary'],
+    exp: 'Double solid yellow lines indicate that crossing or passing is not permitted from either direction. You may not cross double solid yellow lines to pass another vehicle or to make a left turn. They are found where crossing would be especially dangerous, such as on curves and hills.'
+  },
+  zh: { q: '道路中央的双实黄线表示什么？', opts: ['禁止穿越——不允许穿越这些线超车或左转', '如果安全可以穿越超车', '左侧车道在高峰时段可以反向行驶', '自行车道边界'], exp: '双实黄线表示两个方向均不允许穿越或超车。您不得穿越双实黄线超车或左转。它们出现在穿越特别危险的地方，例如弯道和坡道。' },
+  zhTW: { q: '道路中央的雙實黃線表示什麼？', opts: ['禁止穿越——不允許穿越這些線超車或左轉', '如果安全可以穿越超車', '左側車道在高峰時段可以反向行駛', '自行車道邊界'], exp: '雙實黃線表示兩個方向均不允許穿越或超車。您不得穿越雙實黃線超車或左轉。它們出現在穿越特別危險的地方，例如彎道和坡道。' },
+  es: { q: '¿Qué significa una doble línea amarilla sólida en el centro de la carretera?', opts: ['Sin cruzar — no se permite adelantar ni girar a la izquierda cruzando las líneas', 'Puede cruzar para adelantar si es seguro', 'El carril izquierdo es reversible durante las horas pico', 'Límite del carril de bicicletas'], exp: 'Las líneas amarillas dobles sólidas indican que cruzar o adelantar no está permitido desde ninguna dirección. No puede cruzar líneas amarillas dobles sólidas para adelantar otro vehículo o para girar a la izquierda. Se encuentran donde cruzar sería especialmente peligroso.' },
+  ans: 0
+},
+
+{
+  id: 90, cat: 'highway',
+  en: {
+    q: 'What causes "highway hypnosis" and how can you prevent it?',
+    opts: ['Monotonous driving causes drowsiness — prevent it by taking breaks, talking, or adjusting temperature', 'Bright headlights from oncoming vehicles — wear sunglasses', 'High speed causes tunnel vision — slow down', 'Road vibrations lull you to sleep — use cruise control'],
+    exp: 'Highway hypnosis is a trance-like state caused by long, monotonous driving. To prevent it: take breaks every 2 hours or 100 miles, keep the car cool, listen to music or talk radio, and never drive when sleepy. If drowsy, pull off safely and rest — even a 20-minute nap helps.'
+  },
+  zh: { q: '什么导致"高速公路催眠"，如何预防？', opts: ['单调的驾驶导致困倦——通过休息、交谈或调节温度来预防', '对向车辆的强光——戴太阳镜', '高速行驶导致视野变窄——减速', '道路振动使您昏昏欲睡——使用定速巡航'], exp: '高速公路催眠是由于长时间单调驾驶引起的恍惚状态。预防方法：每2小时或100英里休息一次，保持车内凉爽，听音乐或谈话节目，以及在困倦时切勿驾驶。如果感到困倦，请安全停车休息——即使打20分钟盹也有帮助。' },
+  zhTW: { q: '什麼導致「高速公路催眠」，如何預防？', opts: ['單調的駕駛導致困倦——通過休息、交談或調節溫度來預防', '對向車輛的強光——戴太陽眼鏡', '高速行駛導致視野變窄——減速', '道路振動使您昏昏欲睡——使用定速巡航'], exp: '高速公路催眠是由於長時間單調駕駛引起的恍惚狀態。預防方法：每2小時或100英里休息一次，保持車內涼爽，聽音樂或談話節目，以及在困倦時切勿駕駛。如果感到困倦，請安全停車休息——即使打20分鐘盹也有幫助。' },
+  es: { q: '¿Qué causa la "hipnosis de autopista" y cómo puede prevenirla?', opts: ['La conducción monótona causa somnolencia — prevenirla tomando descansos, hablando o ajustando la temperatura', 'Los faros brillantes de vehículos que vienen — use gafas de sol', 'La alta velocidad causa visión de túnel — reduzca la velocidad', 'Las vibraciones de la carretera lo adormecen — use el control de crucero'], exp: 'La hipnosis de autopista es un estado de trance causado por conducción larga y monótona. Para prevenirla: tome descansos cada 2 horas o 100 millas, mantenga el auto fresco, escuche música o radio de conversación, y nunca conduzca con sueño. Si tiene sueño, deténgase y descanse.' },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
