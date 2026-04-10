@@ -2168,4 +2168,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 17 · Speed Limits (Advanced) · Q161–170 ───────────────────────────
+{
+  id:161, cat:'speed',
+  en:{q:'What is the maximum speed limit in California when not posted?',opts:['55 mph on all roads','65 mph on all roads','65 mph on highways; 25 mph in residential areas','70 mph on freeways; 55 mph elsewhere'],exp:'California uses a "Basic Speed Law": you must never drive faster than is safe for current conditions. The maximum speed limit is 65 mph on most highways (70 mph only where posted). On two-lane undivided highways, the maximum is 55 mph unless posted otherwise.'},
+  zh:{q:'在加州没有标志时，最高速度限制是多少？',opts:['所有道路55英里/小时','所有道路65英里/小时','高速公路65英里/小时；住宅区25英里/小时','高速公路70英里/小时；其他地方55英里/小时'],exp:'加州使用"基本速度法"：您永远不得以超过当前条件下安全速度行驶。大多数高速公路的最高速度限制为65英里/小时（只有在有标志的地方才有70英里/小时）。在无分隔线的双车道公路上，除非另有规定，最高为55英里/小时。'},
+  zhTW:{q:'在加州沒有標誌時，最高速度限制是多少？',opts:['所有道路55英里/小時','所有道路65英里/小時','高速公路65英里/小時；住宅區25英里/小時','高速公路70英里/小時；其他地方55英里/小時'],exp:'加州使用「基本速度法」：您永遠不得以超過當前條件下安全速度行駛。大多數高速公路的最高速度限制為65英里/小時（只有在有標誌的地方才有70英里/小時）。在無分隔線的雙車道公路上，除非另有規定，最高為55英里/小時。'},
+  es:{q:'¿Cuál es el límite de velocidad máximo en California cuando no está publicado?',opts:['55 mph en todas las carreteras','65 mph en todas las carreteras','65 mph en autopistas; 25 mph en áreas residenciales','70 mph en autopistas; 55 mph en otros lugares'],exp:'California usa la "Ley de Velocidad Básica": nunca debe conducir más rápido de lo que es seguro para las condiciones actuales. El límite de velocidad máximo es 65 mph en la mayoría de las autopistas (70 mph solo donde esté publicado). En autopistas de dos carriles sin división, el máximo es 55 mph a menos que se indique lo contrario.'},
+  ans:3
+},
+{
+  id:162, cat:'speed',
+  en:{q:'What is the speed limit in an alley in California?',opts:['15 mph','20 mph','25 mph','10 mph'],exp:'The speed limit in any alley in California is 15 mph. This is a prima facie (assumed) speed limit — meaning it is assumed to be the correct speed unless you can prove otherwise. Alleys are narrow, have limited visibility, and often have pedestrians, so this low limit is critical.'},
+  zh:{q:'在加州小巷中的速度限制是多少？',opts:['15英里/小时','20英里/小时','25英里/小时','10英里/小时'],exp:'加州任何小巷中的速度限制为15英里/小时。这是初步表面（假定）速度限制——意味着假定这是正确速度，除非您能证明否则。小巷狭窄，能见度有限，且经常有行人，因此这个低限制非常重要。'},
+  zhTW:{q:'在加州小巷中的速度限制是多少？',opts:['15英里/小時','20英里/小時','25英里/小時','10英里/小時'],exp:'加州任何小巷中的速度限制為15英里/小時。這是初步表面（假定）速度限制——意味著假定這是正確速度，除非您能證明否則。小巷狹窄，能見度有限，且經常有行人，因此這個低限制非常重要。'},
+  es:{q:'¿Cuál es el límite de velocidad en un callejón en California?',opts:['15 mph','20 mph','25 mph','10 mph'],exp:'El límite de velocidad en cualquier callejón en California es 15 mph. Este es un límite de velocidad prima facie (asumido) — lo que significa que se asume que es la velocidad correcta a menos que pueda demostrar lo contrario. Los callejones son estrechos, tienen visibilidad limitada y frecuentemente tienen peatones, por lo que este límite bajo es crítico.'},
+  ans:0
+},
+{
+  id:163, cat:'speed',
+  en:{q:'When must you drive below the posted speed limit?',opts:['Only when road signs indicate lower speeds','Only in rain or fog','Whenever conditions make it unsafe to drive at the posted speed','The posted limit is always the correct speed'],exp:'The Basic Speed Law requires you to drive at a speed that is safe for current conditions — even if that is below the posted limit. In heavy rain, fog, ice, or heavy traffic, you may need to drive well below the posted speed. The posted limit is a maximum, not a target.'},
+  zh:{q:'什么时候必须以低于标志速度行驶？',opts:['仅当道路标志指示更低速度时','仅在雨天或雾天','当条件使以标志速度行驶不安全时','标志限速始终是正确速度'],exp:'基本速度法要求您以适合当前条件的安全速度行驶——即使低于标志限速。在大雨、浓雾、结冰或大堵车中，您可能需要远低于标志速度行驶。标志限速是最高限速，不是目标速度。'},
+  zhTW:{q:'什麼時候必須以低於標誌速度行駛？',opts:['僅當道路標誌指示更低速度時','僅在雨天或霧天','當條件使以標誌速度行駛不安全時','標誌限速始終是正確速度'],exp:'基本速度法要求您以適合當前條件的安全速度行駛——即使低於標誌限速。在大雨、濃霧、結冰或大堵車中，您可能需要遠低於標誌速度行駛。標誌限速是最高限速，不是目標速度。'},
+  es:{q:'¿Cuándo debe conducir por debajo del límite de velocidad publicado?',opts:['Solo cuando las señales viales indican velocidades más bajas','Solo en lluvia o niebla','Siempre que las condiciones hagan inseguro conducir a la velocidad publicada','El límite publicado es siempre la velocidad correcta'],exp:'La Ley de Velocidad Básica requiere que conduzca a una velocidad que sea segura para las condiciones actuales — incluso si eso está por debajo del límite publicado. En lluvia intensa, niebla, hielo o tráfico pesado, puede necesitar conducir muy por debajo de la velocidad publicada. El límite publicado es un máximo, no un objetivo.'},
+  ans:2
+},
+{
+  id:164, cat:'speed',
+  en:{q:'What is the speed limit within 500 feet of a school while children are present?',opts:['15 mph','20 mph','25 mph','35 mph'],exp:'The prima facie speed limit within 500–1,000 feet of a school while children are present or going to/from school is 25 mph. Near many schools, you will see a posted 25 mph school zone sign. Always watch for children and be prepared to stop.'},
+  zh:{q:'在有儿童时，学校500英尺范围内的速度限制是多少？',opts:['15英里/小时','20英里/小时','25英里/小时','35英里/小时'],exp:'在有儿童上下学时，学校500-1,000英尺范围内的初步表面速度限制为25英里/小时。在许多学校附近，您会看到标示25英里/小时的学校区域标志。始终注意儿童并准备停车。'},
+  zhTW:{q:'在有兒童時，學校500英尺範圍內的速度限制是多少？',opts:['15英里/小時','20英里/小時','25英里/小時','35英里/小時'],exp:'在有兒童上下學時，學校500-1,000英尺範圍內的初步表面速度限制為25英里/小時。在許多學校附近，您會看到標示25英里/小時的學校區域標誌。始終注意兒童並準備停車。'},
+  es:{q:'¿Cuál es el límite de velocidad dentro de 500 pies de una escuela mientras hay niños presentes?',opts:['15 mph','20 mph','25 mph','35 mph'],exp:'El límite de velocidad prima facie dentro de 500–1,000 pies de una escuela mientras hay niños presentes o yendo a/desde la escuela es 25 mph. Cerca de muchas escuelas, verá una señal de zona escolar publicada de 25 mph. Siempre esté atento a los niños y prepárese para detenerse.'},
+  ans:2
+},
+{
+  id:165, cat:'speed',
+  en:{q:'How far should you be able to stop when driving at night using low beams?',opts:['Within 150 feet','Within 200 feet','Within the distance your headlights illuminate — about 200 feet','Within 300 feet'],exp:'Your headlights on low beam illuminate about 200 feet ahead. You should never drive so fast that you cannot stop within the distance you can see ahead — this is called "overdriving your headlights." At night with low beams, you should be able to stop within 200 feet.'},
+  zh:{q:'夜间使用近光灯行驶时，您应该能在多远距离内停车？',opts:['150英尺以内','200英尺以内','在您的车头灯照射范围内——大约200英尺','300英尺以内'],exp:'近光灯大约照射前方200英尺。您驾驶时应该永远不要超过能在前方能见范围内停车的速度——这称为"超越车灯行驶"。夜间使用近光灯时，应能在200英尺内停车。'},
+  zhTW:{q:'夜間使用近光燈行駛時，您應該能在多遠距離內停車？',opts:['150英尺以內','200英尺以內','在您的車頭燈照射範圍內——大約200英尺','300英尺以內'],exp:'近光燈大約照射前方200英尺。您駕駛時應該永遠不要超過能在前方能見範圍內停車的速度——這稱為「超越車燈行駛」。夜間使用近光燈時，應能在200英尺內停車。'},
+  es:{q:'¿A qué distancia debe poder detenerse al conducir de noche usando luces bajas?',opts:['Dentro de 150 pies','Dentro de 200 pies','Dentro de la distancia que iluminan sus faros — alrededor de 200 pies','Dentro de 300 pies'],exp:'Sus faros en luces bajas iluminan unos 200 pies hacia adelante. Nunca debe conducir tan rápido que no pueda detenerse dentro de la distancia que puede ver hacia adelante — esto se llama "superar sus faros". De noche con luces bajas, debe poder detenerse dentro de 200 pies.'},
+  ans:2
+},
+{
+  id:166, cat:'speed',
+  en:{q:'You are driving on a highway with a posted 65 mph speed limit during a dense fog. What speed should you drive?',opts:['65 mph — the posted limit','55 mph — a safe reduction','Whatever speed is safe for current visibility and road conditions','50 mph — the recommended fog speed'],exp:'The Basic Speed Law requires you to drive at a speed safe for conditions, regardless of the posted limit. In dense fog, you may need to drive much slower than the posted limit. Use low beams, increase following distance, and reduce speed until you can see and stop safely.'},
+  zh:{q:'您在浓雾中在标志限速65英里/小时的高速公路上行驶。您应该以什么速度行驶？',opts:['65英里/小时——标志限速','55英里/小时——安全降速','适合当前能见度和路况的安全速度','50英里/小时——推荐雾天速度'],exp:'基本速度法要求您以适合条件的安全速度行驶，无论标志限速如何。在浓雾中，您可能需要远低于标志限速行驶。使用近光灯，增加跟车距离，降低速度直到您能安全看到和停车。'},
+  zhTW:{q:'您在濃霧中在標誌限速65英里/小時的高速公路上行駛。您應該以什麼速度行駛？',opts:['65英里/小時——標誌限速','55英里/小時——安全降速','適合當前能見度和路況的安全速度','50英里/小時——推薦霧天速度'],exp:'基本速度法要求您以適合條件的安全速度行駛，無論標誌限速如何。在濃霧中，您可能需要遠低於標誌限速行駛。使用近光燈，增加跟車距離，降低速度直到您能安全看到和停車。'},
+  es:{q:'Está conduciendo en una autopista con límite publicado de 65 mph durante niebla densa. ¿A qué velocidad debe conducir?',opts:['65 mph — el límite publicado','55 mph — una reducción segura','Cualquier velocidad que sea segura para la visibilidad actual y condiciones de carretera','50 mph — la velocidad recomendada para niebla'],exp:'La Ley de Velocidad Básica requiere que conduzca a una velocidad segura para las condiciones, independientemente del límite publicado. En niebla densa, puede necesitar conducir mucho más despacio que el límite publicado. Use luces bajas, aumente la distancia de seguimiento y reduzca la velocidad hasta que pueda ver y detenerse de forma segura.'},
+  ans:2
+},
+{
+  id:167, cat:'speed',
+  en:{q:'What is the minimum speed law in California?',opts:['You must drive at least 15 mph on any road','You must not drive so slowly that you block traffic without a legitimate reason','There is no minimum speed law','You must drive at least half the posted speed limit'],exp:'California has a "Minimum Speed Law" — you must not drive so slowly that you impede or block normal traffic flow, unless conditions require it (weather, safety, etc.). Driving too slowly can be as dangerous as speeding, as it creates unpredictable situations for other drivers.'},
+  zh:{q:'加州的最低速度法律是什么？',opts:['在任何道路上必须至少行驶15英里/小时','没有合理原因不得行驶得太慢以至于阻塞交通','没有最低速度法律','必须至少以标志限速的一半行驶'],exp:'加州有"最低速度法"——没有正当原因（天气、安全等），不得行驶得过于缓慢而妨碍或阻塞正常交通流。行驶太慢可能与超速同样危险，因为它会给其他驾驶者创造不可预测的情况。'},
+  zhTW:{q:'加州的最低速度法律是什麼？',opts:['在任何道路上必須至少行駛15英里/小時','沒有合理原因不得行駛得太慢以至於阻塞交通','沒有最低速度法律','必須至少以標誌限速的一半行駛'],exp:'加州有「最低速度法」——沒有正當原因（天氣、安全等），不得行駛得過於緩慢而妨礙或阻塞正常交通流。行駛太慢可能與超速同樣危險，因為它會給其他駕駛者創造不可預測的情況。'},
+  es:{q:'¿Cuál es la ley de velocidad mínima en California?',opts:['Debe conducir al menos 15 mph en cualquier carretera','No debe conducir tan lentamente que bloquee el tráfico sin una razón legítima','No hay ley de velocidad mínima','Debe conducir al menos la mitad del límite de velocidad publicado'],exp:'California tiene una "Ley de Velocidad Mínima" — no debe conducir tan lentamente que impida o bloquee el flujo normal de tráfico, a menos que las condiciones lo requieran (clima, seguridad, etc.). Conducir demasiado lento puede ser tan peligroso como exceder la velocidad, ya que crea situaciones impredecibles para otros conductores.'},
+  ans:1
+},
+{
+  id:168, cat:'speed',
+  en:{q:'What does "prima facie speed limit" mean in California?',opts:['The absolute maximum speed you may travel','A presumed speed limit that may be exceeded when safe','A speed limit set by local government','A speed limit only enforced during school hours'],exp:'A "prima facie" speed limit is one that is presumed to be safe under normal conditions, but you can exceed it if you can prove it was safe to do so. For example, the 25 mph residential limit is prima facie — in an empty street at 3 AM you might safely drive 30 mph, but you would have to prove it was safe if stopped.'},
+  zh:{q:'在加州"初步表面速度限制"是什么意思？',opts:['您可以行驶的绝对最高速度','在安全时可以超过的推定速度限制','由地方政府设定的速度限制','仅在上学时间执行的速度限制'],exp:'"初步表面"速度限制是在正常条件下推定为安全的速度限制，但如果您能证明超速是安全的，可以超过它。例如，住宅区25英里/小时限制是初步表面的——在凌晨3点的空街道上，您可能安全地行驶30英里/小时，但如果被拦截需要证明是安全的。'},
+  zhTW:{q:'在加州「初步表面速度限制」是什麼意思？',opts:['您可以行駛的絕對最高速度','在安全時可以超過的推定速度限制','由地方政府設定的速度限制','僅在上學時間執行的速度限制'],exp:'"初步表面"速度限制是在正常條件下推定為安全的速度限制，但如果您能證明超速是安全的，可以超過它。例如，住宅區25英里/小時限制是初步表面的——在凌晨3點的空街道上，您可能安全地行駛30英里/小時，但如果被攔截需要證明是安全的。'},
+  es:{q:'¿Qué significa "límite de velocidad prima facie" en California?',opts:['La velocidad máxima absoluta que puede viajar','Un límite de velocidad presumido que puede excederse cuando es seguro','Un límite de velocidad establecido por el gobierno local','Un límite de velocidad solo aplicado durante horas escolares'],exp:'Un límite de velocidad "prima facie" es uno que se presume seguro en condiciones normales, pero puede excederlo si puede demostrar que era seguro hacerlo. Por ejemplo, el límite residencial de 25 mph es prima facie — en una calle vacía a las 3 AM podría conducir de forma segura a 30 mph, pero tendría que demostrar que era seguro si lo detienen.'},
+  ans:1
+},
+{
+  id:169, cat:'speed',
+  en:{q:'On a two-lane undivided highway in California without a posted limit, what is the maximum speed?',opts:['65 mph','60 mph','55 mph','70 mph'],exp:'On a two-lane undivided highway in California, the maximum speed is 55 mph unless otherwise posted. This is lower than the 65 mph limit on multi-lane highways because two-lane roads have less margin for error and more potential for head-on collisions.'},
+  zh:{q:'在加州没有标志限速的双车道无分隔公路上，最高速度是多少？',opts:['65英里/小时','60英里/小时','55英里/小时','70英里/小时'],exp:'在加州的双车道无分隔公路上，除非另有规定，最高速度为55英里/小时。这低于多车道公路的65英里/小时限制，因为双车道道路的容错空间较少，正面碰撞的可能性更高。'},
+  zhTW:{q:'在加州沒有標誌限速的雙車道無分隔公路上，最高速度是多少？',opts:['65英里/小時','60英里/小時','55英里/小時','70英里/小時'],exp:'在加州的雙車道無分隔公路上，除非另有規定，最高速度為55英里/小時。這低於多車道公路的65英里/小時限制，因為雙車道道路的容錯空間較少，正面碰撞的可能性更高。'},
+  es:{q:'En una autopista de dos carriles sin dividir en California sin límite publicado, ¿cuál es la velocidad máxima?',opts:['65 mph','60 mph','55 mph','70 mph'],exp:'En una autopista de dos carriles sin dividir en California, la velocidad máxima es 55 mph a menos que se indique lo contrario. Esto es menor que el límite de 65 mph en autopistas de múltiples carriles porque las carreteras de dos carriles tienen menos margen de error y más potencial de colisiones frontales.'},
+  ans:2
+},
+{
+  id:170, cat:'speed',
+  en:{q:'You are cited for speeding 15 mph over the limit on a highway. What is the approximate base fine in California?',opts:['$35','$70','$250 or more','$500'],exp:'Speeding fines in California can be surprisingly high due to penalty assessments and surcharges added on top of the base fine. A citation for going 16–25 mph over the limit typically has a base fine of about $250–$360, but with all assessments the total can exceed $500–$600. Fines increase with higher speeds.'},
+  zh:{q:'您在高速公路上被罚款超速15英里/小时。在加州大致的基本罚款是多少？',opts:['$35','$70','$250或更多','$500'],exp:'由于附加评估和附加费，加州的超速罚款可能出乎意料地高。超速16-25英里/小时的罚单基本罚款约为$250-$360，但加上所有评估后总额可超过$500-$600。速度越高，罚款越重。'},
+  zhTW:{q:'您在高速公路上被罰款超速15英里/小時。在加州大致的基本罰款是多少？',opts:['$35','$70','$250或更多','$500'],exp:'由於附加評估和附加費，加州的超速罰款可能出乎意料地高。超速16-25英里/小時的罰單基本罰款約為$250-$360，但加上所有評估後總額可超過$500-$600。速度越高，罰款越重。'},
+  es:{q:'Le citan por exceso de velocidad de 15 mph sobre el límite en una autopista. ¿Cuál es la multa base aproximada en California?',opts:['$35','$70','$250 o más','$500'],exp:'Las multas por exceso de velocidad en California pueden ser sorprendentemente altas debido a las evaluaciones de penalidad y recargos que se agregan sobre la multa base. Una citación por ir 16–25 mph sobre el límite típicamente tiene una multa base de aproximadamente $250–$360, pero con todas las evaluaciones el total puede superar $500–$600. Las multas aumentan con velocidades más altas.'},
+  ans:2
+},
+
 ] // end of questions array — more batches to be appended
