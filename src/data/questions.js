@@ -3561,4 +3561,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:331, cat:'dui',
+  en:{q:'In California, what is the legal blood alcohol concentration (BAC) limit for drivers 21 and over?',opts:['0.05%','0.08%','0.10%','0.12%'],exp:'For drivers 21 and older, California\'s legal BAC limit is 0.08%. You can be convicted of DUI if your BAC is 0.08% or higher. You can also be convicted at lower BAC levels if your driving is impaired.'},
+  zh:{q:'在加州，21岁及以上驾驶员的合法血液酒精含量（BAC）限制是多少？',opts:['0.05%','0.08%','0.10%','0.12%'],exp:'对于21岁及以上的驾驶员，加州的合法BAC限制为0.08%。如果您的BAC为0.08%或更高，可能被判定DUI。如果您的驾驶受损，即使BAC较低也可能被判定DUI。'},
+  zhTW:{q:'在加州，21歲及以上駕駛員的合法血液酒精含量（BAC）限制是多少？',opts:['0.05%','0.08%','0.10%','0.12%'],exp:'對於21歲及以上的駕駛員，加州的合法BAC限制為0.08%。如果您的BAC為0.08%或更高，可能被判定DUI。如果您的駕駛受損，即使BAC較低也可能被判定DUI。'},
+  es:{q:'En California, ¿cuál es el límite legal de concentración de alcohol en sangre (BAC) para conductores de 21 años o más?',opts:['0.05%','0.08%','0.10%','0.12%'],exp:'Para conductores de 21 años o más, el límite legal de BAC en California es 0.08%. Puede ser condenado por DUI si su BAC es 0.08% o más alto. También puede ser condenado con niveles de BAC más bajos si su conducción está deteriorada.'},
+  ans:1
+},
+{
+  id:332, cat:'parking',
+  en:{q:'What does a blue curb indicate?',opts:['No parking at any time','Parking for disabled persons with proper placard or plate only','Short-term parking (30 minutes or less)','Commercial loading zone only'],exp:'Blue curbs designate parking spaces reserved for people with disabilities. Only vehicles displaying a valid disabled person placard or special license plate may park there. Violators face significant fines.'},
+  zh:{q:'蓝色路缘代表什么？',opts:['任何时候禁止停车','仅限持有适当标牌或车牌的残障人士停车','短期停车（30分钟或更少）','仅限商业装卸区'],exp:'蓝色路缘指定为残障人士专用停车位。只有展示有效残障人士标牌或特殊车牌的车辆才可在此停车。违规者将面临重大罚款。'},
+  zhTW:{q:'藍色路緣代表什麼？',opts:['任何時候禁止停車','僅限持有適當標牌或車牌的殘障人士停車','短期停車（30分鐘或更少）','僅限商業裝卸區'],exp:'藍色路緣指定為殘障人士專用停車位。只有展示有效殘障人士標牌或特殊車牌的車輛才可在此停車。違規者將面臨重大罰款。'},
+  es:{q:'¿Qué indica un bordillo azul?',opts:['Sin estacionamiento en ningún momento','Estacionamiento solo para personas discapacitadas con placa o tarjeta adecuada','Estacionamiento de corto plazo (30 minutos o menos)','Solo zona de carga comercial'],exp:'Los bordillos azules designan espacios de estacionamiento reservados para personas con discapacidades. Solo los vehículos que muestren una placa de discapacitado válida o una placa de matrícula especial pueden estacionarse allí.'},
+  ans:1
+},
+{
+  id:333, cat:'highway',
+  en:{q:'When merging onto a freeway, you should:',opts:['Stop at the end of the on-ramp and wait for a gap','Merge at whatever speed you are comfortable with','Accelerate in the acceleration lane to match freeway speed before merging','Always yield to freeway traffic even if it means stopping on the ramp'],exp:'Use the acceleration lane to build up speed to match freeway traffic before merging. Check mirrors and blind spots, signal, and merge smoothly. You must yield to freeway traffic, but try to match their speed to merge safely without stopping.'},
+  zh:{q:'进入高速公路时，您应该：',opts:['在匝道末端停车等待空档','以您舒适的任何速度合并','在加速车道加速至与高速公路速度相符后再合并','始终让行高速公路上的车辆，即使这意味着在匝道上停车'],exp:'使用加速车道加速到与高速公路交通相符的速度后再合并。检查后视镜和盲点，打转向灯，平稳合并。您必须让行高速公路上的车辆，但尽量与其速度相符以安全合并，避免停车。'},
+  zhTW:{q:'進入高速公路時，您應該：',opts:['在匝道末端停車等待空檔','以您舒適的任何速度合併','在加速車道加速至與高速公路速度相符後再合併','始終讓行高速公路上的車輛，即使這意味著在匝道上停車'],exp:'使用加速車道加速到與高速公路交通相符的速度後再合併。檢查後視鏡和盲點，打轉向燈，平穩合併。您必須讓行高速公路上的車輛，但盡量與其速度相符以安全合併，避免停車。'},
+  es:{q:'Al incorporarse a una autopista, debe:',opts:['Detenerse al final de la rampa de incorporación y esperar un espacio','Incorporarse a cualquier velocidad con la que se sienta cómodo','Acelerar en el carril de aceleración para igualar la velocidad de la autopista antes de incorporarse','Siempre ceder al tráfico de la autopista aunque eso signifique detenerse en la rampa'],exp:'Use el carril de aceleración para aumentar la velocidad hasta igualar el tráfico de la autopista antes de incorporarse. Verifique espejos y puntos ciegos, señalice y fusiónese suavemente.'},
+  ans:2
+},
+{
+  id:334, cat:'laws',
+  en:{q:'In California, you must use your headlights when visibility is less than:',opts:['200 feet','500 feet','1,000 feet','1,500 feet'],exp:'California law requires headlights whenever you cannot see clearly for 1,000 feet ahead — typically at night, in heavy rain, fog, or other low-visibility conditions. You must also use wipers with headlights when raining.'},
+  zh:{q:'在加州，当能见度低于多少英尺时，您必须使用前灯？',opts:['200英尺','500英尺','1,000英尺','1,500英尺'],exp:'加州法律要求每当您无法清楚看到前方1,000英尺时使用前灯——通常在夜晚、大雨、大雾或其他低能见度条件下。下雨时使用雨刷也必须开前灯。'},
+  zhTW:{q:'在加州，當能見度低於多少英尺時，您必須使用前燈？',opts:['200英尺','500英尺','1,000英尺','1,500英尺'],exp:'加州法律要求每當您無法清楚看到前方1,000英尺時使用前燈——通常在夜晚、大雨、大霧或其他低能見度條件下。下雨時使用雨刷也必須開前燈。'},
+  es:{q:'En California, debe usar los faros cuando la visibilidad es menor de:',opts:['200 pies','500 pies','1,000 pies','1,500 pies'],exp:'La ley de California exige faros siempre que no pueda ver claramente a 1,000 pies de distancia — típicamente de noche, con lluvia intensa, niebla u otras condiciones de baja visibilidad. También debe usar faros con limpiaparabrisas cuando llueve.'},
+  ans:2
+},
+{
+  id:335, cat:'signs', sign:'railroad-crossing',
+  en:{q:'When you see a round yellow sign with an "X" and the letters "RR," what does it mean?',opts:['You are approaching a rest area','A railroad crossing is ahead — be prepared to stop','No right turn on red','Road construction ahead'],exp:'The round yellow sign with a black "X" and "RR" is an advance warning sign for a railroad crossing ahead. You should slow down, look and listen for trains, and be prepared to stop. Never stop on railroad tracks.'},
+  zh:{q:'当您看到带有"X"和字母"RR"的圆形黄色标志时，这意味着什么？',opts:['您正在接近休息区','前方有铁路道口——准备停车','红灯禁止右转','前方道路施工'],exp:'带有黑色"X"和"RR"的圆形黄色标志是前方铁路道口的预警标志。您应该减速，注意观察和聆听列车，并准备停车。绝不要停在铁路轨道上。'},
+  zhTW:{q:'當您看到帶有「X」和字母「RR」的圓形黃色標誌時，這意味著什麼？',opts:['您正在接近休息區','前方有鐵路道口——準備停車','紅燈禁止右轉','前方道路施工'],exp:'帶有黑色「X」和「RR」的圓形黃色標誌是前方鐵路道口的預警標誌。您應該減速，注意觀察和聆聽列車，並準備停車。絕不要停在鐵路軌道上。'},
+  es:{q:'Cuando ve una señal redonda amarilla con una "X" y las letras "RR", ¿qué significa?',opts:['Se está acercando a un área de descanso','Hay un cruce de ferrocarril adelante — esté listo para detenerse','No gire a la derecha en rojo','Construcción de carretera adelante'],exp:'La señal redonda amarilla con una "X" negra y "RR" es una señal de advertencia anticipada para un cruce ferroviario. Debe reducir la velocidad, mirar y escuchar trenes, y estar preparado para detenerse. Nunca se detenga en las vías del tren.'},
+  ans:1
+},
+{
+  id:336, cat:'safety',
+  en:{q:'What is the "two-second rule" when following another vehicle?',opts:['You should always be at least 2 seconds behind the car ahead','You have 2 seconds to merge after signaling','You must wait 2 seconds before proceeding through an intersection','All of the above'],exp:'The two-second rule is a minimum following distance guideline. When the vehicle ahead passes a fixed object, count at least 2 seconds before you reach that same object. In poor weather or with heavy vehicles, increase to 4+ seconds.'},
+  zh:{q:'跟随另一辆车时的"两秒规则"是什么？',opts:['您应该始终比前车至少落后2秒','打转向灯后有2秒时间变道','在路口行进前必须等待2秒','以上所有'],exp:'"两秒规则"是最小跟车距离指南。当前方车辆经过固定物体时，计数至少2秒后您才应到达同一物体。在恶劣天气或面对重型车辆时，应增加到4秒以上。'},
+  zhTW:{q:'跟隨另一輛車時的「兩秒規則」是什麼？',opts:['您應該始終比前車至少落後2秒','打轉向燈後有2秒時間變道','在路口行進前必須等待2秒','以上所有'],exp:'"兩秒規則"是最小跟車距離指南。當前方車輛經過固定物體時，計數至少2秒後您才應到達同一物體。在惡劣天氣或面對重型車輛時，應增加到4秒以上。'},
+  es:{q:'¿Qué es la "regla de los dos segundos" al seguir a otro vehículo?',opts:['Siempre debe estar al menos 2 segundos detrás del auto adelante','Tiene 2 segundos para fusionarse después de señalizar','Debe esperar 2 segundos antes de proceder en una intersección','Todo lo anterior'],exp:'La regla de los dos segundos es una guía de distancia mínima de seguimiento. Cuando el vehículo de adelante pasa un objeto fijo, cuente al menos 2 segundos antes de llegar al mismo objeto. Con mal tiempo o vehículos pesados, aumente a 4+ segundos.'},
+  ans:0
+},
+{
+  id:337, cat:'rightofway',
+  en:{q:'You are making a left turn at an intersection. When do you have the right of way?',opts:['Always — left-turning vehicles have priority','When oncoming traffic has a red light or has stopped and yielded to you','Whenever you have your turn signal on','Never — you always yield when turning left'],exp:'When making a left turn, you must yield to oncoming traffic and pedestrians unless a traffic signal or officer directs otherwise. You may proceed only when oncoming traffic has stopped (red light) or has yielded to you.'},
+  zh:{q:'您在路口左转。您什么时候有优先通行权？',opts:['始终——左转车辆优先','当对向车辆遇红灯或已停车让行于您时','只要您打了转向灯','从不——左转时您始终需要让行'],exp:'左转时，您必须让行对向车辆和行人，除非交通信号或执法人员另有指示。只有当对向车辆停车（红灯）或已让行于您时，您才可以前进。'},
+  zhTW:{q:'您在路口左轉。您什麼時候有優先通行權？',opts:['始終——左轉車輛優先','當對向車輛遇紅燈或已停車讓行於您時','只要您打了轉向燈','從不——左轉時您始終需要讓行'],exp:'左轉時，您必須讓行對向車輛和行人，除非交通信號或執法人員另有指示。只有當對向車輛停車（紅燈）或已讓行於您時，您才可以前進。'},
+  es:{q:'Está haciendo un giro a la izquierda en una intersección. ¿Cuándo tiene el derecho de paso?',opts:['Siempre — los vehículos que giran a la izquierda tienen prioridad','Cuando el tráfico que viene tiene luz roja o se ha detenido y le ha cedido el paso','Cuando tiene la señal de giro encendida','Nunca — siempre cede cuando gira a la izquierda'],exp:'Al girar a la izquierda, debe ceder el paso al tráfico que viene y a los peatones a menos que una señal de tráfico u oficial lo indique diferente. Solo puede proceder cuando el tráfico que viene se ha detenido (luz roja) o le ha cedido el paso.'},
+  ans:1
+},
+{
+  id:338, cat:'dui',
+  en:{q:'Under California\'s "implied consent" law, what happens if you refuse a chemical test after being lawfully arrested for DUI?',opts:['You cannot be prosecuted for DUI without a test result','Your license will be suspended for 1 year for a first refusal, and evidence of refusal can be used against you','You will only receive a warning','The officer must obtain a court order to test you'],exp:'California\'s implied consent law (CVC 23612) means that by driving, you consent to chemical testing if lawfully arrested for DUI. Refusal results in mandatory 1-year license suspension (first offense), and the refusal itself can be used as evidence of consciousness of guilt in court.'},
+  zh:{q:'根据加州的"默示同意"法律，如果您在因DUI被合法逮捕后拒绝化学测试，会发生什么？',opts:['没有测试结果就无法以DUI起诉您','您的驾照将因首次拒绝被吊销1年，拒绝证据可以对您不利','您只会收到警告','警察必须获得法院命令才能测试您'],exp:'加州的默示同意法（车辆法典23612）意味着通过驾驶，您同意在因DUI被合法逮捕时接受化学测试。拒绝将导致强制吊销驾照1年（首次违规），拒绝本身可以作为法庭上有罪意识的证据。'},
+  zhTW:{q:'根據加州的「默示同意」法律，如果您在因DUI被合法逮捕後拒絕化學測試，會發生什麼？',opts:['沒有測試結果就無法以DUI起訴您','您的駕照將因首次拒絕被吊銷1年，拒絕證據可以對您不利','您只會收到警告','警察必須獲得法院命令才能測試您'],exp:'加州的默示同意法（車輛法典23612）意味著通過駕駛，您同意在因DUI被合法逮捕時接受化學測試。拒絕將導致強制吊銷駕照1年（首次違規），拒絕本身可以作為法庭上有罪意識的證據。'},
+  es:{q:'Bajo la ley de "consentimiento implícito" de California, ¿qué sucede si se niega a una prueba química después de ser arrestado legalmente por DUI?',opts:['No puede ser procesado por DUI sin resultado de prueba','Su licencia será suspendida 1 año por primera negativa, y la evidencia de negativa puede usarse en su contra','Solo recibirá una advertencia','El oficial debe obtener una orden judicial para analizarlo'],exp:'La ley de consentimiento implícito de California (CVC 23612) significa que al conducir, consiente la prueba química si es arrestado legalmente por DUI. La negativa resulta en suspensión obligatoria de licencia de 1 año (primera ofensa), y la negativa puede usarse como evidencia.'},
+  ans:1
+},
+{
+  id:339, cat:'parking',
+  en:{q:'What does a white curb indicate?',opts:['No parking at any time','Passenger loading and unloading only — usually limited to a few minutes','Parking for commercial vehicles only','Street cleaning zone'],exp:'White curbs mark passenger loading and unloading zones. You may stop there only for the time needed to drop off or pick up passengers. You may not park and leave your vehicle unattended in a white zone.'},
+  zh:{q:'白色路缘代表什么？',opts:['任何时候禁止停车','仅供乘客上下车——通常限几分钟','仅限商业车辆停车','清扫区域'],exp:'白色路缘标记乘客上下车区域。您只能在下车或接送乘客所需的时间内停靠。不得将车停在白色区域并离开。'},
+  zhTW:{q:'白色路緣代表什麼？',opts:['任何時候禁止停車','僅供乘客上下車——通常限幾分鐘','僅限商業車輛停車','清掃區域'],exp:'白色路緣標記乘客上下車區域。您只能在下車或接送乘客所需的時間內停靠。不得將車停在白色區域並離開。'},
+  es:{q:'¿Qué indica un bordillo blanco?',opts:['Sin estacionamiento en ningún momento','Solo carga y descarga de pasajeros — generalmente limitado a unos minutos','Estacionamiento solo para vehículos comerciales','Zona de limpieza de calles'],exp:'Los bordillos blancos marcan zonas de carga y descarga de pasajeros. Solo puede detenerse el tiempo necesario para dejar o recoger pasajeros. No puede estacionar y dejar su vehículo desatendido en una zona blanca.'},
+  ans:1
+},
+{
+  id:340, cat:'highway',
+  en:{q:'On a multi-lane freeway, which lane should you normally use for driving (not passing)?',opts:['The far left (fast) lane','Any lane you prefer','The right lane or one of the middle lanes','The center divider lane'],exp:'On multi-lane freeways, keep right except to pass. The far left lane is for passing and faster traffic. Using it as a travel lane can result in a citation for impeding traffic. After passing, move back to the right.'},
+  zh:{q:'在多车道高速公路上，正常驾驶（非超车）时应使用哪条车道？',opts:['最左侧（快速）车道','您喜欢的任何车道','右侧车道或中间车道之一','中央隔离带车道'],exp:'在多车道高速公路上，除超车外保持靠右行驶。最左侧车道用于超车和快速车辆。将其用作行驶车道可能因阻碍交通而被开罚单。超车后，移回右侧车道。'},
+  zhTW:{q:'在多車道高速公路上，正常駕駛（非超車）時應使用哪條車道？',opts:['最左側（快速）車道','您喜歡的任何車道','右側車道或中間車道之一','中央隔離帶車道'],exp:'在多車道高速公路上，除超車外保持靠右行駛。最左側車道用於超車和快速車輛。將其用作行駛車道可能因阻礙交通而被開罰單。超車後，移回右側車道。'},
+  es:{q:'En una autopista de varios carriles, ¿qué carril debe usar normalmente para conducir (no para rebasar)?',opts:['El carril izquierdo (rápido)','Cualquier carril que prefiera','El carril derecho o uno de los carriles del medio','El carril divisor central'],exp:'En autopistas de varios carriles, manténgase a la derecha excepto para rebasar. El carril izquierdo es para rebasar y tráfico más rápido. Usarlo como carril de viaje puede resultar en una citación por impedir el tráfico. Después de rebasar, vuelva a la derecha.'},
+  ans:2
+},
+
 ] // end of questions array — more batches to be appended
