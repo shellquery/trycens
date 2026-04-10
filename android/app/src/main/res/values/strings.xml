@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CA DMV Practice</string>
+    <string name="title_activity_main">CA DMV Practice</string>
+    <string name="package_name">io.shellquery.trycens</string>
+    <string name="custom_url_scheme">io.shellquery.trycens</string>
+</resources>
