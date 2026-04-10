@@ -4128,4 +4128,85 @@ export const questions = [
   ans:2
 },
 
+{
+  id:401, cat:'signs',
+  en:{q:'What does a flashing yellow light at an intersection mean?',opts:['Stop and wait for a green light','Slow down and proceed with caution','Yield to all traffic before entering','The light is broken — treat as a four-way stop'],exp:'A flashing yellow light means slow down and proceed with caution. You do not need to stop, but you should look carefully for cross traffic before entering the intersection. It is often used at less-busy intersections or during off-peak hours.'},
+  zh:{q:'路口闪烁的黄色灯光意味着什么？',opts:['停车等待绿灯','减速并谨慎前行','进入前让行所有车辆','灯损坏了——按四向停车处理'],exp:'闪烁的黄色灯光意味着减速并谨慎前行。您不需要停车，但在进入路口前应仔细观察横向交通。它通常用于较不繁忙的路口或非高峰时段。'},
+  zhTW:{q:'路口閃爍的黃色燈光意味著什麼？',opts:['停車等待綠燈','減速並謹慎前行','進入前讓行所有車輛','燈損壞了——按四向停車處理'],exp:'閃爍的黃色燈光意味著減速並謹慎前行。您不需要停車，但在進入路口前應仔細觀察橫向交通。它通常用於較不繁忙的路口或非高峰時段。'},
+  es:{q:'¿Qué significa una luz amarilla parpadeante en una intersección?',opts:['Deténgase y espere la luz verde','Reduzca la velocidad y proceda con precaución','Ceda el paso a todo el tráfico antes de entrar','La luz está rota — trátela como una parada de cuatro vías'],exp:'Una luz amarilla parpadeante significa reducir la velocidad y proceder con precaución. No necesita detenerse, pero debe mirar con cuidado el tráfico cruzado antes de entrar a la intersección.'},
+  ans:1
+},
+{
+  id:402, cat:'laws',
+  en:{q:'When must you turn on your headlights in California while driving?',opts:['Only after complete darkness','30 minutes after sunset and until 30 minutes before sunrise; also in poor visibility conditions','Only when the speedometer exceeds 45 mph','Headlights are optional during daytime'],exp:'California law requires headlights from 30 minutes after sunset to 30 minutes before sunrise. Also required any time visibility is less than 1,000 feet (fog, heavy rain, dust), when using windshield wipers due to weather, and in tunnels. Daytime running lights do not satisfy this requirement.'},
+  zh:{q:'在加州驾驶时，什么情况下必须开启前灯？',opts:['只有在完全黑暗后','日落后30分钟至日出前30分钟；以及能见度差的条件下','只有当速度超过45英里/小时时','白天前灯是可选的'],exp:'加州法律要求在日落后30分钟至日出前30分钟开启前灯。能见度低于1,000英尺（大雾、大雨、尘埃）时、因天气使用雨刷时，以及在隧道中也需要。日间行车灯不满足此要求。'},
+  zhTW:{q:'在加州駕駛時，什麼情況下必須開啟前燈？',opts:['只有在完全黑暗後','日落後30分鐘至日出前30分鐘；以及能見度差的條件下','只有當速度超過45英里/小時時','白天前燈是可選的'],exp:'加州法律要求在日落後30分鐘至日出前30分鐘開啟前燈。能見度低於1,000英尺（大霧、大雨、塵埃）時、因天氣使用雨刷時，以及在隧道中也需要。日間行車燈不滿足此要求。'},
+  es:{q:'¿Cuándo debe encender los faros en California mientras conduce?',opts:['Solo después de la oscuridad completa','30 minutos después del atardecer y hasta 30 minutos antes del amanecer; también en condiciones de visibilidad deficiente','Solo cuando el velocímetro supera las 45 mph','Los faros son opcionales durante el día'],exp:'La ley de California requiere faros desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer. También requeridos cuando la visibilidad es menor de 1,000 pies, cuando usa limpiaparabrisas por clima, y en túneles.'},
+  ans:1
+},
+{
+  id:403, cat:'rightofway',
+  en:{q:'A streetcar (light rail) is stopped and its doors are open. What must you do?',opts:['Pass on the left side quickly','Stop behind the rear door of the streetcar and wait until it moves and doors are closed before passing','Honk and proceed if pedestrians are not visible','Only stop if a sign instructs you to'],exp:'When a streetcar or light-rail vehicle stops and opens its doors, you must stop behind the rear doors of the vehicle and wait until all passengers have boarded or exited and the doors are closed before passing. Pedestrians crossing to/from the streetcar have the right of way.'},
+  zh:{q:'一辆有轨电车（轻轨）停下来且门已打开。您必须怎么做？',opts:['从左侧快速通过','停在电车后门后方等候，直到电车移动且门关闭后再通过','如果看不到行人则鸣喇叭通过','只有当标志指示时才停车'],exp:'当有轨电车或轻轨停车并开门时，您必须停在车辆后门后方等候，直到所有乘客上下车且门关闭后再通过。穿越至/从有轨电车的行人有优先通行权。'},
+  zhTW:{q:'一輛有軌電車（輕軌）停下來且門已打開。您必須怎麼做？',opts:['從左側快速通過','停在電車後門後方等候，直到電車移動且門關閉後再通過','如果看不到行人則鳴喇叭通過','只有當標誌指示時才停車'],exp:'當有軌電車或輕軌停車並開門時，您必須停在車輛後門後方等候，直到所有乘客上下車且門關閉後再通過。穿越至/從有軌電車的行人有優先通行權。'},
+  es:{q:'Un tranvía (tren ligero) se detiene y sus puertas están abiertas. ¿Qué debe hacer?',opts:['Pase por el lado izquierdo rápidamente','Deténgase detrás de la puerta trasera del tranvía y espere hasta que se mueva y las puertas estén cerradas antes de pasar','Toque la bocina y proceda si no hay peatones visibles','Solo deténgase si una señal lo indica'],exp:'Cuando un tranvía o tren ligero se detiene y abre sus puertas, debe detenerse detrás de las puertas traseras del vehículo y esperar hasta que todos los pasajeros hayan abordado o descendido y las puertas estén cerradas. Los peatones que cruzan tienen derecho de paso.'},
+  ans:1
+},
+{
+  id:404, cat:'safety',
+  en:{q:'What should you do if you are involved in a collision and someone is injured?',opts:['Leave the scene to find a phone','Do not move injured persons unless they are in immediate danger; call 911 and provide first aid if trained','Move all injured persons to the sidewalk immediately','Try to take injured persons to the hospital yourself rather than calling 911'],exp:'After a collision with injuries: 1) Call 911 immediately, 2) Do NOT move injured persons unless they are in immediate danger (moving can worsen spinal injuries), 3) Provide first aid if trained, 4) Stay at the scene — leaving is a crime. Render reasonable assistance.'},
+  zh:{q:'如果您卷入碰撞事故且有人受伤，您应该怎么做？',opts:['离开现场去找电话','除非受伤者处于即时危险中，否则不要移动他们；拨打911并在接受过培训的情况下提供急救','立即将所有受伤者移至人行道','尝试自己将受伤者送往医院而不是拨打911'],exp:'碰撞事故造成伤亡后：1）立即拨打911，2）不要移动受伤者，除非他们处于即时危险中（移动可能加重脊髓损伤），3）如接受过培训则提供急救，4）留在现场——离开是犯罪行为。提供合理援助。'},
+  zhTW:{q:'如果您捲入碰撞事故且有人受傷，您應該怎麼做？',opts:['離開現場去找電話','除非受傷者處於即時危險中，否則不要移動他們；撥打911並在接受過培訓的情況下提供急救','立即將所有受傷者移至人行道','嘗試自己將受傷者送往醫院而不是撥打911'],exp:'碰撞事故造成傷亡後：1）立即撥打911，2）不要移動受傷者，除非他們處於即時危險中（移動可能加重脊髓損傷），3）如接受過培訓則提供急救，4）留在現場——離開是犯罪行為。提供合理援助。'},
+  es:{q:'¿Qué debe hacer si está involucrado en una colisión y alguien resulta herido?',opts:['Abandone la escena para encontrar un teléfono','No mueva a los heridos a menos que estén en peligro inmediato; llame al 911 y brinde primeros auxilios si está capacitado','Mueva a todos los heridos a la acera inmediatamente','Lleve a los heridos al hospital usted mismo en lugar de llamar al 911'],exp:'Después de una colisión con heridos: 1) Llame al 911 inmediatamente, 2) NO mueva a los heridos a menos que estén en peligro inmediato, 3) Brinde primeros auxilios si está capacitado, 4) Permanezca en la escena — abandonarla es un delito.'},
+  ans:1
+},
+{
+  id:405, cat:'speed',
+  en:{q:'What is the maximum speed limit for vehicles towing trailers on California freeways?',opts:['65 mph','60 mph','55 mph','50 mph'],exp:'Vehicles towing trailers (and trucks over 3 tons) are limited to 55 mph on all California freeways, regardless of the posted speed limit for other vehicles. This applies even if the freeway posts 65 or 70 mph for regular vehicles.'},
+  zh:{q:'在加州高速公路上，拖挂拖车的车辆最高限速是多少？',opts:['65英里/小时','60英里/小时','55英里/小时','50英里/小时'],exp:'拖挂拖车的车辆（以及超过3吨的卡车）在加州所有高速公路上限速55英里/小时，无论其他车辆的限速如何。即使高速公路对普通车辆标注65或70英里/小时，这也适用。'},
+  zhTW:{q:'在加州高速公路上，拖掛拖車的車輛最高限速是多少？',opts:['65英里/小時','60英里/小時','55英里/小時','50英里/小時'],exp:'拖掛拖車的車輛（以及超過3噸的卡車）在加州所有高速公路上限速55英里/小時，無論其他車輛的限速如何。即使高速公路對普通車輛標注65或70英里/小時，這也適用。'},
+  es:{q:'¿Cuál es el límite máximo de velocidad para vehículos que remolcan tráileres en las autopistas de California?',opts:['65 mph','60 mph','55 mph','50 mph'],exp:'Los vehículos que remolcan tráileres (y camiones de más de 3 toneladas) están limitados a 55 mph en todas las autopistas de California, independientemente del límite de velocidad publicado para otros vehículos.'},
+  ans:2
+},
+{
+  id:406, cat:'dui',
+  en:{q:'How long does a DUI conviction stay on your California driving record?',opts:['3 years','5 years','7 years','10 years'],exp:'A DUI conviction stays on your California DMV driving record for 10 years. During this period, any subsequent DUI is counted as a repeat offense with much harsher penalties. After 10 years it may be removed from the DMV record, though it may remain on criminal records longer.'},
+  zh:{q:'在加州，DUI定罪在您的驾驶记录上保留多久？',opts:['3年','5年','7年','10年'],exp:'DUI定罪在加州DMV驾驶记录上保留10年。在此期间，任何后续DUI都被视为重复违规，处罚更为严厉。10年后可能从DMV记录中删除，但在犯罪记录上可能保留更长时间。'},
+  zhTW:{q:'在加州，DUI定罪在您的駕駛記錄上保留多久？',opts:['3年','5年','7年','10年'],exp:'DUI定罪在加州DMV駕駛記錄上保留10年。在此期間，任何後續DUI都被視為重複違規，處罰更為嚴厲。10年後可能從DMV記錄中刪除，但在犯罪記錄上可能保留更長時間。'},
+  es:{q:'¿Cuánto tiempo permanece una condena por DUI en su historial de conducción de California?',opts:['3 años','5 años','7 años','10 años'],exp:'Una condena por DUI permanece en su historial de conducción del DMV de California durante 10 años. Durante este período, cualquier DUI subsiguiente se cuenta como una ofensa repetida con penalidades mucho más severas.'},
+  ans:3
+},
+{
+  id:407, cat:'parking',
+  en:{q:'You see a fire hydrant on the sidewalk. How close to it may you park?',opts:['10 feet','15 feet','20 feet','25 feet'],exp:'California law prohibits parking within 15 feet of a fire hydrant. This ensures firefighters can quickly access the hydrant in an emergency. Even if there are no markings on the curb, parking within 15 feet is illegal.'},
+  zh:{q:'您看到人行道上有消防栓。您可以停在距其多近的地方？',opts:['10英尺','15英尺','20英尺','25英尺'],exp:'加州法律禁止停车在消防栓15英尺以内。这确保消防员在紧急情况下能够快速使用消防栓。即使路缘上没有标记，在15英尺以内停车也是违法的。'},
+  zhTW:{q:'您看到人行道上有消防栓。您可以停在距其多近的地方？',opts:['10英尺','15英尺','20英尺','25英尺'],exp:'加州法律禁止停車在消防栓15英尺以內。這確保消防員在緊急情況下能夠快速使用消防栓。即使路緣上沒有標記，在15英尺以內停車也是違法的。'},
+  es:{q:'Ve una boca de incendios en la acera. ¿A qué distancia puede estacionarse?',opts:['10 pies','15 pies','20 pies','25 pies'],exp:'La ley de California prohíbe estacionarse dentro de 15 pies de una boca de incendios. Esto asegura que los bomberos puedan acceder rápidamente a la boca en una emergencia. Incluso sin marcas en el bordillo, estacionarse dentro de 15 pies es ilegal.'},
+  ans:1
+},
+{
+  id:408, cat:'highway',
+  en:{q:'What is a "transition lane" or "buffer zone" on a California freeway?',opts:['A lane exclusively for emergency vehicles','A short lane that connects two parallel roads to allow gradual speed adjustment','A lane reserved for carpooling during rush hour','A lane with lower speed limits for trucks'],exp:'A transition lane (buffer or acceleration/deceleration lane) is a short additional lane added where roads join or diverge. It allows vehicles to accelerate to freeway speed before merging, or decelerate after exiting, without abruptly entering or leaving the main traffic flow.'},
+  zh:{q:'加州高速公路上的"过渡车道"或"缓冲区"是什么？',opts:['专为紧急车辆的车道','连接两条平行道路以逐渐调整速度的短车道','高峰时段专供拼车的车道','限速较低供卡车使用的车道'],exp:'"过渡车道"（缓冲区或加/减速车道）是在道路交汇或分叉处增加的短辅助车道。它允许车辆在合并前加速至高速公路速度，或在驶出后减速，而不会突然进入或离开主交通流。'},
+  zhTW:{q:'加州高速公路上的「過渡車道」或「緩衝區」是什麼？',opts:['專為緊急車輛的車道','連接兩條平行道路以逐漸調整速度的短車道','高峰時段專供拼車的車道','限速較低供卡車使用的車道'],exp:'「過渡車道」（緩衝區或加/減速車道）是在道路交匯或分叉處增加的短輔助車道。它允許車輛在合併前加速至高速公路速度，或在駛出後減速，而不會突然進入或離開主交通流。'},
+  es:{q:'¿Qué es un "carril de transición" o "zona de amortiguamiento" en una autopista de California?',opts:['Un carril exclusivamente para vehículos de emergencia','Un carril corto que conecta dos carreteras paralelas para permitir el ajuste gradual de velocidad','Un carril reservado para viajes compartidos durante las horas pico','Un carril con límites de velocidad más bajos para camiones'],exp:'Un carril de transición (zona de amortiguamiento o carril de aceleración/desaceleración) es un carril adicional corto donde las carreteras se unen o divergen. Permite a los vehículos acelerar a la velocidad de la autopista antes de fusionarse, o desacelerar después de salir.'},
+  ans:1
+},
+{
+  id:409, cat:'laws',
+  en:{q:'Under California law, at what age can a person get a provisional (probationary) driver\'s license?',opts:['15 years old','16 years old','17 years old','18 years old'],exp:'In California, you can get a provisional driver\'s license at 16 years old, after holding an instruction permit for at least 6 months, completing 50 hours of supervised driving (10 at night), and passing the driving test. The provisional license has restrictions on passengers and night driving.'},
+  zh:{q:'根据加州法律，一个人在多大年龄可以获得临时（试用期）驾驶执照？',opts:['15岁','16岁','17岁','18岁'],exp:'在加州，持有学员许可证至少6个月、完成50小时有监督驾驶（其中10小时夜间）并通过驾驶考试后，可以在16岁时获得临时驾驶执照。临时驾照对乘客和夜间驾驶有限制。'},
+  zhTW:{q:'根據加州法律，一個人在多大年齡可以獲得臨時（試用期）駕駛執照？',opts:['15歲','16歲','17歲','18歲'],exp:'在加州，持有學員許可證至少6個月、完成50小時有監督駕駛（其中10小時夜間）並通過駕駛考試後，可以在16歲時獲得臨時駕駛執照。臨時駕照對乘客和夜間駕駛有限制。'},
+  es:{q:'Bajo la ley de California, ¿a qué edad puede una persona obtener una licencia de conducir provisional (de prueba)?',opts:['15 años','16 años','17 años','18 años'],exp:'En California, puede obtener una licencia de conducir provisional a los 16 años, después de tener un permiso de instrucción durante al menos 6 meses, completar 50 horas de conducción supervisada (10 de noche) y aprobar el examen de manejo. La licencia provisional tiene restricciones sobre pasajeros y conducción nocturna.'},
+  ans:1
+},
+{
+  id:410, cat:'safety',
+  en:{q:'What is hydroplaning, and how can you prevent it?',opts:['A car overheating on wet roads — prevent it by keeping coolant full','When tires lose contact with wet road surface and ride on water — prevent by slowing down and keeping tires properly inflated','When brakes overheat from driving through puddles — use engine braking','When windshield wipers fail in rain — always carry spare wipers'],exp:'Hydroplaning occurs when your tires travel on a film of water rather than gripping the road surface, causing loss of steering and braking control. To prevent: slow down in rain (especially on standing water), ensure tires have adequate tread depth, keep tires properly inflated, and avoid sudden steering or braking.'},
+  zh:{q:'什么是水漂（hydroplaning），如何预防？',opts:['汽车在湿润道路上过热——通过保持冷却液充足来预防','轮胎失去与湿润路面的接触并在水面上滑行——通过减速并保持轮胎气压适当来预防','刹车在穿越水坑时过热——使用发动机制动','雨天挡风玻璃雨刷失效——始终携带备用雨刷'],exp:'水漂发生在轮胎在水膜上行驶而不是抓住路面时，导致失去转向和制动控制。预防方法：在雨中减速（尤其是积水处），确保轮胎有足够胎纹深度，保持轮胎气压适当，避免突然转向或刹车。'},
+  zhTW:{q:'什麼是水漂（hydroplaning），如何預防？',opts:['汽車在濕潤道路上過熱——通過保持冷卻液充足來預防','輪胎失去與濕潤路面的接觸並在水面上滑行——通過減速並保持輪胎氣壓適當來預防','剎車在穿越水坑時過熱——使用發動機制動','雨天擋風玻璃雨刷失效——始終攜帶備用雨刷'],exp:'水漂發生在輪胎在水膜上行駛而不是抓住路面時，導致失去轉向和制動控制。預防方法：在雨中減速（尤其是積水處），確保輪胎有足夠胎紋深度，保持輪胎氣壓適當，避免突然轉向或剎車。'},
+  es:{q:'¿Qué es el aquaplaning y cómo puede prevenirlo?',opts:['Un auto que se sobrecalienta en carreteras mojadas — prevenirlo manteniendo el refrigerante lleno','Cuando los neumáticos pierden contacto con la superficie mojada y se deslizan sobre el agua — prevenirlo reduciendo la velocidad y manteniendo los neumáticos bien inflados','Cuando los frenos se sobrecalientan al pasar por charcos — use el freno del motor','Cuando los limpiaparabrisas fallan bajo la lluvia — siempre lleve repuestos'],exp:'El aquaplaning ocurre cuando los neumáticos viajan sobre una película de agua en lugar de agarrar la superficie del camino, causando pérdida de control de dirección y frenado. Para prevenir: reduzca la velocidad bajo la lluvia, asegure profundidad de banda de rodadura adecuada, mantenga los neumáticos bien inflados y evite maniobras bruscas.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
