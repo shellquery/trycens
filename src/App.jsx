@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { questions, CATEGORIES } from './data/questions.js'
 import Home from './components/Home.jsx'
 import Quiz from './components/Quiz.jsx'
@@ -46,6 +46,10 @@ export default function App() {
   const score = quizQuestions.length
     ? { correct: answers.filter((a, i) => a === quizQuestions[i]?.ans).length, total: quizQuestions.length }
     : null
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [theme])
 
   const toggleTheme = () => {
     const next = theme === 'light' ? 'dark' : 'light'

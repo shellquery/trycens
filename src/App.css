@@ -26,7 +26,7 @@
   --topbar-h:     54px;
 }
 
-[data-theme="dark"] {
+html[data-theme="dark"], [data-theme="dark"] {
   --bg:           #111111;
   --bg2:          #1c1c1e;
   --bg3:          #2c2c2e;
