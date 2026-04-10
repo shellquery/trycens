@@ -4047,4 +4047,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:391, cat:'signs', sign:'stop',
+  en:{q:'When you come to a stop sign with a white line painted on the road, where should you stop?',opts:['At the stop sign itself','At the white stop line, or if no line, before the crosswalk, or before the intersection','Anywhere within 10 feet of the sign','You may roll through if no traffic is present'],exp:'You must come to a complete stop at the white limit line (stop line) if one is painted. If there is no stop line, stop before the crosswalk. If there is no crosswalk, stop before the intersection where you can see clearly in all directions.'},
+  zh:{q:'当您到达有白色停车线的停车标志处，应该在哪里停车？',opts:['在停车标志本身','在白色停车线处，如无停车线，则在人行横道前，或在路口前','在标志10英尺以内任何地方','如果没有车辆，可以慢慢通过'],exp:'如果有白色停车线（停止线），必须在该线处完全停车。如果没有停止线，在人行横道前停车。如果没有人行横道，在路口前能够清楚看到各方向的地方停车。'},
+  zhTW:{q:'當您到達有白色停車線的停車標誌處，應該在哪裡停車？',opts:['在停車標誌本身','在白色停車線處，如無停車線，則在人行橫道前，或在路口前','在標誌10英尺以內任何地方','如果沒有車輛，可以慢慢通過'],exp:'如果有白色停車線（停止線），必須在該線處完全停車。如果沒有停止線，在人行橫道前停車。如果沒有人行橫道，在路口前能夠清楚看到各方向的地方停車。'},
+  es:{q:'Cuando llega a una señal de alto con una línea blanca pintada en la carretera, ¿dónde debe detenerse?',opts:['En la señal de alto misma','En la línea de parada blanca, o si no hay línea, antes del cruce peatonal, o antes de la intersección','En cualquier lugar dentro de 10 pies de la señal','Puede pasar lentamente si no hay tráfico'],exp:'Debe detenerse completamente en la línea de límite blanca (línea de parada) si hay una pintada. Si no hay línea de parada, deténgase antes del cruce peatonal. Si no hay cruce peatonal, deténgase antes de la intersección donde pueda ver claramente en todas direcciones.'},
+  ans:1
+},
+{
+  id:392, cat:'laws',
+  en:{q:'What is the consequence of getting 4 points on your California driving record within 12 months?',opts:['Only a warning letter from the DMV','License may be suspended as a negligent operator','Mandatory court appearance','Automatic license revocation'],exp:'California uses a point system. Accumulating 4 points in 12 months (or 6 in 24 months, or 8 in 36 months) can result in being declared a negligent operator, leading to license probation, suspension, or revocation. Moving violations typically add 1 point; more serious violations add 2 points.'},
+  zh:{q:'在加州，12个月内在驾驶记录上积累4分有什么后果？',opts:['只有DMV发出的警告信','驾照可能因粗心驾驶员身份被吊销','强制出庭','自动吊销驾照'],exp:'加州使用积分制度。在12个月内积累4分（或24个月内6分，或36个月内8分）可能导致被认定为粗心驾驶员，导致驾照缓刑、吊销或撤销。交通违规通常添加1分；更严重的违规添加2分。'},
+  zhTW:{q:'在加州，12個月內在駕駛記錄上積累4分有什麼後果？',opts:['只有DMV發出的警告信','駕照可能因粗心駕駛員身份被吊銷','強制出庭','自動吊銷駕照'],exp:'加州使用積分制度。在12個月內積累4分（或24個月內6分，或36個月內8分）可能導致被認定為粗心駕駛員，導致駕照緩刑、吊銷或撤銷。交通違規通常添加1分；更嚴重的違規添加2分。'},
+  es:{q:'¿Cuál es la consecuencia de obtener 4 puntos en su historial de conducción de California dentro de 12 meses?',opts:['Solo una carta de advertencia del DMV','La licencia puede suspenderse como operador negligente','Comparecencia obligatoria ante el tribunal','Revocación automática de licencia'],exp:'California usa un sistema de puntos. Acumular 4 puntos en 12 meses (o 6 en 24 meses, o 8 en 36 meses) puede resultar en ser declarado operador negligente, llevando a libertad condicional, suspensión o revocación de la licencia.'},
+  ans:1
+},
+{
+  id:393, cat:'rightofway',
+  en:{q:'A pedestrian is crossing at a marked crosswalk without a signal. Do they have the right of way?',opts:['Only if they are in the far lane','Yes — vehicles must yield to pedestrians in any crosswalk, marked or unmarked','Only if a crossing guard is present','No — pedestrians must wait for a gap in traffic'],exp:'In California, vehicles must yield to pedestrians crossing at marked crosswalks and also at unmarked crosswalks (at intersections). It is illegal to overtake and pass a vehicle that has stopped to let a pedestrian cross. Failing to yield to pedestrians in a crosswalk carries significant fines.'},
+  zh:{q:'一名行人在没有信号的标记人行横道上穿越。他们有优先通行权吗？',opts:['只有当他们在最远车道时','是的——车辆必须在任何人行横道（无论是否标记）让行行人','只有当有过路守卫时','不——行人必须等待交通空隙'],exp:'在加州，车辆必须在标记的人行横道以及未标记的人行横道（在路口）让行行人。超越和通过已停车让行人通过的车辆是违法的。未能在人行横道让行行人将面临重大罚款。'},
+  zhTW:{q:'一名行人在沒有信號的標記人行橫道上穿越。他們有優先通行權嗎？',opts:['只有當他們在最遠車道時','是的——車輛必須在任何人行橫道（無論是否標記）讓行行人','只有當有過路守衛時','不——行人必須等待交通空隙'],exp:'在加州，車輛必須在標記的人行橫道以及未標記的人行橫道（在路口）讓行行人。超越和通過已停車讓行人通過的車輛是違法的。未能在人行橫道讓行行人將面臨重大罰款。'},
+  es:{q:'Un peatón cruza en un cruce peatonal marcado sin señal. ¿Tienen el derecho de paso?',opts:['Solo si están en el carril más lejano','Sí — los vehículos deben ceder el paso a los peatones en cualquier cruce, marcado o no marcado','Solo si hay un guardia de cruce','No — los peatones deben esperar un espacio en el tráfico'],exp:'En California, los vehículos deben ceder el paso a los peatones que cruzan en cruces peatonales marcados y también en cruces no marcados (en intersecciones). Es ilegal adelantar y pasar un vehículo que se ha detenido para dejar cruzar a un peatón.'},
+  ans:1
+},
+{
+  id:394, cat:'safety',
+  en:{q:'What does it mean if the ABS (anti-lock braking system) light stays on while you are driving?',opts:['The ABS is actively preventing wheel lockup','There may be a malfunction — ABS may not function properly; have it inspected soon','ABS is disabled during normal driving','The brake fluid is low'],exp:'If the ABS warning light stays on while driving, it indicates a potential malfunction in the ABS system. The regular brakes will still work, but the anti-lock feature may not function. This means you could experience wheel lockup during hard braking. Have the system inspected promptly.'},
+  zh:{q:'如果ABS（防抱死制动系统）警示灯在行驶时持续亮起，这意味着什么？',opts:['ABS正在积极防止车轮锁死','可能存在故障——ABS可能无法正常运行；尽快检查','ABS在正常驾驶时被禁用','刹车液不足'],exp:'如果ABS警示灯在行驶时持续亮起，表明ABS系统可能存在故障。普通刹车仍然有效，但防抱死功能可能无法正常运行。这意味着在猛刹车时可能发生车轮锁死。尽快检查系统。'},
+  zhTW:{q:'如果ABS（防抱死制動系統）警示燈在行駛時持續亮起，這意味著什麼？',opts:['ABS正在積極防止車輪鎖死','可能存在故障——ABS可能無法正常運行；盡快檢查','ABS在正常駕駛時被禁用','剎車液不足'],exp:'如果ABS警示燈在行駛時持續亮起，表明ABS系統可能存在故障。普通剎車仍然有效，但防抱死功能可能無法正常運行。這意味著在猛剎車時可能發生車輪鎖死。盡快檢查系統。'},
+  es:{q:'¿Qué significa si la luz de ABS (sistema antibloqueo de frenos) permanece encendida mientras conduce?',opts:['El ABS está previniendo activamente el bloqueo de ruedas','Puede haber un mal funcionamiento — el ABS puede no funcionar correctamente; inspecciónelo pronto','El ABS está desactivado durante la conducción normal','El líquido de frenos está bajo'],exp:'Si la luz de advertencia del ABS permanece encendida mientras conduce, indica un posible mal funcionamiento en el sistema ABS. Los frenos regulares seguirán funcionando, pero la función antibloqueo puede no operar. Esto significa que podría experimentar bloqueo de ruedas durante el frenado fuerte.'},
+  ans:1
+},
+{
+  id:395, cat:'speed',
+  en:{q:'You are driving at 55 mph on a dry road. Approximately how many feet does it take to stop your car?',opts:['About 50 feet','About 130 feet','About 250 feet','About 400 feet'],exp:'At 55 mph on dry pavement, stopping distance is roughly 250 feet — about 80 feet of reaction distance (at 1.5 seconds) plus about 170 feet of braking distance. This is why the two-second following rule is important: you need enough space to react and stop safely.'},
+  zh:{q:'您在干燥道路上以55英里/小时行驶。大约需要多少英尺才能停车？',opts:['约50英尺','约130英尺','约250英尺','约400英尺'],exp:'在干燥路面以55英里/小时行驶，制动距离约为250英尺——约80英尺的反应距离（1.5秒）加上约170英尺的制动距离。这就是两秒跟车规则重要的原因：您需要足够的空间来反应并安全停车。'},
+  zhTW:{q:'您在乾燥道路上以55英里/小時行駛。大約需要多少英尺才能停車？',opts:['約50英尺','約130英尺','約250英尺','約400英尺'],exp:'在乾燥路面以55英里/小時行駛，制動距離約為250英尺——約80英尺的反應距離（1.5秒）加上約170英尺的制動距離。這就是兩秒跟車規則重要的原因：您需要足夠的空間來反應並安全停車。'},
+  es:{q:'Conduce a 55 mph en una carretera seca. ¿Aproximadamente cuántos pies necesita para detener su auto?',opts:['Unos 50 pies','Unos 130 pies','Unos 250 pies','Unos 400 pies'],exp:'A 55 mph en pavimento seco, la distancia de parada es aproximadamente 250 pies — unos 80 pies de distancia de reacción (a 1.5 segundos) más aproximadamente 170 pies de distancia de frenado. Por eso la regla de seguimiento de dos segundos es importante.'},
+  ans:2
+},
+{
+  id:396, cat:'dui',
+  en:{q:'After consuming alcohol, which activity is the most effective way to sober up quickly?',opts:['Drinking coffee','Taking a cold shower','Eating food','Time — only time reduces BAC'],exp:'Only time reduces blood alcohol concentration. The liver processes about one standard drink per hour regardless of any other actions. Coffee, cold showers, food, exercise, or fresh air do NOT speed up alcohol metabolism — they may make you feel more alert but your BAC remains unchanged.'},
+  zh:{q:'饮酒后，哪种活动是快速清醒的最有效方法？',opts:['喝咖啡','洗冷水澡','吃东西','时间——只有时间能降低BAC'],exp:'只有时间能降低血液酒精浓度。肝脏每小时处理约一标准杯，无论采取什么其他措施。咖啡、冷水澡、食物、运动或新鲜空气都无法加速酒精代谢——它们可能让您感觉更清醒，但BAC保持不变。'},
+  zhTW:{q:'飲酒後，哪種活動是快速清醒的最有效方法？',opts:['喝咖啡','洗冷水澡','吃東西','時間——只有時間能降低BAC'],exp:'只有時間能降低血液酒精濃度。肝臟每小時處理約一標準杯，無論採取什麼其他措施。咖啡、冷水澡、食物、運動或新鮮空氣都無法加速酒精代謝——它們可能讓您感覺更清醒，但BAC保持不變。'},
+  es:{q:'Después de consumir alcohol, ¿cuál actividad es la más efectiva para recuperarse rápidamente?',opts:['Tomar café','Tomar una ducha fría','Comer comida','El tiempo — solo el tiempo reduce el BAC'],exp:'Solo el tiempo reduce la concentración de alcohol en sangre. El hígado procesa aproximadamente una bebida estándar por hora independientemente de otras acciones. El café, duchas frías, comida, ejercicio o aire fresco NO aceleran el metabolismo del alcohol.'},
+  ans:3
+},
+{
+  id:397, cat:'parking',
+  en:{q:'You are driving and see a green curb. What does it mean?',opts:['No parking — fire lane','Short-term parking — usually 10 or 15 minutes as posted','Parking for disabled persons only','Commercial loading zone'],exp:'A green curb indicates short-term parking, usually 10 or 15 minutes as posted by a sign. Check the posted sign for the exact time limit. Green zones are often found near post offices, libraries, or businesses to encourage quick errands.'},
+  zh:{q:'您在行驶中看到绿色路缘。这意味着什么？',opts:['禁止停车——消防通道','短期停车——通常如标志所示为10或15分钟','仅限残障人士停车','商业装卸区'],exp:'绿色路缘表示短期停车，通常如标志所示为10或15分钟。检查标注标志了解确切时间限制。绿色区域通常位于邮局、图书馆或商业场所附近，以鼓励快速办理事务。'},
+  zhTW:{q:'您在行駛中看到綠色路緣。這意味著什麼？',opts:['禁止停車——消防通道','短期停車——通常如標誌所示為10或15分鐘','僅限殘障人士停車','商業裝卸區'],exp:'綠色路緣表示短期停車，通常如標誌所示為10或15分鐘。檢查標注標誌了解確切時間限制。綠色區域通常位於郵局、圖書館或商業場所附近，以鼓勵快速辦理事務。'},
+  es:{q:'Conduce y ve un bordillo verde. ¿Qué significa?',opts:['Sin estacionamiento — carril de bomberos','Estacionamiento de corto plazo — generalmente 10 o 15 minutos según lo publicado','Estacionamiento solo para personas discapacitadas','Zona de carga comercial'],exp:'Un bordillo verde indica estacionamiento de corto plazo, generalmente 10 o 15 minutos según la señal publicada. Verifique la señal publicada para el límite de tiempo exacto. Las zonas verdes se encuentran frecuentemente cerca de correos, bibliotecas o negocios.'},
+  ans:1
+},
+{
+  id:398, cat:'highway',
+  en:{q:'What should you do if you have a blowout (tire failure) on the freeway?',opts:['Brake hard to stop quickly','Grip the steering wheel firmly, ease off the gas gradually, do not brake suddenly, steer straight, then carefully pull to the right and stop','Turn on hazard lights and accelerate to reach the next exit','Immediately swerve to the shoulder'],exp:'During a blowout: 1) Grip the wheel firmly — the car may pull to one side, 2) Do NOT brake suddenly — this can cause a spinout, 3) Ease off the accelerator gradually, 4) Steer straight and maintain control, 5) Gently coast to the right shoulder and stop safely. Turn on hazard lights.'},
+  zh:{q:'如果您在高速公路上爆胎，您应该怎么做？',opts:['猛刹车以快速停车','紧握方向盘，逐渐松油门，不要突然刹车，保持直行，然后小心靠右停车','开启危险警示灯并加速到达下一个出口','立即转向肩道'],exp:'爆胎时：1）紧握方向盘——车辆可能向一侧偏转，2）不要突然刹车——这可能导致甩尾，3）逐渐松开油门，4）保持直行维持控制，5）轻轻滑行至右侧肩道并安全停车。开启危险警示灯。'},
+  zhTW:{q:'如果您在高速公路上爆胎，您應該怎麼做？',opts:['猛剎車以快速停車','緊握方向盤，逐漸鬆油門，不要突然剎車，保持直行，然後小心靠右停車','開啟危險警示燈並加速到達下一個出口','立即轉向肩道'],exp:'爆胎時：1）緊握方向盤——車輛可能向一側偏轉，2）不要突然剎車——這可能導致甩尾，3）逐漸鬆開油門，4）保持直行維持控制，5）輕輕滑行至右側肩道並安全停車。開啟危險警示燈。'},
+  es:{q:'¿Qué debe hacer si sufre una explosión de neumático (fallo de llanta) en la autopista?',opts:['Frene fuerte para detenerse rápidamente','Sujete firmemente el volante, suelte el gas gradualmente, no frene repentinamente, dirija recto, luego orillese cuidadosamente a la derecha y deténgase','Encienda las luces de emergencia y acelere hacia la próxima salida','Gire inmediatamente hacia el arcén'],exp:'Durante una explosión de neumático: 1) Sujete el volante firmemente, 2) NO frene repentinamente — puede causar un giro incontrolado, 3) Suelte el acelerador gradualmente, 4) Dirija recto y mantenga el control, 5) Deslícese suavemente hacia el arcén derecho y deténgase. Encienda las luces de emergencia.'},
+  ans:1
+},
+{
+  id:399, cat:'laws',
+  en:{q:'What is the "basic speed law" in California?',opts:['You must always drive at the posted speed limit, no more and no less','You must never drive at a speed greater than what is reasonable and safe for current conditions, regardless of posted limit','You may exceed the speed limit by 10% if it is safe to do so','The posted limit is the minimum safe speed'],exp:'The Basic Speed Law (CVC 22350) states that you must never drive faster than is safe for current conditions — regardless of the posted speed limit. Even if the limit is 65 mph, if conditions (fog, rain, heavy traffic, poor road) make that speed unsafe, you must slow down.'},
+  zh:{q:'加州的"基本速度法"是什么？',opts:['您必须始终以限速行驶，不多不少','您绝不能以超过当前条件下合理安全的速度行驶，无论限速如何','如果安全，可以超速10%','限速是最低安全速度'],exp:'基本速度法（车辆法典22350）规定，无论限速如何，您绝不能以超过当前条件下合理安全的速度行驶。即使限速为65英里/小时，如果条件（大雾、大雨、繁重交通、路况差）使该速度不安全，您必须减速。'},
+  zhTW:{q:'加州的「基本速度法」是什麼？',opts:['您必須始終以限速行駛，不多不少','您絕不能以超過當前條件下合理安全的速度行駛，無論限速如何','如果安全，可以超速10%','限速是最低安全速度'],exp:'基本速度法（車輛法典22350）規定，無論限速如何，您絕不能以超過當前條件下合理安全的速度行駛。即使限速為65英里/小時，如果條件（大霧、大雨、繁重交通、路況差）使該速度不安全，您必須減速。'},
+  es:{q:'¿Cuál es la "ley de velocidad básica" en California?',opts:['Siempre debe conducir al límite de velocidad publicado, ni más ni menos','Nunca debe conducir a una velocidad mayor de lo que es razonable y seguro para las condiciones actuales, independientemente del límite publicado','Puede exceder el límite de velocidad en un 10% si es seguro','El límite publicado es la velocidad mínima segura'],exp:'La Ley de Velocidad Básica (CVC 22350) establece que nunca debe conducir más rápido de lo que sea seguro para las condiciones actuales, independientemente del límite de velocidad publicado. Incluso si el límite es 65 mph, si las condiciones hacen que esa velocidad no sea segura, debe reducir la velocidad.'},
+  ans:1
+},
+{
+  id:400, cat:'safety',
+  en:{q:'You are driving and a large truck is following very closely behind you (tailgating). What is the safest response?',opts:['Brake suddenly to show the driver to back off','Speed up to increase the distance between you','Gradually move to another lane or let the truck pass; do not slow down abruptly','Flash your brake lights repeatedly to warn the truck driver'],exp:'When being tailgated by a large truck: do not brake suddenly (the truck needs much more stopping distance than a car), do not engage the driver. The safest response is to gradually move to another lane when safe to let them pass, or gently reduce speed to increase the gap and give them room.'},
+  zh:{q:'您正在行驶，一辆大卡车在您后面紧跟（逼车）。最安全的应对方式是什么？',opts:['突然刹车以提醒驾驶员后退','加速以增加您们之间的距离','逐渐移至另一车道或让卡车通过；不要突然减速','反复闪刹车灯警告卡车司机'],exp:'当大卡车尾随时：不要突然刹车（卡车比轿车需要更长的制动距离），不要与司机对抗。最安全的应对方式是在安全时逐渐移至另一车道让其通过，或轻轻减速以增加间距给予其空间。'},
+  zhTW:{q:'您正在行駛，一輛大卡車在您後面緊跟（逼車）。最安全的應對方式是什麼？',opts:['突然剎車以提醒駕駛員後退','加速以增加您們之間的距離','逐漸移至另一車道或讓卡車通過；不要突然減速','反復閃剎車燈警告卡車司機'],exp:'當大卡車尾隨時：不要突然剎車（卡車比轎車需要更長的制動距離），不要與司機對抗。最安全的應對方式是在安全時逐漸移至另一車道讓其通過，或輕輕減速以增加間距給予其空間。'},
+  es:{q:'Conduce y un camión grande le sigue muy de cerca (hostigamiento). ¿Cuál es la respuesta más segura?',opts:['Frene repentinamente para mostrarle al conductor que se retire','Acelere para aumentar la distancia entre ustedes','Muévase gradualmente a otro carril o deje pasar al camión; no reduzca la velocidad abruptamente','Destelle las luces de freno repetidamente para advertir al conductor del camión'],exp:'Cuando un camión grande le siga: no frene repentinamente (el camión necesita mucha más distancia de frenado que un auto), no se enfrente al conductor. La respuesta más segura es moverse gradualmente a otro carril cuando sea seguro para dejarlo pasar, o reducir suavemente la velocidad para aumentar el espacio.'},
+  ans:2
+},
+
 ] // end of questions array — more batches to be appended
