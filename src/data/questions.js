@@ -2824,4 +2824,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 25 · Mixed Review · Q241–250 ──────────────────────────────────────
+{
+  id:241, cat:'safety',
+  en:{q:'What is the "3-second rule" for following distance?',opts:['Keep 3 car lengths behind the vehicle ahead','Choose a fixed point — the vehicle ahead passes it, then you pass it 3 seconds later','Always maintain exactly 3 feet of space','Drive 3 mph slower than the vehicle ahead'],exp:'The 3-second rule: watch the vehicle ahead pass a fixed object (sign, tree, etc.). Count "one-one-thousand, two-one-thousand, three-one-thousand." If you pass that same object before finishing the count, you are following too closely. Increase this to 4+ seconds in bad weather or heavy traffic.'},
+  zh:{q:'跟车距离的"3秒规则"是什么？',opts:['在前方车辆后保持3个车长','选择一个固定点——前方车辆经过它，然后您在3秒后经过它','始终保持正好3英尺的空间','以比前方车辆慢3英里/小时行驶'],exp:'3秒规则：观察前方车辆通过一个固定物体（标志、树等）。数"一一千、二一千、三一千"。如果您在数完之前经过那个相同的物体，您的跟车距离太近了。在恶劣天气或大交通量中将此增加到4秒以上。'},
+  zhTW:{q:'跟車距離的「3秒規則」是什麼？',opts:['在前方車輛後保持3個車長','選擇一個固定點——前方車輛經過它，然後您在3秒後經過它','始終保持正好3英尺的空間','以比前方車輛慢3英里/小時行駛'],exp:'3秒規則：觀察前方車輛通過一個固定物體（標誌、樹等）。數「一一千、二一千、三一千」。如果您在數完之前經過那個相同的物體，您的跟車距離太近了。在惡劣天氣或大交通量中將此增加到4秒以上。'},
+  es:{q:'¿Cuál es la "regla de los 3 segundos" para la distancia de seguimiento?',opts:['Mantenga 3 longitudes de auto detrás del vehículo de adelante','Elija un punto fijo — el vehículo de adelante lo pasa, luego usted lo pasa 3 segundos después','Siempre mantenga exactamente 3 pies de espacio','Conduzca 3 mph más lento que el vehículo de adelante'],exp:'La regla de los 3 segundos: observe el vehículo de adelante pasar un objeto fijo (señal, árbol, etc.). Cuente "uno-mil, dos-mil, tres-mil". Si pasa ese mismo objeto antes de terminar de contar, está siguiendo demasiado de cerca. Aumente esto a 4+ segundos en mal tiempo o tráfico pesado.'},
+  ans:1
+},
+{
+  id:242, cat:'signs', sign:'hov',
+  en:{q:'A diamond-shaped sign with the word "HOV 2+" means:',opts:['This lane is for motorcycles only','This carpool lane requires at least 2 occupants to use it','Speed limit in this lane is 2 mph over the posted limit','This is a heavy vehicle only lane'],exp:'"HOV 2+" means High Occupancy Vehicle lane — you must have at least 2 people in the vehicle (including the driver) to use this lane. Some HOV lanes require 3+ occupants. Certain clean-air vehicles with special decals may use HOV lanes with fewer occupants. Fines for violations are steep.'},
+  zh:{q:'菱形标志上写着"HOV 2+"意味着：',opts:['此车道仅限摩托车','此拼车道需要至少2名乘客才能使用','此车道的速度限制比标志限制高2英里/小时','这是仅限重型车辆的车道'],exp:'"HOV 2+"表示高载客量车辆车道——您必须在车内有至少2个人（包括驾驶者）才能使用此车道。一些HOV车道需要3人以上。具有特殊贴纸的某些清洁能源车辆可以以较少的乘客使用HOV车道。违规罚款相当高。'},
+  zhTW:{q:'菱形標誌上寫著「HOV 2+」意味著：',opts:['此車道僅限摩托車','此拼車道需要至少2名乘客才能使用','此車道的速度限制比標誌限制高2英里/小時','這是僅限重型車輛的車道'],exp:'"HOV 2+"表示高載客量車輛車道——您必須在車內有至少2個人（包括駕駛者）才能使用此車道。一些HOV車道需要3人以上。具有特殊貼紙的某些清潔能源車輛可以以較少的乘客使用HOV車道。違規罰款相當高。'},
+  es:{q:'Una señal en forma de diamante con las palabras "HOV 2+" significa:',opts:['Este carril es solo para motocicletas','Este carril de vehículos compartidos requiere al menos 2 ocupantes para usarlo','El límite de velocidad en este carril es 2 mph sobre el límite publicado','Este es un carril solo para vehículos pesados'],exp:'"HOV 2+" significa carril de Vehículo de Alta Ocupación — debe tener al menos 2 personas en el vehículo (incluido el conductor) para usar este carril. Algunos carriles HOV requieren 3+ ocupantes. Ciertos vehículos de aire limpio con calcomanías especiales pueden usar los carriles HOV con menos ocupantes. Las multas por infracciones son altas.'},
+  ans:1
+},
+{
+  id:243, cat:'laws',
+  en:{q:'What is "distracted driving" and what are its dangers?',opts:['Only texting while driving — all other activities are safe','Any activity that takes your eyes, hands, or mind off driving — it multiplies accident risk','Only illegal if you are in a school zone','Only applies to new drivers under 18'],exp:'Distracted driving includes any non-driving activity: texting, calling, eating, adjusting radio, talking to passengers, daydreaming. At 65 mph, taking your eyes off the road for 5 seconds means traveling 480 feet (1.5 football fields) blindly. Distractions are a leading cause of accidents in California.'},
+  zh:{q:'"分心驾驶"是什么，它有什么危险？',opts:['只有开车发短信——所有其他活动都是安全的','任何使您的眼睛、手或注意力离开驾驶的活动——它使事故风险倍增','只有在学校区域内才违法','只适用于18岁以下的新手驾驶者'],exp:'分心驾驶包括任何非驾驶活动：发短信、打电话、进食、调收音机、与乘客交谈、做白日梦。在65英里/小时速度下，离开道路5秒意味着盲目行驶了480英尺（1.5个足球场）。分心是加州事故的主要原因之一。'},
+  zhTW:{q:'「分心駕駛」是什麼，它有什麼危險？',opts:['只有開車發短信——所有其他活動都是安全的','任何使您的眼睛、手或注意力離開駕駛的活動——它使事故風險倍增','只有在學校區域內才違法','只適用於18歲以下的新手駕駛者'],exp:'分心駕駛包括任何非駕駛活動：發短信、打電話、進食、調收音機、與乘客交談、做白日夢。在65英里/小時速度下，離開道路5秒意味著盲目行駛了480英尺（1.5個足球場）。分心是加州事故的主要原因之一。'},
+  es:{q:'¿Qué es la "conducción distraída" y cuáles son sus peligros?',opts:['Solo enviar mensajes de texto mientras conduce — todas las demás actividades son seguras','Cualquier actividad que aparte sus ojos, manos o mente de la conducción — multiplica el riesgo de accidente','Solo es ilegal si está en una zona escolar','Solo aplica a conductores nuevos menores de 18'],exp:'La conducción distraída incluye cualquier actividad no relacionada con la conducción: enviar mensajes de texto, llamar, comer, ajustar la radio, hablar con pasajeros, soñar despierto. A 65 mph, apartar los ojos de la carretera durante 5 segundos significa viajar 480 pies (1.5 campos de fútbol) a ciegas. Las distracciones son una causa principal de accidentes en California.'},
+  ans:1
+},
+{
+  id:244, cat:'speed',
+  en:{q:'What is the speed limit in a blind intersection (no stop signs, limited visibility)?',opts:['25 mph','15 mph','35 mph','The same as the posted limit for that road'],exp:'The prima facie speed limit when approaching a blind intersection (where you cannot see traffic for at least 100 feet in all directions due to buildings, vegetation, etc.) is 15 mph. This low limit compensates for the reduced ability to see and react to crossing traffic.'},
+  zh:{q:'在盲目路口（无停车标志，能见度有限）的速度限制是多少？',opts:['25英里/小时','15英里/小时','35英里/小时','与该道路的标志限速相同'],exp:'靠近盲目路口时（由于建筑物、植被等，您无法在所有方向上看到至少100英尺的交通），初步表面速度限制为15英里/小时。这个低限制弥补了看到和应对横向交通的能力下降。'},
+  zhTW:{q:'在盲目路口（無停車標誌，能見度有限）的速度限制是多少？',opts:['25英里/小時','15英里/小時','35英里/小時','與該道路的標誌限速相同'],exp:'靠近盲目路口時（由於建築物、植被等，您無法在所有方向上看到至少100英尺的交通），初步表面速度限制為15英里/小時。這個低限制彌補了看到和應對橫向交通的能力下降。'},
+  es:{q:'¿Cuál es el límite de velocidad en una intersección ciega (sin señales de stop, visibilidad limitada)?',opts:['25 mph','15 mph','35 mph','Lo mismo que el límite publicado para esa carretera'],exp:'El límite de velocidad prima facie al aproximarse a una intersección ciega (donde no puede ver el tráfico durante al menos 100 pies en todas las direcciones debido a edificios, vegetación, etc.) es 15 mph. Este límite bajo compensa la reducida capacidad de ver y reaccionar al tráfico cruzado.'},
+  ans:1
+},
+{
+  id:245, cat:'safety',
+  en:{q:'What should you do if your car starts to skid?',opts:['Brake hard immediately','Steer in the opposite direction of the skid and brake hard','Ease off the gas, steer in the direction the rear of the car is skidding (into the skid), and avoid braking','Accelerate out of the skid'],exp:'For a rear-wheel skid (most common): ease off the accelerator and steer in the direction the rear is sliding (if the rear slides right, turn right). Do not brake hard — this makes skids worse. For ABS-equipped vehicles, apply steady brake pressure while steering.'},
+  zh:{q:'如果您的车开始打滑，您应该怎么做？',opts:['立即大力刹车','向打滑相反的方向转向并大力刹车','松开油门，向车尾打滑的方向转向（顺着滑动方向），避免刹车','加速冲出打滑'],exp:'对于后轮打滑（最常见）：松开油门，向车尾滑动的方向转向（如果车尾向右滑，向右转）。不要大力刹车——这会让打滑更严重。对于配备ABS的车辆，在转向时施加稳定的刹车压力。'},
+  zhTW:{q:'如果您的車開始打滑，您應該怎麼做？',opts:['立即大力剎車','向打滑相反的方向轉向並大力剎車','鬆開油門，向車尾打滑的方向轉向（順著滑動方向），避免剎車','加速衝出打滑'],exp:'對於後輪打滑（最常見）：鬆開油門，向車尾滑動的方向轉向（如果車尾向右滑，向右轉）。不要大力剎車——這會讓打滑更嚴重。對於配備ABS的車輛，在轉向時施加穩定的剎車壓力。'},
+  es:{q:'¿Qué debe hacer si su auto comienza a patinar?',opts:['Frene fuertemente de inmediato','Dirija en la dirección opuesta al patinaje y frene fuertemente','Suelte el acelerador, dirija en la dirección en que la parte trasera del auto está patinando (hacia el patinaje), y evite frenar','Acelere para salir del patinaje'],exp:'Para un patinaje de ruedas traseras (el más común): suelte el acelerador y dirija en la dirección en que se desliza la parte trasera (si la parte trasera se desliza a la derecha, gire a la derecha). No frene fuertemente — esto empeora los patinajes. Para vehículos equipados con ABS, aplique presión de freno estable mientras dirige.'},
+  ans:2
+},
+{
+  id:246, cat:'laws',
+  en:{q:'What is the law regarding open containers of alcohol in a vehicle?',opts:['Passengers may drink but the driver cannot','No one in the vehicle may have an open container of alcohol in the passenger compartment','Open containers are allowed only in the trunk','Passengers over 21 may have open containers in the back seat'],exp:'California law prohibits any open container of alcohol in the passenger area of a vehicle — this applies to both drivers and passengers. Open containers must be kept in the trunk, or in a locked glove compartment if there is no trunk. Violating this law is a misdemeanor.'},
+  zh:{q:'关于车辆内酒精容器开盖的法律是什么？',opts:['乘客可以喝酒但驾驶者不能','车辆内任何人都不得在乘客区有开盖的酒精容器','只有在行李箱中才允许开盖容器','21岁以上的乘客可以在后排有开盖容器'],exp:'加州法律禁止在车辆乘客区有任何开盖的酒精容器——这适用于驾驶者和乘客。开盖容器必须放在行李箱中，或者如果没有行李箱则放在上锁的手套箱中。违反这条法律是轻罪。'},
+  zhTW:{q:'關於車輛內酒精容器開蓋的法律是什麼？',opts:['乘客可以喝酒但駕駛者不能','車輛內任何人都不得在乘客區有開蓋的酒精容器','只有在行李箱中才允許開蓋容器','21歲以上的乘客可以在後排有開蓋容器'],exp:'加州法律禁止在車輛乘客區有任何開蓋的酒精容器——這適用於駕駛者和乘客。開蓋容器必須放在行李箱中，或者如果沒有行李箱則放在上鎖的手套箱中。違反這條法律是輕罪。'},
+  es:{q:'¿Cuál es la ley sobre contenedores abiertos de alcohol en un vehículo?',opts:['Los pasajeros pueden beber pero el conductor no','Nadie en el vehículo puede tener un recipiente abierto de alcohol en el compartimento de pasajeros','Los recipientes abiertos solo están permitidos en el maletero','Los pasajeros mayores de 21 pueden tener recipientes abiertos en el asiento trasero'],exp:'La ley de California prohíbe cualquier recipiente abierto de alcohol en el área de pasajeros de un vehículo — esto aplica tanto a conductores como a pasajeros. Los recipientes abiertos deben mantenerse en el maletero, o en la guantera cerrada con llave si no hay maletero. Violar esta ley es un delito menor.'},
+  ans:1
+},
+{
+  id:247, cat:'signs', sign:'signal-ahead',
+  en:{q:'A yellow diamond-shaped sign with a traffic signal picture means:',opts:['The signal ahead is broken — proceed with caution','A traffic signal is ahead — be prepared to stop','You are entering a school zone with a signal','Signal ahead is operated by remote control'],exp:'This warning sign alerts you that a traffic signal is ahead. It is placed before signals that may not be immediately visible due to hills, curves, or other obstructions. Slow down and be prepared to stop for a red light. It is commonly seen at the top of hills or around bends.'},
+  zh:{q:'带有交通信号灯图案的黄色菱形标志意味着：',opts:['前方信号灯故障——谨慎通行','前方有交通信号灯——准备停车','您正在进入有信号灯的学校区','前方信号灯由遥控器操作'],exp:'这个警告标志提醒您前方有交通信号灯。它放置在因山丘、弯道或其他障碍物而可能不立即可见的信号灯之前。减速并准备在红灯处停车。它常见于山丘顶部或弯道处。'},
+  zhTW:{q:'帶有交通信號燈圖案的黃色菱形標誌意味著：',opts:['前方信號燈故障——謹慎通行','前方有交通信號燈——準備停車','您正在進入有信號燈的學校區','前方信號燈由遙控器操作'],exp:'這個警告標誌提醒您前方有交通信號燈。它放置在因山丘、彎道或其他障礙物而可能不立即可見的信號燈之前。減速並準備在紅燈處停車。它常見於山丘頂部或彎道處。'},
+  es:{q:'Una señal amarilla en forma de diamante con una imagen de semáforo significa:',opts:['El semáforo de adelante está roto — proceda con precaución','Hay un semáforo adelante — prepárese para detenerse','Está entrando a una zona escolar con semáforo','El semáforo de adelante es operado por control remoto'],exp:'Esta señal de advertencia le alerta que hay un semáforo adelante. Se coloca antes de los semáforos que pueden no ser inmediatamente visibles debido a colinas, curvas u otros obstáculos. Reduzca la velocidad y prepárese para detenerse en una luz roja. Se ve comúnmente en la cima de colinas o en curvas.'},
+  ans:1
+},
+{
+  id:248, cat:'highway',
+  en:{q:'What is the purpose of the deceleration lane when exiting a freeway?',opts:['To allow you to stop safely','To allow you to slow down from freeway speed before reaching the exit ramp','To allow emergency vehicles to pass','To provide space for merging traffic'],exp:'The deceleration lane (exit lane) allows you to move out of the flow of freeway traffic and reduce speed before reaching the exit ramp. You should signal early, move into the deceleration lane, THEN gradually reduce your speed — not brake hard in the main lane of traffic.'},
+  zh:{q:'驶出高速公路时，减速车道的目的是什么？',opts:['允许您安全停车','允许您在到达出口匝道前从高速公路速度减速','允许紧急车辆通过','为合并交通提供空间'],exp:'减速车道（出口车道）允许您从高速公路交通流中移出并在到达出口匝道前降低速度。您应该提前打转向灯，移入减速车道，然后逐渐降低速度——不要在主行车道大力刹车。'},
+  zhTW:{q:'駛出高速公路時，減速車道的目的是什麼？',opts:['允許您安全停車','允許您在到達出口匝道前從高速公路速度減速','允許緊急車輛通過','為合併交通提供空間'],exp:'減速車道（出口車道）允許您從高速公路交通流中移出並在到達出口匝道前降低速度。您應該提前打方向燈，移入減速車道，然後逐漸降低速度——不要在主行車道大力剎車。'},
+  es:{q:'¿Cuál es el propósito del carril de desaceleración al salir de una autopista?',opts:['Para permitirle detenerse con seguridad','Para permitirle reducir la velocidad desde la velocidad de autopista antes de llegar a la rampa de salida','Para permitir el paso de vehículos de emergencia','Para proporcionar espacio para el tráfico que se incorpora'],exp:'El carril de desaceleración (carril de salida) le permite salir del flujo de tráfico de la autopista y reducir la velocidad antes de llegar a la rampa de salida. Debe señalizar temprano, moverse al carril de desaceleración y LUEGO reducir gradualmente su velocidad — no frene fuertemente en el carril principal de tráfico.'},
+  ans:1
+},
+{
+  id:249, cat:'safety',
+  en:{q:'What should you do if your brakes feel "spongy" or less responsive?',opts:['Pump the brakes repeatedly to restore pressure','Add water to the brake fluid reservoir','Have the brakes inspected by a mechanic immediately — do not drive if unsafe','Drive slowly and avoid highways until you can get it repaired'],exp:'Spongy or soft brakes indicate air in the brake lines, low brake fluid, worn brake pads, or a failing master cylinder. This is a serious safety issue. Have the brakes inspected immediately. Do not drive the vehicle if you cannot stop safely. This is one of the most critical vehicle maintenance issues.'},
+  zh:{q:'如果您的刹车感觉"松软"或反应不灵，您应该怎么做？',opts:['反复点刹以恢复压力','向刹车油液容器中加水','立即让机修工检查刹车——如果不安全不要驾驶','缓慢行驶并避免高速公路直到可以修理'],exp:'松软的刹车表明刹车管路有空气、刹车液不足、刹车片磨损或主缸失效。这是严重的安全问题。立即检查刹车。如果无法安全停车，不要驾驶车辆。这是最关键的车辆维护问题之一。'},
+  zhTW:{q:'如果您的剎車感覺「鬆軟」或反應不靈，您應該怎麼做？',opts:['反復點剎以恢復壓力','向剎車油液容器中加水','立即讓機修工檢查剎車——如果不安全不要駕駛','緩慢行駛並避免高速公路直到可以修理'],exp:'鬆軟的剎車表明剎車管路有空氣、剎車液不足、剎車片磨損或主缸失效。這是嚴重的安全問題。立即檢查剎車。如果無法安全停車，不要駕駛車輛。這是最關鍵的車輛維護問題之一。'},
+  es:{q:'¿Qué debe hacer si sus frenos se sienten "esponjosos" o menos sensibles?',opts:['Bombee los frenos repetidamente para restaurar la presión','Agregue agua al depósito de líquido de frenos','Haga que un mecánico inspeccione los frenos inmediatamente — no conduzca si es inseguro','Conduzca lentamente y evite las autopistas hasta que pueda repararlo'],exp:'Los frenos esponjosos o suaves indican aire en las líneas de freno, líquido de frenos bajo, pastillas de freno desgastadas o un cilindro maestro defectuoso. Este es un problema de seguridad grave. Haga que inspeccionen los frenos inmediatamente. No conduzca el vehículo si no puede detenerse con seguridad. Este es uno de los problemas de mantenimiento de vehículos más críticos.'},
+  ans:2
+},
+{
+  id:250, cat:'laws',
+  en:{q:'When does California law require you to dim your headlights for an approaching vehicle?',opts:['500 feet away','300 feet away','100 feet away','1,000 feet away'],exp:'California law requires you to dim your headlights (switch from high to low beams) when you are within 500 feet of an oncoming vehicle. When following another vehicle, dim your lights when within 300 feet. Failure to dim lights can blind other drivers and cause accidents.'},
+  zh:{q:'加州法律何时要求您为靠近的车辆调暗车头灯？',opts:['500英尺处','300英尺处','100英尺处','1,000英尺处'],exp:'加州法律要求您在对向车辆500英尺以内时调暗车头灯（从远光切换到近光）。跟随另一辆车时，在300英尺以内调暗灯光。不调暗灯光可能使其他驾驶者致盲并导致事故。'},
+  zhTW:{q:'加州法律何時要求您為靠近的車輛調暗車頭燈？',opts:['500英尺處','300英尺處','100英尺處','1,000英尺處'],exp:'加州法律要求您在對向車輛500英尺以內時調暗車頭燈（從遠光切換到近光）。跟隨另一輛車時，在300英尺以內調暗燈光。不調暗燈光可能使其他駕駛者致盲並導致事故。'},
+  es:{q:'¿Cuándo la ley de California le exige reducir sus faros para un vehículo que se aproxima?',opts:['A 500 pies de distancia','A 300 pies de distancia','A 100 pies de distancia','A 1,000 pies de distancia'],exp:'La ley de California requiere que reduzca sus faros (cambie de luces altas a bajas) cuando esté dentro de 500 pies de un vehículo que viene en sentido contrario. Al seguir a otro vehículo, reduzca sus luces cuando esté dentro de 300 pies. No reducir las luces puede cegar a otros conductores y causar accidentes.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
