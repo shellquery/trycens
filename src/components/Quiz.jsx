@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import SignImage from './SignImage.jsx'
+import { CAT_ICONS } from './Home.jsx'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
@@ -97,7 +98,7 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
             : `${t('question', lang)} ${idx + 1} ${t('of', lang)} ${questions.length}`}
         </span>
         <span className="quiz-timer">{fmtTime(secs)}</span>
-        <span className="quiz-cat">{catLabel}</span>
+        <span className="quiz-cat">{CAT_ICONS[q.cat] ? `${CAT_ICONS[q.cat]} ` : ''}{catLabel}</span>
       </div>
 
       {/* Question card — key forces remount = animation replay */}

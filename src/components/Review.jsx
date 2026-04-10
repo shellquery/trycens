@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SignImage from './SignImage.jsx'
+import { CAT_ICONS } from './Home.jsx'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
@@ -55,7 +56,7 @@ export default function Review({ lang, questions, answers, onBack, categories })
             <div className="review-header">
               <div className="review-num">{i + 1}</div>
               <div style={{ flex: 1 }}>
-                <div className="review-cat-label">{catLabel}</div>
+                <div className="review-cat-label"><span style={{ marginRight: 4 }}>{CAT_ICONS[q.cat] || ''}</span>{catLabel}</div>
                 <div className="review-q">{qData?.q}</div>
               </div>
             </div>

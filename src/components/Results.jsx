@@ -1,16 +1,21 @@
+import { CAT_ICONS } from './Home.jsx'
+
 const UI = {
-  passed:     { en: 'Passed!',          zh: '通过！',       zhTW: '通過！',       es: '¡Aprobado!' },
-  failed:     { en: 'Not Yet',          zh: '继续加油',     zhTW: '繼續加油',     es: 'Sigue Practicando' },
-  passNote:   { en: 'You passed the DMV threshold (≥70%)', zh: '超过加州DMV及格线（≥70%）', zhTW: '超過加州DMV及格線（≥70%）', es: 'Superaste el umbral del DMV (≥70%)' },
-  failNote:   { en: 'Review mistakes and try again',       zh: '查看错题后再试一次',         zhTW: '查看錯題後再試一次',         es: 'Revisa errores e inténtalo de nuevo' },
-  correct:    { en: 'Correct',    zh: '正确', zhTW: '正確', es: 'Correctas' },
-  incorrect:  { en: 'Incorrect',  zh: '错误', zhTW: '錯誤', es: 'Incorrectas' },
-  time:       { en: 'Time',       zh: '用时', zhTW: '用時', es: 'Tiempo' },
-  grade:      { en: 'Grade',      zh: '等级', zhTW: '等級', es: 'Calificación' },
-  byCategory: { en: 'By Category',zh: '分类',zhTW: '分類', es: 'Por Categoría' },
-  reviewBtn:  { en: 'Review Answers', zh: '查看答案',  zhTW: '查看答案',  es: 'Revisar Respuestas' },
-  retryBtn:   { en: 'Try Again',      zh: '再来一次',  zhTW: '再來一次',  es: 'Intentar de Nuevo' },
-  homeBtn:    { en: '← Home',         zh: '← 返回首页',zhTW: '← 返回首頁',es: '← Inicio' },
+  passed:      { en: 'Passed!',          zh: '通过！',       zhTW: '通過！',       es: '¡Aprobado!' },
+  failed:      { en: 'Not Yet',          zh: '继续加油',     zhTW: '繼續加油',     es: 'Sigue Practicando' },
+  passNote:    { en: 'You passed the DMV threshold (≥70%)', zh: '超过加州DMV及格线（≥70%）', zhTW: '超過加州DMV及格線（≥70%）', es: 'Superaste el umbral del DMV (≥70%)' },
+  failNote:    { en: 'Review mistakes and try again',       zh: '查看错题后再试一次',         zhTW: '查看錯題後再試一次',         es: 'Revisa errores e inténtalo de nuevo' },
+  correct:     { en: 'Correct',    zh: '正确', zhTW: '正確', es: 'Correctas' },
+  incorrect:   { en: 'Incorrect',  zh: '错误', zhTW: '錯誤', es: 'Incorrectas' },
+  time:        { en: 'Time',       zh: '用时', zhTW: '用時', es: 'Tiempo' },
+  grade:       { en: 'Grade',      zh: '等级', zhTW: '等級', es: 'Calificación' },
+  byCategory:  { en: 'By Category',zh: '分类', zhTW: '分類', es: 'Por Categoría' },
+  reviewBtn:   { en: 'Review Answers', zh: '查看答案',   zhTW: '查看答案',   es: 'Revisar Respuestas' },
+  retryBtn:    { en: 'Try Again',      zh: '再来一次',   zhTW: '再來一次',   es: 'Intentar de Nuevo' },
+  homeBtn:     { en: '← Home',         zh: '← 返回首页', zhTW: '← 返回首頁', es: '← Inicio' },
+  wrongBtn:    { en: '📕 Wrong Question Bank', zh: '📕 错题集', zhTW: '📕 錯題集', es: '📕 Banco de Errores' },
+  wrongSaved:  { en: 'Wrong answers saved to your question bank', zh: '错题已自动加入错题集', zhTW: '錯題已自動加入錯題集', es: 'Errores guardados en tu banco' },
+  wrongBankBtn:{ en: '← Back to Wrong Bank', zh: '← 返回错题集', zhTW: '← 返回錯題集', es: '← Volver al Banco' },
 }
 function t(key, lang) { return UI[key]?.[lang] || UI[key]?.en || key }
 
@@ -28,10 +33,11 @@ function getGrade(pct) {
   return { letter: 'F', color: '#dc2626' }
 }
 
-export default function Results({ lang, score, elapsed, questions, answers, onReview, onRetry, onHome, categories }) {
+export default function Results({ lang, score, elapsed, questions, answers, onReview, onRetry, onHome, onOpenWrongBank, categories, wrongCount, quizSource }) {
   const pct    = Math.round((score.correct / score.total) * 100)
   const passed = pct >= 70
   const grade  = getGrade(pct)
+  const wrongInThisQuiz = answers.filter((a, i) => a !== null && a !== questions[i]?.ans).length
 
   // Per-category breakdown
   const catStats = {}
@@ -69,6 +75,16 @@ export default function Results({ lang, score, elapsed, questions, answers, onRe
         </div>
       </div>
 
+      {/* Wrong bank toast — show if any wrong answers this session */}
+      {wrongInThisQuiz > 0 && (
+        <div className="wrong-saved-toast" onClick={onOpenWrongBank}>
+          <span>📕</span>
+          <span className="wrong-saved-text">{t('wrongSaved', lang)}</span>
+          <span className="wrong-saved-count">{wrongCount}</span>
+          <span className="wrong-saved-arrow">→</span>
+        </div>
+      )}
+
       {/* Category breakdown */}
       {Object.keys(catStats).length > 1 && (
         <div className="cat-breakdown">
@@ -78,7 +94,7 @@ export default function Results({ lang, score, elapsed, questions, answers, onRe
             const barColor = p >= 70 ? 'var(--correct)' : p >= 50 ? 'var(--warning)' : 'var(--incorrect)'
             return (
               <div className="cat-row" key={cat}>
-                <span className="cat-name">{categories[cat]?.[lang] || categories[cat]?.en || cat}</span>
+                <span className="cat-name"><span style={{ marginRight: 6 }}>{CAT_ICONS[cat] || ''}</span>{categories[cat]?.[lang] || categories[cat]?.en || cat}</span>
                 <div className="cat-bar-wrap">
                   <div className="cat-bar-fill" style={{ width: `${p}%`, background: barColor }} />
                 </div>
@@ -94,7 +110,9 @@ export default function Results({ lang, score, elapsed, questions, answers, onRe
         <button className="secondary-btn" onClick={onReview}>{t('reviewBtn', lang)}</button>
         <button className="primary-btn" onClick={onRetry}>{t('retryBtn', lang)}</button>
       </div>
-      <button className="secondary-btn" style={{ width: '100%' }} onClick={onHome}>{t('homeBtn', lang)}</button>
+      <button className="secondary-btn" style={{ width: '100%' }} onClick={onHome}>
+        {quizSource === 'wrongbank' ? t('wrongBankBtn', lang) : t('homeBtn', lang)}
+      </button>
     </main>
   )
 }
