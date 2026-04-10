@@ -3723,4 +3723,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:351, cat:'signs', sign:'school-zone',
+  en:{q:'What does a pentagonal (five-sided) sign indicate?',opts:['Railroad crossing ahead','You are entering a school zone','No parking at any time','Begin divided highway'],exp:'A five-sided (pentagonal) sign always indicates a school zone or school crossing. These signs are yellow with black lettering. When driving near schools, watch for children and be ready to slow to 25 mph (or the posted school-zone speed).'},
+  zh:{q:'五边形（五角形）标志表示什么？',opts:['前方铁路道口','您正在进入学校区','任何时候禁止停车','开始分隔公路'],exp:'五边形标志始终表示学校区或学校过道。这些标志是黄色底黑色文字。在学校附近行驶时，注意儿童，准备减速至25英里/小时（或标注的学校区速度）。'},
+  zhTW:{q:'五邊形（五角形）標誌表示什麼？',opts:['前方鐵路道口','您正在進入學校區','任何時候禁止停車','開始分隔公路'],exp:'五邊形標誌始終表示學校區或學校過道。這些標誌是黃色底黑色文字。在學校附近行駛時，注意兒童，準備減速至25英里/小時（或標注的學校區速度）。'},
+  es:{q:'¿Qué indica una señal pentagonal (de cinco lados)?',opts:['Cruce de ferrocarril adelante','Está entrando a una zona escolar','Sin estacionamiento en ningún momento','Comienza autopista dividida'],exp:'Una señal de cinco lados (pentagonal) siempre indica una zona escolar o cruce escolar. Estas señales son amarillas con letras negras. Al conducir cerca de escuelas, esté atento a los niños y listo para reducir la velocidad a 25 mph.'},
+  ans:1
+},
+{
+  id:352, cat:'laws',
+  en:{q:'Under California law, when passing a stationary emergency vehicle with lights flashing on a freeway, you must:',opts:['Maintain your speed and stay in your lane','Move over one lane away from the emergency vehicle, or slow to 20 mph below the speed limit if you cannot move over','Only slow down if an officer waves you to do so','Use your hazard lights but maintain speed'],exp:'"Move Over" law (CVC 21809): when approaching a stationary emergency, tow, or utility vehicle with warning lights on a freeway, you must move over one lane if safe, or slow to 20 mph below the posted speed limit. This applies to police, fire, ambulance, caltrans, and tow trucks.'},
+  zh:{q:'根据加州法律，在高速公路上超越停着且闪烁警示灯的紧急车辆时，您必须：',opts:['保持速度并留在您的车道','向远离紧急车辆的方向变换一条车道，或在无法变换时减速至低于限速20英里/小时','只有在警察示意时才减速','使用危险警示灯但保持速度'],exp:'"让行"法（车辆法典21809）：在高速公路上接近停着并开着警示灯的紧急、拖车或公用设施车辆时，您必须在安全时向远处变换一条车道，或减速至低于限速20英里/小时。这适用于警察、消防、救护车、交通运输部和拖车。'},
+  zhTW:{q:'根據加州法律，在高速公路上超越停著且閃爍警示燈的緊急車輛時，您必須：',opts:['保持速度並留在您的車道','向遠離緊急車輛的方向變換一條車道，或在無法變換時減速至低於限速20英里/小時','只有在警察示意時才減速','使用危險警示燈但保持速度'],exp:'"讓行"法（車輛法典21809）：在高速公路上接近停著並開著警示燈的緊急、拖車或公用設施車輛時，您必須在安全時向遠處變換一條車道，或減速至低於限速20英里/小時。這適用於警察、消防、救護車、交通運輸部和拖車。'},
+  es:{q:'Bajo la ley de California, al pasar un vehículo de emergencia estacionario con luces parpadeando en una autopista, debe:',opts:['Mantener su velocidad y permanecer en su carril','Cambiar un carril lejos del vehículo de emergencia, o reducir a 20 mph por debajo del límite si no puede cambiar','Solo reducir si un oficial le indica que lo haga','Usar luces de emergencia pero mantener velocidad'],exp:'Ley de "Ceder el Paso" (CVC 21809): al acercarse a un vehículo de emergencia, grúa o utilitario estacionario con luces de advertencia, debe cambiar de carril si es seguro, o reducir la velocidad a 20 mph por debajo del límite publicado.'},
+  ans:1
+},
+{
+  id:353, cat:'rightofway',
+  en:{q:'You are at a four-way stop. You and the driver across from you arrive at exactly the same time. You both want to go straight. Who goes first?',opts:['You have the right of way because you arrived first','Either driver may go — wave to each other to decide','Either driver may proceed since no conflict exists when both go straight simultaneously','The driver on the left yields to the driver on the right'],exp:'When two cars at a four-way stop face each other and both want to go straight, there is no conflict — both may proceed at the same time because their paths do not cross. If one is turning left, they yield to the one going straight.'},
+  zh:{q:'您在四向停车标志处。您和对面的驾驶员同时到达，都想直行。谁先走？',opts:['您先到所以有优先权','任何一方都可以走——互相打招呼决定','任何一方都可以前进，因为两车同时直行不会发生冲突','左侧的驾驶员让行右侧的驾驶员'],exp:'当四向停车处两辆对面的车都想直行时，没有冲突——两辆车可以同时前进，因为它们的路径不会交叉。如果一辆要左转，则让行直行车辆。'},
+  zhTW:{q:'您在四向停車標誌處。您和對面的駕駛員同時到達，都想直行。誰先走？',opts:['您先到所以有優先權','任何一方都可以走——互相打招呼決定','任何一方都可以前進，因為兩車同時直行不會發生衝突','左側的駕駛員讓行右側的駕駛員'],exp:'當四向停車處兩輛對面的車都想直行時，沒有衝突——兩輛車可以同時前進，因為它們的路徑不會交叉。如果一輛要左轉，則讓行直行車輛。'},
+  es:{q:'Está en una parada de cuatro vías. Usted y el conductor de enfrente llegan al mismo tiempo. Ambos quieren ir derecho. ¿Quién va primero?',opts:['Usted tiene el derecho de paso porque llegó primero','Cualquiera puede ir — háganse señas para decidir','Cualquiera puede proceder ya que no hay conflicto cuando ambos van recto simultáneamente','El conductor de la izquierda cede al de la derecha'],exp:'Cuando dos autos en una parada de cuatro vías se enfrentan y ambos quieren ir recto, no hay conflicto — ambos pueden proceder al mismo tiempo porque sus rutas no se cruzan. Si uno gira a la izquierda, cede al que va recto.'},
+  ans:2
+},
+{
+  id:354, cat:'speed',
+  en:{q:'You are driving on a road where the speed limit is 65 mph. It is raining heavily and visibility is poor. What speed should you drive?',opts:['65 mph — the posted speed limit is the maximum, but also the minimum','Whatever speed is reasonable and safe given the conditions, even if below the posted limit','55 mph — always reduce by 10 mph in rain','At least 45 mph to keep up with traffic'],exp:'The Basic Speed Law requires you to drive at a speed that is reasonable and prudent for existing conditions — regardless of the posted limit. In heavy rain with poor visibility, you must slow below the posted limit to a speed where you can stop safely within your sight distance.'},
+  zh:{q:'您在限速65英里/小时的道路上行驶。大雨能见度差。您应该以什么速度驾驶？',opts:['65英里/小时——限速是最高值，也是最低值','根据条件合理安全的任何速度，即使低于限速','55英里/小时——下雨时始终减速10英里/小时','至少45英里/小时以跟上交通'],exp:'基本速度法要求您以适合现有条件合理谨慎的速度驾驶——无论限速是多少。在能见度差的大雨中，您必须减速到低于限速，以一个能在您的视线范围内安全停车的速度。'},
+  zhTW:{q:'您在限速65英里/小時的道路上行駛。大雨能見度差。您應該以什麼速度駕駛？',opts:['65英里/小時——限速是最高值，也是最低值','根據條件合理安全的任何速度，即使低於限速','55英里/小時——下雨時始終減速10英里/小時','至少45英里/小時以跟上交通'],exp:'基本速度法要求您以適合現有條件合理謹慎的速度駕駛——無論限速是多少。在能見度差的大雨中，您必須減速到低於限速，以一個能在您的視線範圍內安全停車的速度。'},
+  es:{q:'Conduce en un camino con límite de 65 mph. Llueve fuerte y la visibilidad es pobre. ¿A qué velocidad debe conducir?',opts:['65 mph — el límite publicado es tanto el máximo como el mínimo','La velocidad que sea razonable y segura dadas las condiciones, incluso si es inferior al límite','55 mph — siempre reduzca 10 mph en lluvia','Al menos 45 mph para mantenerse con el tráfico'],exp:'La Ley de Velocidad Básica requiere conducir a una velocidad razonable y prudente para las condiciones existentes, independientemente del límite publicado. Con lluvia intensa y visibilidad pobre, debe reducir por debajo del límite a una velocidad que le permita detenerse dentro de su distancia de visión.'},
+  ans:1
+},
+{
+  id:355, cat:'dui',
+  en:{q:'How many drinks does it typically take for a 160-pound person to reach a BAC of 0.08%?',opts:['1 drink','2 drinks','3–4 drinks','8 or more drinks'],exp:'Approximately 3–4 standard drinks in one hour can bring a 160-pound person to about 0.08% BAC, though this varies by gender, body composition, food intake, and individual metabolism. A "standard drink" is 12 oz beer, 5 oz wine, or 1.5 oz liquor.'},
+  zh:{q:'一个160磅的人通常需要喝多少杯才能达到0.08%的BAC？',opts:['1杯','2杯','3-4杯','8杯或更多'],exp:'一个160磅的人在一小时内喝约3-4标准杯可能达到约0.08%的BAC，但这取决于性别、体型、食物摄入和个人代谢。"标准杯"是12盎司啤酒、5盎司葡萄酒或1.5盎司烈酒。'},
+  zhTW:{q:'一個160磅的人通常需要喝多少杯才能達到0.08%的BAC？',opts:['1杯','2杯','3-4杯','8杯或更多'],exp:'一個160磅的人在一小時內喝約3-4標準杯可能達到約0.08%的BAC，但這取決於性別、體型、食物攝入和個人代謝。「標準杯」是12盎司啤酒、5盎司葡萄酒或1.5盎司烈酒。'},
+  es:{q:'¿Cuántas bebidas suele tomar una persona de 160 libras para alcanzar un BAC de 0.08%?',opts:['1 bebida','2 bebidas','3-4 bebidas','8 o más bebidas'],exp:'Aproximadamente 3-4 bebidas estándar en una hora pueden llevar a una persona de 160 libras a un BAC de aproximadamente 0.08%, aunque esto varía según el género, composición corporal, ingesta de alimentos y metabolismo individual.'},
+  ans:2
+},
+{
+  id:356, cat:'parking',
+  en:{q:'You are parking parallel on a level street. How far from the curb should your right wheels be?',opts:['No more than 6 inches from the curb','No more than 12 inches from the curb','No more than 18 inches from the curb','No more than 24 inches from the curb'],exp:'California law requires your vehicle\'s right-side wheels to be within 18 inches of the right curb when parking parallel. Parking too far from the curb can block traffic lanes or make it difficult for other vehicles to park.'},
+  zh:{q:'您在平坦街道上平行停车。右侧车轮距路缘应多远？',opts:['距路缘不超过6英寸','距路缘不超过12英寸','距路缘不超过18英寸','距路缘不超过24英寸'],exp:'加州法律要求平行停车时，车辆右侧车轮距右侧路缘不超过18英寸。停车距路缘太远可能阻塞交通车道或使其他车辆难以停车。'},
+  zhTW:{q:'您在平坦街道上平行停車。右側車輪距路緣應多遠？',opts:['距路緣不超過6英寸','距路緣不超過12英寸','距路緣不超過18英寸','距路緣不超過24英寸'],exp:'加州法律要求平行停車時，車輛右側車輪距右側路緣不超過18英寸。停車距路緣太遠可能阻塞交通車道或使其他車輛難以停車。'},
+  es:{q:'Está estacionando en paralelo en una calle nivelada. ¿A qué distancia del bordillo deben estar sus ruedas derechas?',opts:['No más de 6 pulgadas del bordillo','No más de 12 pulgadas del bordillo','No más de 18 pulgadas del bordillo','No más de 24 pulgadas del bordillo'],exp:'La ley de California requiere que las ruedas del lado derecho de su vehículo estén dentro de 18 pulgadas del bordillo derecho al estacionar en paralelo. Estacionar demasiado lejos del bordillo puede bloquear carriles de tráfico.'},
+  ans:2
+},
+{
+  id:357, cat:'highway',
+  en:{q:'What is a "weave lane" on a freeway?',opts:['A lane reserved for high-occupancy vehicles','A short section where an on-ramp and an off-ramp share the same lane, requiring entering and exiting traffic to cross paths','A lane where the speed limit is higher','A special lane for trucks and buses only'],exp:'A weave lane is a short, shared lane where merging traffic (entering the freeway) and exiting traffic (leaving the freeway) must cross each other\'s paths in a short distance. Extra caution is needed — enter and exit decisively, watch for gaps, and adjust speed to merge safely.'},
+  zh:{q:'高速公路上的"交织车道"是什么？',opts:['高乘载率车辆专用车道','上匝道和下匝道共用同一车道的短路段，进出交通需交叉通行','速度限制较高的车道','仅限卡车和公共汽车的专用车道'],exp:'"交织车道"是一个短暂的共用车道，进入高速公路的车辆和离开高速公路的车辆必须在短距离内交叉通行。需要特别谨慎——果断进出，寻找空隙，调整速度以安全合并。'},
+  zhTW:{q:'高速公路上的「交織車道」是什麼？',opts:['高乘載率車輛專用車道','上匝道和下匝道共用同一車道的短路段，進出交通需交叉通行','速度限制較高的車道','僅限卡車和公共汽車的專用車道'],exp:'「交織車道」是一個短暫的共用車道，進入高速公路的車輛和離開高速公路的車輛必須在短距離內交叉通行。需要特別謹慎——果斷進出，尋找空隙，調整速度以安全合併。'},
+  es:{q:'¿Qué es un "carril de entretejido" en una autopista?',opts:['Un carril reservado para vehículos de alta ocupación','Una sección corta donde una rampa de entrada y una de salida comparten el mismo carril, requiriendo que el tráfico se cruce','Un carril donde el límite de velocidad es más alto','Un carril especial solo para camiones y autobuses'],exp:'Un carril de entretejido es un carril compartido corto donde el tráfico que entra y el que sale de la autopista deben cruzarse en una distancia corta. Se necesita precaución extra — entre y salga decisivamente, busque espacios y ajuste la velocidad para fusionarse de manera segura.'},
+  ans:1
+},
+{
+  id:358, cat:'safety',
+  en:{q:'When driving at night, you should be able to stop your vehicle within:',opts:['The distance covered in one second of travel','The distance of your headlight beam','Any distance — night driving requires no special adjustments','Twice the distance of your headlight beam'],exp:'"Overdriving your headlights" means going so fast that you cannot stop within the distance illuminated by your headlights. At night, you should always be able to stop within the lit area ahead of your car — typically about 350 feet for high beams and 160 feet for low beams.'},
+  zh:{q:'夜间驾驶时，您应该能在多远距离内停车？',opts:['一秒钟行驶的距离','您前灯光束照射的距离','任何距离——夜间驾驶不需要特别调整','您前灯光束照射距离的两倍'],exp:'"超越前灯"意味着行驶速度过快，无法在前灯照射的距离内停车。夜间，您应该始终能在车前方照明区域内停车——远光灯通常约350英尺，近光灯约160英尺。'},
+  zhTW:{q:'夜間駕駛時，您應該能在多遠距離內停車？',opts:['一秒鐘行駛的距離','您前燈光束照射的距離','任何距離——夜間駕駛不需要特別調整','您前燈光束照射距離的兩倍'],exp:'"超越前燈"意味著行駛速度過快，無法在前燈照射的距離內停車。夜間，您應該始終能在車前方照明區域內停車——遠光燈通常約350英尺，近光燈約160英尺。'},
+  es:{q:'Al conducir de noche, debe poder detener su vehículo dentro de:',opts:['La distancia recorrida en un segundo de viaje','La distancia del haz de sus faros','Cualquier distancia — conducir de noche no requiere ajustes especiales','El doble de la distancia del haz de sus faros'],exp:'"Conducir más allá de sus faros" significa ir tan rápido que no puede detenerse dentro de la distancia iluminada por sus faros. De noche, siempre debe poder detenerse dentro del área iluminada frente a su auto — típicamente unos 350 pies para luces altas y 160 pies para luces bajas.'},
+  ans:1
+},
+{
+  id:359, cat:'laws',
+  en:{q:'In California, you may not make a right turn at a red light if:',opts:['You have not signaled for 100 feet','A sign prohibits the turn, or pedestrians are crossing in your path','There is no bicycle lane present','The road is wider than two lanes'],exp:'You may not make a right turn on red when: a sign specifically prohibits it (common near schools and busy intersections), pedestrians have the walk signal and are crossing, or a bicyclist is in the bike lane proceeding through the intersection.'},
+  zh:{q:'在加州，以下情况您不得在红灯时右转：',opts:['您没有提前100英尺打转向灯','标志禁止转弯，或行人正在您的路径上穿行','没有自行车道','道路超过两条车道'],exp:'当出现以下情况时，不得在红灯时右转：标志明确禁止（常见于学校和繁忙路口附近）、行人有行走信号正在穿越，或骑行者在自行车道上通过路口。'},
+  zhTW:{q:'在加州，以下情況您不得在紅燈時右轉：',opts:['您沒有提前100英尺打轉向燈','標誌禁止轉彎，或行人正在您的路徑上穿行','沒有自行車道','道路超過兩條車道'],exp:'當出現以下情況時，不得在紅燈時右轉：標誌明確禁止（常見於學校和繁忙路口附近）、行人有行走信號正在穿越，或騎行者在自行車道上通過路口。'},
+  es:{q:'En California, no puede girar a la derecha en un semáforo rojo si:',opts:['No ha señalizado durante 100 pies','Una señal prohíbe el giro, o los peatones cruzan en su camino','No hay carril para bicicletas','La carretera tiene más de dos carriles'],exp:'No puede girar a la derecha en rojo cuando: una señal lo prohíbe específicamente (común cerca de escuelas e intersecciones concurridas), los peatones tienen señal de cruce y están cruzando, o un ciclista está en el carril de bicicletas pasando por la intersección.'},
+  ans:1
+},
+{
+  id:360, cat:'safety',
+  en:{q:'What is the leading cause of death for teens in the United States?',opts:['Drug overdose','Motor vehicle crashes','Drowning','Homicide'],exp:'Motor vehicle crashes are the leading cause of death for teenagers in the United States. Factors include inexperience, distracted driving (especially phone use), speeding, not wearing seat belts, and impaired driving. California has Graduated Driver Licensing (GDL) laws to address these risks.'},
+  zh:{q:'美国青少年死亡的主要原因是什么？',opts:['药物过量','机动车事故','溺水','凶杀'],exp:'机动车事故是美国青少年死亡的主要原因。因素包括缺乏经验、分心驾驶（尤其是使用手机）、超速、不系安全带和酒后驾驶。加州有渐进式驾照（GDL）法律来应对这些风险。'},
+  zhTW:{q:'美國青少年死亡的主要原因是什麼？',opts:['藥物過量','機動車事故','溺水','凶殺'],exp:'機動車事故是美國青少年死亡的主要原因。因素包括缺乏經驗、分心駕駛（尤其是使用手機）、超速、不繫安全帶和酒後駕駛。加州有漸進式駕照（GDL）法律來應對這些風險。'},
+  es:{q:'¿Cuál es la principal causa de muerte para adolescentes en los Estados Unidos?',opts:['Sobredosis de drogas','Accidentes de vehículos motorizados','Ahogamiento','Homicidio'],exp:'Los accidentes de vehículos motorizados son la principal causa de muerte para adolescentes en los Estados Unidos. Los factores incluyen inexperiencia, conducción distraída (especialmente uso del teléfono), exceso de velocidad, no usar cinturón de seguridad y conducción deteriorada.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
