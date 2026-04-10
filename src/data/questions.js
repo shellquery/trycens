@@ -524,4 +524,259 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 3 — Sign Shapes & Colors + Traffic Laws (Q21–30)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 21, cat: 'signs',
+  en: {
+    q: 'A red octagon shape on a sign always means:',
+    opts: ['Stop', 'Yield', 'Danger ahead', 'No entry'],
+    exp: 'In the United States, an octagon (8-sided shape) is exclusively used for STOP signs. You can recognize the meaning of a STOP sign even if you cannot read the word — its unique shape always means stop completely.'
+  },
+  zh: {
+    q: '红色八边形标志始终表示：',
+    opts: ['停车', '让行', '前方危险', '禁止进入'],
+    exp: '在美国，八边形（8边形状）专门用于停车标志。即使您看不清文字，也能通过其独特形状认出停车标志——八边形始终意味着完全停车。'
+  },
+  zhTW: {
+    q: '紅色八邊形標誌始終表示：',
+    opts: ['停車', '讓行', '前方危險', '禁止進入'],
+    exp: '在美國，八邊形（8邊形狀）專門用於停車標誌。即使您看不清文字，也能通過其獨特形狀認出停車標誌——八邊形始終意味著完全停車。'
+  },
+  es: {
+    q: 'Una forma de octágono rojo en una señal siempre significa:',
+    opts: ['Alto', 'Ceda el paso', 'Peligro adelante', 'Sin entrada'],
+    exp: 'En los Estados Unidos, el octágono (forma de 8 lados) se usa exclusivamente para las señales de ALTO. Puede reconocer el significado de una señal de ALTO incluso si no puede leer la palabra — su forma única siempre significa detenerse completamente.'
+  },
+  ans: 0
+},
+
+{
+  id: 22, cat: 'signs',
+  en: {
+    q: 'An inverted triangle (pointing downward) shape always means:',
+    opts: ['Yield', 'Stop', 'Warning', 'One way'],
+    exp: 'An inverted (upside-down) triangle shape is exclusively used for YIELD signs. Like the octagon for STOP, the inverted triangle shape alone communicates "yield the right of way" even without words.'
+  },
+  zh: {
+    q: '倒三角形（尖端朝下）标志始终表示：',
+    opts: ['让行', '停车', '警告', '单向行驶'],
+    exp: '倒三角形（尖端朝下）形状专门用于让行标志。就像八边形代表停车一样，倒三角形本身即可传达"让出优先通行权"的含义，即使没有文字说明。'
+  },
+  zhTW: {
+    q: '倒三角形（尖端朝下）標誌始終表示：',
+    opts: ['讓行', '停車', '警告', '單向行駛'],
+    exp: '倒三角形（尖端朝下）形狀專門用於讓行標誌。就像八邊形代表停車一樣，倒三角形本身即可傳達「讓出優先通行權」的含義，即使沒有文字說明。'
+  },
+  es: {
+    q: 'Una forma de triángulo invertido (apuntando hacia abajo) siempre significa:',
+    opts: ['Ceda el paso', 'Alto', 'Advertencia', 'Un sentido'],
+    exp: 'La forma de triángulo invertido (boca abajo) se usa exclusivamente para las señales de CEDA EL PASO. Al igual que el octágono para ALTO, la forma de triángulo invertido por sí sola comunica "ceda el derecho de paso" incluso sin palabras.'
+  },
+  ans: 0
+},
+
+{
+  id: 23, cat: 'signs',
+  en: {
+    q: 'Yellow diamond-shaped signs are used for:',
+    opts: ['Warning — alerting drivers to potential hazards ahead', 'Regulatory — telling drivers what they must do', 'Informational — providing guidance and directions', 'Construction — marking work zones'],
+    exp: 'Yellow diamond-shaped signs are warning signs. They alert drivers to upcoming hazards, changes in road conditions, or situations requiring special attention. Examples include curve ahead, pedestrian crossing, and slippery when wet signs.'
+  },
+  zh: {
+    q: '黄色菱形标志用于：',
+    opts: ['警告——提醒驾驶员前方有潜在危险', '规定——告知驾驶员必须遵守的规则', '信息——提供指引和方向', '施工——标示施工区域'],
+    exp: '黄色菱形标志是警告标志，提醒驾驶员前方有危险、道路条件变化或需要特别注意的情况。例如前方弯道、行人穿越和路面湿滑等标志。'
+  },
+  zhTW: {
+    q: '黃色菱形標誌用於：',
+    opts: ['警告——提醒駕駛員前方有潛在危險', '規定——告知駕駛員必須遵守的規則', '信息——提供指引和方向', '施工——標示施工區域'],
+    exp: '黃色菱形標誌是警告標誌，提醒駕駛員前方有危險、道路條件變化或需要特別注意的情況。例如前方彎道、行人穿越和路面濕滑等標誌。'
+  },
+  es: {
+    q: 'Las señales de diamante amarillo se usan para:',
+    opts: ['Advertencia — alertar a los conductores sobre peligros potenciales adelante', 'Regulación — decir a los conductores lo que deben hacer', 'Información — proporcionar orientación y direcciones', 'Construcción — marcar zonas de trabajo'],
+    exp: 'Las señales de diamante amarillo son señales de advertencia. Alertan a los conductores sobre peligros próximos, cambios en las condiciones de la carretera o situaciones que requieren atención especial.'
+  },
+  ans: 0
+},
+
+{
+  id: 24, cat: 'signs',
+  en: {
+    q: 'White rectangular signs with black letters are used for:',
+    opts: ['Regulatory information — rules and laws you must obey', 'Warnings about road hazards', 'General information and services', 'Guidance and directions'],
+    exp: 'White rectangular signs with black text are regulatory signs. They inform drivers of traffic laws and regulations they must follow, such as speed limits, turn restrictions, and lane usage rules.'
+  },
+  zh: {
+    q: '黑字白色矩形标志用于：',
+    opts: ['规定信息——您必须遵守的规则和法律', '道路危险警告', '一般信息和服务', '指引和方向'],
+    exp: '黑字白色矩形标志是规定性标志，告知驾驶员必须遵守的交通法律法规，例如限速、转弯限制和车道使用规定。'
+  },
+  zhTW: {
+    q: '黑字白色矩形標誌用於：',
+    opts: ['規定信息——您必須遵守的規則和法律', '道路危險警告', '一般信息和服務', '指引和方向'],
+    exp: '黑字白色矩形標誌是規定性標誌，告知駕駛員必須遵守的交通法律法規，例如限速、轉彎限制和車道使用規定。'
+  },
+  es: {
+    q: 'Las señales rectangulares blancas con letras negras se usan para:',
+    opts: ['Información regulatoria — reglas y leyes que debe obedecer', 'Advertencias sobre peligros viales', 'Información general y servicios', 'Orientación y direcciones'],
+    exp: 'Las señales rectangulares blancas con texto negro son señales regulatorias. Informan a los conductores sobre las leyes y regulaciones de tráfico que deben seguir, como límites de velocidad, restricciones de giro y reglas de uso de carriles.'
+  },
+  ans: 0
+},
+
+{
+  id: 25, cat: 'signs',
+  en: {
+    q: 'Blue signs on California roads indicate:',
+    opts: ['Motorist services such as gas, food, hospital, and lodging', 'Highway directions and route numbers', 'Warnings about road conditions', 'Recreational and cultural areas'],
+    exp: 'Blue signs provide information about motorist services available nearby — including hospitals (H), rest areas, gas stations, food, and lodging. The "H" on a blue sign directs you to a hospital.'
+  },
+  zh: {
+    q: '加州道路上的蓝色标志表示：',
+    opts: ['驾驶人服务，如加油站、餐厅、医院和住宿', '公路方向和路线编号', '道路状况警告', '休闲和文化区域'],
+    exp: '蓝色标志提供附近驾驶人服务的信息，包括医院（H）、休息区、加油站、餐饮和住宿。蓝色标志上的"H"指引前往医院的方向。'
+  },
+  zhTW: {
+    q: '加州道路上的藍色標誌表示：',
+    opts: ['駕駛人服務，如加油站、餐廳、醫院和住宿', '公路方向和路線編號', '道路狀況警告', '休閒和文化區域'],
+    exp: '藍色標誌提供附近駕駛人服務的信息，包括醫院（H）、休息區、加油站、餐飲和住宿。藍色標誌上的「H」指引前往醫院的方向。'
+  },
+  es: {
+    q: 'Las señales azules en las carreteras de California indican:',
+    opts: ['Servicios para motoristas como gasolina, comida, hospital y alojamiento', 'Direcciones de autopista y números de ruta', 'Advertencias sobre condiciones viales', 'Áreas recreativas y culturales'],
+    exp: 'Las señales azules proporcionan información sobre los servicios para motoristas disponibles cerca — incluyendo hospitales (H), áreas de descanso, gasolineras, comida y alojamiento.'
+  },
+  ans: 0
+},
+
+{
+  id: 26, cat: 'laws',
+  en: {
+    q: 'When are you required to turn on your headlights in California?',
+    opts: ['30 minutes after sunset until 30 minutes before sunrise, and when visibility is under 1,000 feet', 'Only after dark — nighttime hours', 'Only during rain or fog', 'When other drivers flash their lights at you'],
+    exp: 'California law requires headlights from 30 minutes after sunset to 30 minutes before sunrise. You must also use headlights when visibility is less than 1,000 feet due to weather, including fog, rain, smoke, or dust.'
+  },
+  zh: {
+    q: '在加州，什么时候必须开启车头灯？',
+    opts: ['日落后30分钟至日出前30分钟，以及能见度低于1000英尺时', '仅在黑暗的夜间', '仅在下雨或有雾时', '当其他驾驶员闪灯提示您时'],
+    exp: '加州法律要求在日落后30分钟至日出前30分钟期间开启车头灯。当因雾、雨、烟雾或尘土等天气原因导致能见度低于1000英尺时，也必须开启车头灯。'
+  },
+  zhTW: {
+    q: '在加州，什麼時候必須開啟車頭燈？',
+    opts: ['日落後30分鐘至日出前30分鐘，以及能見度低於1000英尺時', '僅在黑暗的夜間', '僅在下雨或有霧時', '當其他駕駛員閃燈提示您時'],
+    exp: '加州法律要求在日落後30分鐘至日出前30分鐘期間開啟車頭燈。當因霧、雨、煙霧或塵土等天氣原因導致能見度低於1000英尺時，也必須開啟車頭燈。'
+  },
+  es: {
+    q: '¿Cuándo se requiere encender los faros en California?',
+    opts: ['30 minutos después del atardecer hasta 30 minutos antes del amanecer, y cuando la visibilidad es menor de 1,000 pies', 'Solo después del anochecer — horas nocturnas', 'Solo durante lluvia o niebla', 'Cuando otros conductores le hagan destellos'],
+    exp: 'La ley de California requiere faros desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer. También debe usar faros cuando la visibilidad es menor de 1,000 pies debido al clima, incluyendo niebla, lluvia, humo o polvo.'
+  },
+  ans: 0
+},
+
+{
+  id: 27, cat: 'laws',
+  en: {
+    q: 'In California, how far in advance must you signal before turning or changing lanes?',
+    opts: ['At least 100 feet before turning; signal before every lane change', 'Only when other traffic is nearby', '50 feet in cities, 200 feet on highways', 'Just as you begin to turn'],
+    exp: 'California law requires you to signal at least 100 feet before making a turn. On freeways, signal at least 5 seconds before changing lanes. You must always signal regardless of whether other traffic is visible.'
+  },
+  zh: {
+    q: '在加州，转弯或变道前需要提前多远打转向灯？',
+    opts: ['转弯前至少100英尺；每次变道前均须打灯', '仅当附近有其他车辆时', '城市内50英尺，高速公路上200英尺', '开始转弯时即可'],
+    exp: '加州法律要求在转弯前至少100英尺处打转向灯。在高速公路上，变道前至少需要提前5秒打灯。无论是否能看见其他车辆，您都必须打转向灯。'
+  },
+  zhTW: {
+    q: '在加州，轉彎或變道前需要提前多遠打轉向燈？',
+    opts: ['轉彎前至少100英尺；每次變道前均須打燈', '僅當附近有其他車輛時', '城市內50英尺，高速公路上200英尺', '開始轉彎時即可'],
+    exp: '加州法律要求在轉彎前至少100英尺處打轉向燈。在高速公路上，變道前至少需要提前5秒打燈。無論是否能看見其他車輛，您都必須打轉向燈。'
+  },
+  es: {
+    q: '¿Con cuánta anticipación debe señalar antes de girar o cambiar de carril en California?',
+    opts: ['Al menos 100 pies antes de girar; señale antes de cada cambio de carril', 'Solo cuando hay tráfico cercano', '50 pies en ciudades, 200 pies en autopistas', 'Justo cuando comienza a girar'],
+    exp: 'La ley de California requiere señalizar al menos 100 pies antes de girar. En autopistas, señalice al menos 5 segundos antes de cambiar de carril. Siempre debe señalizar independientemente de si hay otro tráfico visible.'
+  },
+  ans: 0
+},
+
+{
+  id: 28, cat: 'laws',
+  en: {
+    q: 'Can you make a right turn at a red light in California?',
+    opts: ['Yes, after coming to a complete stop and yielding to all traffic and pedestrians', 'No, you must always wait for a green light', 'Yes, without stopping if no traffic is present', 'Only if there is a green arrow signal'],
+    exp: 'In California, you may turn right at a red light after making a complete stop, unless a sign prohibits it. You must yield to pedestrians and all other traffic before turning. Some intersections have "No Turn on Red" signs.'
+  },
+  zh: {
+    q: '在加州，红灯时可以右转吗？',
+    opts: ['可以，完全停车并让行所有车辆和行人后可以右转', '不可以，必须等绿灯', '如果没有车辆，可以不停车直接转弯', '仅当有绿色箭头信号时'],
+    exp: '在加州，完全停车后，如果没有禁止转弯的标志，可以在红灯时右转。转弯前必须让行行人和所有其他车辆。某些路口设有"红灯禁止右转"标志。'
+  },
+  zhTW: {
+    q: '在加州，紅燈時可以右轉嗎？',
+    opts: ['可以，完全停車並讓行所有車輛和行人後可以右轉', '不可以，必須等綠燈', '如果沒有車輛，可以不停車直接轉彎', '僅當有綠色箭頭信號時'],
+    exp: '在加州，完全停車後，如果沒有禁止轉彎的標誌，可以在紅燈時右轉。轉彎前必須讓行行人和所有其他車輛。某些路口設有「紅燈禁止右轉」標誌。'
+  },
+  es: {
+    q: '¿Puede girar a la derecha en un semáforo en rojo en California?',
+    opts: ['Sí, después de hacer una parada completa y ceder el paso a todo el tráfico y peatones', 'No, siempre debe esperar la luz verde', 'Sí, sin detenerse si no hay tráfico', 'Solo si hay una señal de flecha verde'],
+    exp: 'En California, puede girar a la derecha en un semáforo en rojo después de hacer una parada completa, a menos que una señal lo prohíba. Debe ceder el paso a los peatones y a todo el tráfico antes de girar.'
+  },
+  ans: 0
+},
+
+{
+  id: 29, cat: 'laws',
+  en: {
+    q: 'What is the three-second following distance rule?',
+    opts: ['Choose a fixed point; when the car ahead passes it, at least 3 seconds should pass before you reach it', 'Stay at least 3 car lengths behind at all times', 'Maintain 30 mph below the car in front', 'Never drive within 3 feet of another vehicle'],
+    exp: 'The 3-second rule: pick a fixed object (sign, tree) ahead. When the vehicle in front passes it, count "one-thousand-one, one-thousand-two, one-thousand-three." You should not reach that object before finishing the count. Increase to 4+ seconds in bad weather.'
+  },
+  zh: {
+    q: '3秒跟车距离规则是什么？',
+    opts: ['选择一个固定参照物；当前车经过它时，您到达它之前应该经过至少3秒', '始终保持至少3辆车身的距离', '以低于前车30英里/小时的速度行驶', '切勿在距离另一辆车3英尺以内行驶'],
+    exp: '3秒规则：选择前方一个固定物体（标志、树木）。当前车经过它时，数"一千零一、一千零二、一千零三"。在数完之前，您不应到达该物体。恶劣天气下应增加到4秒以上。'
+  },
+  zhTW: {
+    q: '3秒跟車距離規則是什麼？',
+    opts: ['選擇一個固定參照物；當前車經過它時，您到達它之前應該經過至少3秒', '始終保持至少3輛車身的距離', '以低於前車30英里/小時的速度行駛', '切勿在距離另一輛車3英尺以內行駛'],
+    exp: '3秒規則：選擇前方一個固定物體（標誌、樹木）。當前車經過它時，數「一千零一、一千零二、一千零三」。在數完之前，您不應到達該物體。惡劣天氣下應增加到4秒以上。'
+  },
+  es: {
+    q: '¿Cuál es la regla de distancia de seguimiento de tres segundos?',
+    opts: ['Elija un punto fijo; cuando el auto de adelante lo pase, deben pasar al menos 3 segundos antes de que usted llegue', 'Manténgase al menos 3 largos de auto detrás en todo momento', 'Mantenga 30 mph menos que el auto de adelante', 'Nunca conduzca a menos de 3 pies de otro vehículo'],
+    exp: 'La regla de los 3 segundos: elija un objeto fijo adelante. Cuando el vehículo de adelante lo pase, cuente "mil uno, mil dos, mil tres." No debe llegar a ese objeto antes de terminar la cuenta. Aumente a 4+ segundos en mal clima.'
+  },
+  ans: 0
+},
+
+{
+  id: 30, cat: 'laws',
+  en: {
+    q: 'What is California\'s law for using a cell phone while driving (for drivers 18 and older)?',
+    opts: ['Only hands-free use is allowed — no holding the phone', 'Cell phones are completely banned while driving', 'You may use a cell phone briefly if stopped at a red light', 'Texting is allowed but talking is banned'],
+    exp: 'Drivers 18 and older may only use a cell phone in hands-free mode (Bluetooth, speakerphone mounted on dash). Holding your phone while driving is illegal. Drivers under 18 may not use any wireless device while driving, even hands-free.'
+  },
+  zh: {
+    q: '加州对18岁及以上驾驶员使用手机有什么规定？',
+    opts: ['只允许免提使用——不得手持手机', '驾驶时完全禁止使用手机', '在红灯停车时可以短暂使用手机', '允许发短信但禁止通话'],
+    exp: '18岁及以上的驾驶员只能以免提方式使用手机（蓝牙、固定在仪表盘上的免提设备）。驾驶时手持手机是违法的。18岁以下的驾驶员在驾驶时不得使用任何无线设备，即使是免提方式也不行。'
+  },
+  zhTW: {
+    q: '加州對18歲及以上駕駛員使用手機有什麼規定？',
+    opts: ['只允許免提使用——不得手持手機', '駕駛時完全禁止使用手機', '在紅燈停車時可以短暫使用手機', '允許發短信但禁止通話'],
+    exp: '18歲及以上的駕駛員只能以免提方式使用手機（藍牙、固定在儀表板上的免提設備）。駕駛時手持手機是違法的。18歲以下的駕駛員在駕駛時不得使用任何無線設備，即使是免提方式也不行。'
+  },
+  es: {
+    q: '¿Cuál es la ley de California para usar un teléfono celular mientras conduce (para conductores de 18 años o más)?',
+    opts: ['Solo se permite el uso manos libres — no sostener el teléfono', 'Los teléfonos celulares están completamente prohibidos mientras conduce', 'Puede usar un celular brevemente si está detenido en un semáforo en rojo', 'Se permite enviar mensajes pero se prohíbe hablar'],
+    exp: 'Los conductores de 18 años o más solo pueden usar un teléfono celular en modo manos libres (Bluetooth, altavoz montado en el tablero). Sostener el teléfono mientras conduce es ilegal. Los conductores menores de 18 años no pueden usar ningún dispositivo inalámbrico mientras conducen, ni siquiera manos libres.'
+  },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
