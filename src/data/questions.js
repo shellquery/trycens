@@ -2086,4 +2086,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 16 · Right of Way (Advanced) · Q151–160 ───────────────────────────
+{
+  id:151, cat:'rightofway',
+  en:{q:'At a four-way stop, two vehicles arrive at the same time. Who has the right of way?',opts:['The vehicle on the left','The vehicle on the right','The larger vehicle','The vehicle going straight'],exp:'When two vehicles arrive at a four-way stop at the same time, the vehicle on the RIGHT has the right of way. This is the fundamental "right-of-way to the right" rule. Always yield to the vehicle on your right when arriving simultaneously.'},
+  zh:{q:'在四路停车标志路口，两辆车同时到达。谁有优先通行权？',opts:['左侧车辆','右侧车辆','较大的车辆','直行车辆'],exp:'当两辆车同时到达四路停车路口时，右侧的车辆有优先通行权。这是基本的"右侧优先"规则。同时到达时，始终让右侧车辆先行。'},
+  zhTW:{q:'在四路停車標誌路口，兩輛車同時到達。誰有優先通行權？',opts:['左側車輛','右側車輛','較大的車輛','直行車輛'],exp:'當兩輛車同時到達四路停車路口時，右側的車輛有優先通行權。這是基本的「右側優先」規則。同時到達時，始終讓右側車輛先行。'},
+  es:{q:'En una parada de cuatro vías, dos vehículos llegan al mismo tiempo. ¿Quién tiene el derecho de paso?',opts:['El vehículo de la izquierda','El vehículo de la derecha','El vehículo más grande','El vehículo que va recto'],exp:'Cuando dos vehículos llegan a una parada de cuatro vías al mismo tiempo, el vehículo de la DERECHA tiene el derecho de paso. Esta es la regla fundamental de "derecho de paso a la derecha". Siempre ceda al vehículo de su derecha cuando lleguen simultáneamente.'},
+  ans:1
+},
+{
+  id:152, cat:'rightofway',
+  en:{q:'Who must yield when a vehicle enters a roundabout?',opts:['Vehicles already inside the roundabout','Vehicles entering the roundabout','Vehicles exiting the roundabout','Emergency vehicles always have priority'],exp:'When entering a roundabout, you must yield to vehicles already circulating inside. Roundabouts flow counterclockwise, and entering traffic always yields to circulating traffic. Look to your left as you approach and enter only when there is a safe gap.'},
+  zh:{q:'进入环形交叉路口时，谁必须让行？',opts:['已在环形路内的车辆','正在进入环形路的车辆','正在驶出环形路的车辆','紧急车辆始终有优先权'],exp:'进入环形交叉路口时，必须让行给已在环内行驶的车辆。环形交叉路口逆时针行驶，进入的车辆始终让行给环内行驶的车辆。靠近时向左看，仅在有安全间隙时进入。'},
+  zhTW:{q:'進入環形交叉路口時，誰必須讓行？',opts:['已在環形路內的車輛','正在進入環形路的車輛','正在駛出環形路的車輛','緊急車輛始終有優先權'],exp:'進入環形交叉路口時，必須讓行給已在環內行駛的車輛。環形交叉路口逆時針行駛，進入的車輛始終讓行給環內行駛的車輛。靠近時向左看，僅在有安全間隙時進入。'},
+  es:{q:'¿Quién debe ceder cuando un vehículo entra a una rotonda?',opts:['Vehículos ya dentro de la rotonda','Vehículos entrando a la rotonda','Vehículos saliendo de la rotonda','Los vehículos de emergencia siempre tienen prioridad'],exp:'Al entrar a una rotonda, debe ceder a los vehículos que ya circulan dentro. Las rotondas fluyen en sentido contrario a las agujas del reloj, y el tráfico entrante siempre cede al tráfico circulante. Mire a su izquierda al aproximarse y entre solo cuando haya un espacio seguro.'},
+  ans:1
+},
+{
+  id:153, cat:'rightofway',
+  en:{q:'A pedestrian is crossing at an unmarked crosswalk. What must you do?',opts:['Honk to warn the pedestrian and proceed','Stop and wait for the pedestrian to cross','Slow down only if the pedestrian is in your lane','Pedestrians must wait for traffic'],exp:'In California, pedestrians have the right of way at all crosswalks — marked or unmarked. An unmarked crosswalk exists at every intersection where sidewalks meet the roadway. You must stop and yield to pedestrians crossing, even if there are no painted lines.'},
+  zh:{q:'一名行人正在无标志人行横道过街。您必须怎么做？',opts:['鸣喇叭警告行人后通过','停车等待行人通过','仅当行人在您的车道时减速','行人必须等待车辆'],exp:'在加州，行人在所有人行横道（有标志或无标志）均享有优先通行权。在每个有人行道与路面相交的路口都有无标志人行横道。即使没有画线，您也必须停车让行人通过。'},
+  zhTW:{q:'一名行人正在無標誌人行橫道過街。您必須怎麼做？',opts:['鳴喇叭警告行人後通過','停車等待行人通過','僅當行人在您的車道時減速','行人必須等待車輛'],exp:'在加州，行人在所有人行橫道（有標誌或無標誌）均享有優先通行權。在每個有人行道與路面相交的路口都有無標誌人行橫道。即使沒有畫線，您也必須停車讓行人通過。'},
+  es:{q:'Un peatón está cruzando en un cruce peatonal sin marcar. ¿Qué debe hacer?',opts:['Toque el claxon para advertir al peatón y proceda','Detenga y espere a que el peatón cruce','Reduzca la velocidad solo si el peatón está en su carril','Los peatones deben esperar al tráfico'],exp:'En California, los peatones tienen el derecho de paso en todos los cruces peatonales, marcados o sin marcar. Un cruce peatonal sin marcar existe en cada intersección donde las aceras se encuentran con la calzada. Debe detenerse y ceder a los peatones que cruzan, incluso si no hay líneas pintadas.'},
+  ans:1
+},
+{
+  id:154, cat:'rightofway',
+  en:{q:'You are turning left at a green light. Who has the right of way?',opts:['You do, because you signaled','Oncoming traffic going straight or turning right','Pedestrians only','You and oncoming traffic share equal right of way'],exp:'When turning left on a green light (not a dedicated left-turn arrow), you must yield to oncoming traffic going straight and to pedestrians in the crosswalk. You may complete the turn only when there is a safe gap in traffic.'},
+  zh:{q:'在绿灯时您正在左转。谁有优先通行权？',opts:['您，因为您打了转向灯','直行或右转的对向车辆','仅行人','您和对向车辆平等分享优先通行权'],exp:'在绿灯左转时（非专用左转箭头灯），您必须让行直行对向车辆和人行横道上的行人。只有当交通中有安全间隙时，才可以完成转弯。'},
+  zhTW:{q:'在綠燈時您正在左轉。誰有優先通行權？',opts:['您，因為您打了方向燈','直行或右轉的對向車輛','僅行人','您和對向車輛平等分享優先通行權'],exp:'在綠燈左轉時（非專用左轉箭頭燈），您必須讓行直行對向車輛和人行橫道上的行人。只有當交通中有安全間隙時，才可以完成轉彎。'},
+  es:{q:'Está girando a la izquierda en una luz verde. ¿Quién tiene el derecho de paso?',opts:['Usted, porque señalizó','El tráfico que viene en sentido contrario yendo recto o girando a la derecha','Solo los peatones','Usted y el tráfico en sentido contrario comparten igual derecho de paso'],exp:'Al girar a la izquierda en una luz verde (no una flecha de giro izquierdo dedicada), debe ceder al tráfico en sentido contrario que va recto y a los peatones en el paso peatonal. Puede completar el giro solo cuando hay un espacio seguro en el tráfico.'},
+  ans:1
+},
+{
+  id:155, cat:'rightofway',
+  en:{q:'A blind pedestrian with a white cane is waiting to cross. What must you do?',opts:['Proceed if the light is green','Stop and wait until the pedestrian has completely crossed','Slow down and pass carefully','Honk to let them know you are there'],exp:'Visually impaired pedestrians using a white cane or guide dog have full right of way and extra legal protections. You must stop and remain stopped until they have completely crossed to the other side — do not start moving again while they are still in the roadway.'},
+  zh:{q:'一名使用白色手杖的盲人行人在等待过马路。您必须怎么做？',opts:['如果绿灯就通行','停车等待直到行人完全过街','减速小心通过','鸣喇叭让他们知道您在这里'],exp:'使用白色手杖或导盲犬的视障行人享有完全优先通行权和额外法律保护。您必须停车并保持停车状态直到他们完全走到对面——在他们仍在路面时不得再次开始移动。'},
+  zhTW:{q:'一名使用白色手杖的盲人行人在等待過馬路。您必須怎麼做？',opts:['如果綠燈就通行','停車等待直到行人完全過街','減速小心通過','鳴喇叭讓他們知道您在這裡'],exp:'使用白色手杖或導盲犬的視障行人享有完全優先通行權和額外法律保護。您必須停車並保持停車狀態直到他們完全走到對面——在他們仍在路面時不得再次開始移動。'},
+  es:{q:'Un peatón ciego con un bastón blanco está esperando cruzar. ¿Qué debe hacer?',opts:['Proceda si el semáforo está en verde','Detenga y espere hasta que el peatón haya cruzado completamente','Reduzca la velocidad y pase con cuidado','Toque el claxon para hacerle saber que está ahí'],exp:'Los peatones con discapacidad visual que usan bastón blanco o perro guía tienen pleno derecho de paso y protecciones legales adicionales. Debe detenerse y permanecer detenido hasta que hayan cruzado completamente al otro lado — no comience a moverse nuevamente mientras aún estén en la calzada.'},
+  ans:1
+},
+{
+  id:156, cat:'rightofway',
+  en:{q:'You are on a two-lane highway and want to pass a bicyclist. What is required?',opts:['Sound horn once and pass at full speed','Give at least 3 feet of clearance when passing','Pass as close as possible to minimize time in oncoming lane','Bicyclists must move to the shoulder before you can pass'],exp:'California law requires drivers to give bicyclists at least 3 feet of clearance when passing. If there is not enough room, you must slow down and wait until it is safe to pass. This "Three Feet for Safety" law applies on all roads.'},
+  zh:{q:'在双车道公路上您想超越一名骑自行车者。需要什么要求？',opts:['鸣一声喇叭后全速通过','超车时至少保持3英尺的间距','尽可能近地通过以减少在对向车道的时间','骑自行车者必须先移到路肩，您才能超车'],exp:'加州法律要求驾驶员超越骑自行车者时至少保持3英尺间距。如果空间不足，必须减速等待安全时机再超车。这条"安全三英尺"法律适用于所有道路。'},
+  zhTW:{q:'在雙車道公路上您想超越一名騎自行車者。需要什麼要求？',opts:['鳴一聲喇叭後全速通過','超車時至少保持3英尺的間距','儘可能近地通過以減少在對向車道的時間','騎自行車者必須先移到路肩，您才能超車'],exp:'加州法律要求駕駛員超越騎自行車者時至少保持3英尺間距。如果空間不足，必須減速等待安全時機再超車。這條「安全三英尺」法律適用於所有道路。'},
+  es:{q:'Está en una autopista de dos carriles y quiere adelantar a un ciclista. ¿Qué se requiere?',opts:['Toque el claxon una vez y pase a toda velocidad','Dé al menos 3 pies de distancia al adelantar','Pase lo más cerca posible para minimizar el tiempo en el carril contrario','Los ciclistas deben moverse al arcén antes de que pueda adelantarlos'],exp:'La ley de California requiere que los conductores den a los ciclistas al menos 3 pies de distancia al adelantarlos. Si no hay suficiente espacio, debe reducir la velocidad y esperar hasta que sea seguro adelantar. Esta ley de "Tres Pies para Seguridad" aplica en todas las carreteras.'},
+  ans:1
+},
+{
+  id:157, cat:'rightofway',
+  en:{q:'At a T-intersection (without signs or signals), who has the right of way?',opts:['The vehicle on the through road','The vehicle approaching from the left','The vehicle that arrived first','All vehicles have equal right of way'],exp:'At a T-intersection without signs or signals, vehicles on the through road (the road that continues) have the right of way over vehicles on the terminating road (the road that ends). If you are on the road that ends, yield to all traffic on the through road.'},
+  zh:{q:'在T形路口（无标志或信号灯），谁有优先通行权？',opts:['在通行道路上的车辆','来自左侧的车辆','最先到达的车辆','所有车辆平等享有通行权'],exp:'在无标志或信号灯的T形路口，通行道路（继续延伸的道路）上的车辆对终止道路（结束的道路）上的车辆享有优先通行权。如果您在结束的道路上，需让行通行道路上的所有交通。'},
+  zhTW:{q:'在T形路口（無標誌或信號燈），誰有優先通行權？',opts:['在通行道路上的車輛','來自左側的車輛','最先到達的車輛','所有車輛平等享有通行權'],exp:'在無標誌或信號燈的T形路口，通行道路（繼續延伸的道路）上的車輛對終止道路（結束的道路）上的車輛享有優先通行權。如果您在結束的道路上，需讓行通行道路上的所有交通。'},
+  es:{q:'En una intersección en T (sin señales o semáforos), ¿quién tiene el derecho de paso?',opts:['El vehículo en la carretera de paso','El vehículo que se aproxima desde la izquierda','El vehículo que llegó primero','Todos los vehículos tienen igual derecho de paso'],exp:'En una intersección en T sin señales o semáforos, los vehículos en la carretera de paso (la carretera que continúa) tienen el derecho de paso sobre los vehículos en la carretera que termina. Si está en la carretera que termina, ceda a todo el tráfico en la carretera de paso.'},
+  ans:0
+},
+{
+  id:158, cat:'rightofway',
+  en:{q:'When must you yield to a school bus that has stopped with flashing red lights?',opts:['Only when behind it','Only when approaching from the front','In both directions on a two-lane road; only when behind it on a divided highway','Only when children are visibly getting on or off'],exp:'On a two-lane road, you must stop in both directions when a school bus has its red lights flashing. On a divided highway (with a raised median), only traffic behind the bus must stop — oncoming traffic may continue. Always wait until the lights stop flashing and the bus moves.'},
+  zh:{q:'当一辆有红色闪烁灯的校车停靠时，您何时必须让行？',opts:['仅当在其后方时','仅当从正面靠近时','在双车道道路上两个方向都要停；在隔离公路上仅后方需停','仅当明显有孩子上下车时'],exp:'在双车道道路上，当校车闪烁红灯时，两个方向都必须停车。在隔离公路（有隔离带）上，只有校车后方的交通需要停车——对向交通可以继续。始终等到灯停止闪烁且校车开走。'},
+  zhTW:{q:'當一輛有紅色閃爍燈的校車停靠時，您何時必須讓行？',opts:['僅當在其後方時','僅當從正面靠近時','在雙車道道路上兩個方向都要停；在隔離公路上僅後方需停','僅當明顯有孩子上下車時'],exp:'在雙車道道路上，當校車閃爍紅燈時，兩個方向都必須停車。在隔離公路（有隔離帶）上，只有校車後方的交通需要停車——對向交通可以繼續。始終等到燈停止閃爍且校車開走。'},
+  es:{q:'¿Cuándo debe ceder a un autobús escolar que se ha detenido con luces rojas intermitentes?',opts:['Solo cuando está detrás de él','Solo cuando se aproxima desde el frente','En ambas direcciones en una carretera de dos carriles; solo cuando está detrás en una autopista dividida','Solo cuando los niños están visiblemente subiendo o bajando'],exp:'En una carretera de dos carriles, debe detenerse en ambas direcciones cuando un autobús escolar tiene sus luces rojas intermitentes. En una autopista dividida (con mediana elevada), solo el tráfico detrás del autobús debe detenerse — el tráfico en sentido contrario puede continuar. Siempre espere hasta que las luces dejen de parpadear y el autobús se mueva.'},
+  ans:2
+},
+{
+  id:159, cat:'rightofway',
+  en:{q:'A funeral procession is moving through an intersection against a red light. What should you do?',opts:['Proceed through — the red light applies to everyone','Yield and let the procession pass before proceeding','Honk to alert the procession of the red light','Call 911 to report the traffic violation'],exp:'Funeral processions have special legal right of way in California. They may proceed through intersections against signals when led by a police escort or with the lead vehicle having passed through legally. You must yield and wait for the entire procession to pass.'},
+  zh:{q:'一支葬礼车队正在闯红灯通过路口。您该怎么做？',opts:['继续通行——红灯对所有人都适用','让行等待车队通过后再通行','鸣喇叭提醒车队闯红灯','拨打911报告交通违规'],exp:'在加州，葬礼车队享有特殊法定优先通行权。当有警车引导或领头车辆合法通过时，车队可以在信号灯反对的情况下通过路口。您必须让行并等待整个车队通过。'},
+  zhTW:{q:'一支葬禮車隊正在闖紅燈通過路口。您該怎麼做？',opts:['繼續通行——紅燈對所有人都適用','讓行等待車隊通過後再通行','鳴喇叭提醒車隊闖紅燈','撥打911報告交通違規'],exp:'在加州，葬禮車隊享有特殊法定優先通行權。當有警車引導或領頭車輛合法通過時，車隊可以在信號燈反對的情況下通過路口。您必須讓行並等待整個車隊通過。'},
+  es:{q:'Una procesión fúnebre se mueve por una intersección contra una luz roja. ¿Qué debe hacer?',opts:['Proceda — la luz roja aplica para todos','Ceda y deje pasar la procesión antes de proceder','Toque el claxon para alertar a la procesión de la luz roja','Llame al 911 para reportar la infracción de tráfico'],exp:'Las procesiones fúnebres tienen derecho de paso legal especial en California. Pueden proceder por intersecciones contra señales cuando son guiadas por escolta policial o con el vehículo líder habiendo pasado legalmente. Debe ceder y esperar a que pase toda la procesión.'},
+  ans:1
+},
+{
+  id:160, cat:'rightofway',
+  en:{q:'You are exiting a parking lot onto a street. Who has the right of way?',opts:['You do, if you signal','Traffic already on the street','Whoever reaches the curb first','The person who has been waiting longer'],exp:'When exiting a parking lot, driveway, or alley onto a public street, you must yield to all traffic already on the street, including pedestrians on the sidewalk. The street traffic has the right of way and you must wait for a safe gap before entering.'},
+  zh:{q:'您正从停车场驶出上街道。谁有优先通行权？',opts:['如果您打了转向灯则您有','街道上已有的车辆','先到达路缘的人','等待时间较长的人'],exp:'从停车场、车道或小巷驶入公共街道时，必须让行街道上所有已有的交通，包括人行道上的行人。街道交通享有优先通行权，您必须等待安全间隙后再进入。'},
+  zhTW:{q:'您正從停車場駛出上街道。誰有優先通行權？',opts:['如果您打了方向燈則您有','街道上已有的車輛','先到達路緣的人','等待時間較長的人'],exp:'從停車場、車道或小巷駛入公共街道時，必須讓行街道上所有已有的交通，包括人行道上的行人。街道交通享有優先通行權，您必須等待安全間隙後再進入。'},
+  es:{q:'Está saliendo de un estacionamiento hacia una calle. ¿Quién tiene el derecho de paso?',opts:['Usted, si señaliza','El tráfico ya en la calle','Quien llegue al bordillo primero','La persona que ha esperado más tiempo'],exp:'Al salir de un estacionamiento, entrada de auto o callejón hacia una calle pública, debe ceder a todo el tráfico ya en la calle, incluyendo peatones en la acera. El tráfico de la calle tiene el derecho de paso y debe esperar un espacio seguro antes de entrar.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
