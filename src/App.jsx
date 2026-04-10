@@ -15,7 +15,7 @@ const LANGS = [
 ]
 
 const TITLE = {
-  home:      { en: 'CA DMV Practice',   zh: '加州驾考宝典', zhTW: '加州駕考寶典', es: 'Práctica DMV CA' },
+  home:      { en: 'trycens',           zh: 'trycens',      zhTW: 'trycens',      es: 'trycens' },
   quiz:      { en: 'Practice Test',     zh: '练习考试',     zhTW: '練習考試',     es: 'Examen de Práctica' },
   results:   { en: 'Results',           zh: '考试结果',     zhTW: '考試結果',     es: 'Resultados' },
   review:    { en: 'Review Answers',    zh: '查看答案',     zhTW: '查看答案',     es: 'Revisar Respuestas' },
