@@ -1755,4 +1755,87 @@ export const questions = [
   ans:0
 },
 
+
+// ── Batch 12 · Speed Limits · Q111–120 ───────────────────────
+{
+  id:111,cat:'speed',
+  en:{q:'What is the maximum speed limit on most California freeways?',opts:['65 mph (70 mph where posted)','55 mph at all times','75 mph on rural freeways','60 mph statewide'],exp:'The maximum speed limit on most California freeways is 65 mph. On some rural freeways and highways that are posted, the limit may be 70 mph. Always obey posted speed limit signs — they override the default limits.'},
+  zh:{q:'加州大多数高速公路的最高限速是多少？',opts:['65英里/小时（有标示处为70英里/小时）','始终为55英里/小时','乡村高速公路为75英里/小时','全州统一60英里/小时'],exp:'加州大多数高速公路的最高限速为65英里/小时。在某些已标示的乡村高速公路上，限速可能为70英里/小时。请始终遵守标示的限速标志——它们覆盖默认限速。'},
+  zhTW:{q:'加州大多數高速公路的最高限速是多少？',opts:['65英里/小時（有標示處為70英里/小時）','始終為55英里/小時','鄉村高速公路為75英里/小時','全州統一60英里/小時'],exp:'加州大多數高速公路的最高限速為65英里/小時。在某些已標示的鄉村高速公路上，限速可能為70英里/小時。請始終遵守標示的限速標誌——它們覆蓋預設限速。'},
+  es:{q:'¿Cuál es el límite de velocidad máximo en la mayoría de las autopistas de California?',opts:['65 mph (70 mph donde está señalizado)','55 mph en todo momento','75 mph en autopistas rurales','60 mph en todo el estado'],exp:'El límite de velocidad máximo en la mayoría de las autopistas de California es de 65 mph. En algunas autopistas rurales señalizadas, el límite puede ser de 70 mph. Siempre obedezca las señales de límite de velocidad publicadas — anulan los límites predeterminados.'},
+  ans:0
+},
+{
+  id:112,cat:'speed',
+  en:{q:'What is the speed limit in an alley in California?',opts:['15 mph','25 mph','10 mph','20 mph'],exp:'The prima facie speed limit in any alley in California is 15 mph. Alleys are narrow roads typically found between or behind buildings. The same 15 mph limit applies when visibility is limited to less than 100 feet (on curves, at rail crossings, and near blind intersections).'},
+  zh:{q:'在加州小巷中的限速是多少？',opts:['15英里/小时','25英里/小时','10英里/小时','20英里/小时'],exp:'加州任何小巷内的法定限速为15英里/小时。小巷是通常位于建筑物之间或后面的狭窄道路。同样的15英里/小时限速适用于能见度低于100英尺的情况（弯道处、铁路道口附近及盲交叉路口附近）。'},
+  zhTW:{q:'在加州小巷中的限速是多少？',opts:['15英里/小時','25英里/小時','10英里/小時','20英里/小時'],exp:'加州任何小巷內的法定限速為15英里/小時。小巷是通常位於建築物之間或後面的狹窄道路。同樣的15英里/小時限速適用於能見度低於100英尺的情況（彎道處、鐵路道口附近及盲交叉路口附近）。'},
+  es:{q:'¿Cuál es el límite de velocidad en un callejón en California?',opts:['15 mph','25 mph','10 mph','20 mph'],exp:'El límite de velocidad prima facie en cualquier callejón en California es de 15 mph. Los callejones son carreteras estrechas que generalmente se encuentran entre o detrás de los edificios. El mismo límite de 15 mph aplica cuando la visibilidad es menor de 100 pies.'},
+  ans:0
+},
+{
+  id:113,cat:'speed',
+  en:{q:'What does California\'s "Basic Speed Law" mean?',opts:['You must never drive faster than is safe for current conditions, regardless of the posted speed limit','You must always drive at the posted speed limit','The speed limit is always 65 mph unless posted otherwise','You may exceed the speed limit by 10% without penalty'],exp:'The Basic Speed Law states that you may never drive faster than is safe for existing conditions — regardless of the posted limit. If road conditions (rain, fog, heavy traffic, icy roads) make it unsafe to drive at the posted speed, you must slow down. You can be cited even below the posted limit.'},
+  zh:{q:'加州的"基本速度法则"是什么意思？',opts:['无论标示的限速如何，在当前条件下行驶速度不得超过安全速度','必须始终以标示的限速行驶','除非另有标示，否则限速始终为65英里/小时','可以在不受处罚的情况下超速10%'],exp:'基本速度法则规定，在现有条件下，无论标示的限速如何，您的行驶速度都不得超过安全速度。如果道路条件（雨天、雾天、交通拥堵、结冰道路）使得以标示速度行驶不安全，您必须减速。即使低于标示限速，您也可能被罚款。'},
+  zhTW:{q:'加州的「基本速度法則」是什麼意思？',opts:['無論標示的限速如何，在當前條件下行駛速度不得超過安全速度','必須始終以標示的限速行駛','除非另有標示，否則限速始終為65英里/小時','可以在不受處罰的情況下超速10%'],exp:'基本速度法則規定，在現有條件下，無論標示的限速如何，您的行駛速度都不得超過安全速度。如果道路條件（雨天、霧天、交通擁堵、結冰道路）使得以標示速度行駛不安全，您必須減速。即使低於標示限速，您也可能被罰款。'},
+  es:{q:'¿Qué significa la "Ley de Velocidad Básica" de California?',opts:['Nunca debe conducir más rápido de lo que es seguro para las condiciones actuales, independientemente del límite publicado','Siempre debe conducir al límite de velocidad publicado','El límite de velocidad siempre es 65 mph a menos que se indique lo contrario','Puede exceder el límite de velocidad en un 10% sin penalidad'],exp:'La Ley de Velocidad Básica establece que nunca puede conducir más rápido de lo que es seguro para las condiciones existentes — independientemente del límite publicado. Si las condiciones viales hacen que sea inseguro conducir al límite publicado, debe reducir la velocidad.'},
+  ans:0
+},
+{
+  id:114,cat:'speed',
+  en:{q:'What is the speed limit in a school zone when children are present?',opts:['25 mph','15 mph','35 mph','The same as the surrounding road'],exp:'The speed limit in a school zone is 25 mph when children are present or when the school flashing beacon is active, typically on school days between approximately 7–8 AM and 2–4 PM. The zone is posted with school zone signs. Fines are doubled in school zones.'},
+  zh:{q:'有儿童在场时，学区内的限速是多少？',opts:['25英里/小时','15英里/小时','35英里/小时','与周边道路相同'],exp:'当有儿童在场或学校闪灯信号亮起时（通常在上学日早上7-8点和下午2-4点左右），学区内限速为25英里/小时。该区域设有学区标志。学区内违规罚款加倍。'},
+  zhTW:{q:'有兒童在場時，學區內的限速是多少？',opts:['25英里/小時','15英里/小時','35英里/小時','與周邊道路相同'],exp:'當有兒童在場或學校閃燈信號亮起時（通常在上學日早上7-8點和下午2-4點左右），學區內限速為25英里/小時。該區域設有學區標誌。學區內違規罰款加倍。'},
+  es:{q:'¿Cuál es el límite de velocidad en una zona escolar cuando hay niños presentes?',opts:['25 mph','15 mph','35 mph','El mismo que la carretera circundante'],exp:'El límite de velocidad en una zona escolar es de 25 mph cuando hay niños presentes o cuando el faro parpadeante escolar está activo, típicamente en días escolares entre aproximadamente las 7–8 AM y las 2–4 PM. Las multas se duplican en zonas escolares.'},
+  ans:0
+},
+{
+  id:115,cat:'speed',
+  en:{q:'Fines for speeding are doubled in which zones?',opts:['Construction/work zones and school zones','Only school zones','Only construction zones','Residential zones and school zones'],exp:'In California, fines for all moving violations — including speeding — are doubled in active construction/work zones (when workers are present) and school zones. This applies to the base fine, before penalty assessments. These zones are clearly posted with signs.'},
+  zh:{q:'在哪些区域超速罚款加倍？',opts:['施工/作业区和学区','仅学区','仅施工区','住宅区和学区'],exp:'在加州，所有行驶违规行为（包括超速）的罚款在活跃施工/作业区（有工人在场时）和学区内加倍。这适用于罚款基数，不包括附加费。这些区域有明确的标志标示。'},
+  zhTW:{q:'在哪些區域超速罰款加倍？',opts:['施工/作業區和學區','僅學區','僅施工區','住宅區和學區'],exp:'在加州，所有行駛違規行為（包括超速）的罰款在活躍施工/作業區（有工人在場時）和學區內加倍。這適用於罰款基數，不包括附加費。這些區域有明確的標誌標示。'},
+  es:{q:'Las multas por exceso de velocidad se duplican en qué zonas?',opts:['Zonas de construcción/trabajo y zonas escolares','Solo zonas escolares','Solo zonas de construcción','Zonas residenciales y zonas escolares'],exp:'En California, las multas por todas las infracciones en movimiento — incluyendo exceso de velocidad — se duplican en zonas de construcción/trabajo activas (cuando hay trabajadores presentes) y en zonas escolares. Esto aplica a la multa base, antes de evaluaciones de penalidades.'},
+  ans:0
+},
+{
+  id:116,cat:'speed',
+  en:{q:'If you drive 100 mph or more on a California highway, what is the minimum penalty?',opts:['Mandatory court appearance, fine up to $500, and 30-day license suspension for first offense','Just a speeding ticket like any other','Automatic arrest and 1 year in prison','$100 fine and warning'],exp:'Driving 100 mph or more (excessive speed) is a serious offense in California. For a first offense: mandatory court appearance, fine of $35–$500 (plus penalty assessments, total ~$900+), and the court may suspend your license for 30 days. Subsequent offenses result in longer suspensions.'},
+  zh:{q:'如果您在加州公路上以100英里/小时或以上的速度行驶，最低处罚是什么？',opts:['强制出庭，最高500美元罚款，首次违规暂停驾照30天','与其他超速罚单相同','自动逮捕并判处1年监禁','100美元罚款和警告'],exp:'在加州以100英里/小时以上速度行驶（超速）是严重违规行为。首次违规：强制出庭，罚款35至500美元（加附加费总计约900美元以上），法院可能暂停您的驾照30天。后续违规将导致更长时间的暂停。'},
+  zhTW:{q:'如果您在加州公路上以100英里/小時或以上的速度行駛，最低處罰是什麼？',opts:['強制出庭，最高500美元罰款，首次違規暫停駕照30天','與其他超速罰單相同','自動逮捕並判處1年監禁','100美元罰款和警告'],exp:'在加州以100英里/小時以上速度行駛（超速）是嚴重違規行為。首次違規：強制出庭，罰款35至500美元（加附加費總計約900美元以上），法院可能暫停您的駕照30天。後續違規將導致更長時間的暫停。'},
+  es:{q:'Si conduce a 100 mph o más en una autopista de California, ¿cuál es la penalidad mínima?',opts:['Comparecencia obligatoria ante el tribunal, multa de hasta $500 y suspensión de licencia por 30 días para primera ofensa','Solo un ticket de velocidad como cualquier otro','Arresto automático y 1 año de prisión','Multa de $100 y advertencia'],exp:'Conducir a 100 mph o más (velocidad excesiva) es una infracción grave en California. Para primera ofensa: comparecencia obligatoria ante el tribunal, multa de $35–$500 (más evaluaciones de penalidades, total ~$900+), y el tribunal puede suspender su licencia por 30 días.'},
+  ans:0
+},
+{
+  id:117,cat:'speed',
+  en:{q:'What is the prima facie speed limit near a railroad crossing when you cannot see the tracks clearly in both directions for 400 feet?',opts:['15 mph','25 mph','10 mph','35 mph'],exp:'When approaching a railroad crossing where you cannot see the tracks clearly for at least 400 feet in both directions, the prima facie speed limit is 15 mph. Always slow down and look and listen for trains before crossing tracks, even if there are no signals or gates.'},
+  zh:{q:'当您无法清楚地看到铁路道口两个方向400英尺范围内的铁轨时，法定限速是多少？',opts:['15英里/小时','25英里/小时','10英里/小时','35英里/小时'],exp:'在接近无法清楚看到两个方向至少400英尺范围内铁轨的铁路道口时，法定限速为15英里/小时。即使没有信号灯或栏杆，在穿越铁轨前也应始终减速并观察和倾听火车。'},
+  zhTW:{q:'當您無法清楚地看到鐵路道口兩個方向400英尺範圍內的鐵軌時，法定限速是多少？',opts:['15英里/小時','25英里/小時','10英里/小時','35英里/小時'],exp:'在接近無法清楚看到兩個方向至少400英尺範圍內鐵軌的鐵路道口時，法定限速為15英里/小時。即使沒有信號燈或欄杆，在穿越鐵軌前也應始終減速並觀察和傾聽火車。'},
+  es:{q:'¿Cuál es el límite de velocidad prima facie cerca de un cruce ferroviario cuando no puede ver las vías claramente en ambas direcciones por 400 pies?',opts:['15 mph','25 mph','10 mph','35 mph'],exp:'Al acercarse a un cruce ferroviario donde no puede ver las vías claramente por al menos 400 pies en ambas direcciones, el límite de velocidad prima facie es de 15 mph. Siempre reduzca la velocidad y mire y escuche trenes antes de cruzar las vías, incluso si no hay señales o barreras.'},
+  ans:0
+},
+{
+  id:118,cat:'speed',
+  en:{q:'What is the minimum speed law on California freeways?',opts:['You must not drive so slowly that you impede the normal flow of traffic','You must drive at least 45 mph at all times','You must drive at least 35 mph in the right lane','There is no minimum speed on California freeways'],exp:'California law prohibits driving so slowly on a freeway that you block or impede the normal flow of traffic. Signs posting a minimum speed limit (e.g., 45 mph) make this explicit. Driving 15–20 mph below traffic flow is dangerous and can be cited as impeding traffic.'},
+  zh:{q:'加州高速公路上的最低速度法律是什么？',opts:['您的驾驶速度不得慢到妨碍正常交通流','始终至少以45英里/小时行驶','右车道至少以35英里/小时行驶','加州高速公路没有最低速度限制'],exp:'加州法律禁止在高速公路上行驶速度过慢而阻碍正常交通流。标示最低限速（如45英里/小时）的标志使这一点更加明确。行驶速度比交通流低15-20英里/小时是危险的，可能被认定为妨碍交通。'},
+  zhTW:{q:'加州高速公路上的最低速度法律是什麼？',opts:['您的駕駛速度不得慢到妨礙正常交通流','始終至少以45英里/小時行駛','右車道至少以35英里/小時行駛','加州高速公路沒有最低速度限制'],exp:'加州法律禁止在高速公路上行駛速度過慢而阻礙正常交通流。標示最低限速（如45英里/小時）的標誌使這一點更加明確。行駛速度比交通流低15-20英里/小時是危險的，可能被認定為妨礙交通。'},
+  es:{q:'¿Cuál es la ley de velocidad mínima en las autopistas de California?',opts:['No debe conducir tan lento que obstaculice el flujo normal del tráfico','Debe conducir al menos 45 mph en todo momento','Debe conducir al menos 35 mph en el carril derecho','No hay velocidad mínima en las autopistas de California'],exp:'La ley de California prohíbe conducir tan lentamente en una autopista que bloquee o impida el flujo normal del tráfico. Los letreros que publican un límite de velocidad mínimo (por ejemplo, 45 mph) hacen esto explícito.'},
+  ans:0
+},
+{
+  id:119,cat:'speed',
+  en:{q:'How does speed affect your total stopping distance?',opts:['Doubling your speed more than doubles your stopping distance — it roughly quadruples it','Doubling speed doubles stopping distance proportionally','Speed has little effect on stopping distance in modern cars','Stopping distance only depends on brakes, not speed'],exp:'Stopping distance = reaction distance + braking distance. Reaction distance increases linearly with speed. Braking distance increases with the SQUARE of speed (kinetic energy). So doubling speed from 30 to 60 mph roughly quadruples braking distance. At 60 mph, total stopping distance is about 240 feet.'},
+  zh:{q:'速度如何影响您的总停车距离？',opts:['速度加倍使停车距离增加超过两倍——大约增加四倍','速度加倍使停车距离成比例地加倍','速度对现代汽车的停车距离影响不大','停车距离仅取决于刹车，与速度无关'],exp:'停车距离=反应距离+制动距离。反应距离与速度成线性关系。制动距离与速度的平方成正比（动能）。因此，速度从30英里/小时加倍到60英里/小时，制动距离大约增加四倍。在60英里/小时时，总停车距离约为240英尺。'},
+  zhTW:{q:'速度如何影響您的總停車距離？',opts:['速度加倍使停車距離增加超過兩倍——大約增加四倍','速度加倍使停車距離成比例地加倍','速度對現代汽車的停車距離影響不大','停車距離僅取決於刹車，與速度無關'],exp:'停車距離=反應距離+制動距離。反應距離與速度成線性關係。制動距離與速度的平方成正比（動能）。因此，速度從30英里/小時加倍到60英里/小時，制動距離大約增加四倍。在60英里/小時時，總停車距離約為240英尺。'},
+  es:{q:'¿Cómo afecta la velocidad su distancia total de frenado?',opts:['Duplicar su velocidad más que duplica su distancia de frenado — aproximadamente la cuadruplica','Duplicar la velocidad duplica la distancia de frenado proporcionalmente','La velocidad tiene poco efecto en la distancia de frenado en autos modernos','La distancia de frenado solo depende de los frenos, no de la velocidad'],exp:'Distancia de parada = distancia de reacción + distancia de frenado. La distancia de reacción aumenta linealmente con la velocidad. La distancia de frenado aumenta con el CUADRADO de la velocidad (energía cinética). Duplicar la velocidad de 30 a 60 mph aproximadamente cuadruplica la distancia de frenado.'},
+  ans:0
+},
+{
+  id:120,cat:'speed',
+  en:{q:'When visibility is reduced to less than 100 feet due to fog, smoke, or other conditions, what speed limit applies?',opts:['15 mph — you must slow to a speed where you can stop within your sight distance','25 mph — the residential speed limit applies','35 mph — moderate speed for reduced visibility','The posted speed limit still applies regardless of visibility'],exp:'When your visibility ahead is less than 100 feet due to any condition (fog, smoke, dust, rain), California law limits you to 15 mph. This is because you must always be able to stop within the distance you can see ahead. Driving faster in such conditions is extremely dangerous.'},
+  zh:{q:'当因雾、烟或其他条件导致能见度低于100英尺时，适用什么限速？',opts:['15英里/小时——您必须将速度降低到可以在视线范围内停车的速度','25英里/小时——适用住宅区限速','35英里/小时——能见度降低时的适中速度','无论能见度如何，仍适用标示的限速'],exp:'当因任何条件（雾、烟、尘、雨）导致前方能见度低于100英尺时，加州法律将您的速度限制为15英里/小时。这是因为您必须始终能够在您能看到的距离内停车。在此类条件下以更快速度行驶极其危险。'},
+  zhTW:{q:'當因霧、煙或其他條件導致能見度低於100英尺時，適用什麼限速？',opts:['15英里/小時——您必須將速度降低到可以在視線範圍內停車的速度','25英里/小時——適用住宅區限速','35英里/小時——能見度降低時的適中速度','無論能見度如何，仍適用標示的限速'],exp:'當因任何條件（霧、煙、塵、雨）導致前方能見度低於100英尺時，加州法律將您的速度限制為15英里/小時。這是因為您必須始終能夠在您能看到的距離內停車。在此類條件下以更快速度行駛極其危險。'},
+  es:{q:'Cuando la visibilidad se reduce a menos de 100 pies debido a niebla, humo u otras condiciones, ¿qué límite de velocidad aplica?',opts:['15 mph — debe reducir a una velocidad donde pueda detenerse dentro de su distancia de visión','25 mph — aplica el límite de velocidad residencial','35 mph — velocidad moderada para visibilidad reducida','El límite de velocidad publicado aún aplica independientemente de la visibilidad'],exp:'Cuando su visibilidad es menor de 100 pies debido a cualquier condición (niebla, humo, polvo, lluvia), la ley de California lo limita a 15 mph. Esto se debe a que siempre debe poder detenerse dentro de la distancia que puede ver hacia adelante.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
