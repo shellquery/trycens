@@ -2660,4 +2660,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 23 · Traffic Laws (More) · Q221–230 ───────────────────────────────
+{
+  id:221, cat:'laws',
+  en:{q:'What does it mean when a school bus displays flashing amber (yellow) lights?',opts:['The bus is already stopped — stop your vehicle','The bus is about to stop — slow down and prepare to stop','Proceed normally — amber means caution only','Amber lights have no legal significance'],exp:'Flashing amber lights on a school bus mean the bus is about to stop to load or unload children. Slow down and prepare to stop. When the bus then activates flashing red lights and extends its stop arm, you must stop completely and remain stopped.'},
+  zh:{q:'当校车显示闪烁琥珀色（黄色）灯光时意味着什么？',opts:['车辆已经停止——停下您的车','车辆即将停止——减速准备停车','正常通行——琥珀色只表示谨慎','琥珀色灯没有法律意义'],exp:'校车上闪烁的琥珀色灯意味着车辆即将停止以接送儿童。减速并准备停车。当校车随后激活闪烁红灯并伸出停止臂时，您必须完全停车并保持停车状态。'},
+  zhTW:{q:'當校車顯示閃爍琥珀色（黃色）燈光時意味著什麼？',opts:['車輛已經停止——停下您的車','車輛即將停止——減速準備停車','正常通行——琥珀色只表示謹慎','琥珀色燈沒有法律意義'],exp:'校車上閃爍的琥珀色燈意味著車輛即將停止以接送兒童。減速並準備停車。當校車隨後激活閃爍紅燈並伸出停止臂時，您必須完全停車並保持停車狀態。'},
+  es:{q:'¿Qué significa cuando un autobús escolar muestra luces ámbar (amarillas) intermitentes?',opts:['El autobús ya se detuvo — detenga su vehículo','El autobús está a punto de detenerse — reduzca la velocidad y prepárese para detenerse','Proceda normalmente — ámbar solo significa precaución','Las luces ámbar no tienen significado legal'],exp:'Las luces ámbar intermitentes en un autobús escolar significan que el autobús está a punto de detenerse para cargar o descargar niños. Reduzca la velocidad y prepárese para detenerse. Cuando el autobús luego activa luces rojas intermitentes y extiende su brazo de pare, debe detenerse completamente y permanecer detenido.'},
+  ans:1
+},
+{
+  id:222, cat:'laws',
+  en:{q:'When is it legal to drive on a bicycle lane?',opts:['When passing a slow vehicle','Only when within 200 feet of making a right turn and when entering or exiting a driveway','Whenever there is no bicycle traffic','Never — bicycle lanes are always off-limits to motor vehicles'],exp:'Motorists may enter a bicycle lane only when: (1) making a right turn within 200 feet of the intersection, (2) entering or exiting a driveway, or (3) parking where permitted. You should never travel long distances in a bike lane. Look for cyclists before entering.'},
+  zh:{q:'什么时候可以合法行驶在自行车道上？',opts:['超越慢速车辆时','仅当在右转200英尺以内且进出车道时','当没有自行车交通时','永远不合法——自行车道对机动车始终禁止'],exp:'驾驶者只能在以下情况进入自行车道：(1) 在路口200英尺内右转，(2) 进出车道，或(3) 在允许的地方停车。您不应该在自行车道长距离行驶。进入前查看自行车。'},
+  zhTW:{q:'什麼時候可以合法行駛在自行車道上？',opts:['超越慢速車輛時','僅當在右轉200英尺以內且進出車道時','當沒有自行車交通時','永遠不合法——自行車道對機動車始終禁止'],exp:'駕駛者只能在以下情況進入自行車道：(1) 在路口200英尺內右轉，(2) 進出車道，或(3) 在允許的地方停車。您不應該在自行車道長距離行駛。進入前查看自行車。'},
+  es:{q:'¿Cuándo es legal conducir en un carril para bicicletas?',opts:['Al adelantar a un vehículo lento','Solo cuando esté dentro de 200 pies de hacer un giro a la derecha y al entrar o salir de una entrada de auto','Cuando no hay tráfico de bicicletas','Nunca — los carriles para bicicletas siempre están prohibidos para vehículos de motor'],exp:'Los conductores solo pueden entrar a un carril para bicicletas cuando: (1) hacen un giro a la derecha dentro de 200 pies de la intersección, (2) entran o salen de una entrada de auto, o (3) estacionan donde está permitido. Nunca debe viajar largas distancias en un carril de bicicletas. Busque ciclistas antes de entrar.'},
+  ans:1
+},
+{
+  id:223, cat:'laws',
+  en:{q:'What must you do when you see a "Yield" sign?',opts:['Stop completely before proceeding','Slow down and give right-of-way to crossing traffic — stop if necessary','Honk to warn cross traffic that you are approaching','Proceed normally — yield signs are advisory only'],exp:'A yield sign means you must slow down and be prepared to stop. You must give the right of way to traffic already in the intersection or approaching closely. You do not have to stop unless it is necessary for safety. If there is no conflicting traffic, you may proceed without stopping.'},
+  zh:{q:'看到"让行"标志时您必须怎么做？',opts:['在继续前完全停车','减速并给予正在穿越的交通优先权——必要时停车','鸣喇叭警告横向交通您正在靠近','正常通行——让行标志只是建议性的'],exp:'让行标志意味着您必须减速并准备停车。您必须给已经在路口或正在靠近的交通让行。除非为了安全需要，您不必停车。如果没有冲突的交通，您可以不停车继续通行。'},
+  zhTW:{q:'看到「讓行」標誌時您必須怎麼做？',opts:['在繼續前完全停車','減速並給予正在穿越的交通優先權——必要時停車','鳴喇叭警告橫向交通您正在靠近','正常通行——讓行標誌只是建議性的'],exp:'讓行標誌意味著您必須減速並準備停車。您必須給已經在路口或正在靠近的交通讓行。除非為了安全需要，您不必停車。如果沒有衝突的交通，您可以不停車繼續通行。'},
+  es:{q:'¿Qué debe hacer cuando ve una señal de "Ceder"?',opts:['Detenga completamente antes de proceder','Reduzca la velocidad y dé el derecho de paso al tráfico que cruza — detenga si es necesario','Toque la bocina para advertir al tráfico cruzado que se está aproximando','Proceda normalmente — las señales de ceder son solo de aviso'],exp:'Una señal de ceder significa que debe reducir la velocidad y estar preparado para detenerse. Debe dar el derecho de paso al tráfico ya en la intersección o que se aproxima de cerca. No tiene que detenerse a menos que sea necesario para la seguridad. Si no hay tráfico en conflicto, puede proceder sin detenerse.'},
+  ans:1
+},
+{
+  id:224, cat:'laws',
+  en:{q:'How close to a driveway entrance can you legally park?',opts:['5 feet','10 feet','Within 3 feet of a driveway — no parking within the driveway itself','You can park directly in front of a driveway if you are within line of sight'],exp:'You must not park within 3 feet of a public or private driveway entrance. Parking in front of a driveway can block residents or business from entering or exiting, and it is illegal. This applies even if the driveway belongs to your own home — you can be ticketed.'},
+  zh:{q:'在加州您可以合法地距离车道入口多近停车？',opts:['5英尺','10英尺','车道3英尺以内——不得在车道内停车','如果在视线范围内可以直接停在车道前面'],exp:'您不得在公共或私人车道入口3英尺以内停车。在车道前面停车会阻碍居民或企业进出，这是违法的。即使车道属于您自己的家——您也可能被开罚单。'},
+  zhTW:{q:'在加州您可以合法地距離車道入口多近停車？',opts:['5英尺','10英尺','車道3英尺以內——不得在車道內停車','如果在視線範圍內可以直接停在車道前面'],exp:'您不得在公共或私人車道入口3英尺以內停車。在車道前面停車會阻礙居民或企業進出，這是違法的。即使車道屬於您自己的家——您也可能被開罰單。'},
+  es:{q:'¿A qué distancia de una entrada de acceso puede estacionar legalmente?',opts:['5 pies','10 pies','Dentro de 3 pies de una entrada — sin estacionamiento dentro de la entrada misma','Puede estacionar directamente frente a una entrada si está en línea de vista'],exp:'No debe estacionar dentro de 3 pies de una entrada de acceso pública o privada. Estacionar frente a una entrada puede bloquear a los residentes o negocios para entrar o salir, y es ilegal. Esto aplica incluso si la entrada pertenece a su propia casa — puede recibir una multa.'},
+  ans:2
+},
+{
+  id:225, cat:'laws',
+  en:{q:'What must you do when you approach a railroad crossing with flashing red lights and ringing bells?',opts:['Slow down and proceed if no train is visible','Stop at least 15 feet from the nearest rail and wait until the signals stop','Stop and proceed only if the crossing arms are up','Yield to the train and proceed when there is a gap'],exp:'When a railroad crossing shows flashing red lights and bells, you must stop at least 15 feet from the nearest rail and remain stopped until the signals stop and it is safe to proceed. Never try to beat a train — trains cannot stop quickly and are much heavier than they appear.'},
+  zh:{q:'靠近有闪烁红灯和响铃的铁路道口时，您必须怎么做？',opts:['减速，如果没有可见火车则继续通行','停在最近轨道至少15英尺处等待信号停止','停车，仅当道口栏杆升起时继续通行','让行火车，在有间隙时继续通行'],exp:'当铁路道口出现闪烁红灯和铃声时，您必须停在最近轨道至少15英尺处，并保持停车状态直到信号停止且可以安全通行。永远不要试图抢在火车前面——火车无法快速停下，而且比看起来重得多。'},
+  zhTW:{q:'靠近有閃爍紅燈和響鈴的鐵路道口時，您必須怎麼做？',opts:['減速，如果沒有可見火車則繼續通行','停在最近軌道至少15英尺處等待信號停止','停車，僅當道口欄杆升起時繼續通行','讓行火車，在有間隙時繼續通行'],exp:'當鐵路道口出現閃爍紅燈和鈴聲時，您必須停在最近軌道至少15英尺處，並保持停車狀態直到信號停止且可以安全通行。永遠不要試圖搶在火車前面——火車無法快速停下，而且比看起來重得多。'},
+  es:{q:'¿Qué debe hacer cuando se aproxima a un cruce ferroviario con luces rojas intermitentes y campanas?',opts:['Reduzca la velocidad y proceda si no hay tren visible','Detenga al menos 15 pies del riel más cercano y espere hasta que las señales paren','Detenga y proceda solo si los brazos del cruce están levantados','Ceda al tren y proceda cuando haya un hueco'],exp:'Cuando un cruce ferroviario muestra luces rojas intermitentes y campanas, debe detenerse al menos 15 pies del riel más cercano y permanecer detenido hasta que las señales paren y sea seguro proceder. Nunca intente adelantarse al tren — los trenes no pueden detenerse rápidamente y son mucho más pesados de lo que parecen.'},
+  ans:1
+},
+{
+  id:226, cat:'laws',
+  en:{q:'What is a "Basic Speed Law" violation?',opts:['Exceeding a posted speed limit','Driving at any speed that is unsafe for current conditions, regardless of the posted limit','Driving under the minimum speed','Exceeding 65 mph on any California road'],exp:'California\'s Basic Speed Law states that no person shall drive a vehicle at a speed greater than is reasonable or prudent, having due regard for weather, visibility, traffic, and road conditions. You can be cited for a Basic Speed Law violation even if you are driving at or below the posted limit.'},
+  zh:{q:'什么是"基本速度法"违规？',opts:['超过标志速度限制','在任何对当前条件不安全的速度下驾驶，无论标志限速如何','以低于最低速度行驶','在加州任何道路超过65英里/小时'],exp:'加州的基本速度法规定，任何人不得以超过合理或谨慎速度驾驶车辆，要适当考虑天气、能见度、交通和路况。即使您以标志限速或以下驾驶，也可能因违反基本速度法而被引证。'},
+  zhTW:{q:'什麼是「基本速度法」違規？',opts:['超過標誌速度限制','在任何對當前條件不安全的速度下駕駛，無論標誌限速如何','以低於最低速度行駛','在加州任何道路超過65英里/小時'],exp:'加州的基本速度法規定，任何人不得以超過合理或謹慎速度駕駛車輛，要適當考慮天氣、能見度、交通和路況。即使您以標誌限速或以下駕駛，也可能因違反基本速度法而被引證。'},
+  es:{q:'¿Qué es una violación de la "Ley de Velocidad Básica"?',opts:['Exceder un límite de velocidad publicado','Conducir a cualquier velocidad que sea insegura para las condiciones actuales, independientemente del límite publicado','Conducir por debajo de la velocidad mínima','Exceder 65 mph en cualquier carretera de California'],exp:'La Ley de Velocidad Básica de California establece que ninguna persona conducirá un vehículo a una velocidad mayor de lo que es razonable o prudente, teniendo debida consideración por el clima, visibilidad, tráfico y condiciones de la carretera. Puede ser citado por una violación de la Ley de Velocidad Básica incluso si conduce al límite publicado o por debajo de él.'},
+  ans:1
+},
+{
+  id:227, cat:'laws',
+  en:{q:'At what age can children legally sit in the front seat of a vehicle in California?',opts:['5 years','8 years or 57 inches tall','13 years — children under 13 must sit in back','Any age if properly restrained'],exp:'California law requires children under 8 years old to be secured in a child passenger restraint system (car seat or booster seat) in the rear seat. Once a child is 8 years old OR 57 inches (4\'9") tall, they may use an adult safety belt and ride in the front seat.'},
+  zh:{q:'在加州，儿童可以合法坐在车辆前排的年龄是多少？',opts:['5岁','8岁或57英寸高','13岁——13岁以下儿童必须坐后排','任何年龄，只要正确使用束缚装置'],exp:'加州法律要求8岁以下儿童在后排座位使用儿童安全约束系统（儿童座椅或增高椅）。一旦儿童年满8岁或身高达到57英寸（4英尺9英寸），可以使用成人安全带并坐前排。'},
+  zhTW:{q:'在加州，兒童可以合法坐在車輛前排的年齡是多少？',opts:['5歲','8歲或57英寸高','13歲——13歲以下兒童必須坐後排','任何年齡，只要正確使用束縛裝置'],exp:'加州法律要求8歲以下兒童在後排座位使用兒童安全約束系統（兒童座椅或增高椅）。一旦兒童年滿8歲或身高達到57英寸（4英尺9英寸），可以使用成人安全帶並坐前排。'},
+  es:{q:'¿A qué edad pueden los niños sentarse legalmente en el asiento delantero de un vehículo en California?',opts:['5 años','8 años o 57 pulgadas de altura','13 años — los niños menores de 13 deben sentarse atrás','Cualquier edad si están correctamente sujetos'],exp:'La ley de California requiere que los niños menores de 8 años estén asegurados en un sistema de sujeción de pasajeros infantiles (silla de auto o asiento elevador) en el asiento trasero. Una vez que el niño tiene 8 años O mide 57 pulgadas (4\'9"), pueden usar un cinturón de seguridad para adultos y viajar en el asiento delantero.'},
+  ans:1
+},
+{
+  id:228, cat:'laws',
+  en:{q:'What should you do when being tailgated?',opts:['Brake suddenly to teach the tailgater a lesson','Speed up to create more distance in front','Gradually slow down to increase your following distance and encourage the tailgater to pass','Maintain your speed and ignore the tailgater'],exp:'When tailgated, gradually ease up on the gas to create more distance between you and the vehicle ahead — this gives you a larger buffer if you need to brake. It may also encourage the tailgater to pass. Never brake suddenly when being tailgated — this can cause a rear-end collision.'},
+  zh:{q:'当被紧跟时您应该怎么做？',opts:['突然刹车以给紧跟者一个教训','加速以在前方创造更多距离','逐渐减速以增加跟车距离并鼓励紧跟者超车','保持速度并无视紧跟者'],exp:'当被紧跟时，逐渐松开油门以在您和前方车辆之间创造更多距离——这在您需要刹车时提供更大的缓冲。这也可能鼓励紧跟者超车。被紧跟时切勿突然刹车——这可能导致追尾碰撞。'},
+  zhTW:{q:'當被緊跟時您應該怎麼做？',opts:['突然剎車以給緊跟者一個教訓','加速以在前方創造更多距離','逐漸減速以增加跟車距離並鼓勵緊跟者超車','保持速度並無視緊跟者'],exp:'當被緊跟時，逐漸鬆開油門以在您和前方車輛之間創造更多距離——這在您需要剎車時提供更大的緩衝。這也可能鼓勵緊跟者超車。被緊跟時切勿突然剎車——這可能導致追尾碰撞。'},
+  es:{q:'¿Qué debe hacer cuando lo están siguiendo de cerca?',opts:['Frene repentinamente para enseñarle una lección al que lo sigue','Acelere para crear más distancia adelante','Reduzca gradualmente la velocidad para aumentar su distancia de seguimiento y alentar al que lo sigue a adelantar','Mantenga su velocidad e ignore al que lo sigue'],exp:'Cuando lo siguen de cerca, afloje gradualmente el acelerador para crear más distancia entre usted y el vehículo de adelante — esto le da un mayor margen si necesita frenar. También puede alentar al que lo sigue a adelantar. Nunca frene repentinamente cuando lo siguen de cerca — esto puede causar una colisión trasera.'},
+  ans:2
+},
+{
+  id:229, cat:'laws',
+  en:{q:'What is "road rage" and what should you do if confronted by an aggressive driver?',opts:['A minor traffic violation — respond calmly by honking','Dangerous behavior by an angry driver — avoid eye contact, do not respond, and call 911 if threatened','Normal behavior in traffic — match their behavior to establish boundaries','Illegal only if the other driver causes an accident'],exp:'Road rage involves dangerous driving behavior triggered by anger. If confronted by an aggressive driver: avoid eye contact, do not respond to gestures or honking, do not pull over unless necessary, drive to a busy public place or police station if followed, and call 911 if you feel threatened.'},
+  zh:{q:'"路怒"是什么，如果遇到攻击性驾驶者您应该怎么做？',opts:['轻微的交通违规——平静地回应鸣喇叭','愤怒驾驶者的危险行为——避免眼神接触，不要回应，如果受到威胁拨打911','正常交通行为——匹配他们的行为以建立界限','仅当其他驾驶者造成事故时才违法'],exp:'"路怒"涉及愤怒引发的危险驾驶行为。如果遇到攻击性驾驶者：避免眼神接触，不要回应手势或喇叭，非必要不要靠边停车，如果被跟踪则驾车到繁忙的公共场所或警察局，如果感到受威胁拨打911。'},
+  zhTW:{q:'「路怒」是什麼，如果遇到攻擊性駕駛者您應該怎麼做？',opts:['輕微的交通違規——平靜地回應鳴喇叭','憤怒駕駛者的危險行為——避免眼神接觸，不要回應，如果受到威脅撥打911','正常交通行為——匹配他們的行為以建立界限','僅當其他駕駛者造成事故時才違法'],exp:'"路怒"涉及憤怒引發的危險駕駛行為。如果遇到攻擊性駕駛者：避免眼神接觸，不要回應手勢或喇叭，非必要不要靠邊停車，如果被跟蹤則駕車到繁忙的公共場所或警察局，如果感到受威脅撥打911。'},
+  es:{q:'¿Qué es la "ira al volante" y qué debe hacer si es confrontado por un conductor agresivo?',opts:['Una infracción de tráfico menor — responda con calma tocando la bocina','Comportamiento peligroso de un conductor enojado — evite el contacto visual, no responda y llame al 911 si es amenazado','Comportamiento normal en el tráfico — iguale su comportamiento para establecer límites','Ilegal solo si el otro conductor causa un accidente'],exp:'La ira al volante implica comportamiento de conducción peligroso desencadenado por el enojo. Si es confrontado por un conductor agresivo: evite el contacto visual, no responda a gestos o bocinas, no se orille a menos que sea necesario, conduzca a un lugar público concurrido o estación de policía si lo siguen y llame al 911 si se siente amenazado.'},
+  ans:1
+},
+{
+  id:230, cat:'laws',
+  en:{q:'You receive a traffic ticket in California. What happens if you ignore it?',opts:['Nothing — tickets expire after 1 year','A warrant may be issued for your arrest and your license may be suspended','You will receive a warning letter first','The fine doubles but no other consequences'],exp:'Ignoring a traffic ticket in California results in serious consequences: a "Failure to Appear" (FTA) charge, a $300 civil assessment added to the fine, a hold on your DMV record preventing license renewal, and potentially a bench warrant for your arrest. Always respond to tickets by the date shown.'},
+  zh:{q:'您在加州收到了交通罚单。如果您无视它会发生什么？',opts:['什么都不会——罚单1年后过期','可能对您发出逮捕令并暂停您的驾照','您会先收到警告信','罚款翻倍但没有其他后果'],exp:'无视加州交通罚单会产生严重后果："未出庭"（FTA）指控、罚款额外增加$300的民事评估、DMV记录上阻止驾照续期的限制，以及可能的逮捕传票。始终在显示的日期前回应罚单。'},
+  zhTW:{q:'您在加州收到了交通罰單。如果您無視它會發生什麼？',opts:['什麼都不會——罰單1年後過期','可能對您發出逮捕令並暫停您的駕照','您會先收到警告信','罰款翻倍但沒有其他後果'],exp:'無視加州交通罰單會產生嚴重後果：「未出庭」（FTA）指控、罰款額外增加$300的民事評估、DMV記錄上阻止駕照續期的限制，以及可能的逮捕傳票。始終在顯示的日期前回應罰單。'},
+  es:{q:'Recibe una multa de tráfico en California. ¿Qué sucede si la ignora?',opts:['Nada — las multas expiran después de 1 año','Se puede emitir una orden de arresto y su licencia puede suspenderse','Primero recibirá una carta de advertencia','La multa se duplica pero no hay otras consecuencias'],exp:'Ignorar una multa de tráfico en California resulta en consecuencias graves: un cargo de "No Comparecencia" (FTA), una evaluación civil de $300 agregada a la multa, un bloqueo en su expediente del DMV que impide la renovación de la licencia, y potencialmente una orden de arresto. Siempre responda a las multas antes de la fecha indicada.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
