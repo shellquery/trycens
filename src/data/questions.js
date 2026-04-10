@@ -5685,4 +5685,14 @@ export const questions = [
   ans:1
 },
 
-] // end — 600 questions in progress
+,
+{
+  id:591, cat:'laws',
+  en:{q:'In California, who is required to wear a seatbelt?',opts:['Only the driver','The driver and all front-seat passengers','The driver and all passengers regardless of seating position','Only passengers under 18'],exp:'California law requires the driver and ALL passengers to wear a seatbelt, regardless of their position in the vehicle (front or back seat). The driver is responsible for ensuring that all passengers under 16 are buckled up. Passengers 16 and older are responsible for their own seatbelt use. Failure to wear a seatbelt is a primary offense — police can stop and cite you just for not wearing one. Seatbelts are the single most effective safety device in vehicles, dramatically reducing injury and death in crashes.'},
+  zh:{q:'在加州，谁被要求系安全带？',opts:['只有驾驶员','驾驶员和所有前排乘客','驾驶员和所有乘客，无论座位位置','只有18岁以下的乘客'],exp:'加州法律要求驾驶员和所有乘客系安全带，无论在车辆中的位置（前排或后排）。驾驶员负责确保所有16岁以下的乘客系好安全带。16岁及以上的乘客负责自己的安全带使用。不系安全带是主要违规行为——警察可以仅因为您不系安全带就拦下并开罚单。安全带是车辆中最有效的单一安全装置，在碰撞中显著降低受伤和死亡。'},
+  zhTW:{q:'在加州，誰被要求系安全帶？',opts:['只有駕駛員','駕駛員和所有前排乘客','駕駛員和所有乘客，無論座位位置','只有18歲以下的乘客'],exp:'加州法律要求駕駛員和所有乘客系安全帶，無論在車輛中的位置（前排或後排）。駕駛員負責確保所有16歲以下的乘客系好安全帶。16歲及以上的乘客負責自己的安全帶使用。不系安全帶是主要違規行為——警察可以僅因為您不系安全帶就攔下並開罰單。安全帶是車輛中最有效的單一安全裝置，在碰撞中顯著降低受傷和死亡。'},
+  es:{q:'En California, ¿quién está obligado a usar el cinturón de seguridad?',opts:['Solo el conductor','El conductor y todos los pasajeros del asiento delantero','El conductor y todos los pasajeros independientemente de la posición del asiento','Solo los pasajeros menores de 18 años'],exp:'La ley de California requiere que el conductor y TODOS los pasajeros usen el cinturón de seguridad, independientemente de su posición en el vehículo (asiento delantero o trasero). El conductor es responsable de asegurarse de que todos los pasajeros menores de 16 años estén abrochados. Los pasajeros de 16 años o más son responsables de su propio uso del cinturón de seguridad. No usar el cinturón de seguridad es una infracción principal. Los cinturones de seguridad son el dispositivo de seguridad más efectivo en los vehículos.'},
+  ans:2
+}
+
+] // end — 600 questions (IDs 1–591, 91 new added)
