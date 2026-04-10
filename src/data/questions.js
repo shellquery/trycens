@@ -914,4 +914,139 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 5 — Traffic Laws (Q41–50)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 41, cat: 'laws',
+  en: {
+    q: 'What is California\'s "Move Over" law?',
+    opts: ['You must move over a lane (or slow to a safe speed) when passing stopped emergency vehicles, tow trucks, or Caltrans vehicles with flashing lights', 'You must move over only for police vehicles', 'Pull over whenever any vehicle has hazard lights on', 'Slow to 10 mph when passing any parked vehicle'],
+    exp: 'California\'s Move Over Law requires drivers to move over one lane (when safe) or slow to a speed safe for conditions when passing any stopped emergency vehicle, tow truck, or Caltrans vehicle displaying flashing lights on the roadside. Violating this law can result in a fine.'
+  },
+  zh: { q: '加州的"让行"法（Move Over Law）是什么规定？', opts: ['经过停有闪灯的紧急车辆、拖车或交通部车辆时，须变换到相邻车道（或减速至安全速度）', '仅在经过警车时须变道', '任何车辆开启危险灯时均须靠边停车', '经过任何停靠车辆时减速至10英里/小时'], exp: '加州让行法要求驾驶员在经过停在路边、亮着闪灯的紧急车辆、拖车或交通部车辆时，须（在安全的情况下）向相邻车道变换，或减速至适合路况的安全速度。违反此法律可能被罚款。' },
+  zhTW: { q: '加州的「讓行」法（Move Over Law）是什麼規定？', opts: ['經過停有閃燈的緊急車輛、拖車或交通部車輛時，須變換到相鄰車道（或減速至安全速度）', '僅在經過警車時須變道', '任何車輛開啟危險燈時均須靠邊停車', '經過任何停靠車輛時減速至10英里/小時'], exp: '加州讓行法要求駕駛員在經過停在路邊、亮著閃燈的緊急車輛、拖車或交通部車輛時，須（在安全的情況下）向相鄰車道變換，或減速至適合路況的安全速度。違反此法律可能被罰款。' },
+  es: { q: '¿Cuál es la ley de "Ceder el Paso" (Move Over) de California?', opts: ['Debe cambiar de carril (o reducir a velocidad segura) al pasar vehículos de emergencia, grúas o vehículos de Caltrans detenidos con luces intermitentes', 'Debe ceder el paso solo para vehículos policiales', 'Orillarse cuando cualquier vehículo tenga luces de emergencia', 'Reducir a 10 mph al pasar cualquier vehículo estacionado'], exp: 'La Ley de Ceder el Paso de California requiere que los conductores cambien de carril (cuando sea seguro) o reduzcan a una velocidad segura al pasar cualquier vehículo de emergencia detenido, grúa o vehículo de Caltrans con luces intermitentes en la orilla de la carretera.' },
+  ans: 0
+},
+
+{
+  id: 42, cat: 'laws',
+  en: {
+    q: 'What must you do before changing lanes on a road or freeway?',
+    opts: ['Signal, check mirrors, check blind spots by glancing over your shoulder, then change lanes smoothly', 'Signal and immediately change lanes', 'Check mirrors only — no need to look over shoulder', 'Only signal if other vehicles are nearby'],
+    exp: 'Before changing lanes: (1) Signal your intent, (2) Check all mirrors, (3) Check blind spots by looking over your shoulder, (4) Make sure the lane is clear, then (5) smoothly change lanes while maintaining your speed. Never change multiple lanes at once.'
+  },
+  zh: { q: '在道路或高速公路上变道前，您必须做什么？', opts: ['打转向灯，查看后视镜，转头检查盲区，然后平稳变道', '打转向灯后立即变道', '仅查看后视镜——无需转头', '仅当附近有其他车辆时才打转向灯'], exp: '变道前：(1) 打转向灯示意；(2) 查看所有后视镜；(3) 转头查看盲区；(4) 确认车道畅通；(5) 保持速度平稳变道。切勿一次同时变换多条车道。' },
+  zhTW: { q: '在道路或高速公路上變道前，您必須做什麼？', opts: ['打轉向燈，查看後視鏡，轉頭檢查盲區，然後平穩變道', '打轉向燈後立即變道', '僅查看後視鏡——無需轉頭', '僅當附近有其他車輛時才打轉向燈'], exp: '變道前：(1) 打轉向燈示意；(2) 查看所有後視鏡；(3) 轉頭查看盲區；(4) 確認車道暢通；(5) 保持速度平穩變道。切勿一次同時變換多條車道。' },
+  es: { q: '¿Qué debe hacer antes de cambiar de carril en una carretera o autopista?', opts: ['Señalizar, revisar espejos, revisar puntos ciegos mirando sobre su hombro, luego cambiar de carril suavemente', 'Señalizar e inmediatamente cambiar de carril', 'Revisar solo los espejos — no es necesario mirar sobre el hombro', 'Solo señalizar si hay otros vehículos cerca'], exp: 'Antes de cambiar de carril: (1) Señalice su intención, (2) Revise todos los espejos, (3) Revise los puntos ciegos mirando sobre su hombro, (4) Asegúrese de que el carril esté libre, luego (5) cambie de carril suavemente manteniendo su velocidad.' },
+  ans: 0
+},
+
+{
+  id: 43, cat: 'laws',
+  en: {
+    q: 'When is it legal to pass another vehicle in a no-passing zone?',
+    opts: ['It is never legal to pass in a designated no-passing zone', 'Only if the vehicle ahead is driving 10+ mph under the speed limit', 'You may pass if you can do so within 3 seconds', 'Only if the other driver signals you to pass'],
+    exp: 'Passing in a no-passing zone (solid yellow line on your side, or a no-passing pennant sign) is always illegal, regardless of the other vehicle\'s speed. No-passing zones exist because sight distances are too limited to pass safely.'
+  },
+  zh: { q: '什么情况下在禁止超车区超车是合法的？', opts: ['在规定的禁止超车区超车永远是违法的', '仅当前方车辆速度比限速低10英里/小时以上时', '如果能在3秒内完成超车', '仅当对方驾驶员示意您超车时'], exp: '在禁止超车区（您一侧为实线黄线，或有禁止超车旗帜标志）超车永远是违法的，无论前方车辆的速度如何。禁止超车区的存在是因为视距不足以安全完成超车。' },
+  zhTW: { q: '什麼情況下在禁止超車區超車是合法的？', opts: ['在規定的禁止超車區超車永遠是違法的', '僅當前方車輛速度比限速低10英里/小時以上時', '如果能在3秒內完成超車', '僅當對方駕駛員示意您超車時'], exp: '在禁止超車區（您一側為實線黃線，或有禁止超車旗幟標誌）超車永遠是違法的，無論前方車輛的速度如何。禁止超車區的存在是因為視距不足以安全完成超車。' },
+  es: { q: '¿Cuándo es legal adelantar a otro vehículo en una zona de no adelantar?', opts: ['Nunca es legal adelantar en una zona de no adelantar designada', 'Solo si el vehículo de adelante conduce 10+ mph por debajo del límite', 'Puede adelantar si puede hacerlo en 3 segundos', 'Solo si el otro conductor le señala que adelante'], exp: 'Adelantar en una zona de no adelantar (línea amarilla sólida en su lado, o señal de banderín de no adelantar) siempre es ilegal, independientemente de la velocidad del otro vehículo.' },
+  ans: 0
+},
+
+{
+  id: 44, cat: 'laws',
+  en: {
+    q: 'What is California\'s "Basic Speed Law"?',
+    opts: ['You must never drive faster than is safe for current conditions, regardless of the posted speed limit', 'Always drive exactly at the posted speed limit', 'Drive at the speed of surrounding traffic', 'The speed limit only applies during daytime hours'],
+    exp: 'California\'s Basic Speed Law states you must never drive faster than is safe for current road, weather, and traffic conditions — even if you are at or below the posted speed limit. For example, if it is foggy, you must slow below the posted limit if conditions require it.'
+  },
+  zh: { q: '什么是加州的"基本速度法则"？', opts: ['无论限速标志如何规定，您都不得以超过当前路况安全速度行驶', '始终以限速标志规定的速度行驶', '以周围车辆的速度行驶', '限速仅在白天适用'], exp: '加州基本速度法则规定，无论道路限速如何，您都不得以超过当前道路、天气和交通状况所允许的安全速度行驶。例如，在有雾的情况下，如果条件需要，您必须降低到限速以下行驶。' },
+  zhTW: { q: '什麼是加州的「基本速度法則」？', opts: ['無論限速標誌如何規定，您都不得以超過當前路況安全速度行駛', '始終以限速標誌規定的速度行駛', '以周圍車輛的速度行駛', '限速僅在白天適用'], exp: '加州基本速度法則規定，無論道路限速如何，您都不得以超過當前道路、天氣和交通狀況所允許的安全速度行駛。例如，在有霧的情況下，如果條件需要，您必須降低到限速以下行駛。' },
+  es: { q: '¿Cuál es la "Ley Básica de Velocidad" de California?', opts: ['Nunca debe conducir más rápido de lo que es seguro para las condiciones actuales, independientemente del límite publicado', 'Siempre conduzca exactamente al límite de velocidad publicado', 'Conduzca a la velocidad del tráfico circundante', 'El límite de velocidad solo aplica durante el día'], exp: 'La Ley Básica de Velocidad de California establece que nunca debe conducir más rápido de lo que es seguro para las condiciones actuales de la carretera, el clima y el tráfico — incluso si está en el límite de velocidad o por debajo. Por ejemplo, si hay niebla, debe reducir la velocidad.' },
+  ans: 0
+},
+
+{
+  id: 45, cat: 'laws',
+  en: {
+    q: 'What must drivers do when a school bus has stopped and its red lights are flashing?',
+    opts: ['Stop and remain stopped until the red lights stop flashing and the bus moves, regardless of direction of travel', 'Only stop if you are driving behind the bus', 'Slow to 15 mph and proceed carefully', 'Stop only if children are visible crossing the road'],
+    exp: 'When a school bus stops with red lights flashing on a two-lane road or undivided highway, ALL traffic in both directions must stop and remain stopped. On a divided highway with a barrier, only traffic behind the bus must stop. You may proceed when the red lights stop flashing.'
+  },
+  zh: { q: '当校车停车且红灯闪烁时，驾驶员必须怎么做？', opts: ['无论行进方向如何，均须停车，保持停车状态直到红灯停止闪烁且校车开始移动', '只有在校车后方行驶时才须停车', '减速至15英里/小时并谨慎通过', '仅当看见儿童穿越道路时才停车'], exp: '当校车在双车道道路或无中央分隔带的公路上停车并闪烁红灯时，两个方向的所有车辆均须停车。在有护栏的分隔公路上，只有校车后方的车辆须停车。红灯停止闪烁后方可继续行驶。' },
+  zhTW: { q: '當校車停車且紅燈閃爍時，駕駛員必須怎麼做？', opts: ['無論行進方向如何，均須停車，保持停車狀態直到紅燈停止閃爍且校車開始移動', '只有在校車後方行駛時才須停車', '減速至15英里/小時並謹慎通過', '僅當看見兒童穿越道路時才停車'], exp: '當校車在雙車道道路或無中央分隔帶的公路上停車並閃爍紅燈時，兩個方向的所有車輛均須停車。在有護欄的分隔公路上，只有校車後方的車輛須停車。紅燈停止閃爍後方可繼續行駛。' },
+  es: { q: '¿Qué deben hacer los conductores cuando un autobús escolar se ha detenido y sus luces rojas están intermitentes?', opts: ['Detenerse y permanecer detenido hasta que las luces rojas dejen de parpadear y el autobús se mueva, independientemente de la dirección de viaje', 'Detenerse solo si va detrás del autobús', 'Reducir a 15 mph y proceder con cuidado', 'Detenerse solo si los niños son visibles cruzando la carretera'], exp: 'Cuando un autobús escolar se detiene con luces rojas intermitentes en una carretera de dos carriles o sin divisor, TODOS los vehículos en ambas direcciones deben detenerse. En una autopista dividida con barrera, solo el tráfico detrás del autobús debe detenerse.' },
+  ans: 0
+},
+
+{
+  id: 46, cat: 'laws',
+  en: {
+    q: 'What is the law for children under 2 years old riding in a vehicle?',
+    opts: ['Must be in a rear-facing car seat in the back seat', 'Can ride in a forward-facing seat if over 20 pounds', 'Must sit in the back seat but can use a seat belt', 'No special requirement — regular seat belt is fine'],
+    exp: 'California law requires children under 2 years old to ride in a rear-facing car seat in the back seat. This is the safest position because it distributes crash forces across the entire back, head, and neck. A rear-facing seat should never be placed in the front seat of a car with an active airbag.'
+  },
+  zh: { q: '加州法律对2岁以下儿童乘车有什么规定？', opts: ['必须坐在后排朝后的儿童安全座椅中', '如果体重超过20磅，可以使用朝前的座椅', '必须坐在后座但可以使用安全带', '没有特殊要求——普通安全带即可'], exp: '加州法律要求2岁以下儿童必须坐在后排朝后的儿童安全座椅中。这是最安全的位置，因为碰撞时力量会分散到整个背部、头部和颈部。朝后的安全座椅切勿放置在有安全气囊的前排座位上。' },
+  zhTW: { q: '加州法律對2歲以下兒童乘車有什麼規定？', opts: ['必須坐在後排朝後的兒童安全座椅中', '如果體重超過20磅，可以使用朝前的座椅', '必須坐在後座但可以使用安全帶', '沒有特殊要求——普通安全帶即可'], exp: '加州法律要求2歲以下兒童必須坐在後排朝後的兒童安全座椅中。這是最安全的位置，因為碰撞時力量會分散到整個背部、頭部和頸部。朝後的安全座椅切勿放置在有安全氣囊的前排座位上。' },
+  es: { q: '¿Cuál es la ley para niños menores de 2 años que viajan en un vehículo?', opts: ['Deben estar en un asiento de carro orientado hacia atrás en el asiento trasero', 'Pueden ir en un asiento orientado hacia adelante si pesan más de 20 libras', 'Deben sentarse en el asiento trasero pero pueden usar cinturón', 'Sin requisito especial — el cinturón regular está bien'], exp: 'La ley de California requiere que los niños menores de 2 años viajen en un asiento de carro orientado hacia atrás en el asiento trasero. Esta es la posición más segura porque distribuye las fuerzas del choque en toda la espalda, cabeza y cuello.' },
+  ans: 0
+},
+
+{
+  id: 47, cat: 'laws',
+  en: {
+    q: 'What is the legal blood alcohol concentration (BAC) limit for drivers 21 and older in California?',
+    opts: ['0.08% or higher is considered driving under the influence (DUI)', '0.10% — the traditional standard', '0.05% — lower than federal standard', 'Any detectable amount of alcohol'],
+    exp: 'In California, it is illegal to drive with a BAC of 0.08% or higher if you are 21 or older. For commercial drivers the limit is 0.04%. For drivers under 21, the zero tolerance law means any BAC of 0.01% or higher can result in license suspension.'
+  },
+  zh: { q: '在加州，21岁及以上驾驶员的合法血液酒精浓度（BAC）上限是多少？', opts: ['0.08%或以上被视为酒后驾车（DUI）', '0.10%——传统标准', '0.05%——低于联邦标准', '任何可检测到的酒精含量'], exp: '在加州，21岁及以上的驾驶员血液酒精浓度达到或超过0.08%即为违法驾车（DUI）。商业驾驶员的上限为0.04%。对于21岁以下的驾驶员，零容忍法规定BAC达到0.01%或以上即可导致驾照被吊销。' },
+  zhTW: { q: '在加州，21歲及以上駕駛員的合法血液酒精濃度（BAC）上限是多少？', opts: ['0.08%或以上被視為酒後駕車（DUI）', '0.10%——傳統標準', '0.05%——低於聯邦標準', '任何可檢測到的酒精含量'], exp: '在加州，21歲及以上的駕駛員血液酒精濃度達到或超過0.08%即為違法駕車（DUI）。商業駕駛員的上限為0.04%。對於21歲以下的駕駛員，零容忍法規定BAC達到0.01%或以上即可導致駕照被吊Sales。' },
+  es: { q: '¿Cuál es el límite legal de concentración de alcohol en sangre (BAC) para conductores de 21 años o más en California?', opts: ['0.08% o más se considera conducir bajo la influencia (DUI)', '0.10% — el estándar tradicional', '0.05% — menor que el estándar federal', 'Cualquier cantidad detectable de alcohol'], exp: 'En California, es ilegal conducir con un BAC de 0.08% o más si tiene 21 años o más. Para conductores comerciales el límite es 0.04%. Para conductores menores de 21, la ley de tolerancia cero significa que cualquier BAC de 0.01% o más puede resultar en suspensión de licencia.' },
+  ans: 0
+},
+
+{
+  id: 48, cat: 'laws',
+  en: {
+    q: 'What does "implied consent" mean in California driving law?',
+    opts: ['By driving on California roads, you automatically consent to chemical testing (breath, blood, or urine) if lawfully arrested for DUI', 'You agree to obey all traffic laws when you get your license', 'You allow police to search your vehicle at any time', 'You consent to being recorded by traffic cameras'],
+    exp: 'California\'s Implied Consent Law means that by driving in California, you have implicitly agreed to submit to a chemical test (breath or blood) if arrested for DUI. Refusing the test results in automatic license suspension of 1 year for a first offense, plus additional penalties.'
+  },
+  zh: { q: '加州驾驶法律中"默示同意"是什么意思？', opts: ['在加州道路上驾驶，即自动同意在因DUI被合法逮捕时接受化学检测（呼气、血液或尿液）', '获得驾照时同意遵守所有交通法规', '允许警察随时搜查您的车辆', '同意被交通摄像头记录'], exp: '加州默示同意法意味着，在加州驾车即隐含地同意在因DUI被逮捕时接受化学检测（呼气或血液）。拒绝检测将导致首次违规驾照被自动吊销1年，并附加额外处罚。' },
+  zhTW: { q: '加州駕駛法律中「默示同意」是什麼意思？', opts: ['在加州道路上駕駛，即自動同意在因DUI被合法逮捕時接受化學檢測（呼氣、血液或尿液）', '獲得駕照時同意遵守所有交通法規', '允許警察隨時搜查您的車輛', '同意被交通攝像頭記錄'], exp: '加州默示同意法意味著，在加州駕車即隱含地同意在因DUI被逮捕時接受化學檢測（呼氣或血液）。拒絕檢測將導致首次違規駕照被自動吊銷1年，並附加額外處罰。' },
+  es: { q: '¿Qué significa el "consentimiento implícito" en la ley de conducción de California?', opts: ['Al conducir en carreteras de California, automáticamente consiente las pruebas químicas (aliento, sangre u orina) si es arrestado legalmente por DUI', 'Acepta obedecer todas las leyes de tráfico cuando obtiene su licencia', 'Permite a la policía registrar su vehículo en cualquier momento', 'Consiente ser grabado por cámaras de tráfico'], exp: 'La Ley de Consentimiento Implícito de California significa que al conducir en California, ha aceptado implícitamente someterse a una prueba química (aliento o sangre) si es arrestado por DUI. Negarse a la prueba resulta en suspensión automática de licencia de 1 año por primera ofensa.' },
+  ans: 0
+},
+
+{
+  id: 49, cat: 'laws',
+  en: {
+    q: 'When driving in heavy fog, which lights should you use?',
+    opts: ['Low-beam headlights or fog lights — not high beams', 'High-beam headlights to see further ahead', 'Hazard lights only, no headlights', 'No lights are necessary if you can see 100 feet ahead'],
+    exp: 'In fog, always use low-beam headlights or fog lights. High beams reflect off the fog and reduce visibility even further. California law requires headlights when you cannot see 1,000 feet ahead. Reduce your speed significantly in heavy fog.'
+  },
+  zh: { q: '在浓雾中行驶时应使用哪种灯光？', opts: ['近光灯或雾灯——不要使用远光灯', '远光灯以看得更远', '仅使用危险灯，不开车头灯', '如果能看见100英尺前方，则不需要灯光'], exp: '在有雾时，应始终使用近光灯或雾灯。远光灯会被雾反射，使能见度进一步降低。加州法律规定，当前方能见度低于1000英尺时须开启车头灯。在浓雾中应大幅降低速度。' },
+  zhTW: { q: '在濃霧中行駛時應使用哪種燈光？', opts: ['近光燈或霧燈——不要使用遠光燈', '遠光燈以看得更遠', '僅使用危險燈，不開車頭燈', '如果能看見100英尺前方，則不需要燈光'], exp: '在有霧時，應始終使用近光燈或霧燈。遠光燈會被霧反射，使能見度進一步降低。加州法律規定，當前方能見度低於1000英尺時須開啟車頭燈。在濃霧中應大幅降低速度。' },
+  es: { q: '¿Qué luces debe usar cuando conduce en niebla densa?', opts: ['Faros de luz corta o faros antiniebla — no faros largos', 'Faros de luz larga para ver más adelante', 'Solo luces de emergencia, sin faros', 'No se necesitan luces si puede ver 100 pies adelante'], exp: 'En niebla, siempre use faros de luz corta o antiniebla. Los faros largos se reflejan en la niebla y reducen aún más la visibilidad. La ley de California requiere faros cuando no puede ver 1,000 pies adelante. Reduzca significativamente la velocidad en niebla densa.' },
+  ans: 0
+},
+
+{
+  id: 50, cat: 'laws',
+  en: {
+    q: 'What is the penalty for a first-offense DUI conviction in California?',
+    opts: ['Up to 6 months in jail, fines up to $1,000, license suspension, and required DUI program', 'Only a fine — no jail time for first offense', 'License suspension only — no jail or fine', '30-day license suspension with no other penalties'],
+    exp: 'A first-offense DUI in California can result in: up to 6 months in county jail, fines of $390–$1,000 (plus assessments, actual total can exceed $10,000), 6-month license suspension, 3-9 month DUI program, and possible ignition interlock device requirement.'
+  },
+  zh: { q: '在加州，初次DUI定罪的处罚是什么？', opts: ['最高6个月监禁、最高1000美元罚款、吊销驾照及须参加DUI课程', '仅罚款——初次不判监禁', '仅吊销驾照——无监禁或罚款', '30天驾照暂停，无其他处罚'], exp: '加州初次DUI可能导致：最高6个月县监禁、390至1000美元罚款（加上各项附加费，实际总额可能超过1万美元）、6个月驾照暂停、3至9个月DUI课程，以及可能需要安装点火互锁装置。' },
+  zhTW: { q: '在加州，初次DUI定罪的處罰是什麼？', opts: ['最高6個月監禁、最高1000美元罰款、吊銷駕照及須參加DUI課程', '僅罰款——初次不判監禁', '僅吊銷駕照——無監禁或罰款', '30天駕照暫停，無其他處罰'], exp: '加州初次DUI可能導致：最高6個月縣監禁、390至1000美元罰款（加上各項附加費，實際總額可能超過1萬美元）、6個月駕照暫停、3至9個月DUI課程，以及可能需要安裝點火互鎖裝置。' },
+  es: { q: '¿Cuál es la penalidad por una primera condena de DUI en California?', opts: ['Hasta 6 meses de cárcel, multas hasta $1,000, suspensión de licencia y programa de DUI requerido', 'Solo una multa — sin tiempo en cárcel por primera ofensa', 'Solo suspensión de licencia — sin cárcel ni multa', 'Suspensión de licencia de 30 días sin otras penalidades'], exp: 'Un DUI de primera ofensa en California puede resultar en: hasta 6 meses en cárcel del condado, multas de $390–$1,000 (más cargos adicionales, el total real puede superar $10,000), suspensión de licencia de 6 meses, programa de DUI de 3-9 meses, y posible dispositivo de bloqueo de encendido.' },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
