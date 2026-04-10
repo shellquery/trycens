@@ -2906,4 +2906,86 @@ export const questions = [
   ans:0
 },
 
+// ── Batch 26 · Road Signs (Signs & Markings) · Q251–260 ─────────────────────
+{
+  id:251, cat:'signs', sign:'no-passing',
+  en:{q:'What does a no-passing zone sign (pennant shape) on the left side of the road mean?',opts:['You are entering a one-way road','Passing is prohibited — do not pass vehicles ahead','Slow down — construction zone ahead','No parking on this side of the road'],exp:'The no-passing zone sign is a yellow pennant-shaped sign on the left side of the road. It marks the beginning of a no-passing zone where passing is prohibited. A solid yellow center line also marks these zones. Never pass in these areas due to limited visibility or other hazards.'},
+  zh:{q:'道路左侧三角旗形的禁止超车标志意味着什么？',opts:['您正在进入单行道','禁止超车——不要超越前方车辆','减速——前方施工区','此路侧禁止停车'],exp:'禁止超车区标志是道路左侧的黄色三角旗形标志。它标记禁止超车区的开始，在那里超车是被禁止的。实心黄色中心线也标记这些区域。由于能见度有限或其他危险，永远不要在这些区域超车。'},
+  zhTW:{q:'道路左側三角旗形的禁止超車標誌意味著什麼？',opts:['您正在進入單行道','禁止超車——不要超越前方車輛','減速——前方施工區','此路側禁止停車'],exp:'禁止超車區標誌是道路左側的黃色三角旗形標誌。它標記禁止超車區的開始，在那裡超車是被禁止的。實心黃色中心線也標記這些區域。由於能見度有限或其他危險，永遠不要在這些區域超車。'},
+  es:{q:'¿Qué significa una señal de zona de no adelantamiento (forma de banderín) en el lado izquierdo de la carretera?',opts:['Está entrando a una carretera de sentido único','Adelantar está prohibido — no adelante vehículos de adelante','Reduzca la velocidad — zona de construcción adelante','No estacionarse en este lado de la carretera'],exp:'La señal de zona de no adelantamiento es una señal amarilla en forma de banderín en el lado izquierdo de la carretera. Marca el inicio de una zona de no adelantamiento donde adelantar está prohibido. Una línea central amarilla sólida también marca estas zonas. Nunca adelante en estas áreas debido a visibilidad limitada u otros peligros.'},
+  ans:1
+},
+{
+  id:252, cat:'signs',
+  en:{q:'What do white pavement markings indicate?',opts:['Lanes going in the same direction','Separation between opposing traffic lanes','Bike lanes only','Construction zones'],exp:'White pavement markings separate lanes of traffic moving in the same direction. Yellow markings separate opposing directions of traffic. White lines on the edge of the road (edge lines) define the boundary of the travel lane and the shoulder.'},
+  zh:{q:'白色路面标记表示什么？',opts:['同向行驶的车道','对向交通车道之间的分隔','仅限自行车道','施工区'],exp:'白色路面标记分隔同向行驶的交通车道。黄色标记分隔对向行驶的交通。路面边缘的白线（边缘线）定义行车道和路肩的边界。'},
+  zhTW:{q:'白色路面標記表示什麼？',opts:['同向行駛的車道','對向交通車道之間的分隔','僅限自行車道','施工區'],exp:'白色路面標記分隔同向行駛的交通車道。黃色標記分隔對向行駛的交通。路面邊緣的白線（邊緣線）定義行車道和路肩的邊界。'},
+  es:{q:'¿Qué indican las marcas de pavimento blancas?',opts:['Carriles que van en la misma dirección','Separación entre carriles de tráfico opuesto','Solo carriles de bicicletas','Zonas de construcción'],exp:'Las marcas de pavimento blancas separan los carriles de tráfico que se mueven en la misma dirección. Las marcas amarillas separan las direcciones opuestas del tráfico. Las líneas blancas en el borde de la carretera (líneas de borde) definen el límite del carril de circulación y el arcén.'},
+  ans:0
+},
+{
+  id:253, cat:'signs',
+  en:{q:'What does a solid double yellow center line mean?',opts:['Passing is allowed for both directions','No passing is allowed from either direction','Only left turns are prohibited','High-speed traffic ahead'],exp:'A solid double yellow center line means no passing is allowed from either direction. This is used in areas where passing would be particularly dangerous, such as hills, curves, or near intersections. A broken yellow line allows passing when safe; solid yellow means no passing from that side.'},
+  zh:{q:'实心双黄中心线意味着什么？',opts:['两个方向都允许超车','两个方向都不允许超车','只禁止左转','前方高速交通'],exp:'实心双黄中心线意味着两个方向都不允许超车。这用于超车特别危险的区域，如山丘、弯道或路口附近。虚黄线在安全时允许超车；实心黄线表示从那一侧不允许超车。'},
+  zhTW:{q:'實心雙黃中心線意味著什麼？',opts:['兩個方向都允許超車','兩個方向都不允許超車','只禁止左轉','前方高速交通'],exp:'實心雙黃中心線意味著兩個方向都不允許超車。這用於超車特別危險的區域，如山丘、彎道或路口附近。虛黃線在安全時允許超車；實心黃線表示從那一側不允許超車。'},
+  es:{q:'¿Qué significa una línea central doble amarilla sólida?',opts:['Adelantar está permitido en ambas direcciones','No se permite adelantar desde ninguna dirección','Solo los giros a la izquierda están prohibidos','Tráfico de alta velocidad adelante'],exp:'Una línea central doble amarilla sólida significa que no se permite adelantar desde ninguna dirección. Esto se usa en áreas donde adelantar sería particularmente peligroso, como colinas, curvas o cerca de intersecciones. Una línea amarilla discontinua permite adelantar cuando es seguro; la línea amarilla sólida significa no adelantar desde ese lado.'},
+  ans:1
+},
+{
+  id:254, cat:'signs', sign:'roundabout',
+  en:{q:'A circular arrow sign with a blue and white color scheme at an intersection means:',opts:['You must make a U-turn here','A roundabout is ahead — traffic flows counterclockwise','This is a one-way road','Go around the block — no through traffic'],exp:'The roundabout sign (circular arrows) warns that there is a roundabout intersection ahead. Traffic in roundabouts flows counterclockwise. Yield to vehicles already in the roundabout and enter only when safe. Signal when exiting the roundabout.'},
+  zh:{q:'路口的蓝白色圆形箭头标志意味着：',opts:['您必须在这里调头','前方有环形路口——交通逆时针流动','这是单行道','绕街区行驶——无直通交通'],exp:'环形路口标志（圆形箭头）警告前方有环形路口交叉路口。环形路口中的交通逆时针流动。让行已在环形路口内的车辆，仅在安全时进入。驶出环形路口时打转向灯。'},
+  zhTW:{q:'路口的藍白色圓形箭頭標誌意味著：',opts:['您必須在這裡迴轉','前方有環形路口——交通逆時針流動','這是單行道','繞街區行駛——無直通交通'],exp:'環形路口標誌（圓形箭頭）警告前方有環形路口交叉路口。環形路口中的交通逆時針流動。讓行已在環形路口內的車輛，僅在安全時進入。駛出環形路口時打方向燈。'},
+  es:{q:'Una señal de flecha circular con esquema de color azul y blanco en una intersección significa:',opts:['Debe hacer una vuelta en U aquí','Hay una rotonda adelante — el tráfico fluye en sentido contrario a las agujas del reloj','Esta es una carretera de sentido único','Rodee la manzana — sin tráfico de paso'],exp:'La señal de rotonda (flechas circulares) advierte que hay una intersección de rotonda adelante. El tráfico en las rotondas fluye en sentido contrario a las agujas del reloj. Ceda a los vehículos ya en la rotonda y entre solo cuando sea seguro. Señalice al salir de la rotonda.'},
+  ans:1
+},
+{
+  id:255, cat:'signs', sign:'narrow-bridge',
+  en:{q:'This sign warns that:',opts:['A bridge with a weight limit is ahead','The road narrows to a single lane on the bridge ahead','The bridge has a height restriction','Bicycles are not allowed on the bridge'],exp:'The "Narrow Bridge" sign warns that the bridge ahead is narrower than the road you are on. This may mean less room for passing or two vehicles side by side. Slow down, stay in your lane, and be prepared for oncoming traffic that may drift toward the center.'},
+  zh:{q:'这个标志警告：',opts:['前方有重量限制的桥','前方桥上道路缩窄为单车道','桥有高度限制','桥上不允许自行车'],exp:'"窄桥"标志警告前方的桥比您所在的道路窄。这可能意味着超车或两辆车并行的空间更少。减速，保持在您的车道，并准备好对向交通可能朝中央漂移。'},
+  zhTW:{q:'這個標誌警告：',opts:['前方有重量限制的橋','前方橋上道路縮窄為單車道','橋有高度限制','橋上不允許自行車'],exp:'"窄橋"標誌警告前方的橋比您所在的道路窄。這可能意味著超車或兩輛車並行的空間更少。減速，保持在您的車道，並準備好對向交通可能朝中央漂移。'},
+  es:{q:'Esta señal advierte que:',opts:['Hay un puente con límite de peso adelante','La carretera se estrecha a un solo carril en el puente adelante','El puente tiene una restricción de altura','Las bicicletas no están permitidas en el puente'],exp:'La señal de "Puente Angosto" advierte que el puente adelante es más estrecho que la carretera en la que está. Esto puede significar menos espacio para adelantar o dos vehículos uno al lado del otro. Reduzca la velocidad, permanezca en su carril y prepárese para el tráfico en sentido contrario que puede derivar hacia el centro.'},
+  ans:1
+},
+{
+  id:256, cat:'signs', sign:'hill',
+  en:{q:'A truck on a steep downward slope sign warns you to:',opts:['A long downhill grade ahead — check brakes and use a lower gear if needed','The road ends in a cliff','Trucks are prohibited on this road','Construction vehicles are working on the hill'],exp:'The hill (steep grade) sign warns of a long downhill grade. For regular vehicles: slow down, use a lower gear to help brake, avoid riding the brakes continuously (this overheats them). For large trucks and RVs, this sign is especially important as they can lose braking control on long descents.'},
+  zh:{q:'有卡车在陡坡下坡的标志警告您：',opts:['前方有长下坡——必要时检查刹车并使用低速档','道路在悬崖处结束','此道路禁止卡车通行','建筑车辆在山上工作'],exp:'坡度标志警告前方有长下坡。对于普通车辆：减速，使用低速档帮助制动，避免持续踩刹车（这会使刹车过热）。对于大型卡车和房车，这个标志尤其重要，因为它们在长下坡上可能失去制动控制。'},
+  zhTW:{q:'有卡車在陡坡下坡的標誌警告您：',opts:['前方有長下坡——必要時檢查剎車並使用低速擋','道路在懸崖處結束','此道路禁止卡車通行','建築車輛在山上工作'],exp:'坡度標誌警告前方有長下坡。對於普通車輛：減速，使用低速擋幫助制動，避免持續踩剎車（這會使剎車過熱）。對於大型卡車和房車，這個標誌尤其重要，因為它們在長下坡上可能失去制動控制。'},
+  es:{q:'Una señal de camión en una pendiente empinada hacia abajo le advierte que:',opts:['Hay una larga pendiente descendente adelante — revise los frenos y use una marcha más baja si es necesario','La carretera termina en un precipicio','Los camiones están prohibidos en esta carretera','Los vehículos de construcción están trabajando en la colina'],exp:'La señal de colina (pendiente pronunciada) advierte de una larga pendiente descendente. Para vehículos regulares: reduzca la velocidad, use una marcha más baja para ayudar a frenar, evite pisar los frenos continuamente (esto los sobrecalienta). Para camiones grandes y casas rodantes, esta señal es especialmente importante ya que pueden perder el control de frenado en descensos largos.'},
+  ans:0
+},
+{
+  id:257, cat:'signs', sign:'bicycle-crossing',
+  en:{q:'What does a bicycle crossing sign indicate?',opts:['Bicycles are prohibited ahead','A bicycle path or lane crossing the road ahead — watch for cyclists','Bicycles have the right of way at all times here','A bicycle repair station is nearby'],exp:'A bicycle crossing sign warns that a bicycle path, lane, or trail crosses the road ahead. Be prepared to yield to cyclists crossing your path. Cyclists may be traveling at significant speed, especially downhill. Look both ways for cyclists before crossing the marked area.'},
+  zh:{q:'自行车过街标志表示什么？',opts:['前方禁止自行车','前方有自行车道或自行车路过街——注意骑车者','这里自行车始终有优先通行权','附近有自行车修理站'],exp:'自行车过街标志警告前方有自行车道、自行车道或小径穿越道路。准备好让行穿越您道路的骑车者。骑车者可能以相当速度行驶，尤其是下坡时。在穿越标记区域之前，向两边查看骑车者。'},
+  zhTW:{q:'自行車過街標誌表示什麼？',opts:['前方禁止自行車','前方有自行車道或自行車路過街——注意騎車者','這裡自行車始終有優先通行權','附近有自行車修理站'],exp:'自行車過街標誌警告前方有自行車道、自行車道或小徑穿越道路。準備好讓行穿越您道路的騎車者。騎車者可能以相當速度行駛，尤其是下坡時。在穿越標記區域之前，向兩邊查看騎車者。'},
+  es:{q:'¿Qué indica una señal de cruce de bicicletas?',opts:['Las bicicletas están prohibidas adelante','Un camino o carril de bicicletas que cruza la carretera adelante — esté atento a los ciclistas','Las bicicletas tienen el derecho de paso en todo momento aquí','Hay una estación de reparación de bicicletas cerca'],exp:'Una señal de cruce de bicicletas advierte que un camino, carril o sendero de bicicletas cruza la carretera adelante. Prepárese para ceder a los ciclistas que cruzan su camino. Los ciclistas pueden estar viajando a una velocidad significativa, especialmente cuesta abajo. Mire en ambas direcciones en busca de ciclistas antes de cruzar el área marcada.'},
+  ans:1
+},
+{
+  id:258, cat:'signs',
+  en:{q:'What does a green traffic light mean?',opts:['Proceed without checking for cross traffic','You may proceed if the intersection is clear — but you must yield to pedestrians and vehicles already in the intersection','Speed up to clear the intersection quickly','All pedestrians must stop'],exp:'A green light means you MAY proceed — it does not mean you can go without looking. You must still yield to any vehicles already in the intersection and to pedestrians crossing legally. Look both ways before entering any intersection, even on a green light.'},
+  zh:{q:'绿色交通灯意味着什么？',opts:['无需查看横向交通直接通行','如果路口畅通，您可以通行——但必须让行已在路口的行人和车辆','加速迅速通过路口','所有行人必须停止'],exp:'绿灯意味着您可以通行——这不意味着您可以不查看就通行。您仍然必须让行已在路口的任何车辆和合法过街的行人。即使在绿灯下，进入任何路口之前也要向两边查看。'},
+  zhTW:{q:'綠色交通燈意味著什麼？',opts:['無需查看橫向交通直接通行','如果路口暢通，您可以通行——但必須讓行已在路口的行人和車輛','加速迅速通過路口','所有行人必須停止'],exp:'綠燈意味著您可以通行——這不意味著您可以不查看就通行。您仍然必須讓行已在路口的任何車輛和合法過街的行人。即使在綠燈下，進入任何路口之前也要向兩邊查看。'},
+  es:{q:'¿Qué significa un semáforo verde?',opts:['Proceda sin verificar el tráfico cruzado','Puede proceder si la intersección está despejada — pero debe ceder a los peatones y vehículos ya en la intersección','Acelere para despejar la intersección rápidamente','Todos los peatones deben detenerse'],exp:'Una luz verde significa que PUEDE proceder — no significa que puede ir sin mirar. Aún debe ceder a cualquier vehículo ya en la intersección y a los peatones que cruzan legalmente. Mire en ambas direcciones antes de entrar a cualquier intersección, incluso con luz verde.'},
+  ans:1
+},
+{
+  id:259, cat:'signs',
+  en:{q:'What does a solid white line at an intersection mean?',opts:['Stop here — do not cross the line until it is safe to proceed','The lane ends here','Pedestrian priority zone begins','Bicycle lane boundary'],exp:'A solid white line (stop line) at an intersection marks where you must stop when facing a red light or stop sign. You must stop before the line, not at or beyond it. If there is a crosswalk, stop before the crosswalk. The stop line ensures you do not block pedestrians or cross traffic.'},
+  zh:{q:'路口的实心白线意味着什么？',opts:['在这里停车——在安全通行之前不要越过该线','车道在这里结束','行人优先区开始','自行车道边界'],exp:'路口的实心白线（停车线）标记您在面对红灯或停车标志时必须停止的位置。您必须在线前停止，而不是在线上或线后。如果有人行横道，在人行横道前停止。停车线确保您不会阻塞行人或横向交通。'},
+  zhTW:{q:'路口的實心白線意味著什麼？',opts:['在這裡停車——在安全通行之前不要越過該線','車道在這裡結束','行人優先區開始','自行車道邊界'],exp:'路口的實心白線（停車線）標記您在面對紅燈或停車標誌時必須停止的位置。您必須在線前停止，而不是在線上或線後。如果有人行橫道，在人行橫道前停止。停車線確保您不會阻塞行人或橫向交通。'},
+  es:{q:'¿Qué significa una línea blanca sólida en una intersección?',opts:['Detenga aquí — no cruce la línea hasta que sea seguro proceder','El carril termina aquí','Comienza zona de prioridad para peatones','Límite del carril de bicicletas'],exp:'Una línea blanca sólida (línea de pare) en una intersección marca dónde debe detenerse cuando enfrenta un semáforo en rojo o señal de stop. Debe detenerse antes de la línea, no en ella ni más allá. Si hay un cruce peatonal, deténgase antes del cruce. La línea de pare asegura que no bloquee a los peatones ni al tráfico cruzado.'},
+  ans:0
+},
+{
+  id:260, cat:'signs', sign:'slow-vehicle',
+  en:{q:'A triangular orange sign on the back of a slow-moving vehicle means:',opts:['The vehicle is a school bus','The vehicle is a construction vehicle','The vehicle travels at speeds under 25 mph and may be on the road ahead','Emergency vehicle — give way immediately'],exp:'The slow-moving vehicle emblem (orange triangle with red border) is required on any vehicle that travels at speeds under 25 mph (farm equipment, construction vehicles, horse-drawn vehicles). When you see this sign, reduce your speed, increase following distance, and prepare to pass safely when legal.'},
+  zh:{q:'慢速车辆背后的橙色三角形标志意味着：',opts:['该车辆是校车','该车辆是建筑车辆','该车辆以低于25英里/小时的速度行驶，可能在前方道路上','紧急车辆——立即让路'],exp:'慢速车辆标志（带红色边框的橙色三角形）对任何以低于25英里/小时速度行驶的车辆都是必要的（农业设备、建筑车辆、马拉车辆）。看到这个标志时，减速，增加跟车距离，并在合法时准备安全超车。'},
+  zhTW:{q:'慢速車輛背後的橙色三角形標誌意味著：',opts:['該車輛是校車','該車輛是建築車輛','該車輛以低於25英里/小時的速度行駛，可能在前方道路上','緊急車輛——立即讓路'],exp:'慢速車輛標誌（帶紅色邊框的橙色三角形）對任何以低於25英里/小時速度行駛的車輛都是必要的（農業設備、建築車輛、馬拉車輛）。看到這個標誌時，減速，增加跟車距離，並在合法時準備安全超車。'},
+  es:{q:'Una señal triangular naranja en la parte trasera de un vehículo de movimiento lento significa:',opts:['El vehículo es un autobús escolar','El vehículo es un vehículo de construcción','El vehículo viaja a velocidades inferiores a 25 mph y puede estar en la carretera adelante','Vehículo de emergencia — ceda el paso inmediatamente'],exp:'El emblema de vehículo de movimiento lento (triángulo naranja con borde rojo) se requiere en cualquier vehículo que viaja a velocidades inferiores a 25 mph (equipos agrícolas, vehículos de construcción, vehículos tirados por caballos). Cuando vea esta señal, reduzca su velocidad, aumente la distancia de seguimiento y prepárese para adelantar de forma segura cuando sea legal.'},
+  ans:2
+},
+
 ] // end of questions array — more batches to be appended
