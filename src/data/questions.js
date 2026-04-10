@@ -3642,4 +3642,85 @@ export const questions = [
   ans:2
 },
 
+{
+  id:341, cat:'safety',
+  en:{q:'What should you do if you begin to feel drowsy while driving?',opts:['Open the window and turn up the radio to stay alert','Pull off the road safely and rest or sleep','Drink coffee and keep driving','Drive faster to reach your destination sooner'],exp:'If you feel drowsy while driving, pull off the road at a safe location and rest or sleep. Drowsy driving is as dangerous as drunk driving — impaired reaction time, attention, and judgment. Caffeine is a temporary measure only and is not a substitute for sleep.'},
+  zh:{q:'如果您在驾驶时开始感到困倦，您应该怎么做？',opts:['开窗并调高收音机音量以保持清醒','安全靠边停车并休息或睡觉','喝咖啡继续驾驶','加速以更快到达目的地'],exp:'如果您在驾驶时感到困倦，请在安全地点靠边停车休息或睡觉。疲劳驾驶与醉酒驾驶一样危险——反应时间、注意力和判断力都会受损。咖啡因只是临时措施，不能替代睡眠。'},
+  zhTW:{q:'如果您在駕駛時開始感到困倦，您應該怎麼做？',opts:['開窗並調高收音機音量以保持清醒','安全靠邊停車並休息或睡覺','喝咖啡繼續駕駛','加速以更快到達目的地'],exp:'如果您在駕駛時感到困倦，請在安全地點靠邊停車休息或睡覺。疲勞駕駛與醉酒駕駛一樣危險——反應時間、注意力和判斷力都會受損。咖啡因只是臨時措施，不能替代睡眠。'},
+  es:{q:'¿Qué debe hacer si comienza a sentirse somnoliento mientras conduce?',opts:['Abra la ventana y suba el radio para mantenerse alerta','Orillese de forma segura y descanse o duerma','Tome café y siga conduciendo','Conduzca más rápido para llegar antes a su destino'],exp:'Si se siente somnoliento al conducir, orillese en un lugar seguro y descanse o duerma. Conducir con sueño es tan peligroso como conducir borracho — tiempo de reacción, atención y juicio deteriorados. La cafeína es solo una medida temporal.'},
+  ans:1
+},
+{
+  id:342, cat:'laws',
+  en:{q:'In California, when may you legally make a U-turn in a business district?',opts:['Never — U-turns are illegal in business districts','Only at intersections or at places where an opening is provided in the dividing section of divided highways','Anywhere on the block as long as you have a clear view','Only when a sign specifically permits it'],exp:'In a business district, U-turns are only legal at intersections (unless posted "No U-Turn") or at specially designated openings in divided highways. In residential areas, U-turns are allowed at most intersections if there is adequate visibility.'},
+  zh:{q:'在加州，在商业区合法进行U形转弯的情况是什么？',opts:['从不——商业区禁止U形转弯','只能在交叉口或分隔高速公路的分隔段开口处','只要视野清晰，在街区任何地方','只有当标志明确允许时'],exp:'在商业区，U形转弯只在交叉口（除非标有"禁止U转"）或分隔高速公路的专用开口处合法。在住宅区，如果能见度足够，大多数交叉口允许U形转弯。'},
+  zhTW:{q:'在加州，在商業區合法進行U形轉彎的情況是什麼？',opts:['從不——商業區禁止U形轉彎','只能在交叉口或分隔高速公路的分隔段開口處','只要視野清晰，在街區任何地方','只有當標誌明確允許時'],exp:'在商業區，U形轉彎只在交叉口（除非標有「禁止U轉」）或分隔高速公路的專用開口處合法。在住宅區，如果能見度足夠，大多數交叉口允許U形轉彎。'},
+  es:{q:'En California, ¿cuándo puede hacer legalmente una vuelta en U en un distrito comercial?',opts:['Nunca — las vueltas en U son ilegales en distritos comerciales','Solo en intersecciones o donde hay una abertura en la sección divisora de autopistas divididas','En cualquier lugar del bloque con vista despejada','Solo cuando una señal lo permita específicamente'],exp:'En un distrito comercial, las vueltas en U solo son legales en intersecciones (a menos que haya una señal de "No Vuelta en U") o en aberturas designadas en autopistas divididas. En áreas residenciales, las vueltas en U están permitidas en la mayoría de intersecciones con visibilidad adecuada.'},
+  ans:1
+},
+{
+  id:343, cat:'signs', sign:'yield',
+  en:{q:'What must you do when you see a yield sign?',opts:['Come to a complete stop, then proceed when safe','Slow down and be prepared to stop; yield to traffic and pedestrians in or approaching the intersection','Maintain speed — yield signs are advisory only','Flash your headlights to warn other drivers'],exp:'A yield sign requires you to slow down and be prepared to stop if necessary. You must give the right of way to vehicles and pedestrians already in the intersection or approaching closely. If the way is clear, you may proceed without stopping.'},
+  zh:{q:'看到让行标志时，您必须怎么做？',opts:['完全停车，然后在安全时前进','减速并准备停车；让行已在路口或正在接近路口的车辆和行人','保持速度——让行标志只是建议性的','闪烁前灯警告其他驾驶员'],exp:'让行标志要求您减速并在必要时准备停车。您必须让行已在路口或正在接近的车辆和行人。如果道路畅通，可以不停车直接通过。'},
+  zhTW:{q:'看到讓行標誌時，您必須怎麼做？',opts:['完全停車，然後在安全時前進','減速並準備停車；讓行已在路口或正在接近路口的車輛和行人','保持速度——讓行標誌只是建議性的','閃爍前燈警告其他駕駛員'],exp:'讓行標誌要求您減速並在必要時準備停車。您必須讓行已在路口或正在接近的車輛和行人。如果道路暢通，可以不停車直接通過。'},
+  es:{q:'¿Qué debe hacer cuando ve una señal de ceda el paso?',opts:['Haga una parada completa, luego proceda cuando sea seguro','Reduzca la velocidad y esté preparado para detenerse; ceda el paso a vehículos y peatones en o cerca de la intersección','Mantenga la velocidad — las señales de ceda son solo de aviso','Destelle los faros para advertir a otros conductores'],exp:'Una señal de ceda el paso requiere que reduzca la velocidad y esté preparado para detenerse si es necesario. Debe dar el derecho de paso a vehículos y peatones que ya están en la intersección o se acercan. Si el camino está despejado, puede proceder sin detenerse.'},
+  ans:1
+},
+{
+  id:344, cat:'rightofway',
+  en:{q:'A funeral procession is moving through an intersection. What should you do?',opts:['Proceed normally — you have the right of way with a green light','Yield to the entire procession until it clears the intersection','Only the lead hearse has right of way — you may cut in after it passes','Honk to alert the procession of your presence'],exp:'In California, you must yield to a funeral procession. The procession has the right of way through intersections — even against a red light — as long as the lead vehicle entered legally. Never cut into or interfere with a funeral procession.'},
+  zh:{q:'一支葬礼队伍正在通过路口，您应该怎么做？',opts:['正常前进——绿灯时您有优先通行权','让整个队伍通过路口','只有排头灵车有优先权——之后可以插入','鸣喇叭提醒队伍您的存在'],exp:'在加州，您必须让行葬礼队伍。葬礼队伍有权通过路口——即使遇到红灯——只要领头车辆是合法进入的。绝不要插入或干扰葬礼队伍。'},
+  zhTW:{q:'一支葬禮隊伍正在通過路口，您應該怎麼做？',opts:['正常前進——綠燈時您有優先通行權','讓整個隊伍通過路口','只有排頭靈車有優先權——之後可以插入','鳴喇叭提醒隊伍您的存在'],exp:'在加州，您必須讓行葬禮隊伍。葬禮隊伍有權通過路口——即使遇到紅燈——只要領頭車輛是合法進入的。絕不要插入或干擾葬禮隊伍。'},
+  es:{q:'Un cortejo fúnebre está pasando por una intersección. ¿Qué debe hacer?',opts:['Proceda normalmente — tiene el derecho de paso con luz verde','Ceda el paso a todo el cortejo hasta que despeje la intersección','Solo el carro fúnebre líder tiene derecho de paso — puede incorporarse después','Toque la bocina para alertar al cortejo'],exp:'En California, debe ceder el paso a un cortejo fúnebre. El cortejo tiene derecho de paso a través de intersecciones — incluso contra una luz roja — siempre que el vehículo principal haya entrado legalmente. Nunca se interponga en un cortejo fúnebre.'},
+  ans:1
+},
+{
+  id:345, cat:'speed',
+  en:{q:'On a two-lane undivided highway, what is the default speed limit if no sign is posted?',opts:['45 mph','55 mph','65 mph','70 mph'],exp:'The default (prima facie) speed limit on a two-lane undivided highway in California is 55 mph unless otherwise posted. Other prima facie limits apply in different zones (e.g., 25 mph in business/residential areas, 15 mph in alleys and school zones).'},
+  zh:{q:'在双车道无隔离高速公路上，如果没有张贴标志，默认限速是多少？',opts:['45英里/小时','55英里/小时','65英里/小时','70英里/小时'],exp:'在加州，双车道无隔离高速公路的默认（初步）限速为55英里/小时，除非另有标注。其他初步限速适用于不同区域（例如，商业/住宅区25英里/小时，小巷和学校区域15英里/小时）。'},
+  zhTW:{q:'在雙車道無隔離高速公路上，如果沒有張貼標誌，默認限速是多少？',opts:['45英里/小時','55英里/小時','65英里/小時','70英里/小時'],exp:'在加州，雙車道無隔離高速公路的默認（初步）限速為55英里/小時，除非另有標注。其他初步限速適用於不同區域（例如，商業/住宅區25英里/小時，小巷和學校區域15英里/小時）。'},
+  es:{q:'En una carretera de dos carriles sin dividir, ¿cuál es el límite de velocidad predeterminado si no hay señal publicada?',opts:['45 mph','55 mph','65 mph','70 mph'],exp:'El límite de velocidad predeterminado (prima facie) en una carretera de dos carriles sin dividir en California es 55 mph a menos que se indique lo contrario. Otros límites prima facie aplican en diferentes zonas (por ejemplo, 25 mph en áreas comerciales/residenciales, 15 mph en callejones y zonas escolares).'},
+  ans:1
+},
+{
+  id:346, cat:'dui',
+  en:{q:'What is the BAC limit for commercial vehicle drivers in California?',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'Commercial vehicle drivers in California are subject to a stricter BAC limit of 0.04%. This applies when operating any commercial vehicle. If driving a commercial vehicle with a BAC of 0.04% or higher, you can be charged with DUI.'},
+  zh:{q:'在加州，商业车辆驾驶员的血液酒精含量限制是多少？',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'加州商业车辆驾驶员须遵守更严格的0.04% BAC限制。这适用于驾驶任何商业车辆时。如果驾驶商业车辆时BAC达到0.04%或更高，可能被指控DUI。'},
+  zhTW:{q:'在加州，商業車輛駕駛員的血液酒精含量限制是多少？',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'加州商業車輛駕駛員須遵守更嚴格的0.04% BAC限制。這適用於駕駛任何商業車輛時。如果駕駛商業車輛時BAC達到0.04%或更高，可能被指控DUI。'},
+  es:{q:'¿Cuál es el límite de BAC para conductores de vehículos comerciales en California?',opts:['0.08%','0.04%','0.02%','0.01%'],exp:'Los conductores de vehículos comerciales en California están sujetos a un límite de BAC más estricto de 0.04%. Esto aplica cuando se opera cualquier vehículo comercial. Con un BAC de 0.04% o más alto en un vehículo comercial, puede ser acusado de DUI.'},
+  ans:1
+},
+{
+  id:347, cat:'parking',
+  en:{q:'You want to park on a hill with no curb. Which way should you turn your wheels?',opts:['Straight ahead — do not turn the wheels','Turn wheels toward the edge of the road (downhill) for both uphill and downhill parking','Turn wheels toward the center of the road (uphill) for both uphill and downhill parking','It does not matter as long as you set the parking brake'],exp:'When parking on a hill without a curb, always turn your wheels toward the edge of the road (to the right). If the car rolls, it will move away from traffic. This applies whether facing uphill or downhill.'},
+  zh:{q:'您想在没有路缘的山坡上停车，方向盘应转向哪边？',opts:['向前——不转动方向盘','对于上坡和下坡停车，都将方向盘转向道路边缘（下坡方向）','对于上坡和下坡停车，都将方向盘转向道路中心（上坡方向）','只要拉手刹，方向没有关系'],exp:'在没有路缘的山坡上停车时，始终将方向盘转向道路边缘（向右）。如果车辆滑动，它会远离交通方向移动。无论面朝上坡还是下坡，这条规则都适用。'},
+  zhTW:{q:'您想在沒有路緣的山坡上停車，方向盤應轉向哪邊？',opts:['向前——不轉動方向盤','對於上坡和下坡停車，都將方向盤轉向道路邊緣（下坡方向）','對於上坡和下坡停車，都將方向盤轉向道路中心（上坡方向）','只要拉手剎，方向沒有關係'],exp:'在沒有路緣的山坡上停車時，始終將方向盤轉向道路邊緣（向右）。如果車輛滑動，它會遠離交通方向移動。無論面朝上坡還是下坡，這條規則都適用。'},
+  es:{q:'Quiere estacionar en una colina sin bordillo. ¿Hacia dónde debe girar sus ruedas?',opts:['Recto — no gire las ruedas','Gire las ruedas hacia el borde del camino (cuesta abajo) tanto en subida como en bajada','Gire las ruedas hacia el centro del camino (cuesta arriba) tanto en subida como en bajada','No importa siempre que active el freno de estacionamiento'],exp:'Al estacionar en una colina sin bordillo, siempre gire las ruedas hacia el borde del camino (a la derecha). Si el auto rueda, se moverá lejos del tráfico. Esto aplica ya sea mirando cuesta arriba o cuesta abajo.'},
+  ans:1
+},
+{
+  id:348, cat:'highway',
+  en:{q:'What should you do if you miss your freeway exit?',opts:['Stop on the shoulder and back up to the exit','Make a U-turn on the freeway','Continue to the next exit and use surface streets to return','Cross the center divider to get back to the exit'],exp:'If you miss a freeway exit, continue to the next exit. Do not stop on the shoulder, back up, or make a U-turn on the freeway — these are extremely dangerous and illegal. Take the next exit and use surface streets or on-ramps to return.'},
+  zh:{q:'如果您错过了高速公路出口，您应该怎么做？',opts:['在肩道停车并倒退到出口','在高速公路上掉头','继续到下一个出口，然后使用地面道路返回','穿越中央隔离带回到出口'],exp:'如果您错过了高速公路出口，继续到下一个出口。不要在肩道停车、倒退或在高速公路上掉头——这些行为极其危险且违法。在下一个出口下高速，然后使用地面道路或上匝道返回。'},
+  zhTW:{q:'如果您錯過了高速公路出口，您應該怎麼做？',opts:['在肩道停車並倒退到出口','在高速公路上掉頭','繼續到下一個出口，然後使用地面道路返回','穿越中央隔離帶回到出口'],exp:'如果您錯過了高速公路出口，繼續到下一個出口。不要在肩道停車、倒退或在高速公路上掉頭——這些行為極其危險且違法。在下一個出口下高速，然後使用地面道路或上匝道返回。'},
+  es:{q:'¿Qué debe hacer si se pasa su salida de la autopista?',opts:['Deténgase en el arcén y retroceda hasta la salida','Haga una vuelta en U en la autopista','Continúe hasta la próxima salida y use calles locales para regresar','Cruce el divisor central para volver a la salida'],exp:'Si se pasa una salida de autopista, continúe hasta la próxima salida. No se detenga en el arcén, retroceda ni haga una vuelta en U en la autopista — esto es extremadamente peligroso e ilegal. Tome la próxima salida y use calles locales para regresar.'},
+  ans:2
+},
+{
+  id:349, cat:'laws',
+  en:{q:'What does it mean when a school bus has its red lights flashing and the stop arm is extended?',opts:['The bus is about to move — proceed with caution','All vehicles on both sides of the road must stop — you may not pass until the lights stop and arm retracts','Only traffic behind the bus must stop','You may pass carefully on a divided highway with a physical barrier'],exp:'When a school bus displays flashing red lights and extends its stop arm, all vehicles — on both sides of an undivided road — must stop and remain stopped. On divided highways (separated by a physical barrier), only traffic behind the bus must stop. Passing a stopped school bus is a serious offense.'},
+  zh:{q:'当校车亮起红色闪烁灯且停车臂伸出时，意味着什么？',opts:['校车即将移动——谨慎前行','道路两侧的所有车辆都必须停车——直到灯停止闪烁且停车臂收回后才可通行','只有校车后面的车辆必须停车','在有实体隔离带的分隔高速公路上，可以谨慎通过'],exp:'当校车亮起红色闪烁灯并伸出停车臂时，所有车辆——在无分隔道路两侧——都必须停车并保持停车状态。在分隔高速公路（有实体隔离带）上，只有校车后面的车辆必须停车。超过停止的校车是严重违规行为。'},
+  zhTW:{q:'當校車亮起紅色閃爍燈且停車臂伸出時，意味著什麼？',opts:['校車即將移動——謹慎前行','道路兩側的所有車輛都必須停車——直到燈停止閃爍且停車臂收回後才可通行','只有校車後面的車輛必須停車','在有實體隔離帶的分隔高速公路上，可以謹慎通過'],exp:'當校車亮起紅色閃爍燈並伸出停車臂時，所有車輛——在無分隔道路兩側——都必須停車並保持停車狀態。在分隔高速公路（有實體隔離帶）上，只有校車後面的車輛必須停車。超過停止的校車是嚴重違規行為。'},
+  es:{q:'¿Qué significa cuando un autobús escolar tiene luces rojas parpadeando y el brazo de parada extendido?',opts:['El autobús está a punto de moverse — proceda con precaución','Todos los vehículos en ambos lados del camino deben detenerse — no puede pasar hasta que las luces se apaguen y el brazo se retraiga','Solo el tráfico detrás del autobús debe detenerse','Puede pasar con cuidado en una autopista dividida con barrera física'],exp:'Cuando un autobús escolar muestra luces rojas parpadeantes y extiende el brazo de parada, todos los vehículos en ambos lados de una carretera no dividida deben detenerse. En autopistas divididas (separadas por barrera física), solo el tráfico detrás del autobús debe detenerse. Pasar un autobús escolar detenido es una infracción grave.'},
+  ans:1
+},
+{
+  id:350, cat:'safety',
+  en:{q:'What is the safest way to back your vehicle out of a driveway onto a street?',opts:['Back out quickly before traffic arrives','Walk around the vehicle first to check for hazards, then back out slowly while checking all mirrors and blind spots','Honk your horn before backing out, then proceed at normal speed','Only look out the rear window — mirrors are unnecessary'],exp:'Before backing out, walk around the vehicle to check for children, pets, or obstacles in your path. Then back out slowly, using all mirrors and checking blind spots. For added safety, back into your driveway when parking so you can pull out facing forward.'},
+  zh:{q:'将车辆从车道倒出到街道上的最安全方式是什么？',opts:['在交通到来前迅速倒出','先绕车检查障碍物，然后缓慢倒退同时检查所有后视镜和盲点','倒车前按喇叭，然后以正常速度前进','只看后窗——后视镜是不必要的'],exp:'倒车前，绕车走一圈检查路径中是否有儿童、宠物或障碍物。然后缓慢倒退，使用所有后视镜并检查盲点。为了额外安全，停车时倒入车道，这样可以向前驶出。'},
+  zhTW:{q:'將車輛從車道倒出到街道上的最安全方式是什麼？',opts:['在交通到來前迅速倒出','先繞車檢查障礙物，然後緩慢倒退同時檢查所有後視鏡和盲點','倒車前按喇叭，然後以正常速度前進','只看後窗——後視鏡是不必要的'],exp:'倒車前，繞車走一圈檢查路徑中是否有兒童、寵物或障礙物。然後緩慢倒退，使用所有後視鏡並檢查盲點。為了額外安全，停車時倒入車道，這樣可以向前駛出。'},
+  es:{q:'¿Cuál es la forma más segura de sacar su vehículo marcha atrás de un camino de entrada a la calle?',opts:['Salga rápidamente antes de que llegue el tráfico','Camine alrededor del vehículo primero para verificar peligros, luego salga lentamente revisando todos los espejos y puntos ciegos','Toque la bocina antes de salir, luego proceda a velocidad normal','Solo mire por la ventana trasera — los espejos son innecesarios'],exp:'Antes de salir en reversa, camine alrededor del vehículo para verificar niños, mascotas u obstáculos. Luego salga lentamente usando todos los espejos y revisando puntos ciegos. Para mayor seguridad, entre en reversa a su cochera al estacionar para poder salir hacia adelante.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
