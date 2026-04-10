@@ -4291,4 +4291,86 @@ export const questions = [
   ans:1
 },
 
+,
+{
+  id:421, cat:'signs',
+  en:{q:'What does an orange sign with black lettering mean when seen in a work zone?',opts:['Stop — construction workers are present','Warning of road construction or maintenance ahead — slow down and be alert','Detour — follow the orange signs','End of work zone — normal speed resumes'],exp:'Orange signs are used exclusively in construction and maintenance work zones. They warn drivers of changing road conditions, workers, equipment, and altered traffic patterns ahead. Speeding fines are doubled in active work zones. Always slow down and stay alert when you see orange signs.'},
+  zh:{q:'在施工区见到黑字橙色标志意味着什么？',opts:['停车——有施工工人','前方道路施工或维修警告——减速并保持警惕','绕道——跟随橙色标志','施工区结束——恢复正常速度'],exp:'橙色标志专门用于施工和维护工作区。它们警告驾驶员前方道路条件变化、工人、设备和改变的交通模式。在活跃施工区超速罚款翻倍。看到橙色标志时始终减速并保持警惕。'},
+  zhTW:{q:'在施工區見到黑字橙色標誌意味著什麼？',opts:['停車——有施工工人','前方道路施工或維修警告——減速並保持警惕','繞道——跟隨橙色標誌','施工區結束——恢復正常速度'],exp:'橙色標誌專門用於施工和維護工作區。它們警告駕駛員前方道路條件變化、工人、設備和改變的交通模式。在活躍施工區超速罰款翻倍。看到橙色標誌時始終減速並保持警惕。'},
+  es:{q:'¿Qué significa un letrero naranja con letras negras en una zona de obras?',opts:['Alto — hay trabajadores de construcción presentes','Advertencia de construcción o mantenimiento de carretera adelante — reduzca velocidad y esté alerta','Desvío — siga los letreros naranjas','Fin de zona de obras — la velocidad normal se reanuda'],exp:'Los letreros naranjas se usan exclusivamente en zonas de construcción y mantenimiento. Advierten a los conductores sobre cambios en las condiciones viales, trabajadores, equipo y patrones de tráfico alterados. Las multas por exceso de velocidad se duplican en zonas de obras activas. Siempre reduzca la velocidad cuando vea letreros naranjas.'},
+  ans:1
+},
+{
+  id:422, cat:'rightofway',
+  en:{q:'You are driving on a road and a funeral procession is crossing your path at an intersection. What should you do?',opts:['Proceed normally — funeral processions must yield to regular traffic','Yield to the entire procession — it is illegal to cut through or interfere with a funeral procession','Honk to alert the procession to move faster','Only yield if the lead vehicle has a green flag'],exp:'In California, it is illegal to drive through, cut into, or interfere with a funeral procession. You must yield to all vehicles in the procession. Funeral vehicles often have their headlights on and may have a special purple or orange flag. Cutting through a funeral procession is both disrespectful and a traffic violation.'},
+  zh:{q:'你在驾车，在路口一支葬礼车队穿越你的路线。你应该怎么做？',opts:['正常通行——葬礼车队必须让行正常交通','让整个车队先行——穿越或干扰葬礼车队是违法的','鸣笛催促车队加快速度','只有当领头车辆有绿旗时才让行'],exp:'在加州，穿越、插入或干扰葬礼车队是违法的。你必须让所有车队车辆先行。葬礼车辆通常亮着大灯，可能有特殊的紫色或橙色旗帜。穿越葬礼车队既不尊重又是交通违规。'},
+  zhTW:{q:'你在駕車，在路口一支葬禮車隊穿越你的路線。你應該怎麼做？',opts:['正常通行——葬禮車隊必須讓行正常交通','讓整個車隊先行——穿越或干擾葬禮車隊是違法的','鳴笛催促車隊加快速度','只有當領頭車輛有綠旗時才讓行'],exp:'在加州，穿越、插入或干擾葬禮車隊是違法的。你必須讓所有車隊車輛先行。葬禮車輛通常亮著大燈，可能有特殊的紫色或橙色旗幟。穿越葬禮車隊既不尊重又是交通違規。'},
+  es:{q:'Está conduciendo y una procesión fúnebre cruza su camino en una intersección. ¿Qué debe hacer?',opts:['Proceda normalmente — las procesiones fúnebres deben ceder ante el tráfico regular','Ceda el paso a toda la procesión — es ilegal cortar o interferir con una procesión fúnebre','Toque el claxon para alertar a la procesión que avance más rápido','Solo ceda si el vehículo líder tiene una bandera verde'],exp:'En California, es ilegal conducir a través, meterse, o interferir con una procesión fúnebre. Debe ceder el paso a todos los vehículos de la procesión. Los vehículos fúnebres generalmente tienen los faros encendidos y pueden tener una bandera especial. Cortar una procesión fúnebre es tanto irrespetuoso como una infracción de tráfico.'},
+  ans:1
+},
+{
+  id:423, cat:'safety',
+  en:{q:'You are driving on the freeway at 65 mph. How much space (in seconds) should you maintain between you and the car ahead?',opts:['At least 1 second','At least 2 seconds','At least 3 seconds','At least 5 seconds'],exp:'California DMV recommends a minimum 3-second following distance under normal conditions on a freeway. To measure: when the car ahead passes a fixed point, count "one-thousand-one, one-thousand-two, one-thousand-three" — you should not reach that point until you reach three. In rain or bad conditions, double to 6 seconds. For trucks and motorcycles, additional distance is needed.'},
+  zh:{q:'你在高速公路上以65英里/小时行驶。你和前车之间应该保持多少距离（秒）？',opts:['至少1秒','至少2秒','至少3秒','至少5秒'],exp:'加州DMV建议在高速公路正常情况下保持至少3秒的跟车距离。测量方法：当前车经过一个固定点时，数"一千零一，一千零二，一千零三"——你不应在数到三之前到达该点。雨天或恶劣条件下，加倍至6秒。对于卡车和摩托车，需要额外的距离。'},
+  zhTW:{q:'你在高速公路上以65英里/小時行駛。你和前車之間應該保持多少距離（秒）？',opts:['至少1秒','至少2秒','至少3秒','至少5秒'],exp:'加州DMV建議在高速公路正常情況下保持至少3秒的跟車距離。測量方法：當前車經過一個固定點時，數"一千零一，一千零二，一千零三"——你不應在數到三之前到達該點。雨天或惡劣條件下，加倍至6秒。對於卡車和摩托車，需要額外的距離。'},
+  es:{q:'Está conduciendo en la autopista a 65 mph. ¿Cuánto espacio (en segundos) debe mantener entre usted y el auto de adelante?',opts:['Al menos 1 segundo','Al menos 2 segundos','Al menos 3 segundos','Al menos 5 segundos'],exp:'El DMV de California recomienda una distancia mínima de seguimiento de 3 segundos en condiciones normales en autopista. Para medir: cuando el auto adelante pasa un punto fijo, cuente "mil uno, mil dos, mil tres" — no debe llegar a ese punto antes de tres. En lluvia o malas condiciones, duplique a 6 segundos.'},
+  ans:2
+},
+{
+  id:424, cat:'laws',
+  en:{q:'You are driving and your cell phone rings. What does California law allow?',opts:['Answer it briefly if traffic is light','Use it hands-free with a Bluetooth or speakerphone mount — but not held in hand while driving','Use it freely at red lights and stop signs','Use it only if you are over 18'],exp:'California law prohibits holding and using a handheld cell phone while driving for all drivers. You may use a phone in hands-free mode (Bluetooth earpiece, speakerphone mounted on the dash, or hands-free kit). Even at red lights, holding a phone is illegal. Drivers under 18 are prohibited from using ANY wireless device while driving, including hands-free.'},
+  zh:{q:'你在驾车时手机响了。加州法律允许什么？',opts:['如果交通不拥挤可以简短接听','使用蓝牙或车载扬声器免提方式——但驾驶时不得手持','在红灯和停车标志处可以自由使用','只有18岁以上才能使用'],exp:'加州法律禁止所有驾驶员在驾车时手持使用手机。你可以免提方式使用手机（蓝牙耳机、安装在仪表板上的免提扬声器或免提套件）。即使在红灯处，手持手机也是违法的。18岁以下驾驶员禁止在驾车时使用任何无线设备，包括免提。'},
+  zhTW:{q:'你在駕車時手機響了。加州法律允許什麼？',opts:['如果交通不擁擠可以簡短接聽','使用藍牙或車載揚聲器免提方式——但駕駛時不得手持','在紅燈和停車標誌處可以自由使用','只有18歲以上才能使用'],exp:'加州法律禁止所有駕駛員在駕車時手持使用手機。你可以免提方式使用手機（藍牙耳機、安裝在儀表板上的免提揚聲器或免提套件）。即使在紅燈處，手持手機也是違法的。18歲以下駕駛員禁止在駕車時使用任何無線設備，包括免提。'},
+  es:{q:'Está conduciendo y su teléfono celular suena. ¿Qué permite la ley de California?',opts:['Contestar brevemente si el tráfico es ligero','Usarlo manos libres con Bluetooth o altavoz montado — pero no sosteniéndolo mientras conduce','Usarlo libremente en semáforos y señales de alto','Usarlo solo si tiene más de 18 años'],exp:'La ley de California prohíbe sostener y usar un teléfono celular mientras conduce para todos los conductores. Puede usar el teléfono en modo manos libres (auricular Bluetooth, altavoz montado en el tablero, o kit manos libres). Incluso en semáforos en rojo, sostener el teléfono es ilegal. Los conductores menores de 18 tienen prohibido usar CUALQUIER dispositivo inalámbrico mientras conducen.'},
+  ans:1
+},
+{
+  id:425, cat:'parking',
+  en:{q:'You want to park next to a yellow-painted curb. What does this mean?',opts:['No parking at any time','Parking allowed for 15 minutes for loading/unloading — usually during posted hours','Emergency vehicles only','No parking from 7 AM to 6 PM'],exp:'A yellow curb means the area is restricted for loading and unloading only. Typically you may stop for a limited time (often 5–10 minutes) to load or unload passengers or freight. The hours of restriction are often posted on nearby signs. Commercial vehicles may have additional time, but personal vehicles must only briefly stop to load or unload.'},
+  zh:{q:'你想在黄色涂漆路缘石旁停车。这意味着什么？',opts:['任何时候都不能停车','仅限装卸——通常在规定时间内停车最多15分钟','仅限紧急车辆','上午7时至下午6时不能停车'],exp:'黄色路缘石表示该区域仅限装卸。通常你可以停短暂时间（通常5-10分钟）装卸乘客或货物。限制时间通常在附近标志上注明。商用车辆可能有额外时间，但私人车辆只能短暂停车装卸。'},
+  zhTW:{q:'你想在黃色塗漆路緣石旁停車。這意味著什麼？',opts:['任何時候都不能停車','僅限裝卸——通常在規定時間內停車最多15分鐘','僅限緊急車輛','上午7時至下午6時不能停車'],exp:'黃色路緣石表示該區域僅限裝卸。通常你可以停短暫時間（通常5-10分鐘）裝卸乘客或貨物。限制時間通常在附近標誌上注明。商用車輛可能有額外時間，但私人車輛只能短暫停車裝卸。'},
+  es:{q:'Quiere estacionar junto a un bordillo pintado de amarillo. ¿Qué significa esto?',opts:['Prohibido estacionarse en cualquier momento','Solo para carga y descarga — generalmente puede detenerse hasta 15 minutos durante las horas indicadas','Solo vehículos de emergencia','No estacionar de 7 AM a 6 PM'],exp:'Un bordillo amarillo significa que el área está restringida solo para carga y descarga. Generalmente puede detenerse por tiempo limitado (a menudo 5-10 minutos) para cargar o descargar pasajeros o carga. Los horarios de restricción generalmente se publican en letreros cercanos. Los vehículos comerciales pueden tener tiempo adicional, pero los vehículos personales solo deben detenerse brevemente.'},
+  ans:1
+},
+{
+  id:426, cat:'highway',
+  en:{q:'What should you do when approaching a highway on-ramp to merge onto a freeway?',opts:['Stop at the end of the on-ramp and wait for a large gap','Accelerate in the acceleration lane to match freeway speed, then merge smoothly when safe','Merge immediately as soon as you enter the on-ramp','Slow down and signal, then force your way into traffic'],exp:'When entering a freeway via an on-ramp, use the acceleration lane to build up your speed to match the speed of freeway traffic. Check mirrors and blind spots, signal, and merge smoothly into a safe gap. Never stop at the end of an on-ramp unless absolutely necessary (such as extremely heavy traffic). Freeway drivers should also cooperate by adjusting speed to help merging vehicles.'},
+  zh:{q:'接近高速公路入口匝道并入高速时应该怎么做？',opts:['在入口匝道末端停车等待大的空隙','在加速车道中加速以匹配高速公路速度，然后在安全时平稳并入','进入入口匝道后立即并入','减速并打转向灯，然后强行并入交通流'],exp:'通过入口匝道进入高速公路时，使用加速车道将速度提高到与高速公路交通速度匹配。检查后视镜和盲点，打转向灯，然后平稳并入安全空隙。除非绝对必要（如极度拥堵），否则不要在入口匝道末端停车。高速公路上的驾驶员也应该通过调整速度来帮助并入的车辆。'},
+  zhTW:{q:'接近高速公路入口匝道並入高速時應該怎麼做？',opts:['在入口匝道末端停車等待大的空隙','在加速車道中加速以匹配高速公路速度，然後在安全時平穩並入','進入入口匝道後立即並入','減速並打轉向燈，然後強行並入交通流'],exp:'通過入口匝道進入高速公路時，使用加速車道將速度提高到與高速公路交通速度匹配。檢查後視鏡和盲點，打轉向燈，然後平穩並入安全空隙。除非絕對必要（如極度擁堵），否則不要在入口匝道末端停車。高速公路上的駕駛員也應該通過調整速度來幫助並入的車輛。'},
+  es:{q:'¿Qué debe hacer al acercarse a una rampa de entrada para incorporarse a una autopista?',opts:['Detenerse al final de la rampa y esperar un espacio grande','Acelerar en el carril de aceleración para igualar la velocidad de la autopista, luego incorporarse suavemente cuando sea seguro','Incorporarse inmediatamente al entrar en la rampa','Desacelerar y señalar, luego forzar su entrada al tráfico'],exp:'Al entrar a una autopista por una rampa, use el carril de aceleración para aumentar su velocidad para igualar la del tráfico en la autopista. Revise espejos y puntos ciegos, señale e incorpórese suavemente en un espacio seguro. Nunca se detenga al final de una rampa a menos que sea absolutamente necesario. Los conductores de la autopista también deben cooperar ajustando la velocidad.'},
+  ans:1
+},
+{
+  id:427, cat:'dui',
+  en:{q:'What is the legal BAC limit for a commercial driver operating a commercial vehicle in California?',opts:['0.08%','0.04%','0.01%','0.02%'],exp:'Commercial drivers operating a commercial motor vehicle (CMV) in California are held to a stricter standard: a BAC of 0.04% or higher is considered DUI. For regular non-commercial drivers, the limit is 0.08%. Drivers under 21 are subject to the 0.01% limit regardless of whether the vehicle is commercial or not.'},
+  zh:{q:'在加州，驾驶商业车辆的商业驾驶员的合法血液酒精含量（BAC）限制是多少？',opts:['0.08%','0.04%','0.01%','0.02%'],exp:'在加州驾驶商业机动车辆（CMV）的商业驾驶员受到更严格的标准约束：BAC达到0.04%或以上即为DUI。普通非商业驾驶员的限制是0.08%。21岁以下驾驶员无论是否驾驶商业车辆，均适用0.01%的限制。'},
+  zhTW:{q:'在加州，駕駛商業車輛的商業駕駛員的合法血液酒精含量（BAC）限制是多少？',opts:['0.08%','0.04%','0.01%','0.02%'],exp:'在加州駕駛商業機動車輛（CMV）的商業駕駛員受到更嚴格的標準約束：BAC達到0.04%或以上即為DUI。普通非商業駕駛員的限制是0.08%。21歲以下駕駛員無論是否駕駛商業車輛，均適用0.01%的限制。'},
+  es:{q:'¿Cuál es el límite legal de BAC para un conductor comercial que opera un vehículo comercial en California?',opts:['0.08%','0.04%','0.01%','0.02%'],exp:'Los conductores comerciales que operan un vehículo motor comercial (CMV) en California están sujetos a un estándar más estricto: un BAC de 0.04% o más se considera DUI. Para conductores regulares no comerciales, el límite es 0.08%. Los conductores menores de 21 están sujetos al límite de 0.01% independientemente de si el vehículo es comercial o no.'},
+  ans:1
+},
+{
+  id:428, cat:'signs',
+  en:{q:'What does a round (circular) black and yellow sign mean?',opts:['School zone — slow down','Railroad crossing ahead — be prepared to stop','No passing zone','One-way road ahead'],exp:'A round (circular) black-on-yellow sign warns of a railroad crossing ahead. The round shape is used specifically for railroad warning signs so drivers can recognize them from a distance. When you see this sign, slow down, look and listen for trains, and be prepared to stop. Never race a train to a crossing.'},
+  zh:{q:'黑黄圆形（圆形）标志意味着什么？',opts:['学区——减速','前方铁路道口——准备停车','禁止超车区','前方单行道'],exp:'黑黄色圆形标志警告前方有铁路道口。圆形形状专门用于铁路警告标志，以便驾驶员可以从远处识别。看到此标志时，减速，查看和聆听是否有火车，并准备停车。永远不要与火车赛跑穿越道口。'},
+  zhTW:{q:'黑黃圓形（圓形）標誌意味著什麼？',opts:['學區——減速','前方鐵路道口——準備停車','禁止超車區','前方單行道'],exp:'黑黃色圓形標誌警告前方有鐵路道口。圓形形狀專門用於鐵路警告標誌，以便駕駛員可以從遠處識別。看到此標誌時，減速，查看和聆聽是否有火車，並準備停車。永遠不要與火車賽跑穿越道口。'},
+  es:{q:'¿Qué significa un letrero redondo (circular) negro y amarillo?',opts:['Zona escolar — reduzca la velocidad','Cruce de ferrocarril adelante — esté preparado para detenerse','Zona de no adelantamiento','Carretera de un sentido adelante'],exp:'Un letrero circular amarillo con negro advierte de un cruce de ferrocarril adelante. La forma redonda se usa específicamente para señales de advertencia de ferrocarril para que los conductores puedan reconocerlas desde lejos. Al ver esta señal, desacelere, mire y escuche si hay trenes, y esté preparado para detenerse. Nunca compita con un tren en un cruce.'},
+  ans:1
+},
+{
+  id:429, cat:'speed',
+  en:{q:'What is the speed limit in an alley in California?',opts:['10 mph','15 mph','20 mph','25 mph'],exp:'The prima facie (assumed) speed limit in an alley in California is 15 mph. An alley is a narrow road usually located behind or between buildings. Because alleys are narrow with limited visibility and pedestrians may be present, the 15 mph limit is required by law even if no speed sign is posted.'},
+  zh:{q:'加州巷道的速度限制是多少？',opts:['10英里/小时','15英里/小时','20英里/小时','25英里/小时'],exp:'加州巷道的法定（推定）速度限制为15英里/小时。巷道是通常位于建筑物后面或之间的狭窄道路。由于巷道狭窄、能见度有限且可能有行人，即使没有速度标志，法律也要求15英里/小时的限制。'},
+  zhTW:{q:'加州巷道的速度限制是多少？',opts:['10英里/小時','15英里/小時','20英里/小時','25英里/小時'],exp:'加州巷道的法定（推定）速度限制為15英里/小時。巷道是通常位於建築物後面或之間的狹窄道路。由於巷道狹窄、能見度有限且可能有行人，即使沒有速度標誌，法律也要求15英里/小時的限制。'},
+  es:{q:'¿Cuál es el límite de velocidad en un callejón en California?',opts:['10 mph','15 mph','20 mph','25 mph'],exp:'El límite de velocidad prima facie (asumido) en un callejón en California es 15 mph. Un callejón es una carretera estrecha generalmente ubicada detrás o entre edificios. Como los callejones son estrechos, con visibilidad limitada y pueden haber peatones, el límite de 15 mph es requerido por ley incluso si no hay señal de velocidad.'},
+  ans:1
+},
+{
+  id:430, cat:'safety',
+  en:{q:'You are driving in heavy rain and your car begins to skid. What should you do?',opts:['Slam on the brakes immediately to stop','Steer into the skid (turn the wheel in the direction the rear is sliding) and ease off the gas — do not brake hard','Turn the wheel sharply in the opposite direction of the skid','Accelerate to regain traction'],exp:'If your car skids, steer gently in the direction you want the front of the car to go (which is the same direction the rear is sliding — "into the skid"). Ease off the accelerator gradually. Avoid braking hard, as this can worsen the skid. With ABS, you can apply steady brake pressure. Without ABS, pump the brakes gently. Stay calm and keep your eyes on where you want to go.'},
+  zh:{q:'你在大雨中驾车时汽车开始打滑。应该怎么做？',opts:['立即猛踩刹车停车','转向打滑方向（将方向盘朝车尾滑动的方向转）并松开油门——不要猛刹车','将方向盘猛地朝打滑的相反方向转','加速以恢复牵引力'],exp:'如果汽车打滑，轻柔地将方向盘朝你想让车头前进的方向（即车尾滑动的相同方向——"顺着打滑方向"）转。逐渐松开油门。避免猛刹车，因为这会加剧打滑。有ABS时，可以施加稳定的刹车压力。没有ABS时，轻轻点踩刹车。保持冷静，眼睛盯着你想去的方向。'},
+  zhTW:{q:'你在大雨中駕車時汽車開始打滑。應該怎麼做？',opts:['立即猛踩剎車停車','轉向打滑方向（將方向盤朝車尾滑動的方向轉）並松開油門——不要猛剎車','將方向盤猛地朝打滑的相反方向轉','加速以恢復牽引力'],exp:'如果汽車打滑，輕柔地將方向盤朝你想讓車頭前進的方向（即車尾滑動的相同方向——"順著打滑方向"）轉。逐漸松開油門。避免猛剎車，因為這會加劇打滑。有ABS時，可以施加穩定的剎車壓力。沒有ABS時，輕輕點踩剎車。保持冷靜，眼睛盯著你想去的方向。'},
+  es:{q:'Está conduciendo bajo lluvia intensa y su auto comienza a deslizarse. ¿Qué debe hacer?',opts:['Frene inmediatamente a fondo para detenerse','Dirija hacia el derrape (gire el volante en la dirección que se desliza la parte trasera) y suelte el acelerador gradualmente — no frene fuerte','Gire el volante bruscamente en la dirección opuesta al derrape','Acelere para recuperar tracción'],exp:'Si su auto derrapa, dirija suavemente en la dirección que quiere que vaya el frente del auto (que es la misma dirección que se desliza la parte trasera — "hacia el derrape"). Suelte el acelerador gradualmente. Evite frenar fuerte, ya que puede empeorar el derrape. Con ABS, puede aplicar presión constante en el freno. Sin ABS, bombee suavemente los frenos.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
