@@ -3804,4 +3804,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:361, cat:'laws',
+  en:{q:'What is the penalty for texting while driving in California?',opts:['Only a verbal warning for first offense','A base fine of $20 for first offense and $50 for subsequent offenses, plus penalty assessments','A $500 fine and license suspension','A fine of $1,000 and mandatory traffic school'],exp:'The base fine for a first handheld device violation in California is $20, and $50 for subsequent offenses. However, penalty assessments raise the total to approximately $160 for a first offense and $280+ for subsequent offenses. Handheld phone use while driving is prohibited for all drivers.'},
+  zh:{q:'在加州，开车时发短信的处罚是什么？',opts:['首次违规只是口头警告','首次违规罚款$20，后续违规$50，加上附加处罚','$500罚款和吊销驾照','$1,000罚款和强制交通学校'],exp:'在加州，首次手持设备违规的基本罚款为$20，后续违规为$50。但是，附加处罚将总额提高到首次违规约$160，后续违规$280以上。所有驾驶员禁止在驾驶时手持使用手机。'},
+  zhTW:{q:'在加州，開車時發短信的處罰是什麼？',opts:['首次違規只是口頭警告','首次違規罰款$20，後續違規$50，加上附加處罰','$500罰款和吊銷駕照','$1,000罰款和強制交通學校'],exp:'在加州，首次手持設備違規的基本罰款為$20，後續違規為$50。但是，附加處罰將總額提高到首次違規約$160，後續違規$280以上。所有駕駛員禁止在駕駛時手持使用手機。'},
+  es:{q:'¿Cuál es la penalidad por enviar mensajes de texto mientras conduce en California?',opts:['Solo una advertencia verbal por primera ofensa','Multa base de $20 por primera ofensa y $50 por subsiguientes, más evaluaciones de penalidad','Multa de $500 y suspensión de licencia','Multa de $1,000 y escuela de tráfico obligatoria'],exp:'La multa base por una primera infracción de dispositivo de mano en California es $20, y $50 para infracciones subsiguientes. Sin embargo, las evaluaciones de penalidad elevan el total a aproximadamente $160 para una primera ofensa y $280+ para infracciones subsiguientes.'},
+  ans:1
+},
+{
+  id:362, cat:'signs', sign:'no-u-turn',
+  en:{q:'What does a "No U-Turn" sign look like and what does it mean?',opts:['A red circle with a U-arrow crossed out — U-turns are prohibited at that location','A yellow diamond with a U symbol — slow down when making U-turns','A green circle with a U symbol — U-turns are permitted','A blue rectangle with a U symbol — U-turns are suggested'],exp:'A "No U-Turn" sign has a red circle with a diagonal red line crossing a U-turn arrow (black). It means U-turns are strictly prohibited at that location. Making an illegal U-turn can result in a fine and is dangerous at locations where visibility is limited.'},
+  zh:{q:'"禁止U形转弯"标志是什么样子，它意味着什么？',opts:['一个带有被划掉的U形箭头的红色圆圈——该位置禁止U形转弯','一个带有U形符号的黄色菱形——进行U形转弯时减速','一个带有U形符号的绿色圆圈——允许U形转弯','一个带有U形符号的蓝色矩形——建议U形转弯'],exp:'"禁止U形转弯"标志有一个红色圆圈，上面有一条红色斜线穿过U形转弯箭头（黑色）。这意味着在该位置严格禁止U形转弯。非法U形转弯可能导致罚款，并且在能见度有限的地方很危险。'},
+  zhTW:{q:'"禁止U形轉彎"標誌是什麼樣子，它意味著什麼？',opts:['一個帶有被劃掉的U形箭頭的紅色圓圈——該位置禁止U形轉彎','一個帶有U形符號的黃色菱形——進行U形轉彎時減速','一個帶有U形符號的綠色圓圈——允許U形轉彎','一個帶有U形符號的藍色矩形——建議U形轉彎'],exp:'"禁止U形轉彎"標誌有一個紅色圓圈，上面有一條紅色斜線穿過U形轉彎箭頭（黑色）。這意味著在該位置嚴格禁止U形轉彎。非法U形轉彎可能導致罰款，並且在能見度有限的地方很危險。'},
+  es:{q:'¿Cómo se ve una señal de "No Vuelta en U" y qué significa?',opts:['Un círculo rojo con una flecha U tachada — las vueltas en U están prohibidas en ese lugar','Un diamante amarillo con un símbolo U — reduzca al hacer vueltas en U','Un círculo verde con un símbolo U — las vueltas en U están permitidas','Un rectángulo azul con un símbolo U — se sugieren vueltas en U'],exp:'Una señal de "No Vuelta en U" tiene un círculo rojo con una línea diagonal cruzando una flecha de vuelta en U. Significa que las vueltas en U están estrictamente prohibidas en ese lugar.'},
+  ans:0
+},
+{
+  id:363, cat:'rightofway',
+  en:{q:'A blind pedestrian with a white cane is waiting at a crosswalk. What must you do?',opts:['Honk to alert them and proceed slowly','Stop and yield the entire crosswalk to the pedestrian before proceeding','Slow down but may proceed if they are on the sidewalk','Only stop if they have started crossing'],exp:'In California, drivers must stop and yield to a blind pedestrian using a white cane or guide dog at any crosswalk or intersection. You must wait until the pedestrian has completely crossed before proceeding. Failing to yield to a blind pedestrian is a serious offense.'},
+  zh:{q:'一名持有白色手杖的盲人正在人行横道等候。您必须怎么做？',opts:['鸣喇叭提醒他们，然后缓慢前进','在前进前完全停车并让整个人行横道给行人通过','如果他们在人行道上可以减速通过','只有当他们开始穿越时才停车'],exp:'在加州，驾驶员必须在任何人行横道或路口停车，让使用白色手杖或导盲犬的盲人行人通过。您必须等到行人完全穿越后才能前进。未让行盲人行人是严重违规行为。'},
+  zhTW:{q:'一名持有白色手杖的盲人正在人行橫道等候。您必須怎麼做？',opts:['鳴喇叭提醒他們，然後緩慢前進','在前進前完全停車並讓整個人行橫道給行人通過','如果他們在人行道上可以減速通過','只有當他們開始穿越時才停車'],exp:'在加州，駕駛員必須在任何人行橫道或路口停車，讓使用白色手杖或導盲犬的盲人行人通過。您必須等到行人完全穿越後才能前進。未讓行盲人行人是嚴重違規行為。'},
+  es:{q:'Un peatón ciego con un bastón blanco está esperando en un cruce de peatones. ¿Qué debe hacer?',opts:['Toque la bocina para alertarle y proceda lentamente','Deténgase y ceda todo el cruce al peatón antes de proceder','Reduzca la velocidad pero puede proceder si están en la acera','Solo deténgase si han comenzado a cruzar'],exp:'En California, los conductores deben detenerse y ceder el paso a un peatón ciego que usa bastón blanco o perro guía en cualquier cruce o intersección. Debe esperar hasta que el peatón haya cruzado completamente antes de proceder.'},
+  ans:1
+},
+{
+  id:364, cat:'safety',
+  en:{q:'If your vehicle starts to skid, what should you generally do?',opts:['Steer in the opposite direction of the skid and brake hard','Ease off the gas or brake, steer in the direction you want the front of the vehicle to go','Accelerate to regain traction quickly','Turn the steering wheel sharply in any direction'],exp:'To recover from a skid: ease off the gas or brake (do not brake hard as it worsens the skid), then steer in the direction you want the front wheels to go — this is "steering into the skid." For rear-wheel skids, steer in the direction the rear is sliding. Stay calm and use smooth, controlled inputs.'},
+  zh:{q:'如果您的车辆开始打滑，一般应该怎么做？',opts:['向打滑相反方向转向并用力刹车','松开油门或刹车，向您希望车辆前部前进的方向转向','加速以快速恢复牵引力','向任何方向猛打方向盘'],exp:'从打滑中恢复：松开油门或刹车（不要猛刹车，这会加重打滑），然后向您希望前轮朝向的方向转向——这就是"转向打滑方向"。对于后轮打滑，向后轮滑动的方向转向。保持冷静，使用平稳、有控制的操作。'},
+  zhTW:{q:'如果您的車輛開始打滑，一般應該怎麼做？',opts:['向打滑相反方向轉向並用力剎車','鬆開油門或剎車，向您希望車輛前部前進的方向轉向','加速以快速恢復牽引力','向任何方向猛打方向盤'],exp:'從打滑中恢復：鬆開油門或剎車（不要猛剎車，這會加重打滑），然後向您希望前輪朝向的方向轉向——這就是「轉向打滑方向」。對於後輪打滑，向後輪滑動的方向轉向。保持冷靜，使用平穩、有控制的操作。'},
+  es:{q:'Si su vehículo comienza a patinar, ¿qué debe hacer generalmente?',opts:['Dirija en la dirección opuesta al patinaje y frene fuerte','Suelte el gas o el freno, dirija en la dirección en que quiere que vaya la parte delantera del vehículo','Acelere para recuperar tracción rápidamente','Gire el volante bruscamente en cualquier dirección'],exp:'Para recuperarse de un patinaje: suelte el gas o el freno (no frene fuerte ya que empeora el patinaje), luego dirija en la dirección en que quiere que vayan las ruedas delanteras — esto es "dirigir hacia el patinaje". Para patinajes de ruedas traseras, dirija en la dirección en que se deslizan las ruedas traseras.'},
+  ans:1
+},
+{
+  id:365, cat:'speed',
+  en:{q:'What is the maximum speed limit on most California interstate highways?',opts:['55 mph','65 mph','70 mph','75 mph'],exp:'Most California interstate highways have a maximum speed limit of 65 mph, though some rural sections allow 70 mph where posted. The speed limit for trucks (over 3 tons) and vehicles pulling trailers is 55 mph on all freeways, regardless of the posted car limit.'},
+  zh:{q:'加州大多数州际高速公路的最高限速是多少？',opts:['55英里/小时','65英里/小时','70英里/小时','75英里/小时'],exp:'加州大多数州际高速公路的最高限速为65英里/小时，但某些农村路段允许标注的70英里/小时。卡车（超过3吨）和拖车的速度限制在所有高速公路上为55英里/小时，无论标注的轿车限速如何。'},
+  zhTW:{q:'加州大多數州際高速公路的最高限速是多少？',opts:['55英里/小時','65英里/小時','70英里/小時','75英里/小時'],exp:'加州大多數州際高速公路的最高限速為65英里/小時，但某些農村路段允許標注的70英里/小時。卡車（超過3噸）和拖車的速度限制在所有高速公路上為55英里/小時，無論標注的轎車限速如何。'},
+  es:{q:'¿Cuál es el límite de velocidad máximo en la mayoría de las autopistas interestatales de California?',opts:['55 mph','65 mph','70 mph','75 mph'],exp:'La mayoría de las autopistas interestatales de California tienen un límite máximo de velocidad de 65 mph, aunque algunas secciones rurales permiten 70 mph donde está publicado. El límite de velocidad para camiones (más de 3 toneladas) y vehículos que jalan remolques es de 55 mph en todas las autopistas.'},
+  ans:1
+},
+{
+  id:366, cat:'dui',
+  en:{q:'A driver under 21 is stopped and tests at a BAC of 0.02%. What happens?',opts:['Nothing — 0.02% is below the legal limit for all drivers','The officer must observe the driver for 15 minutes and re-test','License suspension under the Zero Tolerance law — 0.01% BAC or higher is illegal for under-21 drivers','Only a verbal warning for such a low BAC'],exp:'California\'s Zero Tolerance law (CVC 23136) makes it illegal for anyone under 21 to drive with a BAC of 0.01% or higher. A first offense results in a 1-year license suspension. This is stricter than the 0.08% limit for adults because young drivers are at greater risk.'},
+  zh:{q:'一名21岁以下的驾驶员被拦截，测试BAC为0.02%。会发生什么？',opts:['没什么——0.02%低于所有驾驶员的法定限制','执法人员必须观察驾驶员15分钟并重新测试','根据零容忍法吊销驾照——21岁以下驾驶员BAC达到0.01%或更高均违法','如此低的BAC只会收到口头警告'],exp:'加州零容忍法（车辆法典23136）规定21岁以下任何人以0.01%或更高的BAC驾驶均违法。首次违规导致驾照被吊销1年。这比成年人的0.08%限制更严格，因为年轻驾驶员面临更大风险。'},
+  zhTW:{q:'一名21歲以下的駕駛員被攔截，測試BAC為0.02%。會發生什麼？',opts:['沒什麼——0.02%低於所有駕駛員的法定限制','執法人員必須觀察駕駛員15分鐘並重新測試','根據零容忍法吊銷駕照——21歲以下駕駛員BAC達到0.01%或更高均違法','如此低的BAC只會收到口頭警告'],exp:'加州零容忍法（車輛法典23136）規定21歲以下任何人以0.01%或更高的BAC駕駛均違法。首次違規導致駕照被吊銷1年。這比成年人的0.08%限制更嚴格，因為年輕駕駛員面臨更大風險。'},
+  es:{q:'Un conductor menor de 21 años es detenido y prueba con un BAC de 0.02%. ¿Qué sucede?',opts:['Nada — 0.02% está por debajo del límite legal para todos los conductores','El oficial debe observar al conductor por 15 minutos y volver a probar','Suspensión de licencia bajo la ley de Tolerancia Cero — BAC de 0.01% o más es ilegal para menores de 21','Solo una advertencia verbal por un BAC tan bajo'],exp:'La ley de Tolerancia Cero de California (CVC 23136) hace ilegal que cualquier persona menor de 21 años conduzca con un BAC de 0.01% o más. Una primera ofensa resulta en suspensión de licencia de 1 año.'},
+  ans:2
+},
+{
+  id:367, cat:'parking',
+  en:{q:'You are parking uphill with a curb. Which way should you turn your wheels?',opts:['Turn wheels away from the curb (to the left/uphill)','Turn wheels into the curb (to the right/downhill)','Keep wheels straight','It does not matter which way you turn the wheels'],exp:'When parking uphill with a curb: turn your front wheels AWAY from the curb (to the left). If the car rolls backward, the wheel will catch the curb and stop the car. When parking downhill with a curb: turn wheels INTO the curb (right). Without a curb, always turn toward the road edge.'},
+  zh:{q:'您在有路缘的上坡处停车，方向盘应转向哪边？',opts:['将方向盘转离路缘（向左/向上坡方向）','将方向盘转向路缘（向右/向下坡方向）','保持方向盘直行','方向盘转向哪边都没关系'],exp:'在有路缘的上坡处停车：将前轮转离路缘（向左）。如果车辆向后滚动，车轮会卡住路缘并停车。在有路缘的下坡处停车：将车轮转向路缘（向右）。没有路缘时，始终转向道路边缘。'},
+  zhTW:{q:'您在有路緣的上坡處停車，方向盤應轉向哪邊？',opts:['將方向盤轉離路緣（向左/向上坡方向）','將方向盤轉向路緣（向右/向下坡方向）','保持方向盤直行','方向盤轉向哪邊都沒關係'],exp:'在有路緣的上坡處停車：將前輪轉離路緣（向左）。如果車輛向後滾動，車輪會卡住路緣並停車。在有路緣的下坡處停車：將車輪轉向路緣（向右）。沒有路緣時，始終轉向道路邊緣。'},
+  es:{q:'Está estacionando cuesta arriba con bordillo. ¿Hacia dónde debe girar sus ruedas?',opts:['Gire las ruedas lejos del bordillo (a la izquierda/cuesta arriba)','Gire las ruedas hacia el bordillo (a la derecha/cuesta abajo)','Mantenga las ruedas rectas','No importa hacia dónde gire las ruedas'],exp:'Al estacionar cuesta arriba con bordillo: gire las ruedas LEJOS del bordillo (a la izquierda). Si el auto rueda hacia atrás, la rueda se enganchará al bordillo y detendrá el auto. Al estacionar cuesta abajo con bordillo: gire las ruedas HACIA el bordillo (a la derecha).'},
+  ans:0
+},
+{
+  id:368, cat:'highway',
+  en:{q:'When driving on the freeway at night, when should you switch from high beams to low beams?',opts:['Never — use high beams at all times on the freeway','When you are within 500 feet of an oncoming vehicle or within 300 feet behind another vehicle','Only in fog or rain','When instructed by a freeway sign'],exp:'California law requires you to dim your high beams to low beams when: within 500 feet of an oncoming vehicle (so you don\'t blind them) or within 300 feet behind another vehicle (to avoid blinding the driver in their mirrors).'},
+  zh:{q:'在高速公路上夜间驾驶时，何时应该从远光灯切换到近光灯？',opts:['从不——在高速公路上始终使用远光灯','当您与对向车辆距离500英尺以内，或跟在另一辆车300英尺以内时','仅在雾或雨中','当高速公路标志指示时'],exp:'加州法律要求您在以下情况下将远光灯调暗为近光灯：与对向车辆距离500英尺以内（以免使其目盲）或在另一辆车300英尺以内（以避免通过后视镜使驾驶员目盲）。'},
+  zhTW:{q:'在高速公路上夜間駕駛時，何時應該從遠光燈切換到近光燈？',opts:['從不——在高速公路上始終使用遠光燈','當您與對向車輛距離500英尺以內，或跟在另一輛車300英尺以內時','僅在霧或雨中','當高速公路標誌指示時'],exp:'加州法律要求您在以下情況下將遠光燈調暗為近光燈：與對向車輛距離500英尺以內（以免使其目盲）或在另一輛車300英尺以內（以避免通過後視鏡使駕駛員目盲）。'},
+  es:{q:'Al conducir en la autopista de noche, ¿cuándo debe cambiar de luces altas a luces bajas?',opts:['Nunca — use luces altas en todo momento en la autopista','Cuando está a 500 pies de un vehículo que viene o a 300 pies detrás de otro vehículo','Solo en niebla o lluvia','Cuando una señal de autopista lo indique'],exp:'La ley de California requiere que atenúe las luces altas a bajas cuando: está a 500 pies de un vehículo que viene (para no cegarlo) o a 300 pies detrás de otro vehículo (para evitar cegar al conductor en sus espejos).'},
+  ans:1
+},
+{
+  id:369, cat:'signs',
+  en:{q:'What does an orange construction sign indicate?',opts:['A permanent road hazard','Temporary traffic control in a work zone — workers and equipment may be present','A detour to the nearest freeway','An area where speeds are permanently lowered'],exp:'Orange signs indicate construction or work zones with temporary traffic control measures. These areas typically have reduced speed limits and workers present. In California, fines are doubled in work zones when workers are present. Pay close attention to flaggers and temporary signs.'},
+  zh:{q:'橙色施工标志表示什么？',opts:['永久性道路危险','施工区的临时交通控制——工人和设备可能在场','绕道至最近的高速公路','永久降低速度的区域'],exp:'橙色标志表示有临时交通控制措施的施工区或工作区。这些区域通常速度限制降低且有工人在场。在加州，当工人在场时，施工区的罚款翻倍。密切注意旗手和临时标志。'},
+  zhTW:{q:'橙色施工標誌表示什麼？',opts:['永久性道路危險','施工區的臨時交通控制——工人和設備可能在場','繞道至最近的高速公路','永久降低速度的區域'],exp:'橙色標誌表示有臨時交通控制措施的施工區或工作區。這些區域通常速度限制降低且有工人在場。在加州，當工人在場時，施工區的罰款翻倍。密切注意旗手和臨時標誌。'},
+  es:{q:'¿Qué indica una señal de construcción naranja?',opts:['Un peligro permanente en la carretera','Control de tráfico temporal en una zona de trabajo — pueden haber trabajadores y equipos','Un desvío hacia la autopista más cercana','Un área donde las velocidades se reducen permanentemente'],exp:'Las señales naranjas indican zonas de construcción o trabajo con medidas temporales de control de tráfico. Estas áreas típicamente tienen límites de velocidad reducidos y trabajadores presentes. En California, las multas se duplican en zonas de trabajo cuando hay trabajadores.'},
+  ans:1
+},
+{
+  id:370, cat:'laws',
+  en:{q:'How long must you signal before making a turn in California?',opts:['At least 50 feet before the turn','At least 100 feet before the turn on surface streets; 200+ feet on freeways','At least 25 feet before the turn','Signaling is recommended but not legally required'],exp:'California law requires signaling at least 100 feet before turning on surface streets. On freeways and highways, you should signal well in advance — typically at least 200 feet or 5 seconds before your lane change or exit. Failing to signal is a traffic infraction.'},
+  zh:{q:'在加州，转弯前必须提前多远打转向灯？',opts:['转弯前至少50英尺','地面道路上转弯前至少100英尺；高速公路上至少200英尺以上','转弯前至少25英尺','打转向灯是建议但非法律要求'],exp:'加州法律要求在地面道路上转弯前至少提前100英尺打转向灯。在高速公路上，应提前充足时间打转向灯——通常在变道或出口前至少200英尺或5秒。未打转向灯是交通违规。'},
+  zhTW:{q:'在加州，轉彎前必須提前多遠打轉向燈？',opts:['轉彎前至少50英尺','地面道路上轉彎前至少100英尺；高速公路上至少200英尺以上','轉彎前至少25英尺','打轉向燈是建議但非法律要求'],exp:'加州法律要求在地面道路上轉彎前至少提前100英尺打轉向燈。在高速公路上，應提前充足時間打轉向燈——通常在變道或出口前至少200英尺或5秒。未打轉向燈是交通違規。'},
+  es:{q:'¿Con cuánta anticipación debe señalizar antes de girar en California?',opts:['Al menos 50 pies antes del giro','Al menos 100 pies antes en calles locales; 200+ pies en autopistas','Al menos 25 pies antes del giro','Señalizar es recomendado pero no legalmente requerido'],exp:'La ley de California requiere señalizar al menos 100 pies antes de girar en calles locales. En autopistas, debe señalizar con suficiente anticipación — típicamente al menos 200 pies o 5 segundos antes de su cambio de carril o salida. No señalizar es una infracción de tráfico.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
