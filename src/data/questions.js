@@ -2004,4 +2004,86 @@ export const questions = [
   ans:0
 },
 
+// ── Batch 15 · Advanced Traffic Laws · Q141–150 ──────────────────────────────
+{
+  id:141, cat:'laws',
+  en:{q:'When is it legal to make a U-turn in California?',opts:['At any intersection unless a sign prohibits it','Only on a divided highway with a break in the median','When no vehicle is close enough to be a hazard and it is not prohibited by a sign','U-turns are never legal in California'],exp:'U-turns are legal in California when no vehicle approaching is close enough to be a hazard AND a sign does not prohibit it. They are always illegal at railroad crossings, on divided highways without a median opening, and in many business districts.'},
+  zh:{q:'在加州什么情况下可以合法调头？',opts:['在任何路口，除非有标志禁止','只在有中间隔离带开口的隔离公路上','在没有足够近的来车构成危险且没有禁止标志时','加州任何情况下都不允许调头'],exp:'在加州，只要没有足够近的来车构成危险，且没有标志禁止，调头是合法的。在铁路道口、无中央隔离带开口的隔离公路以及许多商业区，调头始终是非法的。'},
+  zhTW:{q:'在加州什麼情況下可以合法迴轉？',opts:['在任何路口，除非有標誌禁止','只在有中間隔離帶開口的隔離公路上','在沒有足夠近的來車構成危險且沒有禁止標誌時','加州任何情況下都不允許迴轉'],exp:'在加州，只要沒有足夠近的來車構成危險，且沒有標誌禁止，迴轉是合法的。在鐵路道口、無中央隔離帶開口的隔離公路以及許多商業區，迴轉始終是非法的。'},
+  es:{q:'¿Cuándo es legal dar vuelta en U en California?',opts:['En cualquier intersección a menos que un letrero lo prohíba','Solo en una autopista dividida con una apertura en el separador','Cuando ningún vehículo se aproxima lo suficiente para ser un peligro y no lo prohíbe ningún letrero','Las vueltas en U nunca son legales en California'],exp:'Las vueltas en U son legales en California cuando ningún vehículo que se aproxima está lo suficientemente cerca para ser un peligro Y un letrero no lo prohíbe. Siempre son ilegales en cruces de ferrocarril, en autopistas divididas sin apertura mediana, y en muchos distritos comerciales.'},
+  ans:2
+},
+{
+  id:142, cat:'laws',
+  en:{q:'How many feet before a turn must you signal in a business or residential district?',opts:['50 feet','100 feet','200 feet','300 feet'],exp:'In a business or residential district, you must signal at least 100 feet before turning. On a highway or open road, you must signal at least 100 feet before turning as well, but always signal far enough in advance to give other drivers time to react.'},
+  zh:{q:'在商业区或住宅区，转弯前至少需要提前多少英尺打转向灯？',opts:['50英尺','100英尺','200英尺','300英尺'],exp:'在商业区或住宅区，转弯前至少需要提前100英尺打转向灯。在高速公路或开放道路上，同样需要提前至少100英尺发出转向信号，以便给其他驾驶者足够的反应时间。'},
+  zhTW:{q:'在商業區或住宅區，轉彎前至少需要提前多少英尺打方向燈？',opts:['50英尺','100英尺','200英尺','300英尺'],exp:'在商業區或住宅區，轉彎前至少需要提前100英尺打方向燈。在高速公路或開放道路上，同樣需要提前至少100英尺發出轉向信號，以便給其他駕駛者足夠的反應時間。'},
+  es:{q:'¿Cuántos pies antes de un giro debe señalizar en un distrito comercial o residencial?',opts:['50 pies','100 pies','200 pies','300 pies'],exp:'En un distrito comercial o residencial, debe señalizar al menos 100 pies antes de girar. En una autopista o camino abierto, también debe señalizar al menos 100 pies antes de girar, pero siempre señalice con suficiente anticipación para dar tiempo a reaccionar a otros conductores.'},
+  ans:1
+},
+{
+  id:143, cat:'laws',
+  en:{q:'What must you do when an emergency vehicle with lights and siren approaches?',opts:['Speed up to get out of its way','Pull to the right edge of the road and stop','Maintain speed but move to the right lane','Stop in the center of the road'],exp:'When an emergency vehicle with flashing lights or siren approaches, you must pull over to the right edge of the road and stop — regardless of which direction the emergency vehicle is traveling. Stay stopped until the emergency vehicle has passed.'},
+  zh:{q:'当有警灯和警报声的紧急车辆靠近时，你必须怎么做？',opts:['加速让路','靠右停在路边','保持车速但移到右侧车道','停在道路中央'],exp:'当有闪灯或警报声的紧急车辆靠近时，无论紧急车辆行驶方向如何，您必须靠右停在路边。保持停车直到紧急车辆通过。'},
+  zhTW:{q:'當有警燈和警報聲的緊急車輛靠近時，你必須怎麼做？',opts:['加速讓路','靠右停在路邊','保持車速但移到右側車道','停在道路中央'],exp:'當有閃燈或警報聲的緊急車輛靠近時，無論緊急車輛行駛方向如何，您必須靠右停在路邊。保持停車直到緊急車輛通過。'},
+  es:{q:'¿Qué debe hacer cuando se aproxima un vehículo de emergencia con luces y sirena?',opts:['Acelere para quitarse del camino','Orillese al borde derecho de la carretera y detenga','Mantenga la velocidad pero muévase al carril derecho','Deténgase en el centro de la carretera'],exp:'Cuando se aproxima un vehículo de emergencia con luces destellantes o sirena, debe orillarse al borde derecho de la carretera y detenerse, independientemente de la dirección en que viaje el vehículo de emergencia. Permanezca detenido hasta que el vehículo de emergencia haya pasado.'},
+  ans:1
+},
+{
+  id:144, cat:'laws',
+  en:{q:'In California, what does "Move Over" law require when passing a stopped emergency vehicle?',opts:['Slow down to 25 mph','Change to an adjacent lane if safe, or slow to a safe speed if you cannot','Flash your headlights as a warning','Honk your horn to alert the workers'],exp:'California\'s "Move Over" law requires you to move one lane away from a stopped emergency or maintenance vehicle with flashing lights. If you cannot safely change lanes (due to traffic), you must slow to a speed that is safe for existing weather, road, and traffic conditions.'},
+  zh:{q:'在加州，"移道"法律在经过停靠的紧急车辆时有什么要求？',opts:['减速到25英里/小时','如果安全则换到相邻车道，如果不能则减速到安全速度','闪烁大灯以示警告','鸣喇叭提醒工作人员'],exp:'加州的"移道"法律要求您从有闪灯的停靠紧急或维护车辆旁移开一个车道。如果由于交通状况无法安全变道，您必须减速到适合当前天气、道路和交通状况的安全速度。'},
+  zhTW:{q:'在加州，"移道"法律在經過停靠的緊急車輛時有什麼要求？',opts:['減速到25英里/小時','如果安全則換到相鄰車道，如果不能則減速到安全速度','閃爍大燈以示警告','鳴喇叭提醒工作人員'],exp:'加州的"移道"法律要求您從有閃燈的停靠緊急或維護車輛旁移開一個車道。如果由於交通狀況無法安全變道，您必須減速到適合當前天氣、道路和交通狀況的安全速度。'},
+  es:{q:'En California, ¿qué requiere la ley "Muévase" al pasar un vehículo de emergencia detenido?',opts:['Reduzca a 25 mph','Cambie a un carril adyacente si es seguro, o reduzca a una velocidad segura si no puede','Destelle sus faros como advertencia','Toque su bocina para alertar a los trabajadores'],exp:'La ley "Muévase" de California requiere que se mueva un carril alejándose de un vehículo de emergencia o mantenimiento detenido con luces destellantes. Si no puede cambiar de carril de forma segura (por el tráfico), debe reducir la velocidad a una velocidad que sea segura para las condiciones climáticas, viales y de tráfico existentes.'},
+  ans:1
+},
+{
+  id:145, cat:'laws',
+  en:{q:'What is the penalty for a first offense of driving without a valid license in California?',opts:['Warning only','Fine up to $1,000 and possible vehicle impoundment','Immediate jail time','License suspension for 5 years'],exp:'Driving without a valid license in California is a misdemeanor. For a first offense, you can face a fine of up to $1,000 and your vehicle may be impounded for up to 30 days. You may also face increased insurance rates and other consequences.'},
+  zh:{q:'在加州无证驾驶初犯的处罚是什么？',opts:['仅警告','罚款最高$1,000并可能扣车','立即监禁','吊销驾照5年'],exp:'在加州无证驾驶是轻罪。初犯可能面临最高$1,000的罚款，车辆可能被扣押最多30天。您还可能面临保险费上涨和其他后果。'},
+  zhTW:{q:'在加州無照駕駛初犯的處罰是什麼？',opts:['僅警告','罰款最高$1,000並可能扣車','立即監禁','吊銷駕照5年'],exp:'在加州無照駕駛是輕罪。初犯可能面臨最高$1,000的罰款，車輛可能被扣押最多30天。您還可能面臨保險費上漲和其他後果。'},
+  es:{q:'¿Cuál es la penalización por una primera infracción de conducir sin licencia válida en California?',opts:['Solo advertencia','Multa hasta $1,000 y posible incautación del vehículo','Tiempo en cárcel inmediato','Suspensión de licencia por 5 años'],exp:'Conducir sin licencia válida en California es un delito menor. Por una primera infracción, puede enfrentar una multa de hasta $1,000 y su vehículo puede ser incautado hasta 30 días. También puede enfrentar tasas de seguro aumentadas y otras consecuencias.'},
+  ans:1
+},
+{
+  id:146, cat:'laws',
+  en:{q:'You are involved in a collision with property damage over $1,000. What must you do?',opts:['Leave a note and drive away','Report the accident to DMV within 10 days','Call the police immediately regardless of damage amount','Nothing if all parties agree to handle it privately'],exp:'In California, if a collision causes property damage over $1,000 or any injury, you must report it to the DMV within 10 days using a SR-1 form. Failing to report can result in license suspension. You should also exchange information with other involved parties.'},
+  zh:{q:'您发生了财产损失超过$1,000的碰撞事故。您必须怎么做？',opts:['留下便条然后离开','10天内向DMV上报事故','立即报警，无论损失金额多少','如果各方同意私下解决则什么都不用做'],exp:'在加州，如果碰撞造成超过$1,000的财产损失或任何伤亡，您必须在10天内使用SR-1表格向DMV报告。未报告可能导致吊销驾照。您还应与其他涉事方交换信息。'},
+  zhTW:{q:'您發生了財產損失超過$1,000的碰撞事故。您必須怎麼做？',opts:['留下便條然後離開','10天內向DMV上報事故','立即報警，無論損失金額多少','如果各方同意私下解決則什麼都不用做'],exp:'在加州，如果碰撞造成超過$1,000的財產損失或任何傷亡，您必須在10天內使用SR-1表格向DMV報告。未報告可能導致吊銷駕照。您還應與其他涉事方交換信息。'},
+  es:{q:'Está involucrado en una colisión con daños a la propiedad de más de $1,000. ¿Qué debe hacer?',opts:['Dejar una nota y conducir','Reportar el accidente al DMV dentro de 10 días','Llamar a la policía inmediatamente independientemente del monto del daño','Nada si todas las partes acuerdan manejarlo de forma privada'],exp:'En California, si una colisión causa daños a la propiedad de más de $1,000 o cualquier lesión, debe reportarlo al DMV dentro de 10 días usando el formulario SR-1. No reportar puede resultar en suspensión de licencia. También debe intercambiar información con otras partes involucradas.'},
+  ans:1
+},
+{
+  id:147, cat:'laws',
+  en:{q:'When can you legally pass another vehicle on the right?',opts:['Whenever you want to go faster','When the vehicle ahead is making a left turn and there is a paved shoulder or extra lane','On any two-lane road','Passing on the right is never legal'],exp:'You may pass on the right only when the vehicle ahead is making a left turn and there is a paved road or extra lane to the right. You may also pass on the right on one-way streets or roads wide enough for two lanes of traffic. Never pass on the right on a narrow shoulder.'},
+  zh:{q:'什么情况下可以合法从右侧超车？',opts:['任何时候想超车就可以','前车在左转且有铺装路肩或额外车道时','在任何双车道道路上','从右侧超车永远不合法'],exp:'只有当前车在左转且右侧有铺装路面或额外车道时，才可以从右侧超车。在单行道或足够宽容纳两条车道的道路上也可以从右侧超车。切勿在狭窄路肩上从右侧超车。'},
+  zhTW:{q:'什麼情況下可以合法從右側超車？',opts:['任何時候想超車就可以','前車在左轉且有鋪裝路肩或額外車道時','在任何雙車道道路上','從右側超車永遠不合法'],exp:'只有當前車在左轉且右側有鋪裝路面或額外車道時，才可以從右側超車。在單行道或足夠寬容納兩條車道的道路上也可以從右側超車。切勿在狹窄路肩上從右側超車。'},
+  es:{q:'¿Cuándo puede legalmente adelantar a otro vehículo por la derecha?',opts:['Cuando quiera ir más rápido','Cuando el vehículo de adelante gira a la izquierda y hay un arcén pavimentado o carril extra','En cualquier carretera de dos carriles','Adelantar por la derecha nunca es legal'],exp:'Puede adelantar por la derecha solo cuando el vehículo de adelante gira a la izquierda y hay una carretera pavimentada o carril extra a la derecha. También puede adelantar por la derecha en calles de sentido único o carreteras lo suficientemente anchas para dos carriles de tráfico. Nunca adelante por la derecha en un arcén estrecho.'},
+  ans:1
+},
+{
+  id:148, cat:'laws',
+  en:{q:'What does a flashing red traffic light mean?',opts:['Slow down and proceed with caution','Stop completely, then proceed when safe — treat it like a stop sign','The light is broken — proceed through the intersection','Yield to cross traffic'],exp:'A flashing red light means the same as a stop sign: you must come to a complete stop, check for traffic and pedestrians, then proceed when it is safe. This applies at all times, not just when traffic is present.'},
+  zh:{q:'红色闪烁交通灯意味着什么？',opts:['减速谨慎通行','完全停车，确认安全后通行——视同停车标志','信号灯故障——直接通过路口','让行对向车辆'],exp:'红色闪烁灯与停车标志含义相同：您必须完全停车，检查交通和行人情况，然后在安全时通行。这适用于任何时候，不仅仅是有交通时。'},
+  zhTW:{q:'紅色閃爍交通燈意味著什麼？',opts:['減速謹慎通行','完全停車，確認安全後通行——視同停車標誌','信號燈故障——直接通過路口','讓行對向車輛'],exp:'紅色閃爍燈與停車標誌含義相同：您必須完全停車，檢查交通和行人情況，然後在安全時通行。這適用於任何時候，不僅僅是有交通時。'},
+  es:{q:'¿Qué significa una luz de tráfico roja intermitente?',opts:['Reduzca la velocidad y proceda con precaución','Detenga completamente, luego proceda cuando sea seguro — trátelo como una señal de stop','El semáforo está roto — proceda por la intersección','Ceda el paso al tráfico cruzado'],exp:'Una luz roja intermitente significa lo mismo que una señal de stop: debe detenerse completamente, verificar el tráfico y los peatones, luego proceder cuando sea seguro. Esto aplica en todo momento, no solo cuando hay tráfico.'},
+  ans:1
+},
+{
+  id:149, cat:'laws',
+  en:{q:'What does a flashing yellow traffic light mean?',opts:['Stop and wait for a green light','The light is about to turn red — stop if safe','Slow down and proceed with caution','Yield to all cross traffic'],exp:'A flashing yellow traffic light means slow down and proceed with caution. Unlike a flashing red light, you do not have to stop — but you should reduce your speed, look for hazards, and be prepared to stop if necessary.'},
+  zh:{q:'黄色闪烁交通灯意味着什么？',opts:['停车等待绿灯','即将变红——如果安全则停车','减速谨慎通行','让行所有横向交通'],exp:'黄色闪烁交通灯意味着减速并谨慎通行。与红色闪烁灯不同，您无需停车，但应降低车速，注意危险，并在必要时准备停车。'},
+  zhTW:{q:'黃色閃爍交通燈意味著什麼？',opts:['停車等待綠燈','即將變紅——如果安全則停車','減速謹慎通行','讓行所有橫向交通'],exp:'黃色閃爍交通燈意味著減速並謹慎通行。與紅色閃爍燈不同，您無需停車，但應降低車速，注意危險，並在必要時準備停車。'},
+  es:{q:'¿Qué significa una luz de tráfico amarilla intermitente?',opts:['Detenga y espere una luz verde','El semáforo está a punto de ponerse rojo — detenga si es seguro','Reduzca la velocidad y proceda con precaución','Ceda el paso a todo el tráfico cruzado'],exp:'Una luz de tráfico amarilla intermitente significa reducir la velocidad y proceder con precaución. A diferencia de una luz roja intermitente, no tiene que detenerse, pero debe reducir su velocidad, buscar peligros y estar preparado para detenerse si es necesario.'},
+  ans:2
+},
+{
+  id:150, cat:'laws',
+  en:{q:'What is required by law when you park on a hill with a curb facing downhill?',opts:['Turn wheels away from curb (left)','Turn wheels toward curb (right)','Keep wheels straight','Park only in a designated lot'],exp:'When parking downhill with a curb, turn your front wheels toward the curb (right). This way, if the car rolls, it will roll into the curb and stop. When parking uphill with a curb, turn wheels away from the curb. Without a curb, always turn wheels toward the right shoulder.'},
+  zh:{q:'在有路缘石的下坡停车时，法律要求如何转动车轮？',opts:['车轮偏离路缘（向左）','车轮朝向路缘（向右）','车轮保持直行','只能停在指定停车场'],exp:'在有路缘石的下坡停车时，将前轮转向路缘（向右）。这样，如果车辆滑动，会滚向路缘并停下。在有路缘石的上坡停车时，车轮偏离路缘。没有路缘石时，车轮始终朝向右侧路肩。'},
+  zhTW:{q:'在有路緣石的下坡停車時，法律要求如何轉動車輪？',opts:['車輪偏離路緣（向左）','車輪朝向路緣（向右）','車輪保持直行','只能停在指定停車場'],exp:'在有路緣石的下坡停車時，將前輪轉向路緣（向右）。這樣，如果車輛滑動，會滾向路緣並停下。在有路緣石的上坡停車時，車輪偏離路緣。沒有路緣石時，車輪始終朝向右側路肩。'},
+  es:{q:'¿Qué requiere la ley cuando estaciona en una colina con bordillo cuesta abajo?',opts:['Gire las ruedas alejadas del bordillo (izquierda)','Gire las ruedas hacia el bordillo (derecha)','Mantenga las ruedas rectas','Estacione solo en un lote designado'],exp:'Cuando estacione cuesta abajo con bordillo, gire sus ruedas delanteras hacia el bordillo (derecha). De esta manera, si el auto rueda, rodará hacia el bordillo y se detendrá. Al estacionar cuesta arriba con bordillo, gire las ruedas alejadas del bordillo. Sin bordillo, siempre gire las ruedas hacia el hombro derecho.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
