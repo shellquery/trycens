@@ -3480,4 +3480,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:321, cat:'signs', sign:'do-not-enter',
+  en:{q:'What does a "Do Not Enter" sign mean?',opts:['Slow down and proceed with caution','You must not enter the road or lane ahead','Yield to oncoming traffic before entering','One-way traffic ahead'],exp:'The "Do Not Enter" sign means you must not enter that roadway. It typically appears on exit ramps, one-way streets, and divided highway entrances to prevent wrong-way driving.'},
+  zh:{q:'"禁止驶入"标志是什么意思？',opts:['减速并谨慎前行','不得进入前方道路或车道','进入前让行对向车辆','前方单行道'],exp:'"禁止驶入"标志意味着您不得进入该道路，通常出现在出口坡道、单行道和分隔公路入口，以防止逆向行驶。'},
+  zhTW:{q:'"禁止駛入"標誌是什麼意思？',opts:['減速並謹慎前行','不得進入前方道路或車道','進入前讓行對向車輛','前方單行道'],exp:'"禁止駛入"標誌意味著您不得進入該道路，通常出現在出口坡道、單行道和分隔公路入口，以防止逆向行駛。'},
+  es:{q:'¿Qué significa una señal de "No Entrar"?',opts:['Reduzca la velocidad y proceda con precaución','No debe entrar al camino o carril adelante','Ceda el paso antes de entrar','Tráfico en una sola dirección adelante'],exp:'La señal de "No Entrar" significa que no debe entrar a esa vía. Aparece en rampas de salida, calles de una vía y entradas de autopistas divididas para prevenir conducción en dirección equivocada.'},
+  ans:1
+},
+{
+  id:322, cat:'laws',
+  en:{q:'A first-offense DUI in California typically results in:',opts:['Only a fine with no license action','Up to 6-month license suspension, fines, possible jail, and DUI school','Automatic 5-year license revocation','Mandatory license revocation and prison sentence'],exp:'A first DUI in California typically results in: license suspension up to 6 months, fines of $390–$1,000 plus penalty assessments (totaling several thousand dollars), up to 6 months jail, and 3–9 months of DUI school.'},
+  zh:{q:'加州首次DUI通常导致：',opts:['只有罚款，不影响驾照','吊销驾照最多6个月、罚款、可能的监禁和DUI学校','自动吊销驾照5年','强制吊销驾照和监禁'],exp:'加州首次DUI通常导致：吊销驾照最多6个月，罚款$390-$1,000加附加费（合计数千美元），最多6个月监禁，以及3-9个月的DUI学校。'},
+  zhTW:{q:'加州首次DUI通常導致：',opts:['只有罰款，不影響駕照','吊銷駕照最多6個月、罰款、可能的監禁和DUI學校','自動吊銷駕照5年','強制吊銷駕照和監禁'],exp:'加州首次DUI通常導致：吊銷駕照最多6個月，罰款$390-$1,000加附加費（合計數千美元），最多6個月監禁，以及3-9個月的DUI學校。'},
+  es:{q:'Un primer DUI en California típicamente resulta en:',opts:['Solo una multa sin acción de licencia','Suspensión de licencia hasta 6 meses, multas, posible cárcel y escuela de DUI','Revocación automática de licencia por 5 años','Revocación obligatoria de licencia y prisión'],exp:'Un primer DUI en California típicamente resulta en: suspensión de licencia hasta 6 meses, multas de $390–$1,000 más evaluaciones de penalidad, hasta 6 meses de cárcel y 3–9 meses de escuela de DUI.'},
+  ans:1
+},
+{
+  id:323, cat:'rightofway',
+  en:{q:'At an uncontrolled intersection, two cars arrive simultaneously from different roads. Who yields?',opts:['The faster car yields','The car on the left yields to the car on the right','The car on the right yields to the car on the left','Both stop until waved through by the other'],exp:'At an uncontrolled intersection when two vehicles arrive simultaneously, the vehicle on the LEFT must yield to the vehicle on the RIGHT. This "yield to the right" rule applies throughout California.'},
+  zh:{q:'在无管控交叉口，两辆车同时从不同道路到达，谁应让行？',opts:['较快的车让行','左侧的车让行右侧的车','右侧的车让行左侧的车','两辆车都停车直到另一辆先行'],exp:'在无管控交叉口，两辆车同时到达时，左侧的车必须让行右侧的车。这一"向右让行"规则在加州全境适用。'},
+  zhTW:{q:'在無管控交叉口，兩輛車同時從不同道路到達，誰應讓行？',opts:['較快的車讓行','左側的車讓行右側的車','右側的車讓行左側的車','兩輛車都停車直到另一輛先行'],exp:'在無管控交叉口，兩輛車同時到達時，左側的車必須讓行右側的車。這一「向右讓行」規則在加州全境適用。'},
+  es:{q:'En una intersección sin control, dos autos llegan al mismo tiempo. ¿Quién cede?',opts:['El auto más rápido cede','El auto de la izquierda cede al de la derecha','El auto de la derecha cede al de la izquierda','Ambos se detienen hasta que el otro avanza'],exp:'En una intersección sin control, el vehículo a la IZQUIERDA debe ceder al de la DERECHA cuando ambos llegan simultáneamente. Esta regla aplica en todo California.'},
+  ans:1
+},
+{
+  id:324, cat:'speed',
+  en:{q:'What is the speed limit in an alley in California?',opts:['15 mph','20 mph','25 mph','No posted limit applies'],exp:'The speed limit in any alley in California is 15 mph — a prima facie limit under the California Vehicle Code. Alleys are narrow roadways giving access to the rear of buildings.'},
+  zh:{q:'在加州，小巷的限速是多少？',opts:['15英里/小时','20英里/小时','25英里/小时','适用无标注限速'],exp:'在加州，任何小巷的限速为15英里/小时，这是加州车辆法典下的初步（推定）限速。小巷是通向建筑物后部的狭窄道路。'},
+  zhTW:{q:'在加州，小巷的限速是多少？',opts:['15英里/小時','20英里/小時','25英里/小時','適用無標注限速'],exp:'在加州，任何小巷的限速為15英里/小時，這是加州車輛法典下的初步（推定）限速。小巷是通向建築物後部的狹窄道路。'},
+  es:{q:'¿Cuál es el límite de velocidad en un callejón en California?',opts:['15 mph','20 mph','25 mph','No aplica ningún límite publicado'],exp:'El límite de velocidad en cualquier callejón en California es 15 mph, un límite prima facie bajo el Código de Vehículos de California.'},
+  ans:0
+},
+{
+  id:325, cat:'safety',
+  en:{q:'When driving in heavy fog, which lights should you use?',opts:['High beams for maximum visibility','Low beams or fog lights','Hazard flashers only','No lights — they reflect off fog'],exp:'Use low beams or fog lights in heavy fog. High beams reflect off fog droplets and create blinding glare. You must also slow down significantly and increase following distance.'},
+  zh:{q:'在大雾中行驶时，应该使用哪种车灯？',opts:['远光灯以获得最大能见度','近光灯或雾灯','仅使用危险警示灯','不开灯——灯光会在雾中反射'],exp:'在大雾中使用近光灯或专用雾灯。远光灯会在雾滴上反射并产生眩目的眩光。还必须大幅降低速度并增加跟车距离。'},
+  zhTW:{q:'在大霧中行駛時，應該使用哪種車燈？',opts:['遠光燈以獲得最大能見度','近光燈或霧燈','僅使用危險警示燈','不開燈——燈光會在霧中反射'],exp:'在大霧中使用近光燈或專用霧燈。遠光燈會在霧滴上反射並產生令人目眩的眩光。還必須大幅降低速度並增加跟車距離。'},
+  es:{q:'Al conducir en niebla densa, ¿qué luces debe usar?',opts:['Luces altas para máxima visibilidad','Luces bajas o luces de niebla','Solo luces de emergencia','Sin luces — se reflejan en la niebla'],exp:'Use luces bajas o luces de niebla en niebla densa. Las luces altas se reflejan en las gotas de niebla y crean deslumbramiento cegador. También debe reducir la velocidad y aumentar la distancia de seguimiento.'},
+  ans:1
+},
+{
+  id:326, cat:'parking',
+  en:{q:'How close to a stop sign may you legally park in California?',opts:['5 feet','10 feet','15 feet','20 feet'],exp:'California law prohibits parking within 15 feet of a stop sign. This ensures approaching drivers have a clear view of stopped traffic and the intersection.'},
+  zh:{q:'在加州，合法停车距停车标志最近多少英尺？',opts:['5英尺','10英尺','15英尺','20英尺'],exp:'加州法律禁止在停车标志15英尺以内停车，确保接近交叉口的驾驶员能清楚看到停着的车辆和路口。'},
+  zhTW:{q:'在加州，合法停車距停車標誌最近多少英尺？',opts:['5英尺','10英尺','15英尺','20英尺'],exp:'加州法律禁止在停車標誌15英尺以內停車，確保接近交叉口的駕駛員能清楚看到停著的車輛和路口。'},
+  es:{q:'¿A qué distancia de una señal de alto puede estacionarse legalmente en California?',opts:['5 pies','10 pies','15 pies','20 pies'],exp:'La ley de California prohíbe estacionarse dentro de 15 pies de una señal de alto, asegurando que los conductores que se acercan tengan vista clara del tráfico detenido y la intersección.'},
+  ans:2
+},
+{
+  id:327, cat:'highway',
+  en:{q:'Under CVC 22400, which of the following is illegal on California roads?',opts:['Driving 5 mph below the speed limit','Driving so slowly that you impede the normal flow of traffic','Using the right lane on a freeway','Driving exactly at the posted speed limit'],exp:'CVC 22400 prohibits driving so slowly as to impede the normal and reasonable flow of traffic, except when necessary for safe operation or legal compliance. Slow driving can cause rear-end collisions and traffic backups.'},
+  zh:{q:'根据加州车辆法典22400条，以下哪项在加州道路上是违法的？',opts:['比限速低5英里/小时行驶','行驶过慢以至于阻碍正常交通流','在高速公路上使用右侧车道','以规定限速行驶'],exp:'加州车辆法典22400条禁止以极慢速度妨碍正常合理的交通流，除非安全操作或法律合规需要。缓慢驾驶可能导致追尾碰撞和交通拥堵。'},
+  zhTW:{q:'根據加州車輛法典22400條，以下哪項在加州道路上是違法的？',opts:['比限速低5英里/小時行駛','行駛過慢以至於阻礙正常交通流','在高速公路上使用右側車道','以規定限速行駛'],exp:'加州車輛法典22400條禁止以極慢速度妨礙正常合理的交通流，除非安全操作或法律合規需要。緩慢駕駛可能導致追尾碰撞和交通擁堵。'},
+  es:{q:'Bajo el CVC 22400, ¿cuál de los siguientes es ilegal en las carreteras de California?',opts:['Conducir 5 mph por debajo del límite','Conducir tan lento que impide el flujo normal del tráfico','Usar el carril derecho en una autopista','Conducir exactamente al límite de velocidad publicado'],exp:'El CVC 22400 prohíbe conducir tan lento como para impedir el flujo normal del tráfico, excepto cuando sea necesario para operación segura. Conducir lento puede causar colisiones traseras y congestionamiento.'},
+  ans:1
+},
+{
+  id:328, cat:'signs',
+  en:{q:'A pennant-shaped yellow sign posted on the left side of the road means:',opts:['Left-turn-only lane ahead','No passing zone','Merge left ahead','Divided highway begins'],exp:'The pennant-shaped yellow sign marks a No Passing Zone. Placed on the left side facing drivers, it prohibits passing in that area. It accompanies the solid yellow "Do Not Pass" center-line marking.'},
+  zh:{q:'道路左侧张贴的三角旗形黄色标志意味着：',opts:['前方只能左转车道','禁止超车区','前方向左合并','分隔公路开始'],exp:'三角旗形黄色标志标记禁止超车区。放置在左侧面向驾驶员，禁止在该区域超车。它伴随着实线黄色"禁止超车"中心线标记。'},
+  zhTW:{q:'道路左側張貼的三角旗形黃色標誌意味著：',opts:['前方只能左轉車道','禁止超車區','前方向左合併','分隔公路開始'],exp:'三角旗形黃色標誌標記禁止超車區。放置在左側面向駕駛員，禁止在該區域超車。它伴隨著實線黃色「禁止超車」中心線標記。'},
+  es:{q:'Una señal amarilla en forma de banderín en el lado izquierdo del camino significa:',opts:['Carril de solo giro izquierdo adelante','Zona de no rebasar','Fusión a la izquierda adelante','Comienza autopista dividida'],exp:'La señal en forma de banderín marca una Zona de No Rebasar. Colocada en el lado izquierdo frente a los conductores, prohíbe rebasar en esa área. Acompaña la línea central amarilla sólida de "No Rebasar".'},
+  ans:1
+},
+{
+  id:329, cat:'laws',
+  en:{q:'When must you report a traffic accident to the California DMV?',opts:['Only when someone is killed','Within 10 days if anyone is injured/killed or property damage exceeds $1,000 to any one person','Only if you are at fault','Within 24 hours for any accident'],exp:'You must report to the DMV within 10 days if the accident results in injury, death, or property damage exceeding $1,000 to any one person. This report is separate from any police report. Failure to report can result in license suspension.'},
+  zh:{q:'何时必须向加州DMV报告交通事故？',opts:['只有当有人死亡时','如果有人受伤/死亡或任何一人财产损失超过$1,000，则在10天内','只有当您有过失时','任何事故在24小时内'],exp:'如果事故造成伤亡或任何一人财产损失超过$1,000，必须在10天内向DMV报告。该报告与警察报告分开。未能报告可能导致驾照被吊销。'},
+  zhTW:{q:'何時必須向加州DMV報告交通事故？',opts:['只有當有人死亡時','如果有人受傷/死亡或任何一人財產損失超過$1,000，則在10天內','只有當您有過失時','任何事故在24小時內'],exp:'如果事故造成傷亡或任何一人財產損失超過$1,000，必須在10天內向DMV報告。該報告與警察報告分開。未能報告可能導致駕照被吊銷。'},
+  es:{q:'¿Cuándo debe reportar un accidente al DMV de California?',opts:['Solo cuando alguien muere','Dentro de 10 días si alguien resulta herido/muerto o el daño supera $1,000 a cualquier persona','Solo si usted tiene la culpa','Dentro de 24 horas para cualquier accidente'],exp:'Debe reportar al DMV dentro de 10 días si el accidente resulta en lesión, muerte o daño superior a $1,000 a cualquier persona. Este reporte es separado de cualquier informe policial. No reportar puede resultar en suspensión de licencia.'},
+  ans:1
+},
+{
+  id:330, cat:'safety',
+  en:{q:'If your accelerator pedal sticks while driving, what is the correct action?',opts:['Slam the brakes as hard as possible immediately','Shift to neutral, apply brakes firmly, steer to safety, then turn off the engine','Turn off the ignition immediately while in motion','Pump the gas pedal rapidly to free it'],exp:'If your accelerator sticks: shift to neutral (disconnects engine power), apply brakes firmly and steer to a safe spot, then turn off the engine once stopped. Never turn off ignition while moving — you lose power steering and brake assist.'},
+  zh:{q:'行驶中油门踏板卡住，正确的做法是什么？',opts:['立即尽可能用力踩刹车','换到空档，用力踩刹车，操控至安全处，然后关闭发动机','立即在行驶中关闭点火开关','快速踩踏油门踏板松开它'],exp:'油门卡住时：换到空档（断开发动机动力），用力踩刹车并驶向安全位置，安全停车后关闭发动机。绝不要在行驶中关闭点火开关——会失去助力转向和制动辅助。'},
+  zhTW:{q:'行駛中油門踏板卡住，正確的做法是什麼？',opts:['立即盡可能用力踩剎車','換到空檔，用力踩剎車，操控至安全處，然後關閉發動機','立即在行駛中關閉點火開關','快速踩踏油門踏板鬆開它'],exp:'油門卡住時：換到空檔（斷開發動機動力），用力踩剎車並駛向安全位置，安全停車後關閉發動機。絕不要在行駛中關閉點火開關——會失去助力轉向和制動輔助。'},
+  es:{q:'Si el pedal del acelerador se atasca mientras conduce, ¿cuál es la acción correcta?',opts:['Pise el freno tan fuerte como sea posible','Cambie a neutral, aplique frenos firmemente, dirija a un lugar seguro, luego apague el motor','Apague el encendido inmediatamente mientras está en movimiento','Bombee el pedal del gas para liberarlo'],exp:'Si el acelerador se atasca: cambie a neutral (desconecta la potencia), aplique frenos firmemente y diríjase a un lugar seguro, luego apague el motor una vez detenido. Nunca apague el encendido en movimiento — perdería la dirección asistida y la asistencia de frenado.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
