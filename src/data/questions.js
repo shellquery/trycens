@@ -1184,4 +1184,139 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 7 — Speed Limits (Q61–70)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 61, cat: 'speed',
+  en: {
+    q: 'What is the maximum speed limit on most California freeways?',
+    opts: ['65 mph, or 70 mph where posted', '55 mph statewide', '75 mph unless otherwise posted', '60 mph for all California highways'],
+    exp: 'The maximum speed limit on most California freeways is 65 mph. Some freeways are posted at 70 mph. Trucks over 3 tons and vehicles towing trailers have a maximum of 55 mph on freeways, regardless of the posted speed limit.'
+  },
+  zh: { q: '加州大多数高速公路的最高限速是多少？', opts: ['65英里/小时，或标志标明的70英里/小时', '全州统一55英里/小时', '除非另有规定，否则为75英里/小时', '所有加州公路为60英里/小时'], exp: '加州大多数高速公路的最高限速为65英里/小时。部分高速公路标示为70英里/小时。超过3吨的卡车和拖曳拖车的车辆在高速公路上最高限速为55英里/小时，无论标志限速如何。' },
+  zhTW: { q: '加州大多數高速公路的最高限速是多少？', opts: ['65英里/小時，或標誌標明的70英里/小時', '全州統一55英里/小時', '除非另有規定，否則為75英里/小時', '所有加州公路為60英里/小時'], exp: '加州大多數高速公路的最高限速為65英里/小時。部分高速公路標示為70英里/小時。超過3噸的卡車和拖曳拖車的車輛在高速公路上最高限速為55英里/小時，無論標誌限速如何。' },
+  es: { q: '¿Cuál es el límite de velocidad máximo en la mayoría de las autopistas de California?', opts: ['65 mph, o 70 mph donde esté publicado', '55 mph en todo el estado', '75 mph a menos que se indique lo contrario', '60 mph para todas las autopistas de California'], exp: 'El límite de velocidad máximo en la mayoría de las autopistas de California es 65 mph. Algunas autopistas están publicadas a 70 mph. Los camiones de más de 3 toneladas y los vehículos que remolcan tienen un máximo de 55 mph en autopistas, independientemente del límite publicado.' },
+  ans: 0
+},
+
+{
+  id: 62, cat: 'speed',
+  en: {
+    q: 'What is the speed limit in a residential area when no speed limit sign is posted?',
+    opts: ['25 mph — the prima facie speed limit for residential districts', '35 mph — standard urban speed', '15 mph — default for all neighborhoods', '45 mph — unless children are present'],
+    exp: 'In California, the prima facie (default) speed limit in a residential district is 25 mph when no speed limit sign is posted. This applies to streets in neighborhoods where people live. You must still follow the basic speed law — drive slower if conditions require it.'
+  },
+  zh: { q: '在没有限速标志的住宅区，限速是多少？', opts: ['25英里/小时——住宅区的法定限速', '35英里/小时——城市标准速度', '15英里/小时——所有社区的默认速度', '45英里/小时——除非有儿童在场'], exp: '在加州，没有限速标志的住宅区的法定（默认）限速为25英里/小时。这适用于有居民居住的街道。您仍须遵守基本速度法则——如果路况需要，须降低速度。' },
+  zhTW: { q: '在沒有限速標誌的住宅區，限速是多少？', opts: ['25英里/小時——住宅區的法定限速', '35英里/小時——城市標準速度', '15英里/小時——所有社區的預設速度', '45英里/小時——除非有兒童在場'], exp: '在加州，沒有限速標誌的住宅區的法定（預設）限速為25英里/小時。這適用於有居民居住的街道。您仍須遵守基本速度法則——如果路況需要，須降低速度。' },
+  es: { q: '¿Cuál es el límite de velocidad en una zona residencial cuando no hay señal de velocidad publicada?', opts: ['25 mph — el límite de velocidad prima facie para zonas residenciales', '35 mph — velocidad urbana estándar', '15 mph — predeterminado para todos los vecindarios', '45 mph — a menos que haya niños presentes'], exp: 'En California, el límite de velocidad prima facie (predeterminado) en una zona residencial es 25 mph cuando no hay señal de velocidad publicada. Esto aplica a calles en vecindarios donde vive gente. Aún debe seguir la ley básica de velocidad.' },
+  ans: 0
+},
+
+{
+  id: 63, cat: 'speed',
+  en: {
+    q: 'What is the speed limit in an alley in California?',
+    opts: ['15 mph', '25 mph', '20 mph', '10 mph'],
+    exp: 'The prima facie speed limit in any alley in California is 15 mph. Alleys are narrow roadways between or behind buildings. The low speed limit reflects the limited visibility and the potential for pedestrians and vehicles to appear suddenly.'
+  },
+  zh: { q: '加州小巷（alley）的限速是多少？', opts: ['15英里/小时', '25英里/小时', '20英里/小时', '10英里/小时'], exp: '加州任何小巷的法定限速为15英里/小时。小巷是建筑物之间或后面的狭窄通道。低速限制反映了有限的能见度以及行人和车辆突然出现的可能性。' },
+  zhTW: { q: '加州小巷（alley）的限速是多少？', opts: ['15英里/小時', '25英里/小時', '20英里/小時', '10英里/小時'], exp: '加州任何小巷的法定限速為15英里/小時。小巷是建築物之間或後面的狹窄通道。低速限制反映了有限的能見度以及行人和車輛突然出現的可能性。' },
+  es: { q: '¿Cuál es el límite de velocidad en un callejón en California?', opts: ['15 mph', '25 mph', '20 mph', '10 mph'], exp: 'El límite de velocidad prima facie en cualquier callejón en California es 15 mph. Los callejones son vías estrechas entre o detrás de edificios. El límite de velocidad bajo refleja la visibilidad limitada y el potencial de que aparezcan peatones y vehículos de repente.' },
+  ans: 0
+},
+
+{
+  id: 64, cat: 'speed',
+  en: {
+    q: 'What is the speed limit within 100 feet of a railroad crossing when visibility is limited?',
+    opts: ['15 mph', '25 mph', '10 mph', '35 mph'],
+    exp: 'California law sets a 15 mph prima facie speed limit within 100 feet of a railroad crossing when you cannot see the tracks clearly in both directions for 400 feet. This lower speed gives you time to stop if a train appears.'
+  },
+  zh: { q: '能见度有限时，在铁路道口100英尺以内的限速是多少？', opts: ['15英里/小时', '25英里/小时', '10英里/小时', '35英里/小时'], exp: '加州法律规定，当无法在两个方向上清楚看到400英尺范围内的铁轨时，铁路道口100英尺以内的法定限速为15英里/小时。较低的速度给您足够时间在火车出现时停车。' },
+  zhTW: { q: '能見度有限時，在鐵路道口100英尺以內的限速是多少？', opts: ['15英里/小時', '25英里/小時', '10英里/小時', '35英里/小時'], exp: '加州法律規定，當無法在兩個方向上清楚看到400英尺範圍內的鐵軌時，鐵路道口100英尺以內的法定限速為15英里/小時。較低的速度給您足夠時間在火車出現時停車。' },
+  es: { q: '¿Cuál es el límite de velocidad dentro de 100 pies de un cruce ferroviario cuando la visibilidad es limitada?', opts: ['15 mph', '25 mph', '10 mph', '35 mph'], exp: 'La ley de California establece un límite de velocidad prima facie de 15 mph dentro de 100 pies de un cruce ferroviario cuando no puede ver las vías claramente en ambas direcciones por 400 pies. Esta velocidad más baja le da tiempo para detenerse si aparece un tren.' },
+  ans: 0
+},
+
+{
+  id: 65, cat: 'speed',
+  en: {
+    q: 'Fines for speeding in a construction zone in California are:',
+    opts: ['Doubled compared to the standard fine', 'The same as a regular speeding ticket', 'Tripled if workers are present', 'Only issued to commercial drivers'],
+    exp: 'California law doubles the fine for speeding violations committed in a construction zone (work zone). These enhanced fines apply whether or not workers are actually present. The same doubling applies to school zones. This serves as a strong deterrent to protect workers and children.'
+  },
+  zh: { q: '在加州施工区超速的罚款是：', opts: ['比标准罚款加倍', '与普通超速罚单相同', '如果有工人在场则三倍', '仅适用于商业驾驶员'], exp: '加州法律规定，在施工区（作业区）违规超速的罚款加倍。无论工人是否实际在场，这一加重罚款均适用。学区也适用同样的加倍规定。这是保护工人和儿童安全的有力震慑。' },
+  zhTW: { q: '在加州施工區超速的罰款是：', opts: ['比標準罰款加倍', '與普通超速罰單相同', '如果有工人在場則三倍', '僅適用於商業駕駛員'], exp: '加州法律規定，在施工區（作業區）違規超速的罰款加倍。無論工人是否實際在場，這一加重罰款均適用。學區也適用同樣的加倍規定。這是保護工人和兒童安全的有力震懾。' },
+  es: { q: 'Las multas por exceso de velocidad en una zona de construcción en California son:', opts: ['El doble en comparación con la multa estándar', 'Iguales a una multa por exceso de velocidad regular', 'El triple si hay trabajadores presentes', 'Solo se emiten a conductores comerciales'], exp: 'La ley de California duplica la multa por violaciones de velocidad cometidas en una zona de construcción (zona de trabajo). Estas multas mejoradas aplican haya o no trabajadores presentes. Lo mismo aplica para zonas escolares. Esto sirve como un fuerte disuasivo.' },
+  ans: 0
+},
+
+{
+  id: 66, cat: 'speed',
+  en: {
+    q: 'When approaching a blind intersection where visibility is less than 100 feet, what is the maximum speed?',
+    opts: ['15 mph', '25 mph', '20 mph', '10 mph'],
+    exp: 'At a blind intersection where you cannot see traffic approaching from either side within 100 feet, the prima facie speed limit is 15 mph. This gives you time to react and stop if cross traffic appears. A blind intersection has no stop signs or signals and has limited visibility.'
+  },
+  zh: { q: '接近能见度不足100英尺的盲区路口时，最高速度是多少？', opts: ['15英里/小时', '25英里/小时', '20英里/小时', '10英里/小时'], exp: '在无法看到100英尺内横向来车的盲区路口，法定限速为15英里/小时。这给您足够的时间在横向车辆出现时做出反应并停车。盲区路口没有停车标志或信号灯，且能见度有限。' },
+  zhTW: { q: '接近能見度不足100英尺的盲區路口時，最高速度是多少？', opts: ['15英里/小時', '25英里/小時', '20英里/小時', '10英里/小時'], exp: '在無法看到100英尺內橫向來車的盲區路口，法定限速為15英里/小時。這給您足夠的時間在橫向車輛出現時做出反應並停車。盲區路口沒有停車標誌或信號燈，且能見度有限。' },
+  es: { q: '¿Cuál es la velocidad máxima al acercarse a una intersección ciega donde la visibilidad es menor de 100 pies?', opts: ['15 mph', '25 mph', '20 mph', '10 mph'], exp: 'En una intersección ciega donde no puede ver el tráfico que se aproxima desde ninguno de los lados dentro de 100 pies, el límite de velocidad prima facie es 15 mph. Esto le da tiempo para reaccionar y detenerse si aparece tráfico cruzado.' },
+  ans: 0
+},
+
+{
+  id: 67, cat: 'speed',
+  en: {
+    q: 'If you are driving too slowly on a freeway, you can be cited for:',
+    opts: ['Impeding traffic — driving unreasonably slow is illegal', 'Nothing — there is no minimum speed law', 'Only if you are below 45 mph', 'Slow driving is encouraged for fuel efficiency'],
+    exp: 'California has a minimum speed law. You cannot drive so slowly that you block the normal flow of traffic, except when necessary for safety. Driving too slowly on a freeway impedes other drivers and creates hazardous conditions. Drivers can be cited for impeding traffic.'
+  },
+  zh: { q: '如果您在高速公路上行驶过慢，可能因为什么被开罚单？', opts: ['妨碍交通——不合理地缓慢驾驶是违法的', '没有——没有最低限速法', '仅当速度低于45英里/小时时', '慢速驾驶有利于节省燃油，被鼓励'], exp: '加州有最低限速法。除非出于安全必要，否则您不得以阻碍正常交通流的速度驾驶。在高速公路上行驶过慢会妨碍其他驾驶员，造成危险。驾驶员可能因妨碍交通而被罚款。' },
+  zhTW: { q: '如果您在高速公路上行駛過慢，可能因為什麼被開罰單？', opts: ['妨礙交通——不合理地緩慢駕駛是違法的', '沒有——沒有最低限速法', '僅當速度低於45英里/小時時', '慢速駕駛有利於節省燃油，被鼓勵'], exp: '加州有最低限速法。除非出於安全必要，否則您不得以阻礙正常交通流的速度駕駛。在高速公路上行駛過慢會妨礙其他駕駛員，造成危險。駕駛員可能因妨礙交通而被罰款。' },
+  es: { q: 'Si conduce demasiado lento en una autopista, puede ser citado por:', opts: ['Obstruir el tráfico — conducir de forma irrazonablemente lenta es ilegal', 'Nada — no hay ley de velocidad mínima', 'Solo si está por debajo de 45 mph', 'Conducir lento se fomenta para eficiencia de combustible'], exp: 'California tiene una ley de velocidad mínima. No puede conducir tan lento que bloquee el flujo normal del tráfico, excepto cuando sea necesario para la seguridad. Conducir demasiado lento en una autopista obstruye a otros conductores y crea condiciones peligrosas.' },
+  ans: 0
+},
+
+{
+  id: 68, cat: 'speed',
+  en: {
+    q: 'How does speed affect your stopping distance?',
+    opts: ['Doubling your speed quadruples (4x) your braking distance', 'Doubling your speed doubles your braking distance', 'Speed has no effect on stopping distance', 'Doubling your speed triples your braking distance'],
+    exp: 'Braking distance increases with the square of your speed. If you double your speed from 25 to 50 mph, your braking distance increases four times — not two times. At 60 mph, it takes about 180 feet to stop; at 30 mph, only about 45 feet. This is why speeding is so dangerous.'
+  },
+  zh: { q: '速度如何影响您的停车距离？', opts: ['速度翻倍，制动距离增加四倍', '速度翻倍，制动距离也翻倍', '速度对停车距离没有影响', '速度翻倍，制动距离增加三倍'], exp: '制动距离与速度的平方成正比。如果您将速度从25英里/小时提高到50英里/小时（翻倍），制动距离增加四倍而不是两倍。以60英里/小时行驶约需180英尺才能停下；以30英里/小时只需约45英尺。这就是超速如此危险的原因。' },
+  zhTW: { q: '速度如何影響您的停車距離？', opts: ['速度翻倍，制動距離增加四倍', '速度翻倍，制動距離也翻倍', '速度對停車距離沒有影響', '速度翻倍，制動距離增加三倍'], exp: '制動距離與速度的平方成正比。如果您將速度從25英里/小時提高到50英里/小時（翻倍），制動距離增加四倍而不是兩倍。以60英里/小時行駛約需180英尺才能停下；以30英里/小時只需約45英尺。這就是超速如此危險的原因。' },
+  es: { q: '¿Cómo afecta la velocidad a su distancia de frenado?', opts: ['Duplicar su velocidad cuadruplica (4x) su distancia de frenado', 'Duplicar su velocidad duplica su distancia de frenado', 'La velocidad no tiene efecto en la distancia de frenado', 'Duplicar su velocidad triplica su distancia de frenado'], exp: 'La distancia de frenado aumenta con el cuadrado de su velocidad. Si duplica su velocidad de 25 a 50 mph, su distancia de frenado aumenta cuatro veces — no dos. A 60 mph se necesitan unos 180 pies para detenerse; a 30 mph, solo unos 45 pies.' },
+  ans: 0
+},
+
+{
+  id: 69, cat: 'speed',
+  en: {
+    q: 'What is the speed limit for vehicles towing a trailer on a California freeway?',
+    opts: ['55 mph maximum, regardless of the posted speed limit', '65 mph — same as regular vehicles', '70 mph if the posted limit is 70', '45 mph for all towing situations'],
+    exp: 'In California, vehicles towing a trailer are limited to 55 mph on freeways, even if the posted limit is 65 or 70 mph. The same 55 mph limit applies to trucks with 3 or more axles. This lower limit accounts for reduced braking ability and stability when towing.'
+  },
+  zh: { q: '在加州高速公路上，拖曳拖车的车辆限速是多少？', opts: ['最高55英里/小时，无论标志限速如何', '65英里/小时——与普通车辆相同', '如果标志限速为70则为70英里/小时', '所有拖曳情况均为45英里/小时'], exp: '在加州，拖曳拖车的车辆在高速公路上限速55英里/小时，即使标志限速为65或70英里/小时。有3轴或以上的卡车也适用同样的55英里/小时限制。较低的限速考虑到拖曳时制动能力和稳定性降低的因素。' },
+  zhTW: { q: '在加州高速公路上，拖曳拖車的車輛限速是多少？', opts: ['最高55英里/小時，無論標誌限速如何', '65英里/小時——與普通車輛相同', '如果標誌限速為70則為70英里/小時', '所有拖曳情況均為45英里/小時'], exp: '在加州，拖曳拖車的車輛在高速公路上限速55英里/小時，即使標誌限速為65或70英里/小時。有3軸或以上的卡車也適用同樣的55英里/小時限制。較低的限速考慮到拖曳時制動能力和穩定性降低的因素。' },
+  es: { q: '¿Cuál es el límite de velocidad para vehículos que remolcan un tráiler en una autopista de California?', opts: ['55 mph máximo, independientemente del límite publicado', '65 mph — igual que los vehículos regulares', '70 mph si el límite publicado es 70', '45 mph para todas las situaciones de remolque'], exp: 'En California, los vehículos que remolcan un tráiler están limitados a 55 mph en autopistas, incluso si el límite publicado es 65 o 70 mph. El mismo límite de 55 mph aplica a camiones con 3 o más ejes. Este límite más bajo tiene en cuenta la reducción en la capacidad de frenado y estabilidad.' },
+  ans: 0
+},
+
+{
+  id: 70, cat: 'speed',
+  en: {
+    q: 'Driving 100 mph or more on a California highway results in:',
+    opts: ['Mandatory license suspension and possible jail time — an immediate threat to public safety', 'A regular speeding ticket with doubled fines', 'Only a warning for a first offense', 'License suspension only if involved in a crash'],
+    exp: 'Driving 100 mph or more is a serious offense in California. Penalties include: license suspension of 30 days to 6 months for a first offense, fines, possible jail time, and a point on your record. A second offense within 3 years results in a 1-year license revocation.'
+  },
+  zh: { q: '在加州公路上以100英里/小时或以上速度行驶的后果是：', opts: ['强制吊销驾照及可能的监禁——对公共安全构成立即威胁', '普通超速罚单，罚款加倍', '初次仅给予警告', '仅在发生事故时才吊销驾照'], exp: '以100英里/小时或以上速度行驶在加州是严重违规行为。处罚包括：初次违规驾照暂停30天至6个月、罚款、可能的监禁，以及记录一分。3年内二次违规导致驾照被吊销1年。' },
+  zhTW: { q: '在加州公路上以100英里/小時或以上速度行駛的後果是：', opts: ['強制吊銷駕照及可能的監禁——對公共安全構成立即威脅', '普通超速罰單，罰款加倍', '初次僅給予警告', '僅在發生事故時才吊銷駕照'], exp: '以100英里/小時或以上速度行駛在加州是嚴重違規行為。處罰包括：初次違規駕照暫停30天至6個月、罰款、可能的監禁，以及記錄一分。3年內二次違規導致駕照被吊銷1年。' },
+  es: { q: 'Conducir a 100 mph o más en una autopista de California resulta en:', opts: ['Suspensión de licencia obligatoria y posible tiempo en cárcel — una amenaza inmediata para la seguridad pública', 'Una multa de velocidad regular con multas duplicadas', 'Solo una advertencia por primera ofensa', 'Suspensión de licencia solo si hay un accidente'], exp: 'Conducir a 100 mph o más es una ofensa grave en California. Las penalidades incluyen: suspensión de licencia de 30 días a 6 meses por primera ofensa, multas, posible tiempo en cárcel y un punto en su registro. Una segunda ofensa dentro de 3 años resulta en revocación de licencia de 1 año.' },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
