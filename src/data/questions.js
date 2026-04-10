@@ -2414,4 +2414,86 @@ export const questions = [
   ans:0
 },
 
+// ── Batch 20 · Highway Driving (Advanced) · Q191–200 ────────────────────────
+{
+  id:191, cat:'highway',
+  en:{q:'What is the recommended following distance on a freeway in good conditions?',opts:['1 second','2 seconds','3 seconds','5 seconds'],exp:'The recommended following distance on a freeway is at least 3 seconds in good conditions. At higher freeway speeds, stopping distances are much longer. In bad weather, low visibility, or heavy trucks ahead, increase to 4–6 seconds. Use the "3-second rule" by picking a fixed object and counting seconds after the vehicle ahead passes it.'},
+  zh:{q:'在良好条件下，在高速公路上推荐的跟车距离是多少？',opts:['1秒','2秒','3秒','5秒'],exp:'在高速公路上，在良好条件下推荐的跟车距离至少为3秒。在较高的高速公路速度下，制动距离要长得多。在恶劣天气、低能见度或前方有大型卡车时，增加到4-6秒。使用"3秒规则"：选择一个固定物体，在前方车辆通过它后开始计数秒数。'},
+  zhTW:{q:'在良好條件下，在高速公路上推薦的跟車距離是多少？',opts:['1秒','2秒','3秒','5秒'],exp:'在高速公路上，在良好條件下推薦的跟車距離至少為3秒。在較高的高速公路速度下，制動距離要長得多。在惡劣天氣、低能見度或前方有大型卡車時，增加到4-6秒。使用「3秒規則」：選擇一個固定物體，在前方車輛通過它後開始計數秒數。'},
+  es:{q:'¿Cuál es la distancia de seguimiento recomendada en una autopista en buenas condiciones?',opts:['1 segundo','2 segundos','3 segundos','5 segundos'],exp:'La distancia de seguimiento recomendada en una autopista es de al menos 3 segundos en buenas condiciones. A velocidades más altas de autopista, las distancias de frenado son mucho más largas. En mal tiempo, baja visibilidad o camiones pesados adelante, aumente a 4–6 segundos. Use la "regla de los 3 segundos" eligiendo un objeto fijo y contando segundos después de que el vehículo de adelante lo pase.'},
+  ans:2
+},
+{
+  id:192, cat:'highway',
+  en:{q:'When merging onto a freeway, what should you do?',opts:['Stop at the end of the on-ramp and wait for a gap','Slow down and yield to freeway traffic from a stopped position','Accelerate to match freeway traffic speed in the acceleration lane, then merge safely','Force your way into traffic using the shoulder'],exp:'Use the acceleration lane to build speed matching freeway traffic, then look for a safe gap and merge smoothly. Never stop on an on-ramp unless absolutely necessary — a stopped car on an on-ramp is a serious hazard. Check mirrors and blind spots before merging.'},
+  zh:{q:'驶入高速公路时，您应该怎么做？',opts:['在匝道末端停车等待间隙','从停止位置慢行让高速公路车辆先行','在加速车道上加速与高速公路车速匹配，然后安全并入','用路肩强行进入交通'],exp:'使用加速车道将速度提升到与高速公路交通匹配，然后寻找安全间隙平稳并入。除非绝对必要，切勿在匝道上停车——在匝道上停车是严重危险。并入前检查后视镜和盲点。'},
+  zhTW:{q:'駛入高速公路時，您應該怎麼做？',opts:['在匝道末端停車等待間隙','從停止位置慢行讓高速公路車輛先行','在加速車道上加速與高速公路車速匹配，然後安全並入','用路肩強行進入交通'],exp:'使用加速車道將速度提升到與高速公路交通匹配，然後尋找安全間隙平穩並入。除非絕對必要，切勿在匝道上停車——在匝道上停車是嚴重危險。並入前檢查後視鏡和盲點。'},
+  es:{q:'Al incorporarse a una autopista, ¿qué debe hacer?',opts:['Detenga al final de la rampa de acceso y espere un hueco','Reduzca la velocidad y ceda al tráfico de la autopista desde una posición detenida','Acelere para igualar la velocidad del tráfico de la autopista en el carril de aceleración, luego incorpore con seguridad','Forzar su camino al tráfico usando el arcén'],exp:'Use el carril de aceleración para alcanzar la velocidad del tráfico de la autopista, luego busque un hueco seguro e incorpórese suavemente. Nunca se detenga en una rampa de acceso a menos que sea absolutamente necesario — un auto detenido en una rampa de acceso es un peligro grave. Revise los espejos y los puntos ciegos antes de incorporarse.'},
+  ans:2
+},
+{
+  id:193, cat:'highway',
+  en:{q:'On a freeway, which lane is generally best for through traffic?',opts:['The far left lane','The far right lane','The center lane(s)','Any lane — they are all equal'],exp:'On multi-lane freeways, the center lanes are generally best for through traffic. The far right lane is often used for entering and exiting. The far left lane (fast lane) is for passing. Staying in a center lane minimizes interactions with merging traffic and gives you more options for maneuvering.'},
+  zh:{q:'在高速公路上，哪条车道通常最适合直行交通？',opts:['最左车道','最右车道','中间车道','任何车道——它们都一样'],exp:'在多车道高速公路上，中间车道通常最适合直行交通。最右车道通常用于进出。最左车道（快车道）用于超车。保持在中间车道可最大限度减少与合并交通的互动，并给您更多的机动选择。'},
+  zhTW:{q:'在高速公路上，哪條車道通常最適合直行交通？',opts:['最左車道','最右車道','中間車道','任何車道——它們都一樣'],exp:'在多車道高速公路上，中間車道通常最適合直行交通。最右車道通常用於進出。最左車道（快車道）用於超車。保持在中間車道可最大限度減少與合併交通的互動，並給您更多的機動選擇。'},
+  es:{q:'En una autopista, ¿qué carril es generalmente el mejor para el tráfico de paso?',opts:['El carril del extremo izquierdo','El carril del extremo derecho','Los carriles del centro','Cualquier carril — todos son iguales'],exp:'En autopistas de múltiples carriles, los carriles del centro son generalmente los mejores para el tráfico de paso. El carril del extremo derecho a menudo se usa para entrar y salir. El carril del extremo izquierdo (carril rápido) es para adelantar. Permanecer en un carril central minimiza las interacciones con el tráfico que se incorpora y le da más opciones de maniobra.'},
+  ans:2
+},
+{
+  id:194, cat:'highway',
+  en:{q:'What should you do if you miss your freeway exit?',opts:['Stop on the freeway and back up to the exit','Make a sudden lane change to exit','Continue to the next exit and find another route','Drive on the shoulder to reach the exit'],exp:'If you miss your freeway exit, do not stop or back up — this is extremely dangerous. Continue driving to the next exit and find an alternate route. Never drive on the shoulder to reach a missed exit. Plan ahead by reading signs early and positioning yourself in the correct lane.'},
+  zh:{q:'如果您错过了高速公路出口，您应该怎么做？',opts:['在高速公路上停车并倒退回出口','突然变道出去','继续到下一个出口并寻找另一条路线','在路肩上行驶到达出口'],exp:'如果您错过了高速公路出口，不要停车或倒退——这极其危险。继续行驶到下一个出口并寻找替代路线。切勿在路肩上行驶以到达错过的出口。提前阅读标志并在正确车道就位，为出口做好计划。'},
+  zhTW:{q:'如果您錯過了高速公路出口，您應該怎麼做？',opts:['在高速公路上停車並倒退回出口','突然變道出去','繼續到下一個出口並尋找另一條路線','在路肩上行駛到達出口'],exp:'如果您錯過了高速公路出口，不要停車或倒退——這極其危險。繼續行駛到下一個出口並尋找替代路線。切勿在路肩上行駛以到達錯過的出口。提前閱讀標誌並在正確車道就位，為出口做好計劃。'},
+  es:{q:'¿Qué debe hacer si se pierde su salida de la autopista?',opts:['Detenga en la autopista y retroceda a la salida','Haga un cambio de carril repentino para salir','Continúe hasta la próxima salida y encuentre otra ruta','Conduzca en el arcén para llegar a la salida'],exp:'Si se pierde su salida de la autopista, no se detenga ni retroceda — esto es extremadamente peligroso. Continúe conduciendo hasta la próxima salida y encuentre una ruta alternativa. Nunca conduzca en el arcén para alcanzar una salida perdida. Planifique con anticipación leyendo señales temprano y posicionándose en el carril correcto.'},
+  ans:2
+},
+{
+  id:195, cat:'highway',
+  en:{q:'On a freeway, you must NOT drive in the carpool/HOV lane unless:',opts:['You are in a hurry','Your vehicle has the required number of occupants (or qualifies as a single-occupant clean vehicle)','You are passing a slow vehicle','You are driving a newer car'],exp:'HOV (High Occupancy Vehicle) or carpool lanes require a minimum number of occupants (usually 2 or 3+), unless your vehicle is an approved clean-air vehicle with a special decal allowing solo use. Fines for unauthorized HOV lane use are significant ($490+).'},
+  zh:{q:'在高速公路上，您不得在拼车/HOV车道行驶，除非：',opts:['您很赶时间','您的车辆有所需的乘员数量（或符合单人洁净车辆资格）','您在超越慢车','您驾驶的是较新的车辆'],exp:'HOV（高载客量）或拼车车道要求最低乘员数量（通常为2人或3人以上），除非您的车辆是获批的清洁能源车辆，带有允许单人使用的特殊贴纸。未授权使用HOV车道的罚款相当高（$490+）。'},
+  zhTW:{q:'在高速公路上，您不得在拼車/HOV車道行駛，除非：',opts:['您很趕時間','您的車輛有所需的乘員數量（或符合單人潔淨車輛資格）','您在超越慢車','您駕駛的是較新的車輛'],exp:'HOV（高載客量）或拼車車道要求最低乘員數量（通常為2人或3人以上），除非您的車輛是獲批的清潔能源車輛，帶有允許單人使用的特殊貼紙。未授權使用HOV車道的罰款相當高（$490+）。'},
+  es:{q:'En una autopista, NO debe conducir en el carril de vehículo de alta ocupación/HOV a menos que:',opts:['Tenga prisa','Su vehículo tenga el número requerido de ocupantes (o califique como vehículo limpio de un solo ocupante)','Esté adelantando un vehículo lento','Esté conduciendo un auto más nuevo'],exp:'Los carriles HOV (Vehículo de Alta Ocupación) o de vehículos compartidos requieren un número mínimo de ocupantes (generalmente 2 o 3+), a menos que su vehículo sea un vehículo de aire limpio aprobado con una calcomanía especial que permita el uso individual. Las multas por uso no autorizado del carril HOV son significativas ($490+).'},
+  ans:1
+},
+{
+  id:196, cat:'highway',
+  en:{q:'What should you do when a large truck passes you on the freeway?',opts:['Speed up to get away from its turbulence','Slow down and hold your steering wheel firmly to stabilize your vehicle','Move to the shoulder temporarily','Match the truck\'s speed exactly'],exp:'When a large truck passes, you may feel turbulence and buffeting from air displacement. Slow down slightly, hold your steering wheel firmly with both hands, and stay in your lane. Do not make sudden steering corrections. The disturbance is brief — maintain a steady course.'},
+  zh:{q:'当大型卡车在高速公路上超越您时，您应该怎么做？',opts:['加速以离开其气流扰动','减速并紧握方向盘以稳定车辆','暂时移到路肩','完全匹配卡车的速度'],exp:'当大型卡车超越时，您可能会感受到气流置换带来的湍流和颠簸。稍微减速，用双手紧握方向盘，保持在您的车道内。不要做突然的转向修正。扰动是短暂的——保持稳定行驶。'},
+  zhTW:{q:'當大型卡車在高速公路上超越您時，您應該怎麼做？',opts:['加速以離開其氣流擾動','減速並緊握方向盤以穩定車輛','暫時移到路肩','完全匹配卡車的速度'],exp:'當大型卡車超越時，您可能會感受到氣流置換帶來的湍流和顛簸。稍微減速，用雙手緊握方向盤，保持在您的車道內。不要做突然的轉向修正。擾動是短暫的——保持穩定行駛。'},
+  es:{q:'¿Qué debe hacer cuando un camión grande lo adelanta en la autopista?',opts:['Acelere para alejarse de su turbulencia','Reduzca la velocidad y sostenga el volante firmemente para estabilizar su vehículo','Muévase al arcén temporalmente','Iguale la velocidad del camión exactamente'],exp:'Cuando un camión grande lo adelanta, puede sentir turbulencia y sacudidas por el desplazamiento de aire. Reduzca ligeramente la velocidad, sostenga el volante firmemente con ambas manos y permanezca en su carril. No haga correcciones repentinas de dirección. La perturbación es breve — mantenga un curso estable.'},
+  ans:1
+},
+{
+  id:197, cat:'highway',
+  en:{q:'What is a "weave lane" on a freeway?',opts:['A lane that allows high-speed weaving between cars','A shared section of road used by both entering and exiting traffic simultaneously','A dedicated lane for motorcycles','A lane that narrows at intersections'],exp:'A weave lane is a short section of freeway where an on-ramp and off-ramp overlap, creating a shared lane where vehicles are both entering and exiting at the same time. Extra caution is needed here — yield to traffic with less room to maneuver and watch for vehicles crossing your path.'},
+  zh:{q:'高速公路上的"交织车道"是什么？',opts:['允许车辆之间高速穿梭的车道','进出匝道交叠、进入和离开交通同时使用的道路共享路段','摩托车专用车道','在路口变窄的车道'],exp:'交织车道是高速公路的短路段，在此上匝道和下匝道重叠，形成车辆同时进入和离开的共享车道。在这里需要格外小心——让行给空间较少的车辆，并注意穿越您路线的车辆。'},
+  zhTW:{q:'高速公路上的「交織車道」是什麼？',opts:['允許車輛之間高速穿梭的車道','進出匝道交疊、進入和離開交通同時使用的道路共享路段','摩托車專用車道','在路口變窄的車道'],exp:'交織車道是高速公路的短路段，在此上匝道和下匝道重疊，形成車輛同時進入和離開的共享車道。在這裡需要格外小心——讓行給空間較少的車輛，並注意穿越您路線的車輛。'},
+  es:{q:'¿Qué es un "carril de entrelazado" en una autopista?',opts:['Un carril que permite entrelazarse a alta velocidad entre autos','Una sección corta de carretera usada simultáneamente por el tráfico que entra y sale','Un carril dedicado para motocicletas','Un carril que se estrecha en las intersecciones'],exp:'Un carril de entrelazado es una sección corta de autopista donde una rampa de entrada y una rampa de salida se superponen, creando un carril compartido donde los vehículos están entrando y saliendo al mismo tiempo. Se necesita precaución adicional aquí — ceda al tráfico con menos espacio para maniobrar y esté atento a los vehículos que cruzan su camino.'},
+  ans:1
+},
+{
+  id:198, cat:'highway',
+  en:{q:'How far in advance must you signal before changing lanes on a freeway?',opts:['50 feet','100 feet','5 seconds at freeway speed','There is no requirement — just check mirrors'],exp:'On a freeway, you should signal far enough in advance to give other drivers time to react — generally at least 5 seconds at freeway speeds (about 500 feet at 65 mph). Check your mirrors and blind spots, signal, check again, and then change lanes smoothly. Abrupt lane changes without adequate signal cause many accidents.'},
+  zh:{q:'在高速公路上变道前需要提前多远打转向灯？',opts:['50英尺','100英尺','在高速公路速度下提前5秒','没有要求——只需检查后视镜'],exp:'在高速公路上，您应该提前足够远发出信号，以给其他驾驶者反应时间——通常在高速公路速度下至少5秒（在65英里/小时时约500英尺）。检查后视镜和盲点，打转向灯，再次检查，然后平稳变道。没有足够信号的突然变道导致很多事故。'},
+  zhTW:{q:'在高速公路上變道前需要提前多遠打方向燈？',opts:['50英尺','100英尺','在高速公路速度下提前5秒','沒有要求——只需檢查後視鏡'],exp:'在高速公路上，您應該提前足夠遠發出信號，以給其他駕駛者反應時間——通常在高速公路速度下至少5秒（在65英里/小時時約500英尺）。檢查後視鏡和盲點，打方向燈，再次檢查，然後平穩變道。沒有足夠信號的突然變道導致很多事故。'},
+  es:{q:'¿Con cuánta anticipación debe señalizar antes de cambiar de carril en una autopista?',opts:['50 pies','100 pies','5 segundos a velocidad de autopista','No hay requisito — solo revise los espejos'],exp:'En una autopista, debe señalizar con suficiente anticipación para dar tiempo a los demás conductores para reaccionar — generalmente al menos 5 segundos a velocidades de autopista (aproximadamente 500 pies a 65 mph). Revise sus espejos y puntos ciegos, señalice, revise nuevamente, luego cambie de carril suavemente. Los cambios de carril abruptos sin señal adecuada causan muchos accidentes.'},
+  ans:2
+},
+{
+  id:199, cat:'highway',
+  en:{q:'What should you do if your vehicle breaks down on a freeway?',opts:['Stop in the travel lane and put on your hazard lights','Try to coast to the nearest exit or pull onto the right shoulder as far as possible','Stop in the fast lane where drivers can see you easily','Call 911 and wait in your vehicle in the traffic lane'],exp:'If you break down on a freeway, steer to the right shoulder as far from traffic as possible. Turn on hazard lights. If safe, exit the vehicle from the right side and move away from traffic. Call for help. Never stand between your car and traffic. If you must stay in the car, keep your seatbelt on.'},
+  zh:{q:'如果您的车辆在高速公路上抛锚，您应该怎么做？',opts:['停在行车道中并打开危险警告灯','设法滑行到最近出口或尽量靠右停到路肩上','停在快车道让驾驶者容易看到您','打911并在交通车道内的车里等待'],exp:'如果您在高速公路上抛锚，将车转向右侧路肩，尽量远离交通。打开危险警告灯。如果安全，从右侧下车并远离交通。呼叫帮助。切勿站在您的车和交通之间。如果必须留在车里，保持系好安全带。'},
+  zhTW:{q:'如果您的車輛在高速公路上拋錨，您應該怎麼做？',opts:['停在行車道中並打開危險警告燈','設法滑行到最近出口或盡量靠右停到路肩上','停在快車道讓駕駛者容易看到您','打911並在交通車道內的車裡等待'],exp:'如果您在高速公路上拋錨，將車轉向右側路肩，盡量遠離交通。打開危險警告燈。如果安全，從右側下車並遠離交通。呼叫幫助。切勿站在您的車和交通之間。如果必須留在車裡，保持繫好安全帶。'},
+  es:{q:'¿Qué debe hacer si su vehículo se avería en una autopista?',opts:['Detenga en el carril de circulación y encienda las luces de emergencia','Intente deslizarse hasta la salida más cercana o orillese al arcén derecho tanto como sea posible','Detenga en el carril rápido donde los conductores puedan verlo fácilmente','Llame al 911 y espere en su vehículo en el carril de tráfico'],exp:'Si se avería en una autopista, dirija hacia el arcén derecho lo más lejos posible del tráfico. Encienda las luces de emergencia. Si es seguro, salga del vehículo por el lado derecho y aléjese del tráfico. Llame para pedir ayuda. Nunca se pare entre su auto y el tráfico. Si debe quedarse en el auto, mantenga el cinturón de seguridad abrochado.'},
+  ans:1
+},
+{
+  id:200, cat:'highway',
+  en:{q:'What is the purpose of rumble strips on the highway shoulder?',opts:['To slow down vehicles merging onto the highway','To alert drivers who are drifting off the roadway','To mark the lane boundaries for visibility in rain','To provide traction for emergency stops'],exp:'Rumble strips are raised or grooved patterns in the pavement that create a loud noise and vibration when a vehicle\'s tires roll over them. They are designed to alert drowsy or distracted drivers who are drifting off the roadway onto the shoulder, giving them a wake-up warning to correct their course.'},
+  zh:{q:'公路路肩上震动带的目的是什么？',opts:['减慢并入公路的车辆','提醒正在偏离道路的驾驶者','在雨天为车道边界提供可见度标记','为紧急停车提供牵引力'],exp:'震动带是路面上凸起或凹槽的图案，当车辆轮胎滚过时会产生响亮的噪音和振动。它们旨在提醒正在向路肩偏离的困倦或分心驾驶者，给他们一个唤醒警告以纠正行驶方向。'},
+  zhTW:{q:'公路路肩上震動帶的目的是什麼？',opts:['減慢並入公路的車輛','提醒正在偏離道路的駕駛者','在雨天為車道邊界提供可見度標記','為緊急停車提供牽引力'],exp:'震動帶是路面上凸起或凹槽的圖案，當車輛輪胎滾過時會產生響亮的噪音和振動。它們旨在提醒正在向路肩偏離的困倦或分心駕駛者，給他們一個喚醒警告以糾正行駛方向。'},
+  es:{q:'¿Cuál es el propósito de las bandas de vibración en el arcén de la autopista?',opts:['Para reducir la velocidad de los vehículos que se incorporan a la autopista','Para alertar a los conductores que se están desviando de la calzada','Para marcar los límites del carril para visibilidad en lluvia','Para proporcionar tracción para paradas de emergencia'],exp:'Las bandas de vibración son patrones elevados o ranurados en el pavimento que crean un ruido fuerte y vibración cuando los neumáticos de un vehículo ruedan sobre ellos. Están diseñadas para alertar a los conductores somnolientos o distraídos que se están desviando de la calzada hacia el arcén, dándoles una advertencia de alerta para corregir su curso.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
