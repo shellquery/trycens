@@ -779,4 +779,139 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 4 — Traffic Laws (Q31–40)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 31, cat: 'laws',
+  en: {
+    q: 'Are all vehicle occupants required to wear seat belts in California?',
+    opts: ['Yes — driver and all passengers must be buckled at all times', 'Only the driver and front-seat passengers', 'Only children under 16', 'Seat belts are recommended but not required for adults'],
+    exp: 'California\'s mandatory seat belt law requires every occupant of a vehicle to wear a seat belt, regardless of where they are seated. The driver is responsible for ensuring all passengers under 16 are buckled. Fines apply to each unbelted occupant.'
+  },
+  zh: { q: '在加州，车内所有人员都必须系安全带吗？', opts: ['是——司机和所有乘客随时都须系好安全带', '仅限司机和前排乘客', '仅限16岁以下儿童', '成人系安全带是建议而非强制'], exp: '加州强制安全带法要求车内每位乘员，无论坐在哪个位置，都必须系好安全带。司机有责任确保16岁以下的所有乘客已系好安全带。每位未系安全带的乘员均可被单独罚款。' },
+  zhTW: { q: '在加州，車內所有人員都必須繫安全帶嗎？', opts: ['是——司機和所有乘客隨時都須繫好安全帶', '僅限司機和前排乘客', '僅限16歲以下兒童', '成人繫安全帶是建議而非強制'], exp: '加州強制安全帶法要求車內每位乘員，無論坐在哪個位置，都必須繫好安全帶。司機有責任確保16歲以下的所有乘客已繫好安全帶。每位未繫安全帶的乘員均可被單獨罰款。' },
+  es: { q: '¿Todos los ocupantes del vehículo deben usar cinturón de seguridad en California?', opts: ['Sí — el conductor y todos los pasajeros deben estar abrochados en todo momento', 'Solo el conductor y los pasajeros delanteros', 'Solo niños menores de 16 años', 'Los cinturones se recomiendan pero no son obligatorios para adultos'], exp: 'La ley obligatoria de cinturón de seguridad de California requiere que todos los ocupantes del vehículo usen cinturón de seguridad, independientemente de dónde estén sentados. El conductor es responsable de que todos los pasajeros menores de 16 años estén abrochados.' },
+  ans: 0
+},
+
+{
+  id: 32, cat: 'laws',
+  en: {
+    q: 'When must you dim your high-beam headlights?',
+    opts: ['Within 500 feet of an oncoming vehicle and within 300 feet when following another vehicle', 'Only in city limits — always use high beams on highways', 'Only when flashed by another driver', 'Whenever driving below 45 mph'],
+    exp: 'In California, you must dim high beams (use low beams) when within 500 feet of an oncoming vehicle or within 300 feet when following another vehicle. High beams can blind other drivers, causing accidents.'
+  },
+  zh: { q: '什么时候必须关闭远光灯（切换为近光灯）？', opts: ['与对向来车距离500英尺以内，以及跟随其他车辆300英尺以内', '仅在市区内——在公路上始终使用远光灯', '仅当其他驾驶员闪灯时', '时速低于45英里时'], exp: '在加州，当与对向来车距离500英尺以内，或跟随其他车辆300英尺以内时，必须关闭远光灯（使用近光灯）。远光灯会使其他驾驶员眼花缭乱，从而引发事故。' },
+  zhTW: { q: '什麼時候必須關閉遠光燈（切換為近光燈）？', opts: ['與對向來車距離500英尺以內，以及跟隨其他車輛300英尺以內', '僅在市區內——在公路上始終使用遠光燈', '僅當其他駕駛員閃燈時', '時速低於45英里時'], exp: '在加州，當與對向來車距離500英尺以內，或跟隨其他車輛300英尺以內時，必須關閉遠光燈（使用近光燈）。遠光燈會使其他駕駛員眼花繚亂，從而引發事故。' },
+  es: { q: '¿Cuándo debe apagar las luces largas (cambiar a cortas)?', opts: ['A 500 pies de un vehículo que viene de frente y a 300 pies cuando sigue a otro vehículo', 'Solo en límites de ciudad — use luces largas en autopistas', 'Solo cuando otro conductor le haga destellos', 'Siempre que conduzca por debajo de 45 mph'], exp: 'En California, debe apagar las luces largas (usar luces cortas) cuando esté a 500 pies de un vehículo que viene de frente o a 300 pies cuando sigue a otro vehículo. Las luces largas pueden cegar a otros conductores, causando accidentes.' },
+  ans: 0
+},
+
+{
+  id: 33, cat: 'laws',
+  en: {
+    q: 'You are approaching an intersection and the traffic light turns yellow. What should you do?',
+    opts: ['Stop safely if you can; if stopping would be unsafe, proceed with caution', 'Always speed up to clear the intersection before red', 'Always stop immediately — yellow means stop', 'Flash your hazard lights and proceed slowly'],
+    exp: 'A yellow light means the signal is about to turn red. Stop if you can do so safely. If you are too close to stop safely, proceed through the intersection with caution. It is illegal to speed up to "beat" a yellow light.'
+  },
+  zh: { q: '您正驶向一个路口，此时交通灯变为黄色，您应该怎么做？', opts: ['如果能安全停车就停车；如果停车不安全，则谨慎通过', '始终加速在变红前通过路口', '始终立即停车——黄灯就是停车', '开启危险灯并缓慢通过'], exp: '黄灯表示信号即将变红。如果能安全停车，请停车。如果距离太近无法安全停车，则谨慎通过路口。加速"抢黄灯"是违法的。' },
+  zhTW: { q: '您正駛向一個路口，此時交通燈變為黃色，您應該怎麼做？', opts: ['如果能安全停車就停車；如果停車不安全，則謹慎通過', '始終加速在變紅前通過路口', '始終立即停車——黃燈就是停車', '開啟危險燈並緩慢通過'], exp: '黃燈表示信號即將變紅。如果能安全停車，請停車。如果距離太近無法安全停車，則謹慎通過路口。加速「搶黃燈」是違法的。' },
+  es: { q: 'Se aproxima a una intersección y el semáforo se pone amarillo. ¿Qué debe hacer?', opts: ['Detenerse con seguridad si puede; si detenerse sería inseguro, proceda con precaución', 'Siempre acelerar para cruzar antes del rojo', 'Siempre detenerse inmediatamente — el amarillo significa alto', 'Encender las luces de emergencia y avanzar despacio'], exp: 'Una luz amarilla significa que la señal está a punto de ponerse en rojo. Deténgase si puede hacerlo de forma segura. Si está demasiado cerca para detenerse con seguridad, proceda por la intersección con precaución.' },
+  ans: 0
+},
+
+{
+  id: 34, cat: 'laws',
+  en: {
+    q: 'What does a flashing red traffic light mean?',
+    opts: ['Treat it as a STOP sign — come to a complete stop and proceed when safe', 'Slow down and proceed with caution', 'The signal is broken — turn around', 'Yield to cross traffic only'],
+    exp: 'A flashing red light has the same meaning as a STOP sign. You must come to a complete stop, yield to all traffic and pedestrians, then proceed when it is safe to do so.'
+  },
+  zh: { q: '闪烁的红色交通灯是什么意思？', opts: ['按停车标志处理——完全停车，确认安全后通过', '减速并谨慎通过', '信号灯故障——掉头', '仅让横向来车先行'], exp: '闪烁红灯的含义与停车标志相同。您必须完全停车，让行所有车辆和行人，然后在确认安全后通行。' },
+  zhTW: { q: '閃爍的紅色交通燈是什麼意思？', opts: ['按停車標誌處理——完全停車，確認安全後通過', '減速並謹慎通過', '信號燈故障——掉頭', '僅讓橫向來車先行'], exp: '閃爍紅燈的含義與停車標誌相同。您必須完全停車，讓行所有車輛和行人，然後在確認安全後通行。' },
+  es: { q: '¿Qué significa un semáforo rojo intermitente?', opts: ['Trátelo como una señal de ALTO — deténgase completamente y avance cuando sea seguro', 'Reduzca la velocidad y proceda con precaución', 'La señal está rota — dé la vuelta', 'Ceda el paso solo al tráfico cruzado'], exp: 'Una luz roja intermitente tiene el mismo significado que una señal de ALTO. Debe detenerse completamente, ceder el paso a todo el tráfico y peatones, luego proceder cuando sea seguro.' },
+  ans: 0
+},
+
+{
+  id: 35, cat: 'laws',
+  en: {
+    q: 'What does a flashing yellow traffic light mean?',
+    opts: ['Slow down and proceed with caution', 'Stop and wait for green', 'Yield to oncoming traffic before proceeding', 'Merge into the left lane'],
+    exp: 'A flashing yellow light is a warning to slow down and proceed with caution. You do not need to stop, but you must be alert for cross traffic, pedestrians, and other hazards.'
+  },
+  zh: { q: '闪烁的黄色交通灯是什么意思？', opts: ['减速并谨慎通过', '停车等待绿灯', '让行对向车辆后再通过', '并入左车道'], exp: '闪烁黄灯警告您减速并谨慎通行。您无需停车，但必须注意横向来车、行人和其他危险。' },
+  zhTW: { q: '閃爍的黃色交通燈是什麼意思？', opts: ['減速並謹慎通過', '停車等待綠燈', '讓行對向車輛後再通過', '並入左車道'], exp: '閃爍黃燈警告您減速並謹慎通行。您無需停車，但必須注意橫向來車、行人和其他危險。' },
+  es: { q: '¿Qué significa un semáforo amarillo intermitente?', opts: ['Reduzca la velocidad y proceda con precaución', 'Deténgase y espere el verde', 'Ceda el paso al tráfico que viene antes de continuar', 'Fusiónese en el carril izquierdo'], exp: 'Una luz amarilla intermitente es una advertencia para reducir la velocidad y proceder con precaución. No necesita detenerse, pero debe estar alerta ante el tráfico cruzado, peatones y otros peligros.' },
+  ans: 0
+},
+
+{
+  id: 36, cat: 'laws',
+  en: {
+    q: 'A traffic signal is not working at an intersection. What should you do?',
+    opts: ['Treat it as a four-way stop — all drivers stop and take turns', 'The driver on the busier road has the right of way', 'Proceed normally — signals are advisory only', 'Come to a complete stop and do not proceed'],
+    exp: 'When a traffic signal is completely dark (not working), treat the intersection as a four-way stop. All vehicles from all directions must stop, then proceed in turn. This is required by California law.'
+  },
+  zh: { q: '路口的交通灯不工作了，您应该怎么做？', opts: ['按四路停车处理——所有驾驶员停车依次通行', '较繁忙道路上的驾驶员有优先通行权', '正常通行——信号灯仅供参考', '完全停车且不得通行'], exp: '当交通灯完全熄灭（不工作）时，应将该路口视为四路停车路口处理。所有方向的车辆均须停车，然后依次通行。这是加州法律的要求。' },
+  zhTW: { q: '路口的交通燈不工作了，您應該怎麼做？', opts: ['按四路停車處理——所有駕駛員停車依次通行', '較繁忙道路上的駕駛員有優先通行權', '正常通行——信號燈僅供參考', '完全停車且不得通行'], exp: '當交通燈完全熄滅（不工作）時，應將該路口視為四路停車路口處理。所有方向的車輛均須停車，然後依次通行。這是加州法律的要求。' },
+  es: { q: 'Un semáforo no funciona en una intersección. ¿Qué debe hacer?', opts: ['Trátelo como un alto de cuatro vías — todos los conductores se detienen y toman turnos', 'El conductor en la carretera más transitada tiene el derecho de paso', 'Continúe normalmente — las señales son solo de asesoramiento', 'Deténgase completamente y no avance'], exp: 'Cuando un semáforo está completamente apagado (sin funcionar), trate la intersección como un alto de cuatro vías. Todos los vehículos de todas las direcciones deben detenerse, luego proceder en turno.' },
+  ans: 0
+},
+
+{
+  id: 37, cat: 'laws',
+  en: {
+    q: 'When are you allowed to pass another vehicle on the right side?',
+    opts: ['When the vehicle ahead is making or waiting to make a left turn, and there is a paved lane to the right', 'Whenever traffic is slow', 'Only on a freeway with multiple lanes', 'Passing on the right is always illegal in California'],
+    exp: 'You may pass on the right when: (1) the vehicle ahead is turning left, and there is enough paved road to pass safely, or (2) on a one-way street or road wide enough for two or more lanes of traffic. Passing on the shoulder is illegal.'
+  },
+  zh: { q: '什么情况下允许从右侧超车？', opts: ['当前方车辆正在或等待左转，且右侧有铺装车道时', '每当交通缓慢时', '仅在多车道高速公路上', '在加州从右侧超车始终违法'], exp: '以下情况可以从右侧超车：(1) 前方车辆正在左转，且右侧有足够的铺装路面可安全超车；(2) 在单行道或有两条及以上行车道宽度的道路上。从路肩超车是违法的。' },
+  zhTW: { q: '什麼情況下允許從右側超車？', opts: ['當前方車輛正在或等待左轉，且右側有鋪裝車道時', '每當交通緩慢時', '僅在多車道高速公路上', '在加州從右側超車始終違法'], exp: '以下情況可以從右側超車：(1) 前方車輛正在左轉，且右側有足夠的鋪裝路面可安全超車；(2) 在單行道或有兩條及以上行車道寬度的道路上。從路肩超車是違法的。' },
+  es: { q: '¿Cuándo se le permite pasar a otro vehículo por el lado derecho?', opts: ['Cuando el vehículo de adelante está girando o esperando girar a la izquierda, y hay un carril pavimentado a la derecha', 'Siempre que el tráfico sea lento', 'Solo en una autopista con múltiples carriles', 'Adelantar por la derecha siempre es ilegal en California'], exp: 'Puede adelantar por la derecha cuando: (1) el vehículo de adelante está girando a la izquierda y hay suficiente carretera pavimentada para adelantar con seguridad, o (2) en una calle de un sentido o carretera lo suficientemente ancha para dos o más carriles.' },
+  ans: 0
+},
+
+{
+  id: 38, cat: 'laws',
+  en: {
+    q: 'What is the law regarding texting while driving in California?',
+    opts: ['Texting while driving is illegal for all drivers at all times', 'Texting is allowed at red lights and stop signs', 'Only prohibited on freeways', 'Allowed if using voice-to-text'],
+    exp: 'Texting while driving is illegal in California for all drivers, at all times — even when stopped at a red light or stop sign. The vehicle must be pulled safely off the road and parked to use any handheld device for texting.'
+  },
+  zh: { q: '加州关于驾驶时发短信的法律规定是什么？', opts: ['任何时候驾驶时发短信均为违法，适用于所有驾驶员', '在红灯和停车标志处允许发短信', '仅在高速公路上禁止', '使用语音转文字时允许'], exp: '在加州，所有驾驶员在任何时候驾驶时发短信均为违法——即使在红灯或停车标志处停车时也不行。必须将车辆安全停在路边并熄火，才能使用手持设备发短信。' },
+  zhTW: { q: '加州關於駕駛時發短信的法律規定是什麼？', opts: ['任何時候駕駛時發短信均為違法，適用於所有駕駛員', '在紅燈和停車標誌處允許發短信', '僅在高速公路上禁止', '使用語音轉文字時允許'], exp: '在加州，所有駕駛員在任何時候駕駛時發短信均為違法——即使在紅燈或停車標誌處停車時也不行。必須將車輛安全停在路邊並熄火，才能使用手持設備發短信。' },
+  es: { q: '¿Cuál es la ley sobre enviar mensajes de texto mientras conduce en California?', opts: ['Enviar mensajes de texto mientras conduce es ilegal para todos los conductores en todo momento', 'Se permite enviar mensajes en semáforos en rojo y señales de alto', 'Solo está prohibido en autopistas', 'Permitido si usa voz a texto'], exp: 'Enviar mensajes de texto mientras conduce es ilegal en California para todos los conductores, en todo momento — incluso cuando está detenido en un semáforo en rojo o señal de alto. El vehículo debe estar estacionado de forma segura fuera de la carretera para usar cualquier dispositivo.' },
+  ans: 0
+},
+
+{
+  id: 39, cat: 'laws',
+  en: {
+    q: 'When can you legally make a U-turn in California?',
+    opts: ['At intersections where it can be done safely and no sign prohibits it', 'Anywhere on a public road if no cars are present', 'Only in residential areas', 'U-turns are always illegal on public roads'],
+    exp: 'U-turns are legal where: (1) no sign prohibits them, (2) you have a clear view of 200 feet in each direction, (3) it is not at a railroad crossing, fire station entrance, or where a police officer is directing traffic, and (4) it can be done safely.'
+  },
+  zh: { q: '在加州什么情况下可以合法掉头？', opts: ['在没有禁止标志且可以安全完成的路口', '公共道路上任何没有车辆的地方', '仅在住宅区', '公共道路上掉头始终违法'], exp: '以下情况掉头合法：(1) 没有禁止掉头的标志；(2) 向每个方向均有200英尺的清晰视野；(3) 不在铁路道口、消防站入口处或交警指挥交通的路口；(4) 可以安全完成。' },
+  zhTW: { q: '在加州什麼情況下可以合法掉頭？', opts: ['在沒有禁止標誌且可以安全完成的路口', '公共道路上任何沒有車輛的地方', '僅在住宅區', '公共道路上掉頭始終違法'], exp: '以下情況掉頭合法：(1) 沒有禁止掉頭的標誌；(2) 向每個方向均有200英尺的清晰視野；(3) 不在鐵路道口、消防站入口處或交警指揮交通的路口；(4) 可以安全完成。' },
+  es: { q: '¿Cuándo puede hacer legalmente un giro en U en California?', opts: ['En intersecciones donde se puede hacer de forma segura y ninguna señal lo prohíbe', 'En cualquier lugar de una carretera pública si no hay autos', 'Solo en áreas residenciales', 'Los giros en U siempre son ilegales en carreteras públicas'], exp: 'Los giros en U son legales donde: (1) ninguna señal los prohíbe, (2) tiene una vista despejada de 200 pies en cada dirección, (3) no es en un cruce ferroviario, entrada de estación de bomberos, o donde un oficial dirige el tráfico, y (4) se puede hacer de forma segura.' },
+  ans: 0
+},
+
+{
+  id: 40, cat: 'laws',
+  en: {
+    q: 'What should you do when you hear or see an emergency vehicle with lights and sirens approaching?',
+    opts: ['Pull to the right edge of the road and stop until the emergency vehicle passes', 'Speed up to get out of its way quickly', 'Stop immediately in your current lane', 'Continue driving — emergency vehicles will go around you'],
+    exp: 'When an emergency vehicle with lights or siren is approaching, you must immediately pull to the right edge of the road (or curb), stop, and remain stopped until it passes. This law applies whether the vehicle is approaching from ahead or behind.'
+  },
+  zh: { q: '当您听到或看到带灯光和警报声的紧急车辆驶来时，您应该怎么做？', opts: ['靠右停在路边，等紧急车辆通过后再继续行驶', '加速给它让路', '立即在当前车道停车', '继续行驶——紧急车辆会绕过您'], exp: '当带有灯光或警报的紧急车辆驶来时，您必须立即靠右停在路边（或路缘），停车，并保持停车状态直到其通过。无论紧急车辆从前方还是后方驶来，此法律均适用。' },
+  zhTW: { q: '當您聽到或看到帶燈光和警報聲的緊急車輛駛來時，您應該怎麼做？', opts: ['靠右停在路邊，等緊急車輛通過後再繼續行駛', '加速給它讓路', '立即在當前車道停車', '繼續行駛——緊急車輛會繞過您'], exp: '當帶有燈光或警報的緊急車輛駛來時，您必須立即靠右停在路邊（或路緣），停車，並保持停車狀態直到其通過。無論緊急車輛從前方還是後方駛來，此法律均適用。' },
+  es: { q: '¿Qué debe hacer cuando escucha o ve un vehículo de emergencia con luces y sirenas aproximándose?', opts: ['Orillarse al borde derecho de la carretera y detenerse hasta que el vehículo de emergencia pase', 'Acelerar para quitarse del camino rápidamente', 'Detenerse inmediatamente en su carril actual', 'Continuar conduciendo — los vehículos de emergencia lo rodearán'], exp: 'Cuando un vehículo de emergencia con luces o sirena se aproxima, debe inmediatamente orillarse al borde derecho de la carretera (o la acera), detenerse y permanecer detenido hasta que pase. Esta ley aplica ya sea que el vehículo venga de adelante o de atrás.' },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
