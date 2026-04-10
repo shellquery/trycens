@@ -2578,4 +2578,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 22 · Vehicle Safety & Equipment · Q211–220 ────────────────────────
+{
+  id:211, cat:'safety',
+  en:{q:'When must you turn on your headlights in California?',opts:['Only at night when it is completely dark','From 30 minutes after sunset to 30 minutes before sunrise, and whenever visibility is under 1,000 feet','Only in heavy rain or fog','Whenever the wipers are on'],exp:'California law requires headlights from 30 minutes after sunset to 30 minutes before sunrise. You must also use headlights any time visibility is less than 1,000 feet due to weather, smoke, or other conditions. Additionally, when you use your windshield wipers in rain, you must also use your headlights.'},
+  zh:{q:'在加州什么时候必须打开车头灯？',opts:['只有在完全黑暗的夜间','从日落后30分钟到日出前30分钟，以及在能见度低于1,000英尺时','只有在大雨或浓雾中','无论何时使用雨刷'],exp:'加州法律要求从日落后30分钟到日出前30分钟使用车头灯。当由于天气、烟雾或其他条件导致能见度低于1,000英尺时，您也必须使用车头灯。此外，当您在雨中使用挡风玻璃雨刷时，您也必须使用车头灯。'},
+  zhTW:{q:'在加州什麼時候必須打開車頭燈？',opts:['只有在完全黑暗的夜間','從日落後30分鐘到日出前30分鐘，以及在能見度低於1,000英尺時','只有在大雨或濃霧中','無論何時使用雨刷'],exp:'加州法律要求從日落後30分鐘到日出前30分鐘使用車頭燈。當由於天氣、煙霧或其他條件導致能見度低於1,000英尺時，您也必須使用車頭燈。此外，當您在雨中使用擋風玻璃雨刷時，您也必須使用車頭燈。'},
+  es:{q:'¿Cuándo debe encender sus faros en California?',opts:['Solo de noche cuando está completamente oscuro','Desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer, y cuando la visibilidad es inferior a 1,000 pies','Solo en lluvia intensa o niebla','Cada vez que use los limpiaparabrisas'],exp:'La ley de California requiere faros desde 30 minutos después del atardecer hasta 30 minutos antes del amanecer. También debe usar faros cuando la visibilidad sea inferior a 1,000 pies debido al clima, humo u otras condiciones. Además, cuando use sus limpiaparabrisas en la lluvia, también debe usar sus faros.'},
+  ans:1
+},
+{
+  id:212, cat:'safety',
+  en:{q:'When should you use your high-beam headlights?',opts:['Always at night for maximum visibility','On open roads with no oncoming traffic or vehicles ahead within 500 feet','Only in fog or rain','Only on unlit country roads'],exp:'Use high beams on open roads where there is no oncoming traffic or vehicles ahead within 500 feet. Dim your headlights to low beams when within 500 feet of an oncoming vehicle (approaching) or 300 feet behind another vehicle (following). High beams can blind other drivers.'},
+  zh:{q:'什么时候应该使用远光灯？',opts:['夜间始终使用以获得最大能见度','在500英尺内没有对向车辆或前方车辆的开放道路上','只在雾天或雨天','只在没有灯光的乡村道路上'],exp:'在500英尺内没有对向车辆或前方车辆的开放道路上使用远光灯。当距对向车辆500英尺以内（接近）或在另一辆车300英尺后方（跟随）时，将车头灯调暗为近光灯。远光灯可能使其他驾驶者致盲。'},
+  zhTW:{q:'什麼時候應該使用遠光燈？',opts:['夜間始終使用以獲得最大能見度','在500英尺內沒有對向車輛或前方車輛的開放道路上','只在霧天或雨天','只在沒有燈光的鄉村道路上'],exp:'在500英尺內沒有對向車輛或前方車輛的開放道路上使用遠光燈。當距對向車輛500英尺以內（接近）或在另一輛車300英尺後方（跟隨）時，將車頭燈調暗為近光燈。遠光燈可能使其他駕駛者致盲。'},
+  es:{q:'¿Cuándo debe usar sus faros de luz alta?',opts:['Siempre de noche para máxima visibilidad','En carreteras abiertas sin tráfico en sentido contrario ni vehículos adelante dentro de 500 pies','Solo en niebla o lluvia','Solo en carreteras rurales sin iluminación'],exp:'Use luces altas en carreteras abiertas donde no haya tráfico en sentido contrario ni vehículos adelante dentro de 500 pies. Reduzca sus faros a luces bajas cuando esté a 500 pies de un vehículo que se aproxima (encontrando) o a 300 pies detrás de otro vehículo (siguiendo). Las luces altas pueden cegar a otros conductores.'},
+  ans:1
+},
+{
+  id:213, cat:'safety',
+  en:{q:'What does California law require regarding window tinting?',opts:['No restrictions on any windows','Front side windows must allow at least 70% of light to pass through','All windows may be completely blacked out','Only the rear window can be tinted'],exp:'California law requires that front side windows must allow at least 70% of visible light to pass through (70% VLT). The windshield may have a 4-inch tint strip at the top. Rear windows can have any level of tinting if the vehicle has dual side mirrors. Violations can result in fix-it tickets.'},
+  zh:{q:'加州法律对车窗贴膜有什么要求？',opts:['对任何车窗没有限制','前侧车窗必须至少允许70%的光线通过','所有车窗可以完全变黑','只有后窗可以贴膜'],exp:'加州法律要求前侧车窗必须至少允许70%的可见光通过（70% VLT）。挡风玻璃顶部可以有4英寸的贴膜条。如果车辆有双侧后视镜，后窗可以有任意程度的贴膜。违规可能导致整改传票。'},
+  zhTW:{q:'加州法律對車窗貼膜有什麼要求？',opts:['對任何車窗沒有限制','前側車窗必須至少允許70%的光線通過','所有車窗可以完全變黑','只有後窗可以貼膜'],exp:'加州法律要求前側車窗必須至少允許70%的可見光通過（70% VLT）。擋風玻璃頂部可以有4英寸的貼膜條。如果車輛有雙側後視鏡，後窗可以有任意程度的貼膜。違規可能導致整改傳票。'},
+  es:{q:'¿Qué requiere la ley de California con respecto al tintado de ventanas?',opts:['Sin restricciones en ninguna ventana','Las ventanas laterales delanteras deben permitir al menos el 70% de la luz pasar','Todas las ventanas pueden estar completamente ennegrecidas','Solo la ventana trasera puede tintarse'],exp:'La ley de California requiere que las ventanas laterales delanteras permitan al menos el 70% de la luz visible pasar (70% VLT). El parabrisas puede tener una tira de tinte de 4 pulgadas en la parte superior. Las ventanas traseras pueden tener cualquier nivel de tintado si el vehículo tiene espejos laterales duales. Las violaciones pueden resultar en multas de reparación.'},
+  ans:1
+},
+{
+  id:214, cat:'safety',
+  en:{q:'What is the legal tread depth minimum for tires in California?',opts:['1/32 inch','2/32 inch (1/16 inch)','4/32 inch','6/32 inch'],exp:'California requires a minimum tire tread depth of 1/32 inch for the rear tires and 2/32 inch for the front tires. However, safety experts recommend replacing tires when tread depth reaches 4/32 inch, especially in wet conditions. Worn tires dramatically increase stopping distances and risk of hydroplaning.'},
+  zh:{q:'在加州轮胎的最小法定花纹深度是多少？',opts:['1/32英寸','2/32英寸（1/16英寸）','4/32英寸','6/32英寸'],exp:'加州要求后轮最小轮胎花纹深度为1/32英寸，前轮为2/32英寸。但安全专家建议当花纹深度达到4/32英寸时更换轮胎，尤其是在潮湿条件下。磨损的轮胎会大幅增加制动距离和水漂风险。'},
+  zhTW:{q:'在加州輪胎的最小法定花紋深度是多少？',opts:['1/32英寸','2/32英寸（1/16英寸）','4/32英寸','6/32英寸'],exp:'加州要求後輪最小輪胎花紋深度為1/32英寸，前輪為2/32英寸。但安全專家建議當花紋深度達到4/32英寸時更換輪胎，尤其是在潮濕條件下。磨損的輪胎會大幅增加制動距離和水漂風險。'},
+  es:{q:'¿Cuál es la profundidad mínima legal de la banda de rodadura de los neumáticos en California?',opts:['1/32 de pulgada','2/32 de pulgada (1/16 de pulgada)','4/32 de pulgada','6/32 de pulgada'],exp:'California requiere una profundidad mínima de banda de rodadura de 1/32 de pulgada para los neumáticos traseros y 2/32 de pulgada para los neumáticos delanteros. Sin embargo, los expertos en seguridad recomiendan reemplazar los neumáticos cuando la profundidad de la banda llegue a 4/32 de pulgada, especialmente en condiciones húmedas. Los neumáticos desgastados aumentan dramáticamente las distancias de frenado y el riesgo de hidroplaneo.'},
+  ans:1
+},
+{
+  id:215, cat:'safety',
+  en:{q:'When is it illegal to use your horn in California?',opts:['When passing another vehicle','When a pedestrian is blocking traffic','As a sound device for playing music or as a show of anger','When warning of brake failure'],exp:'In California, horns are only legal for use when reasonably necessary to ensure safe operation — to warn pedestrians or other drivers of danger. Using your horn to express frustration, play music, or as a general greeting is illegal. Excessive or unnecessary horn use can result in a citation.'},
+  zh:{q:'在加州什么情况下使用喇叭是非法的？',opts:['在超越另一辆车时','当行人阻塞交通时','作为播放音乐的声音设备或表达愤怒','当警告刹车失灵时'],exp:'在加州，喇叭只有在为确保安全驾驶合理必要时才合法使用——用于警告行人或其他驾驶者存在危险。使用喇叭表达沮丧、播放音乐或作为一般问候是非法的。过度或不必要地使用喇叭可能导致罚款。'},
+  zhTW:{q:'在加州什麼情況下使用喇叭是非法的？',opts:['在超越另一輛車時','當行人阻塞交通時','作為播放音樂的聲音設備或表達憤怒','當警告剎車失靈時'],exp:'在加州，喇叭只有在為確保安全駕駛合理必要時才合法使用——用於警告行人或其他駕駛者存在危險。使用喇叭表達沮喪、播放音樂或作為一般問候是非法的。過度或不必要地使用喇叭可能導致罰款。'},
+  es:{q:'¿Cuándo es ilegal usar su bocina en California?',opts:['Al adelantar a otro vehículo','Cuando un peatón bloquea el tráfico','Como dispositivo de sonido para reproducir música o como muestra de enojo','Al advertir de falla de frenos'],exp:'En California, las bocinas solo son legales para usarse cuando sea razonablemente necesario para garantizar la operación segura — para advertir a peatones u otros conductores del peligro. Usar su bocina para expresar frustración, reproducir música o como saludo general es ilegal. El uso excesivo o innecesario de bocina puede resultar en una citación.'},
+  ans:2
+},
+{
+  id:216, cat:'safety',
+  en:{q:'What is the purpose of ABS (Anti-lock Braking System)?',opts:['It automatically applies brakes when you exceed the speed limit','It prevents wheels from locking during hard braking, allowing you to steer','It increases the vehicle\'s maximum braking force by 50%','It monitors tire pressure and adjusts braking automatically'],exp:'ABS prevents wheel lock-up during emergency or hard braking, which allows you to maintain steering control while braking. Without ABS, locked wheels cause skidding and loss of steering. With ABS, you should apply firm, continuous brake pressure — do not pump the brakes, which is a technique for non-ABS vehicles.'},
+  zh:{q:'ABS（防抱死制动系统）的目的是什么？',opts:['当您超过速度限制时自动刹车','在紧急刹车时防止车轮锁死，允许您转向','将车辆最大制动力增加50%','监测轮胎压力并自动调节制动'],exp:'ABS在紧急或重刹车时防止车轮锁死，使您在刹车时保持转向控制。没有ABS时，锁死的车轮会导致打滑和失去方向控制。有ABS时，您应施加持续稳定的刹车压力——不要点刹，那是没有ABS车辆的技术。'},
+  zhTW:{q:'ABS（防抱死制動系統）的目的是什麼？',opts:['當您超過速度限制時自動剎車','在緊急剎車時防止車輪鎖死，允許您轉向','將車輛最大制動力增加50%','監測輪胎壓力並自動調節制動'],exp:'ABS在緊急或重剎車時防止車輪鎖死，使您在剎車時保持轉向控制。沒有ABS時，鎖死的車輪會導致打滑和失去方向控制。有ABS時，您應施加持續穩定的剎車壓力——不要點剎，那是沒有ABS車輛的技術。'},
+  es:{q:'¿Cuál es el propósito del ABS (Sistema de Frenos Antibloqueo)?',opts:['Aplica los frenos automáticamente cuando excede el límite de velocidad','Previene que las ruedas se bloqueen durante el frenado fuerte, permitiéndole dirigir','Aumenta la fuerza máxima de frenado del vehículo en un 50%','Monitorea la presión de los neumáticos y ajusta el frenado automáticamente'],exp:'El ABS previene el bloqueo de ruedas durante el frenado de emergencia o fuerte, lo que le permite mantener el control de dirección mientras frena. Sin ABS, las ruedas bloqueadas causan patinaje y pérdida de dirección. Con ABS, debe aplicar presión de freno firme y continua — no bombee los frenos, que es una técnica para vehículos sin ABS.'},
+  ans:1
+},
+{
+  id:217, cat:'safety',
+  en:{q:'How often should you check your tire pressure?',opts:['Once a year','Before every long trip and at least monthly','Only when a tire looks flat','Only when a warning light appears'],exp:'Tire pressure should be checked at least once a month and before long trips. Check pressure when tires are "cold" (not driven for 3+ hours) for accurate readings. Proper pressure (found in owner\'s manual or door sticker, not on the tire sidewall) improves fuel economy, handling, and prevents blowouts.'},
+  zh:{q:'您应该多频繁检查轮胎气压？',opts:['每年一次','每次长途旅行前及至少每月一次','只有当轮胎看起来瘪时','只有当警告灯出现时'],exp:'轮胎气压应至少每月检查一次，长途旅行前也要检查。在轮胎"冷"时（未行驶超过3小时）检查气压以获得准确读数。适当的气压（在车主手册或车门贴纸中找到，不在轮胎侧面）可改善燃油经济性、操控性并防止爆胎。'},
+  zhTW:{q:'您應該多頻繁檢查輪胎氣壓？',opts:['每年一次','每次長途旅行前及至少每月一次','只有當輪胎看起來癟時','只有當警告燈出現時'],exp:'輪胎氣壓應至少每月檢查一次，長途旅行前也要檢查。在輪胎「冷」時（未行駛超過3小時）檢查氣壓以獲得準確讀數。適當的氣壓（在車主手冊或車門貼紙中找到，不在輪胎側面）可改善燃油經濟性、操控性並防止爆胎。'},
+  es:{q:'¿Con qué frecuencia debe revisar la presión de sus neumáticos?',opts:['Una vez al año','Antes de cada viaje largo y al menos mensualmente','Solo cuando un neumático parece desinflado','Solo cuando aparece una luz de advertencia'],exp:'La presión de los neumáticos debe revisarse al menos una vez al mes y antes de viajes largos. Revise la presión cuando los neumáticos estén "fríos" (no conducidos por 3+ horas) para lecturas precisas. La presión adecuada (encontrada en el manual del propietario o la pegatina de la puerta, no en la pared lateral del neumático) mejora la economía de combustible, el manejo y previene los reventones.'},
+  ans:1
+},
+{
+  id:218, cat:'safety',
+  en:{q:'What should you do before backing up your vehicle?',opts:['Sound your horn once and back up slowly','Check all mirrors and look behind by turning your head — then back up slowly','Only check rearview mirror and back up','Back up quickly to avoid keeping other drivers waiting'],exp:'Before backing up, check all mirrors AND physically turn your head to look behind the vehicle. Mirrors have blind spots and cannot show everything behind you. Back up slowly. Children and small obstacles can be invisible in mirrors. Modern backup cameras help but do not replace physical checks.'},
+  zh:{q:'倒车前您应该怎么做？',opts:['鸣一声喇叭然后慢慢倒车','检查所有后视镜并转头向后看——然后慢慢倒车','只检查倒后镜然后倒车','快速倒车以避免让其他驾驶者等待'],exp:'倒车前，检查所有后视镜并实际转头向车辆后方看。后视镜有盲点，无法显示您身后的一切。慢慢倒车。儿童和小障碍物在后视镜中可能不可见。现代倒车摄像头有帮助但不能替代实体检查。'},
+  zhTW:{q:'倒車前您應該怎麼做？',opts:['鳴一聲喇叭然後慢慢倒車','檢查所有後視鏡並轉頭向後看——然後慢慢倒車','只檢查倒後鏡然後倒車','快速倒車以避免讓其他駕駛者等待'],exp:'倒車前，檢查所有後視鏡並實際轉頭向車輛後方看。後視鏡有盲點，無法顯示您身後的一切。慢慢倒車。兒童和小障礙物在後視鏡中可能不可見。現代倒車攝像頭有幫助但不能替代實體檢查。'},
+  es:{q:'¿Qué debe hacer antes de dar marcha atrás con su vehículo?',opts:['Toque la bocina una vez y dé marcha atrás lentamente','Revise todos los espejos y mire hacia atrás girando su cabeza — luego dé marcha atrás lentamente','Solo revise el espejo retrovisor y dé marcha atrás','Dé marcha atrás rápidamente para evitar hacer esperar a otros conductores'],exp:'Antes de dar marcha atrás, revise todos los espejos Y físicamente gire su cabeza para mirar detrás del vehículo. Los espejos tienen puntos ciegos y no pueden mostrar todo lo que hay detrás de usted. Dé marcha atrás lentamente. Los niños y pequeños obstáculos pueden ser invisibles en los espejos. Las cámaras de visión trasera modernas ayudan pero no reemplazan las revisiones físicas.'},
+  ans:1
+},
+{
+  id:219, cat:'safety',
+  en:{q:'What should you do if your accelerator pedal becomes stuck while driving?',opts:['Turn off the ignition immediately','Shift to neutral, apply brakes firmly, pull to safety, and turn off engine','Press the brake pedal as hard as possible while leaving gear in drive','Pump the accelerator to free it'],exp:'If your accelerator sticks: 1) Shift to neutral — this disconnects engine power. 2) Apply brakes firmly and steer to safety. 3) Turn off the ignition (don\'t lock the steering). 4) Do not turn off the ignition while moving in drive — use neutral first. Modern vehicles also have brake override systems.'},
+  zh:{q:'驾驶时油门踏板卡住，您应该怎么做？',opts:['立即关闭点火','换入空档，大力制动，靠边停车，关闭发动机','在保持前进档的同时尽力踩刹车','泵踩油门使其松动'],exp:'如果油门卡住：1) 换入空档——这断开发动机动力。2) 大力制动并驾车到安全位置。3) 关闭点火（不要锁定方向盘）。4) 在前进档行驶时不要关闭点火——先换入空档。现代车辆还有制动优先系统。'},
+  zhTW:{q:'駕駛時油門踏板卡住，您應該怎麼做？',opts:['立即關閉點火','換入空擋，大力制動，靠邊停車，關閉發動機','在保持前進擋的同時盡力踩剎車','泵踩油門使其鬆動'],exp:'如果油門卡住：1) 換入空擋——這斷開發動機動力。2) 大力制動並駕車到安全位置。3) 關閉點火（不要鎖定方向盤）。4) 在前進擋行駛時不要關閉點火——先換入空擋。現代車輛還有制動優先系統。'},
+  es:{q:'¿Qué debe hacer si el pedal del acelerador se queda atascado mientras conduce?',opts:['Apague el encendido inmediatamente','Cambie a neutral, aplique los frenos firmemente, diríjase a un lugar seguro y apague el motor','Presione el pedal de freno lo más fuerte posible mientras deja la marcha en conducción','Bombee el acelerador para liberarlo'],exp:'Si su acelerador se atasca: 1) Cambie a neutral — esto desconecta la potencia del motor. 2) Aplique los frenos firmemente y diríjase a un lugar seguro. 3) Apague el encendido (no bloquee la dirección). 4) No apague el encendido mientras se mueve en conducción — use neutral primero. Los vehículos modernos también tienen sistemas de anulación de frenos.'},
+  ans:1
+},
+{
+  id:220, cat:'safety',
+  en:{q:'What is the safest way to adjust your mirrors before driving?',opts:['Adjust them while driving to fine-tune your view','Adjust all mirrors while parked — side mirrors should show just a sliver of your car and the lanes behind','Point side mirrors downward to see the ground next to your car','Keep mirrors in the position set by the last driver'],exp:'Adjust mirrors before driving. For side mirrors, tilt them outward enough that you can barely see the side of your own car — this maximizes your view of adjacent lanes and reduces blind spots. The rearview mirror should frame the entire rear window. Then check for blind spots by physically turning your head.'},
+  zh:{q:'驾驶前调整后视镜的最安全方式是什么？',opts:['在行驶中调整以微调视野','在停车时调整所有后视镜——侧镜应仅能看到您的车身极小部分和后方车道','将侧镜向下倾斜以看到车旁的地面','保持上一位驾驶者设置的镜子位置'],exp:'在驾驶前调整后视镜。对于侧镜，向外倾斜到几乎看不到自己车身边缘——这最大化了您对相邻车道的视野并减少盲点。倒后镜应框住整个后窗。然后通过实际转头检查盲点。'},
+  zhTW:{q:'駕駛前調整後視鏡的最安全方式是什麼？',opts:['在行駛中調整以微調視野','在停車時調整所有後視鏡——側鏡應僅能看到您的車身極小部分和後方車道','將側鏡向下傾斜以看到車旁的地面','保持上一位駕駛者設置的鏡子位置'],exp:'在駕駛前調整後視鏡。對於側鏡，向外傾斜到幾乎看不到自己車身邊緣——這最大化了您對相鄰車道的視野並減少盲點。倒後鏡應框住整個後窗。然後通過實際轉頭檢查盲點。'},
+  es:{q:'¿Cuál es la forma más segura de ajustar sus espejos antes de conducir?',opts:['Ajústelos mientras conduce para afinar su vista','Ajuste todos los espejos mientras está estacionado — los espejos laterales deben mostrar solo una pizca de su auto y los carriles de atrás','Apunte los espejos laterales hacia abajo para ver el suelo junto a su auto','Mantenga los espejos en la posición establecida por el último conductor'],exp:'Ajuste los espejos antes de conducir. Para los espejos laterales, inclínelos hacia afuera lo suficiente para que apenas pueda ver el lado de su propio auto — esto maximiza su vista de los carriles adyacentes y reduce los puntos ciegos. El espejo retrovisor debe enmarcar toda la ventana trasera. Luego revise los puntos ciegos girando físicamente su cabeza.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
