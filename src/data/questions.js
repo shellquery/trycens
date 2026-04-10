@@ -2332,4 +2332,86 @@ export const questions = [
   ans:1
 },
 
+// ── Batch 19 · Parking (Advanced) · Q181–190 ────────────────────────────────
+{
+  id:181, cat:'parking',
+  en:{q:'How far from a fire hydrant must you park in California?',opts:['10 feet','15 feet','20 feet','25 feet'],exp:'You must park at least 15 feet away from a fire hydrant in California. This distance is required on both sides of the hydrant to ensure fire fighters can access it quickly in an emergency. Parking closer than 15 feet is illegal even briefly.'},
+  zh:{q:'在加州必须距离消防栓多远才能停车？',opts:['10英尺','15英尺','20英尺','25英尺'],exp:'在加州，您必须在消防栓至少15英尺外停车。这个距离要求适用于消防栓两侧，以确保消防员在紧急情况下能快速访问。即使是短暂停车，距离15英尺以内也是非法的。'},
+  zhTW:{q:'在加州必須距離消防栓多遠才能停車？',opts:['10英尺','15英尺','20英尺','25英尺'],exp:'在加州，您必須在消防栓至少15英尺外停車。這個距離要求適用於消防栓兩側，以確保消防員在緊急情況下能快速訪問。即使是短暫停車，距離15英尺以內也是非法的。'},
+  es:{q:'¿A qué distancia de un hidrante de incendios debe estacionar en California?',opts:['10 pies','15 pies','20 pies','25 pies'],exp:'Debe estacionar al menos 15 pies de distancia de un hidrante de incendios en California. Esta distancia se requiere en ambos lados del hidrante para asegurar que los bomberos puedan acceder a él rápidamente en una emergencia. Estacionar a menos de 15 pies es ilegal incluso brevemente.'},
+  ans:1
+},
+{
+  id:182, cat:'parking',
+  en:{q:'How far from a crosswalk must you park at an intersection?',opts:['5 feet','10 feet','15 feet','20 feet'],exp:'You must not park within 20 feet of a crosswalk at an intersection. This keeps the area clear so drivers can see pedestrians who are about to cross, and so pedestrians can see approaching traffic. Parking closer can block sight lines and create dangerous conditions.'},
+  zh:{q:'在路口，您必须距离人行横道多远才能停车？',opts:['5英尺','10英尺','15英尺','20英尺'],exp:'在路口，您不得在人行横道20英尺以内停车。这是为了保持区域畅通，使驾驶者能看到即将过街的行人，行人也能看到靠近的车辆。停车过近会阻塞视线并造成危险情况。'},
+  zhTW:{q:'在路口，您必須距離人行橫道多遠才能停車？',opts:['5英尺','10英尺','15英尺','20英尺'],exp:'在路口，您不得在人行橫道20英尺以內停車。這是為了保持區域暢通，使駕駛者能看到即將過街的行人，行人也能看到靠近的車輛。停車過近會阻塞視線並造成危險情況。'},
+  es:{q:'¿A qué distancia de un cruce peatonal debe estacionar en una intersección?',opts:['5 pies','10 pies','15 pies','20 pies'],exp:'No debe estacionar dentro de 20 pies de un cruce peatonal en una intersección. Esto mantiene el área despejada para que los conductores puedan ver a los peatones que están a punto de cruzar, y para que los peatones puedan ver el tráfico que se aproxima. Estacionar más cerca puede bloquear las líneas de visión y crear condiciones peligrosas.'},
+  ans:3
+},
+{
+  id:183, cat:'parking',
+  en:{q:'What do yellow curb markings indicate?',opts:['No parking at any time','Loading zone — stop only for loading/unloading','Parking for disabled persons only','Parking for 30 minutes'],exp:'Yellow curb markings indicate a loading zone. You may stop only for loading or unloading of passengers or freight. The time limit may vary. In most areas, you cannot park and leave the vehicle — a driver must remain with the vehicle. Commercial vehicles may have longer time allowances.'},
+  zh:{q:'黄色路缘标志表示什么？',opts:['任何时候都不能停车','装卸区——仅限装卸停车','仅限残障人士停车','允许停车30分钟'],exp:'黄色路缘标志表示装卸区。您只能在装卸乘客或货物时停车。时间限制可能有所不同。在大多数地区，您不能停车离开车辆——驾驶者必须留在车辆旁边。商业车辆可能有更长的允许时间。'},
+  zhTW:{q:'黃色路緣標誌表示什麼？',opts:['任何時候都不能停車','裝卸區——僅限裝卸停車','僅限殘障人士停車','允許停車30分鐘'],exp:'黃色路緣標誌表示裝卸區。您只能在裝卸乘客或貨物時停車。時間限制可能有所不同。在大多數地區，您不能停車離開車輛——駕駛者必須留在車輛旁邊。商業車輛可能有更長的允許時間。'},
+  es:{q:'¿Qué indican las marcas de bordillo amarillas?',opts:['Sin estacionamiento en ningún momento','Zona de carga — detenga solo para cargar/descargar','Estacionamiento solo para personas discapacitadas','Estacionamiento por 30 minutos'],exp:'Las marcas de bordillo amarillas indican una zona de carga. Solo puede detenerse para cargar o descargar pasajeros o carga. El límite de tiempo puede variar. En la mayoría de las áreas, no puede estacionar y dejar el vehículo — un conductor debe permanecer con el vehículo. Los vehículos comerciales pueden tener permisos de tiempo más largos.'},
+  ans:1
+},
+{
+  id:184, cat:'parking',
+  en:{q:'What do red curb markings mean?',opts:['Fire lane — no stopping at any time','Loading zone for emergency vehicles only','Parking for 15 minutes only','No parking from 7am to 6pm'],exp:'Red curb markings mean absolutely no stopping, standing, or parking at any time. Red curbs typically mark fire lanes, bus stops, and other critical no-stop zones. They apply 24 hours a day, 7 days a week, regardless of whether there are signs.'},
+  zh:{q:'红色路缘标志意味着什么？',opts:['消防通道——任何时候都不能停靠','仅限紧急车辆的装卸区','仅限停车15分钟','早7点到下午6点禁止停车'],exp:'红色路缘标志意味着任何时候都绝对禁止停车、站立或停放。红色路缘通常标记消防通道、公交站和其他关键禁止停靠区域。它们全天24小时、每周7天都有效，无论是否有标志。'},
+  zhTW:{q:'紅色路緣標誌意味著什麼？',opts:['消防通道——任何時候都不能停靠','僅限緊急車輛的裝卸區','僅限停車15分鐘','早7點到下午6點禁止停車'],exp:'紅色路緣標誌意味著任何時候都絕對禁止停車、站立或停放。紅色路緣通常標記消防通道、公交站和其他關鍵禁止停靠區域。它們全天24小時、每週7天都有效，無論是否有標誌。'},
+  es:{q:'¿Qué significan las marcas de bordillo rojo?',opts:['Carril de incendios — sin detención en ningún momento','Zona de carga solo para vehículos de emergencia','Estacionamiento solo por 15 minutos','Sin estacionamiento de 7am a 6pm'],exp:'Las marcas de bordillo rojo significan absolutamente ninguna detención, parada o estacionamiento en ningún momento. Los bordillos rojos típicamente marcan carriles de incendios, paradas de autobús y otras zonas críticas de no detenerse. Aplican 24 horas al día, 7 días a la semana, independientemente de si hay señales.'},
+  ans:0
+},
+{
+  id:185, cat:'parking',
+  en:{q:'What do blue curb markings indicate?',opts:['Bus stop area','Police parking only','Parking reserved for disabled persons with a placard or plate','Permit parking only'],exp:'Blue curb markings indicate parking reserved for persons with disabilities who have a disabled person placard (DP) or disabled veteran (DV) license plate. You must display a valid placard or qualifying plate to park in these spaces. Parking illegally in a blue zone carries heavy fines.'},
+  zh:{q:'蓝色路缘标志表示什么？',opts:['公交站区域','仅限警察停车','为持有残障证或车牌的残障人士保留的停车位','仅限许可证停车'],exp:'蓝色路缘标志表示为持有残障人士标牌（DP）或残障退伍军人（DV）车牌的残障人士保留的停车位。您必须展示有效标牌或符合条件的车牌才能在这些位置停车。在蓝色区域违规停车面临高额罚款。'},
+  zhTW:{q:'藍色路緣標誌表示什麼？',opts:['公交站區域','僅限警察停車','為持有殘障證或車牌的殘障人士保留的停車位','僅限許可證停車'],exp:'藍色路緣標誌表示為持有殘障人士標牌（DP）或殘障退伍軍人（DV）車牌的殘障人士保留的停車位。您必須展示有效標牌或符合條件的車牌才能在這些位置停車。在藍色區域違規停車面臨高額罰款。'},
+  es:{q:'¿Qué indican las marcas de bordillo azul?',opts:['Área de parada de autobús','Estacionamiento solo para policías','Estacionamiento reservado para personas discapacitadas con placa o matrícula','Solo estacionamiento con permiso'],exp:'Las marcas de bordillo azul indican estacionamiento reservado para personas con discapacidades que tienen una placa de persona discapacitada (DP) o matrícula de veterano discapacitado (DV). Debe mostrar una placa válida o matrícula que califique para estacionar en estos espacios. Estacionar ilegalmente en una zona azul conlleva fuertes multas.'},
+  ans:2
+},
+{
+  id:186, cat:'parking',
+  en:{q:'How far from a stop sign must you park?',opts:['10 feet','20 feet','30 feet','50 feet'],exp:'You must not park within 30 feet of a stop sign (or traffic signal or yield sign) at an intersection. This distance is required to ensure drivers approaching the intersection can see the sign clearly and have time to respond. It also allows pedestrians and other drivers to see traffic.'},
+  zh:{q:'您必须距离停车标志多远才能停车？',opts:['10英尺','20英尺','30英尺','50英尺'],exp:'在路口，您不得在停车标志（或交通信号或让行标志）30英尺以内停车。这个距离是为了确保靠近路口的驾驶者能清楚看到标志并有时间反应。它也让行人和其他驾驶者能看到交通情况。'},
+  zhTW:{q:'您必須距離停車標誌多遠才能停車？',opts:['10英尺','20英尺','30英尺','50英尺'],exp:'在路口，您不得在停車標誌（或交通信號或讓行標誌）30英尺以內停車。這個距離是為了確保靠近路口的駕駛者能清楚看到標誌並有時間反應。它也讓行人和其他駕駛者能看到交通情況。'},
+  es:{q:'¿A qué distancia de una señal de stop debe estacionar?',opts:['10 pies','20 pies','30 pies','50 pies'],exp:'No debe estacionar dentro de 30 pies de una señal de stop (o semáforo o señal de ceder el paso) en una intersección. Esta distancia se requiere para asegurar que los conductores que se aproximan a la intersección puedan ver la señal claramente y tengan tiempo para responder. También permite a los peatones y otros conductores ver el tráfico.'},
+  ans:2
+},
+{
+  id:187, cat:'parking',
+  en:{q:'You park on a steep uphill grade without a curb. Which way do you turn your wheels?',opts:['Toward the right (toward the road edge)','To the left','Straight ahead','It does not matter'],exp:'When parking uphill WITHOUT a curb, turn your wheels toward the right (toward the edge of the road/shoulder). If the car rolls, it will roll off the road rather than into traffic. This is the opposite of parking uphill WITH a curb, where you turn wheels away from the curb.'},
+  zh:{q:'您在没有路缘的陡坡上坡处停车。您将车轮转向哪边？',opts:['向右（朝向路边缘）','向左','直行','无所谓'],exp:'在没有路缘的上坡停车时，将车轮转向右（朝向路面边缘/路肩）。如果车辆滑动，它将滚向路边而不是滚入交通中。这与在有路缘的上坡停车相反，有路缘时车轮偏离路缘。'},
+  zhTW:{q:'您在沒有路緣的陡坡上坡處停車。您將車輪轉向哪邊？',opts:['向右（朝向路邊緣）','向左','直行','無所謂'],exp:'在沒有路緣的上坡停車時，將車輪轉向右（朝向路面邊緣/路肩）。如果車輛滑動，它將滾向路邊而不是滾入交通中。這與在有路緣的上坡停車相反，有路緣時車輪偏離路緣。'},
+  es:{q:'Estaciona en una pendiente empinada cuesta arriba sin bordillo. ¿En qué dirección gira sus ruedas?',opts:['Hacia la derecha (hacia el borde de la carretera)','Hacia la izquierda','Recto hacia adelante','No importa'],exp:'Al estacionar cuesta arriba SIN bordillo, gire sus ruedas hacia la derecha (hacia el borde de la carretera/arcén). Si el auto rueda, rodará fuera de la carretera en lugar de hacia el tráfico. Esto es lo opuesto a estacionar cuesta arriba CON bordillo, donde gira las ruedas alejadas del bordillo.'},
+  ans:0
+},
+{
+  id:188, cat:'parking',
+  en:{q:'When is it legal to double-park in California?',opts:['When you are only staying for 5 minutes','When hazard lights are on','When picking up or dropping off passengers in a business district','Double-parking is never legal'],exp:'Double-parking (parking alongside an already-parked vehicle) is never legal in California. It blocks traffic flow, limits visibility, and creates dangerous conditions. Even if you are only stopping briefly, you must find a legal parking space or use a loading zone.'},
+  zh:{q:'在加州什么情况下双排停车是合法的？',opts:['只待5分钟时','开着危险警告灯时','在商业区接送乘客时','双排停车永远不合法'],exp:'双排停车（停靠在已停放车辆旁边）在加州永远不合法。它阻塞交通流、限制能见度并造成危险情况。即使您只是短暂停留，您也必须找到合法停车位或使用装卸区。'},
+  zhTW:{q:'在加州什麼情況下雙排停車是合法的？',opts:['只待5分鐘時','開著危險警告燈時','在商業區接送乘客時','雙排停車永遠不合法'],exp:'雙排停車（停靠在已停放車輛旁邊）在加州永遠不合法。它阻塞交通流、限制能見度並造成危險情況。即使您只是短暫停留，您也必須找到合法停車位或使用裝卸區。'},
+  es:{q:'¿Cuándo es legal el estacionamiento en doble fila en California?',opts:['Cuando solo se queda 5 minutos','Cuando las luces de emergencia están encendidas','Al recoger o dejar pasajeros en un distrito comercial','El estacionamiento en doble fila nunca es legal'],exp:'El estacionamiento en doble fila (estacionar junto a un vehículo ya estacionado) nunca es legal en California. Bloquea el flujo de tráfico, limita la visibilidad y crea condiciones peligrosas. Incluso si solo se detiene brevemente, debe encontrar un espacio de estacionamiento legal o usar una zona de carga.'},
+  ans:3
+},
+{
+  id:189, cat:'parking',
+  en:{q:'What does a white curb marking indicate?',opts:['No parking at any time','Passenger loading zone only — 5-minute limit','Reserved for electric vehicles','Bus stop only'],exp:'White curb markings indicate a passenger loading and unloading zone. You may stop only briefly (typically 5 minutes) to pick up or drop off passengers. The driver must stay with the vehicle. White curbs are common near airports, hotels, schools, and transit stations.'},
+  zh:{q:'白色路缘标志表示什么？',opts:['任何时候都不能停车','仅限乘客上下车区域——5分钟限制','为电动车保留','仅限公共汽车站'],exp:'白色路缘标志表示乘客上下车区域。您只能短暂停车（通常5分钟）以接送乘客。驾驶者必须留在车辆旁边。白色路缘常见于机场、酒店、学校和公共交通站附近。'},
+  zhTW:{q:'白色路緣標誌表示什麼？',opts:['任何時候都不能停車','僅限乘客上下車區域——5分鐘限制','為電動車保留','僅限公共汽車站'],exp:'白色路緣標誌表示乘客上下車區域。您只能短暫停車（通常5分鐘）以接送乘客。駕駛者必須留在車輛旁邊。白色路緣常見於機場、酒店、學校和公共交通站附近。'},
+  es:{q:'¿Qué indica una marca de bordillo blanco?',opts:['Sin estacionamiento en ningún momento','Zona de carga de pasajeros solo — límite de 5 minutos','Reservado para vehículos eléctricos','Solo parada de autobús'],exp:'Las marcas de bordillo blanco indican una zona de carga y descarga de pasajeros. Solo puede detenerse brevemente (típicamente 5 minutos) para recoger o dejar pasajeros. El conductor debe permanecer con el vehículo. Los bordillos blancos son comunes cerca de aeropuertos, hoteles, escuelas y estaciones de tránsito.'},
+  ans:1
+},
+{
+  id:190, cat:'parking',
+  en:{q:'How far from a railroad crossing must you park?',opts:['7½ feet','15 feet','50 feet','100 feet'],exp:'You must not park within 7½ feet of the nearest rail on a railroad track. This distance ensures that your car does not interfere with the safe passage of trains. Always park well away from railroad crossings and never block the tracks.'},
+  zh:{q:'您必须距离铁路道口多远才能停车？',opts:['7.5英尺','15英尺','50英尺','100英尺'],exp:'您不得在铁路轨道最近轨道的7.5英尺以内停车。这个距离确保您的车不会干扰火车安全通过。始终在远离铁路道口处停车，切勿阻塞轨道。'},
+  zhTW:{q:'您必須距離鐵路道口多遠才能停車？',opts:['7.5英尺','15英尺','50英尺','100英尺'],exp:'您不得在鐵路軌道最近軌道的7.5英尺以內停車。這個距離確保您的車不會干擾火車安全通過。始終在遠離鐵路道口處停車，切勿阻塞軌道。'},
+  es:{q:'¿A qué distancia de un cruce ferroviario debe estacionar?',opts:['7½ pies','15 pies','50 pies','100 pies'],exp:'No debe estacionar dentro de 7½ pies del riel más cercano en una vía ferroviaria. Esta distancia asegura que su auto no interfiera con el paso seguro de los trenes. Siempre estacione bien alejado de los cruces ferroviarios y nunca bloquee las vías.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
