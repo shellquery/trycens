@@ -1589,4 +1589,87 @@ export const questions = [
   ans: 0
 },
 
+
+// ── Batch 10 · DUI & Drug Laws · Q91–100 ──────────────────────
+{
+  id:91,cat:'dui',
+  en:{q:'What is the legal blood alcohol concentration (BAC) limit for drivers 21 and older in California?',opts:['0.08%','0.05%','0.10%','0.04%'],exp:'In California, it is illegal to drive with a BAC of 0.08% or higher for drivers 21 and older. At 0.08%, driving ability is significantly impaired. However, you can be cited for DUI at lower BAC levels if your driving is impaired.'},
+  zh:{q:'在加州，21岁及以上驾驶员的合法血液酒精浓度（BAC）上限是多少？',opts:['0.08%','0.05%','0.10%','0.04%'],exp:'在加州，21岁及以上的驾驶员血液酒精浓度达到或超过0.08%即为违法驾驶。在0.08%时，驾驶能力已严重受损。但如果驾驶行为受到损害，即使低于此值也可能被认定为酒后驾车。'},
+  zhTW:{q:'在加州，21歲及以上駕駛員的合法血液酒精濃度（BAC）上限是多少？',opts:['0.08%','0.05%','0.10%','0.04%'],exp:'在加州，21歲及以上的駕駛員血液酒精濃度達到或超過0.08%即為違法駕駛。在0.08%時，駕駛能力已嚴重受損。但如果駕駛行為受到損害，即使低於此值也可能被認定為酒後駕車。'},
+  es:{q:'¿Cuál es el límite legal de concentración de alcohol en sangre (BAC) para conductores de 21 años o más en California?',opts:['0.08%','0.05%','0.10%','0.04%'],exp:'En California, es ilegal conducir con un BAC de 0.08% o más para conductores de 21 años o más. Con 0.08%, la capacidad de conducción está significativamente deteriorada. Sin embargo, puede ser citado por DUI con niveles de BAC más bajos si su conducción está deteriorada.'},
+  ans:0
+},
+{
+  id:92,cat:'dui',
+  en:{q:'What BAC limit applies to drivers under 21 years old in California (Zero Tolerance Law)?',opts:['0.01%','0.02%','0.05%','0.08%'],exp:'California\'s Zero Tolerance Law makes it illegal for anyone under 21 to drive with a BAC of 0.01% or higher. This is essentially zero — even one drink can put a minor over the limit. Violation results in a 1-year license suspension.'},
+  zh:{q:'加州对21岁以下驾驶员适用什么血液酒精浓度限制（零容忍法律）？',opts:['0.01%','0.02%','0.05%','0.08%'],exp:'加州零容忍法律规定，21岁以下人员血液酒精浓度达到或超过0.01%即为违法驾驶。这实际上是零——即使只喝一杯也可能超过限制。违规将导致1年驾照暂停。'},
+  zhTW:{q:'加州對21歲以下駕駛員適用什麼血液酒精濃度限制（零容忍法律）？',opts:['0.01%','0.02%','0.05%','0.08%'],exp:'加州零容忍法律規定，21歲以下人員血液酒精濃度達到或超過0.01%即為違法駕駛。這實際上是零——即使只喝一杯也可能超過限制。違規將導致1年駕照暫停。'},
+  es:{q:'¿Qué límite de BAC aplica a conductores menores de 21 años en California (Ley de Tolerancia Cero)?',opts:['0.01%','0.02%','0.05%','0.08%'],exp:'La Ley de Tolerancia Cero de California hace ilegal que cualquier persona menor de 21 años conduzca con un BAC de 0.01% o más. Esto es esencialmente cero — incluso una bebida puede superar el límite. La violación resulta en suspensión de licencia por 1 año.'},
+  ans:0
+},
+{
+  id:93,cat:'dui',
+  en:{q:'What BAC limit applies to commercial vehicle drivers in California?',opts:['0.04%','0.08%','0.06%','0.02%'],exp:'Commercial drivers (CDL holders) are held to a stricter standard: 0.04% BAC while operating a commercial vehicle. A commercial driver can also lose their CDL for DUI even if driving a personal vehicle. A BAC of 0.08%+ results in a 1-year CDL disqualification for first offense.'},
+  zh:{q:'加州对商业车辆驾驶员适用什么血液酒精浓度限制？',opts:['0.04%','0.08%','0.06%','0.02%'],exp:'商业驾驶员（持有CDL）须遵守更严格的标准：驾驶商业车辆时血液酒精浓度不得达到或超过0.04%。商业驾驶员即使驾驶私家车发生酒驾，也可能失去CDL。首次违规血液酒精浓度达0.08%以上将导致CDL被取消资格1年。'},
+  zhTW:{q:'加州對商業車輛駕駛員適用什麼血液酒精濃度限制？',opts:['0.04%','0.08%','0.06%','0.02%'],exp:'商業駕駛員（持有CDL）須遵守更嚴格的標準：駕駛商業車輛時血液酒精濃度不得達到或超過0.04%。商業駕駛員即使駕駛私家車發生酒駕，也可能失去CDL。首次違規血液酒精濃度達0.08%以上將導致CDL被取消資格1年。'},
+  es:{q:'¿Qué límite de BAC aplica a los conductores de vehículos comerciales en California?',opts:['0.04%','0.08%','0.06%','0.02%'],exp:'Los conductores comerciales (titulares de CDL) están sujetos a un estándar más estricto: 0.04% de BAC mientras operan un vehículo comercial. Un conductor comercial también puede perder su CDL por DUI incluso si conduce un vehículo personal.'},
+  ans:0
+},
+{
+  id:94,cat:'dui',
+  en:{q:'If you refuse to take a chemical test (breath, blood, or urine) after a lawful DUI arrest in California, what happens?',opts:['Your license is automatically suspended for 1–3 years and refusal can be used against you in court','Nothing — you have the right to refuse all tests','You only lose your license for 6 months','You must pay a fine but keep your license'],exp:'California\'s Implied Consent Law means that by driving, you agree to chemical testing if lawfully arrested for DUI. Refusing results in an automatic 1-year suspension (2 years for second, 3 years for third). Refusal can also be used as evidence in court.'},
+  zh:{q:'在加州，如果您在合法的酒驾逮捕后拒绝接受化学测试（呼气、血液或尿液），会发生什么？',opts:['您的驾照将自动暂停1-3年，且拒绝行为可作为不利证据在法庭使用','没有任何后果——您有权拒绝所有测试','仅吊销驾照6个月','只需缴罚款但可保留驾照'],exp:'加州的默示同意法意味着，通过驾驶您已同意在被合法逮捕时接受化学检测。拒绝将导致自动暂停驾照1年（第二次2年，第三次3年）。拒绝行为也可作为法庭证据。'},
+  zhTW:{q:'在加州，如果您在合法的酒駕逮捕後拒絕接受化學測試（呼氣、血液或尿液），會發生什麼？',opts:['您的駕照將自動暫停1-3年，且拒絕行為可作為不利證據在法庭使用','沒有任何後果——您有權拒絕所有測試','僅吊銷駕照6個月','只需繳罰款但可保留駕照'],exp:'加州的默示同意法意味著，通過駕駛您已同意在被合法逮捕時接受化學檢測。拒絕將導致自動暫停駕照1年（第二次2年，第三次3年）。拒絕行為也可作為法庭證據。'},
+  es:{q:'Si se niega a tomar una prueba química (aliento, sangre u orina) después de un arresto por DUI en California, ¿qué sucede?',opts:['Su licencia es suspendida automáticamente por 1–3 años y la negativa puede usarse en su contra en el tribunal','Nada — tiene derecho a negarse a todas las pruebas','Solo pierde su licencia por 6 meses','Solo paga una multa pero conserva su licencia'],exp:'La Ley de Consentimiento Implícito de California significa que al conducir, acepta las pruebas químicas si es arrestado legalmente por DUI. Negarse resulta en una suspensión automática de 1 año (2 años para segundo, 3 años para tercero).'},
+  ans:0
+},
+{
+  id:95,cat:'dui',
+  en:{q:'How does alcohol affect your driving ability?',opts:['It slows reaction time, impairs judgment, reduces coordination, and narrows vision','It only affects you if you feel intoxicated','It makes you more alert and focused at low levels','Effects only begin when BAC reaches 0.08%'],exp:'Alcohol impairs driving well before the 0.08% legal limit. Even small amounts slow reaction time, impair judgment and decision-making, reduce hand-eye coordination, cause tunnel vision, and increase risk-taking behavior. There is no safe amount of alcohol for driving.'},
+  zh:{q:'酒精如何影响您的驾驶能力？',opts:['减慢反应时间、损害判断力、降低协调性并缩窄视野','只有当您感到醉酒时才会影响您','低剂量时会让您更警觉专注','只有血液酒精浓度达到0.08%时才开始起效'],exp:'酒精在达到0.08%法定限制之前就已经损害驾驶能力。即使少量饮酒也会减慢反应时间、损害判断力和决策能力、降低手眼协调性、造成视野变窄，并增加冒险行为。驾驶没有安全的饮酒量。'},
+  zhTW:{q:'酒精如何影響您的駕駛能力？',opts:['減慢反應時間、損害判斷力、降低協調性並縮窄視野','只有當您感到醉酒時才會影響您','低劑量時會讓您更警覺專注','只有血液酒精濃度達到0.08%時才開始起效'],exp:'酒精在達到0.08%法定限制之前就已經損害駕駛能力。即使少量飲酒也會減慢反應時間、損害判斷力和決策能力、降低手眼協調性、造成視野變窄，並增加冒險行為。駕駛沒有安全的飲酒量。'},
+  es:{q:'¿Cómo afecta el alcohol su capacidad de conducción?',opts:['Enlentece el tiempo de reacción, deteriora el juicio, reduce la coordinación y estrecha la visión','Solo le afecta si se siente intoxicado','Lo hace más alerta y concentrado en niveles bajos','Los efectos solo comienzan cuando el BAC llega al 0.08%'],exp:'El alcohol deteriora la conducción mucho antes del límite legal del 0.08%. Incluso pequeñas cantidades enlentecen el tiempo de reacción, deterioran el juicio, reducen la coordinación mano-ojo, causan visión de túnel y aumentan el comportamiento de riesgo.'},
+  ans:0
+},
+{
+  id:96,cat:'dui',
+  en:{q:'What is the consequence of a first-offense DUI conviction in California?',opts:['Up to 6 months in jail, fines up to $1,000, license suspension, DUI school, and possible ignition interlock device','Only a fine — no jail time for first offense','30-day license suspension with no other penalties','Automatic 1-year prison sentence'],exp:'A first DUI offense in California can result in: 96 hours to 6 months in jail (or alternative sentence), $390–$1,000 in fines (plus penalties totaling ~$2,000+), 6-month license suspension, mandatory DUI school (3–9 months), and possible ignition interlock device (IID) requirement.'},
+  zh:{q:'在加州，首次酒驾定罪的后果是什么？',opts:['最多6个月监禁、最高1000美元罚款、暂停驾照、酒驾学校，以及可能安装酒精锁','仅处罚款——首次违规无需监禁','暂停驾照30天，无其他处罚','自动判处1年监禁'],exp:'在加州，首次酒驾可能导致：96小时至6个月监禁（或替代刑罚）、390至1000美元罚款（加上附加费总计约2000美元以上）、暂停驾照6个月、强制参加酒驾学校（3至9个月），以及可能需要安装酒精锁（IID）。'},
+  zhTW:{q:'在加州，首次酒駕定罪的後果是什麼？',opts:['最多6個月監禁、最高1000美元罰款、暫停駕照、酒駕學校，以及可能安裝酒精鎖','僅處罰款——首次違規無需監禁','暫停駕照30天，無其他處罰','自動判處1年監禁'],exp:'在加州，首次酒駕可能導致：96小時至6個月監禁（或替代刑罰）、390至1000美元罰款（加上附加費總計約2000美元以上）、暫停駕照6個月、強制參加酒駕學校（3至9個月），以及可能需要安裝酒精鎖（IID）。'},
+  es:{q:'¿Cuál es la consecuencia de una primera condena por DUI en California?',opts:['Hasta 6 meses de cárcel, multas de hasta $1,000, suspensión de licencia, escuela de DUI y posible dispositivo de interbloqueo de encendido','Solo una multa — sin tiempo en cárcel por primera ofensa','Suspensión de licencia por 30 días sin otras penalidades','Sentencia automática de 1 año de prisión'],exp:'Una primera ofensa de DUI en California puede resultar en: 96 horas a 6 meses de cárcel, $390–$1,000 en multas (más penalidades totalizando ~$2,000+), suspensión de licencia por 6 meses, escuela de DUI obligatoria (3–9 meses) y posible dispositivo de interbloqueo de encendido.'},
+  ans:0
+},
+{
+  id:97,cat:'dui',
+  en:{q:'Can you be charged with DUI for driving under the influence of marijuana or prescription drugs?',opts:['Yes — DUI applies to any substance that impairs your ability to drive safely','No — DUI only applies to alcohol','Only if you are under 21','Only if the drug is illegal'],exp:'California\'s DUI law applies to any substance that impairs driving — including marijuana (even if legally obtained), prescription medications, over-the-counter drugs, and illegal drugs. Being legal to possess does not make it legal to drive impaired. A Drug Recognition Expert (DRE) can evaluate drug impairment.'},
+  zh:{q:'驾驶时受大麻或处方药影响是否可被控告酒驾？',opts:['是的——酒驾法律适用于任何损害安全驾驶能力的物质','不——酒驾仅适用于酒精','仅适用于21岁以下','仅适用于非法药物'],exp:'加州的酒驾法律适用于任何损害驾驶能力的物质——包括大麻（即使合法获得）、处方药、非处方药和非法药物。合法持有不等于合法在受影响状态下驾驶。药物识别专家（DRE）可以评估药物损害情况。'},
+  zhTW:{q:'駕駛時受大麻或處方藥影響是否可被控告酒駕？',opts:['是的——酒駕法律適用於任何損害安全駕駛能力的物質','不——酒駕僅適用於酒精','僅適用於21歲以下','僅適用於非法藥物'],exp:'加州的酒駕法律適用於任何損害駕駛能力的物質——包括大麻（即使合法獲得）、處方藥、非處方藥和非法藥物。合法持有不等於合法在受影響狀態下駕駛。'},
+  es:{q:'¿Puede ser acusado de DUI por conducir bajo la influencia de marihuana o medicamentos recetados?',opts:['Sí — DUI aplica a cualquier sustancia que deteriore su capacidad de conducir con seguridad','No — DUI solo aplica al alcohol','Solo si tiene menos de 21 años','Solo si la droga es ilegal'],exp:'La ley de DUI de California aplica a cualquier sustancia que deteriore la conducción — incluyendo marihuana (incluso si se obtuvo legalmente), medicamentos recetados, medicamentos de venta libre y drogas ilegales.'},
+  ans:0
+},
+{
+  id:98,cat:'dui',
+  en:{q:'What does an ignition interlock device (IID) do?',opts:['Prevents the car from starting unless the driver provides a breath sample showing BAC below the set limit','Locks the steering wheel after a DUI conviction permanently','Calls the police if it detects alcohol in the vehicle','Limits the vehicle\'s top speed after a DUI'],exp:'An Ignition Interlock Device (IID) is a breathalyzer connected to a vehicle\'s ignition. The driver must blow into it before starting the car. If BAC is above the set limit (usually 0.02%), the car will not start. Random rolling retests are also required while driving.'},
+  zh:{q:'酒精锁（IID）的作用是什么？',opts:['除非驾驶员提供血液酒精浓度低于设定限制的呼气样本，否则阻止车辆启动','酒驾定罪后永久锁住方向盘','检测到车内有酒精时通知警察','酒驾后限制车辆最高速度'],exp:'酒精锁（IID）是一种连接到车辆点火装置的呼气测试仪。驾驶员在启动汽车前必须吹入装置。如果血液酒精浓度超过设定限制（通常为0.02%），汽车将无法启动。行驶过程中还需要随机复测。'},
+  zhTW:{q:'酒精鎖（IID）的作用是什麼？',opts:['除非駕駛員提供血液酒精濃度低於設定限制的呼氣樣本，否則阻止車輛啟動','酒駕定罪後永久鎖住方向盤','檢測到車內有酒精時通知警察','酒駕後限制車輛最高速度'],exp:'酒精鎖（IID）是一種連接到車輛點火裝置的呼氣測試儀。駕駛員在啟動汽車前必須吹入裝置。如果血液酒精濃度超過設定限制（通常為0.02%），汽車將無法啟動。行駛過程中還需要隨機複測。'},
+  es:{q:'¿Qué hace un dispositivo de interbloqueo de encendido (IID)?',opts:['Evita que el auto arranque a menos que el conductor proporcione una muestra de aliento que muestre BAC por debajo del límite establecido','Bloquea permanentemente el volante después de una condena por DUI','Llama a la policía si detecta alcohol en el vehículo','Limita la velocidad máxima del vehículo después de un DUI'],exp:'Un Dispositivo de Interbloqueo de Encendido (IID) es un alcoholímetro conectado al encendido del vehículo. El conductor debe soplar antes de arrancar el auto. Si el BAC está por encima del límite establecido (generalmente 0.02%), el auto no arrancará.'},
+  ans:0
+},
+{
+  id:99,cat:'dui',
+  en:{q:'Drinking coffee, eating food, or taking a cold shower after drinking alcohol will:',opts:['Not lower your BAC — only time eliminates alcohol from your body','Quickly reduce your BAC significantly','Prevent you from feeling the effects of alcohol','Make it safe to drive within 30 minutes'],exp:'Nothing lowers BAC except time. Your liver processes approximately one standard drink per hour. Coffee, food, water, exercise, and cold showers do not speed up this process — they may make you feel more alert, but your BAC and driving impairment remain the same.'},
+  zh:{q:'饮酒后喝咖啡、进食或洗冷水澡：',opts:['不会降低您的血液酒精浓度——只有时间才能消除体内酒精','会显著快速降低血液酒精浓度','会防止您感受到酒精的影响','30分钟内即可安全驾驶'],exp:'只有时间才能降低血液酒精浓度。您的肝脏每小时大约处理一标准饮品的酒精。咖啡、食物、水、运动和冷水澡都不会加快这个过程——它们可能让您感觉更清醒，但您的血液酒精浓度和驾驶损害程度保持不变。'},
+  zhTW:{q:'飲酒後喝咖啡、進食或洗冷水澡：',opts:['不會降低您的血液酒精濃度——只有時間才能消除體內酒精','會顯著快速降低血液酒精濃度','會防止您感受到酒精的影響','30分鐘內即可安全駕駛'],exp:'只有時間才能降低血液酒精濃度。您的肝臟每小時大約處理一標準飲品的酒精。咖啡、食物、水、運動和冷水澡都不會加快這個過程——它們可能讓您感覺更清醒，但您的血液酒精濃度和駕駛損害程度保持不變。'},
+  es:{q:'Tomar café, comer o darse una ducha fría después de beber alcohol:',opts:['No bajará su BAC — solo el tiempo elimina el alcohol de su cuerpo','Reducirá significativamente su BAC rápidamente','Evitará que sienta los efectos del alcohol','Lo hará seguro para conducir en 30 minutos'],exp:'Nada baja el BAC excepto el tiempo. Su hígado procesa aproximadamente una bebida estándar por hora. El café, la comida, el agua, el ejercicio y las duchas frías no aceleran este proceso — pueden hacerle sentir más alerta, pero su BAC y deterioro de conducción permanecen iguales.'},
+  ans:0
+},
+{
+  id:100,cat:'dui',
+  en:{q:'A DUI conviction in California stays on your driving record for how long?',opts:['10 years','3 years','5 years','Permanently'],exp:'A DUI conviction remains on your California driving record for 10 years. During this time, prior DUI convictions count as "priors" and result in harsher penalties for any subsequent DUI. After 10 years, the conviction is removed from the DMV record but may remain on criminal records.'},
+  zh:{q:'在加州，酒驾定罪会在您的驾驶记录上保留多长时间？',opts:['10年','3年','5年','永久'],exp:'酒驾定罪在加州驾驶记录上保留10年。在此期间，之前的酒驾定罪被视为"前科"，将导致任何后续酒驾受到更严厉的处罚。10年后，定罪记录从DMV记录中删除，但可能仍存在于刑事记录中。'},
+  zhTW:{q:'在加州，酒駕定罪會在您的駕駛記錄上保留多長時間？',opts:['10年','3年','5年','永久'],exp:'酒駕定罪在加州駕駛記錄上保留10年。在此期間，之前的酒駕定罪被視為「前科」，將導致任何後續酒駕受到更嚴厲的處罰。10年後，定罪記錄從DMV記錄中刪除，但可能仍存在於刑事記錄中。'},
+  es:{q:'¿Cuánto tiempo permanece una condena por DUI en su historial de conducción de California?',opts:['10 años','3 años','5 años','Permanentemente'],exp:'Una condena por DUI permanece en su historial de conducción de California por 10 años. Durante este tiempo, las condenas previas por DUI cuentan como "antecedentes" y resultan en penalidades más severas para cualquier DUI posterior.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
