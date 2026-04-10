@@ -1838,4 +1838,87 @@ export const questions = [
   ans:0
 },
 
+
+// ── Batch 13 · Parking Rules · Q121–130 ──────────────────────
+{
+  id:121,cat:'parking',
+  en:{q:'What does a red curb mean?',opts:['No stopping, standing, or parking at any time','No parking between certain hours','Loading and unloading only','30-minute parking limit'],exp:'A red curb means no stopping, standing, or parking at any time — not even briefly. Red curbs are used near fire hydrants, fire stations, bus stops, and other locations where stopping would be hazardous. You cannot stop at a red curb even just to drop someone off.'},
+  zh:{q:'红色路缘代表什么？',opts:['任何时候均禁止停驻车、驻留或停车','仅在特定时间段内禁止停车','仅限上下货物','30分钟停车限制'],exp:'红色路缘表示任何时候均禁止停驻车、驻留或停车——即使是短暂停车也不行。红色路缘用于消防栓、消防站、公共汽车站附近以及其他停车会造成危险的地点。即使只是短暂让乘客下车，也不得在红色路缘停车。'},
+  zhTW:{q:'紅色路緣代表什麼？',opts:['任何時候均禁止停驻車、駐留或停車','僅在特定時間段內禁止停車','僅限上下貨物','30分鐘停車限制'],exp:'紅色路緣表示任何時候均禁止停駐車、駐留或停車——即使是短暫停車也不行。紅色路緣用於消防栓、消防站、公共汽車站附近以及其他停車會造成危險的地點。即使只是短暫讓乘客下車，也不得在紅色路緣停車。'},
+  es:{q:'¿Qué significa un bordillo rojo?',opts:['No detenerse, estacionarse ni pararse en ningún momento','No estacionar entre ciertas horas','Solo carga y descarga','Límite de estacionamiento de 30 minutos'],exp:'Un bordillo rojo significa que no se puede detener, estacionar ni pararse en ningún momento — ni siquiera brevemente. Los bordillos rojos se usan cerca de hidrantes de incendio, estaciones de bomberos, paradas de autobús y otros lugares donde detenerse sería peligroso.'},
+  ans:0
+},
+{
+  id:122,cat:'parking',
+  en:{q:'What does a yellow curb indicate?',opts:['Loading and unloading of passengers or freight only — driver must stay with vehicle','No parking anytime','15-minute parking for commercial vehicles','Parking for disabled persons only'],exp:'A yellow curb means the area is for loading and unloading only. Commercial vehicles may stop to load or unload freight. Non-commercial drivers may stop to load or unload passengers or freight, but must stay with the vehicle. Time limits may be posted. Yellow curbs are typically in business districts.'},
+  zh:{q:'黄色路缘代表什么？',opts:['仅限乘客或货物上下——司机必须留在车旁','任何时候均禁止停车','商业车辆15分钟停车','仅供残障人士停车'],exp:'黄色路缘表示该区域仅限上下客或装卸货物。商业车辆可以停车装卸货物。非商业驾驶员可以停车接送乘客或装卸货物，但必须留在车旁。可能会标示时间限制。黄色路缘通常出现在商业区。'},
+  zhTW:{q:'黃色路緣代表什麼？',opts:['僅限乘客或貨物上下——司機必須留在車旁','任何時候均禁止停車','商業車輛15分鐘停車','僅供殘障人士停車'],exp:'黃色路緣表示該區域僅限上下客或裝卸貨物。商業車輛可以停車裝卸貨物。非商業駕駛員可以停車接送乘客或裝卸貨物，但必須留在車旁。可能會標示時間限制。黃色路緣通常出現在商業區。'},
+  es:{q:'¿Qué indica un bordillo amarillo?',opts:['Solo carga y descarga de pasajeros o carga — el conductor debe permanecer con el vehículo','No estacionar en ningún momento','Estacionamiento de 15 minutos para vehículos comerciales','Estacionamiento solo para personas con discapacidad'],exp:'Un bordillo amarillo significa que el área es solo para carga y descarga. Los vehículos comerciales pueden detenerse para cargar o descargar carga. Los conductores no comerciales pueden detenerse para cargar o descargar pasajeros o carga, pero deben permanecer con el vehículo.'},
+  ans:0
+},
+{
+  id:123,cat:'parking',
+  en:{q:'What does a white curb indicate?',opts:['Passenger loading and unloading only — usually 5 minutes maximum','No parking for commercial vehicles','Disabled parking only','Temporary construction zone'],exp:'A white curb is for passenger loading and unloading only — typically limited to 5 minutes. The driver may need to stay with the vehicle. White curbs are common in front of hotels, airports, and other pickup/drop-off areas. Do not leave the vehicle unattended at a white curb.'},
+  zh:{q:'白色路缘代表什么？',opts:['仅限乘客上下——通常最多5分钟','商业车辆禁止停车','仅供残障人士停车','临时施工区'],exp:'白色路缘仅供乘客上下使用——通常限制为5分钟。司机可能需要留在车旁。白色路缘常见于酒店、机场和其他接送区前方。不得在白色路缘处让车辆无人看管。'},
+  zhTW:{q:'白色路緣代表什麼？',opts:['僅限乘客上下——通常最多5分鐘','商業車輛禁止停車','僅供殘障人士停車','臨時施工區'],exp:'白色路緣僅供乘客上下使用——通常限制為5分鐘。司機可能需要留在車旁。白色路緣常見於酒店、機場和其他接送區前方。不得在白色路緣處讓車輛無人看管。'},
+  es:{q:'¿Qué indica un bordillo blanco?',opts:['Solo carga y descarga de pasajeros — generalmente 5 minutos máximo','No estacionar para vehículos comerciales','Estacionamiento solo para discapacitados','Zona de construcción temporal'],exp:'Un bordillo blanco es solo para carga y descarga de pasajeros — típicamente limitado a 5 minutos. El conductor puede necesitar permanecer con el vehículo. Los bordillos blancos son comunes frente a hoteles, aeropuertos y otras áreas de recogida/entrega.'},
+  ans:0
+},
+{
+  id:124,cat:'parking',
+  en:{q:'What does a blue curb indicate?',opts:['Parking reserved for disabled persons with a valid placard or disabled license plate','Police vehicles only','15-minute limit for all drivers','Overnight parking for residents'],exp:'A blue curb designates parking reserved exclusively for persons with disabilities. You must display a valid Disabled Person (DP) placard or have disabled person license plates to park there. Parking in a blue curb space without authorization carries very high fines.'},
+  zh:{q:'蓝色路缘代表什么？',opts:['为持有效停车证或残障车牌的残障人士保留的停车位','仅限警察车辆','所有驾驶员15分钟限制','居民过夜停车'],exp:'蓝色路缘指定仅为残障人士保留的停车位。您必须展示有效的残障人士（DP）停车证或拥有残障人士车牌方可在此停车。未经授权在蓝色路缘停车将受到高额罚款。'},
+  zhTW:{q:'藍色路緣代表什麼？',opts:['為持有效停車證或殘障車牌的殘障人士保留的停車位','僅限警察車輛','所有駕駛員15分鐘限制','居民過夜停車'],exp:'藍色路緣指定僅為殘障人士保留的停車位。您必須展示有效的殘障人士（DP）停車證或擁有殘障人士車牌方可在此停車。未經授權在藍色路緣停車將受到高額罰款。'},
+  es:{q:'¿Qué indica un bordillo azul?',opts:['Estacionamiento reservado para personas con discapacidad con placa o permiso válido','Solo para vehículos policiales','Límite de 15 minutos para todos los conductores','Estacionamiento nocturno para residentes'],exp:'Un bordillo azul designa estacionamiento reservado exclusivamente para personas con discapacidades. Debe mostrar un Permiso de Persona con Discapacidad (DP) válido o tener placas de persona con discapacidad para estacionarse allí. Estacionarse en un espacio de bordillo azul sin autorización conlleva multas muy altas.'},
+  ans:0
+},
+{
+  id:125,cat:'parking',
+  en:{q:'How far must you park from a fire hydrant in California?',opts:['15 feet','10 feet','25 feet','5 feet'],exp:'California law requires you to park no closer than 15 feet from a fire hydrant. This clearance is needed so fire trucks can connect hoses quickly in an emergency. Parking within 15 feet of a fire hydrant is illegal and your vehicle may be cited and towed.'},
+  zh:{q:'在加州，停车时必须距消防栓多远？',opts:['15英尺','10英尺','25英尺','5英尺'],exp:'加州法律要求停车时距消防栓不得少于15英尺。这一间距是必要的，以便消防车在紧急情况下能快速连接水带。在消防栓15英尺范围内停车是违法的，您的车辆可能被罚款并拖走。'},
+  zhTW:{q:'在加州，停車時必須距消防栓多遠？',opts:['15英尺','10英尺','25英尺','5英尺'],exp:'加州法律要求停車時距消防栓不得少於15英尺。這一間距是必要的，以便消防車在緊急情況下能快速連接水帶。在消防栓15英尺範圍內停車是違法的，您的車輛可能被罰款並拖走。'},
+  es:{q:'¿A qué distancia debe estacionar de un hidrante de incendio en California?',opts:['15 pies','10 pies','25 pies','5 pies'],exp:'La ley de California requiere que se estacione a no menos de 15 pies de un hidrante de incendio. Este espacio es necesario para que los camiones de bomberos puedan conectar mangueras rápidamente en una emergencia. Estacionarse dentro de 15 pies de un hidrante es ilegal y su vehículo puede ser multado y remolcado.'},
+  ans:0
+},
+{
+  id:126,cat:'parking',
+  en:{q:'When parking uphill with a curb, which way should you turn your front wheels?',opts:['Away from the curb (left, into traffic)','Toward the curb (right)','Straight ahead','It does not matter which direction'],exp:'When parking uphill with a curb: turn your wheels AWAY from the curb (to the left). If your brakes fail, the car will roll backward and the front of the tire will hit the curb, stopping the car. When parking downhill (with or without a curb), turn wheels TOWARD the curb.'},
+  zh:{q:'在有路缘石的上坡停车时，您应该将前轮转向哪个方向？',opts:['离开路缘石方向（向左，朝向车流方向）','朝向路缘石（向右）','直线前进','方向无关紧要'],exp:'在有路缘石的上坡停车时：将车轮转向远离路缘石的方向（向左）。如果刹车失灵，车辆会向后滑动，前轮会抵住路缘石，从而停住车辆。在下坡停车时（有无路缘石均适用），将车轮转向路缘石方向。'},
+  zhTW:{q:'在有路緣石的上坡停車時，您應該將前輪轉向哪個方向？',opts:['離開路緣石方向（向左，朝向車流方向）','朝向路緣石（向右）','直線前進','方向無關緊要'],exp:'在有路緣石的上坡停車時：將車輪轉向遠離路緣石的方向（向左）。如果剎車失靈，車輛會向後滑動，前輪會抵住路緣石，從而停住車輛。在下坡停車時（有無路緣石均適用），將車輪轉向路緣石方向。'},
+  es:{q:'Al estacionarse cuesta arriba con bordillo, ¿hacia dónde debe girar sus ruedas delanteras?',opts:['Alejándose del bordillo (a la izquierda, hacia el tráfico)','Hacia el bordillo (a la derecha)','Recto hacia adelante','No importa la dirección'],exp:'Al estacionarse cuesta arriba con bordillo: gire las ruedas ALEJÁNDOSE del bordillo (a la izquierda). Si fallan los frenos, el auto rodará hacia atrás y el frente del neumático golpeará el bordillo, deteniendo el auto. Al estacionarse cuesta abajo (con o sin bordillo), gire las ruedas HACIA el bordillo.'},
+  ans:0
+},
+{
+  id:127,cat:'parking',
+  en:{q:'How far must you park from a stop sign or traffic signal?',opts:['At least 25 feet','At least 10 feet','At least 50 feet','At least 15 feet'],exp:'California law prohibits parking within 25 feet of a stop sign or traffic control signal at the side of a road. This distance ensures drivers can see the sign or signal and other vehicles can be seen approaching the intersection. Always look for posted signs that may specify different distances.'},
+  zh:{q:'您必须距停车标志或交通信号灯多远停车？',opts:['至少25英尺','至少10英尺','至少50英尺','至少15英尺'],exp:'加州法律禁止在道路侧面的停车标志或交通信号灯25英尺范围内停车。这一距离确保驾驶员能够看到标志或信号灯，其他车辆也能看到接近路口的车辆。请始终查看可能规定不同距离的标示标志。'},
+  zhTW:{q:'您必須距停車標誌或交通信號燈多遠停車？',opts:['至少25英尺','至少10英尺','至少50英尺','至少15英尺'],exp:'加州法律禁止在道路側面的停車標誌或交通信號燈25英尺範圍內停車。這一距離確保駕駛員能夠看到標誌或信號燈，其他車輛也能看到接近路口的車輛。請始終查看可能規定不同距離的標示標誌。'},
+  es:{q:'¿A qué distancia debe estacionar de una señal de alto o semáforo?',opts:['Al menos 25 pies','Al menos 10 pies','Al menos 50 pies','Al menos 15 pies'],exp:'La ley de California prohíbe estacionar dentro de 25 pies de una señal de alto o señal de control de tráfico al lado de una carretera. Esta distancia garantiza que los conductores puedan ver la señal o semáforo y otros vehículos puedan ser vistos acercándose a la intersección.'},
+  ans:0
+},
+{
+  id:128,cat:'parking',
+  en:{q:'Is it legal to park in a bicycle lane?',opts:['No — parking in a bicycle lane is prohibited except where signs allow temporary stops','Yes, if you stay less than 5 minutes','Yes, if no bicyclists are present','Only during non-peak hours'],exp:'Parking in a bicycle lane is generally prohibited. You may not stop, stand, or park in a bicycle lane unless signs indicate it is permitted for loading or unloading. Blocking bicycle lanes forces cyclists into traffic, creating a dangerous situation.'},
+  zh:{q:'在自行车道内停车是否合法？',opts:['不合法——禁止在自行车道内停车，除非有标志允许临时停靠','合法，如果停留不超过5分钟','合法，如果没有骑自行车者在场','仅在非高峰时段合法'],exp:'在自行车道内停车通常是被禁止的。除非标志指示允许上下客，否则您不得在自行车道内停驻车或停车。堵塞自行车道会迫使骑行者进入车行道，造成危险情况。'},
+  zhTW:{q:'在自行車道內停車是否合法？',opts:['不合法——禁止在自行車道內停車，除非有標誌允許臨時停靠','合法，如果停留不超過5分鐘','合法，如果沒有騎自行車者在場','僅在非高峰時段合法'],exp:'在自行車道內停車通常是被禁止的。除非標誌指示允許上下客，否則您不得在自行車道內停駐車或停車。堵塞自行車道會迫使騎行者進入車行道，造成危險情況。'},
+  es:{q:'¿Es legal estacionar en un carril de bicicletas?',opts:['No — estacionar en un carril de bicicletas está prohibido excepto donde señales permiten paradas temporales','Sí, si permanece menos de 5 minutos','Sí, si no hay ciclistas presentes','Solo durante horas no pico'],exp:'Estacionar en un carril de bicicletas generalmente está prohibido. No puede detenerse, pararse ni estacionarse en un carril de bicicletas a menos que las señales indiquen que está permitido para carga o descarga. Bloquear carriles de bicicletas obliga a los ciclistas al tráfico.'},
+  ans:0
+},
+{
+  id:129,cat:'parking',
+  en:{q:'You want to park on a two-way street with your car facing in the same direction as traffic. How close to the curb must you park?',opts:['Within 18 inches of the right-side curb','Within 12 inches of the right-side curb','Within 24 inches of the curb','You can park anywhere in the lane'],exp:'When parallel parking on the right side of a two-way street, California law requires you to park within 18 inches of the right curb. This ensures your vehicle does not protrude into the traffic lane dangerously. When parking on a one-way street, you may also park on the left side within 18 inches of that curb.'},
+  zh:{q:'您想在双向街道上靠右停车，车头朝向与交通方向相同。您必须距路缘石多近停车？',opts:['在右侧路缘石18英寸以内','在右侧路缘石12英寸以内','在路缘石24英寸以内','可以停在车道的任何位置'],exp:'在双向街道右侧平行停车时，加州法律要求您停在右侧路缘石18英寸以内。这确保您的车辆不会危险地突入车行道。在单向街道上停车时，您也可以在左侧路缘石18英寸以内停车。'},
+  zhTW:{q:'您想在雙向街道上靠右停車，車頭朝向與交通方向相同。您必須距路緣石多近停車？',opts:['在右側路緣石18英寸以內','在右側路緣石12英寸以內','在路緣石24英寸以內','可以停在車道的任何位置'],exp:'在雙向街道右側平行停車時，加州法律要求您停在右側路緣石18英寸以內。這確保您的車輛不會危險地突入車行道。在單向街道上停車時，您也可以在左側路緣石18英寸以內停車。'},
+  es:{q:'Quiere estacionar en una calle de dos sentidos con su auto en la misma dirección que el tráfico. ¿Qué tan cerca del bordillo debe estacionar?',opts:['Dentro de 18 pulgadas del bordillo derecho','Dentro de 12 pulgadas del bordillo derecho','Dentro de 24 pulgadas del bordillo','Puede estacionar en cualquier parte del carril'],exp:'Al estacionar en paralelo en el lado derecho de una calle de dos sentidos, la ley de California requiere que se estacione dentro de 18 pulgadas del bordillo derecho. Esto asegura que su vehículo no sobresalga peligrosamente en el carril de tráfico.'},
+  ans:0
+},
+{
+  id:130,cat:'parking',
+  en:{q:'Under what circumstances may you park in front of a public or private driveway?',opts:['Never — parking in front of a driveway is always illegal','Only if the driveway owner gives permission','Only for 5 minutes or less','Only if you remain in the vehicle'],exp:'Parking in front of any driveway — public or private — is always illegal. It blocks access for the property owner and emergency vehicles. Your vehicle may be ticketed and towed. Even if you remain in the vehicle, you cannot block a driveway for any length of time.'},
+  zh:{q:'在什么情况下可以在公共或私人车道前停车？',opts:['永远不行——在车道前停车始终违法','仅当车道所有者允许时','仅停留5分钟或更短时间','仅当您留在车内时'],exp:'在任何车道——公共或私人——前停车始终是违法的。这会阻碍业主和紧急车辆的通行。您的车辆可能被罚款并拖走。即使您留在车内，也不得以任何方式堵塞车道。'},
+  zhTW:{q:'在什麼情況下可以在公共或私人車道前停車？',opts:['永遠不行——在車道前停車始終違法','僅當車道所有者允許時','僅停留5分鐘或更短時間','僅當您留在車內時'],exp:'在任何車道——公共或私人——前停車始終是違法的。這會阻礙業主和緊急車輛的通行。您的車輛可能被罰款並拖走。即使您留在車內，也不得以任何方式堵塞車道。'},
+  es:{q:'¿Bajo qué circunstancias puede estacionar frente a una entrada pública o privada?',opts:['Nunca — estacionar frente a una entrada siempre es ilegal','Solo si el propietario de la entrada da permiso','Solo por 5 minutos o menos','Solo si permanece en el vehículo'],exp:'Estacionar frente a cualquier entrada — pública o privada — siempre es ilegal. Bloquea el acceso para el propietario de la propiedad y los vehículos de emergencia. Su vehículo puede ser multado y remolcado. Incluso si permanece en el vehículo, no puede bloquear una entrada por ningún período de tiempo.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
