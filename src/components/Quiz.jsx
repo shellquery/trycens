@@ -20,7 +20,7 @@ function fmtTime(s) {
   return `${m}:${String(s % 60).padStart(2, '0')}`
 }
 
-export default function Quiz({ lang, questions, onFinish, onExit, categories }) {
+export default function Quiz({ lang, questions, onFinish, onExit, categories, onWrongAnswer }) {
   const [idx, setIdx]           = useState(0)
   const [answers, setAnswers]   = useState(() => new Array(questions.length).fill(null))
   const [selected, setSelected] = useState(null)
@@ -43,12 +43,15 @@ export default function Quiz({ lang, questions, onFinish, onExit, categories }) 
     if (revealed) return
     setSelected(i)
     setRevealed(true)
+    const q = questions[idx]
+    // Immediately record wrong answer to the wrong bank
+    if (i !== q.ans && onWrongAnswer) onWrongAnswer(q.id)
     setAnswers(prev => {
       const next = [...prev]
       next[idx] = i
       return next
     })
-  }, [revealed, idx])
+  }, [revealed, idx, questions, onWrongAnswer])
 
   const advance = useCallback(() => {
     if (isLast) {

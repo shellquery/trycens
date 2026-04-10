@@ -28,6 +28,17 @@ export function useWrongBank() {
     })
   }, [])
 
+  // Called immediately when a single question is answered wrong
+  const addOne = useCallback((id) => {
+    setIds(prev => {
+      if (prev.has(id)) return prev   // already there, no re-render needed
+      const next = new Set(prev)
+      next.add(id)
+      persist(next)
+      return next
+    })
+  }, [])
+
   const removeOne = useCallback((id) => {
     setIds(prev => {
       const next = new Set(prev)
@@ -43,5 +54,5 @@ export function useWrongBank() {
     setIds(empty)
   }, [])
 
-  return { ids, syncAfterQuiz, removeOne, clearAll }
+  return { ids, addOne, syncAfterQuiz, removeOne, clearAll }
 }

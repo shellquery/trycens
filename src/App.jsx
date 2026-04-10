@@ -48,7 +48,7 @@ export default function App() {
   const [quizSource, setQuizSource]       = useState('normal') // 'normal' | 'wrongbank'
 
   // wrong question bank
-  const { ids: wrongIds, syncAfterQuiz, removeOne, clearAll } = useWrongBank()
+  const { ids: wrongIds, addOne: addWrongOne, syncAfterQuiz, removeOne, clearAll } = useWrongBank()
 
   const score = quizQuestions.length
     ? { correct: answers.filter((a, i) => a === quizQuestions[i]?.ans).length, total: quizQuestions.length }
@@ -153,6 +153,7 @@ export default function App() {
             questions={quizQuestions}
             onFinish={finishQuiz}
             onExit={() => setScreen(quizSource === 'wrongbank' ? 'wrongbank' : 'home')}
+            onWrongAnswer={addWrongOne}
             categories={CATEGORIES}
           />
         )}
