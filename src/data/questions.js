@@ -1319,4 +1319,139 @@ export const questions = [
   ans: 0
 },
 
+
+// ═══════════════════════════════════════════════════════════════
+//  BATCH 8 — Parking Rules (Q71–80)
+// ═══════════════════════════════════════════════════════════════
+
+{
+  id: 71, cat: 'parking',
+  en: {
+    q: 'What does a red-painted curb mean?',
+    opts: ['No stopping, standing, or parking at any time', 'No parking, but you may stop briefly to load or unload', 'Parking allowed for 15 minutes maximum', 'Emergency vehicles only'],
+    exp: 'A red curb means no stopping, standing, or parking at any time, for any vehicle. Not even briefly. Red curbs are typically found near fire hydrants, intersections, and other locations where stopping would create a hazard or block access.'
+  },
+  zh: { q: '红色路缘线是什么意思？', opts: ['任何时候均不得停车、停靠或泊车', '不得泊车，但可以短暂停车装卸', '最多停车15分钟', '仅供紧急车辆使用'], exp: '红色路缘线表示任何车辆在任何时候均不得停车、停靠或泊车，包括短暂停车。红色路缘线通常出现在消防栓、路口附近，以及其他停车会造成危险或阻碍通道的地方。' },
+  zhTW: { q: '紅色路緣線是什麼意思？', opts: ['任何時候均不得停車、停靠或泊車', '不得泊車，但可以短暫停車裝卸', '最多停車15分鐘', '僅供緊急車輛使用'], exp: '紅色路緣線表示任何車輛在任何時候均不得停車、停靠或泊車，包括短暫停車。紅色路緣線通常出現在消防栓、路口附近，以及其他停車會造成危險或阻礙通道的地方。' },
+  es: { q: '¿Qué significa un bordillo pintado de rojo?', opts: ['Sin parar, estar de pie o estacionar en ningún momento', 'Sin estacionar, pero puede detenerse brevemente para cargar o descargar', 'Estacionamiento permitido por un máximo de 15 minutos', 'Solo para vehículos de emergencia'], exp: 'Un bordillo rojo significa que no se puede detener, estar de pie ni estacionar en ningún momento, para ningún vehículo. Ni siquiera brevemente. Los bordillos rojos se encuentran típicamente cerca de hidrantes, intersecciones y otros lugares donde detenerse crearía un peligro.' },
+  ans: 0
+},
+
+{
+  id: 72, cat: 'parking',
+  en: {
+    q: 'What does a yellow-painted curb mean?',
+    opts: ['Loading and unloading only — drivers must remain with the vehicle; time limits may apply', 'No parking but stopping is allowed', 'Parking allowed for 30 minutes', 'Commercial vehicles only may park here'],
+    exp: 'A yellow curb is a loading zone for commercial vehicles. You may stop to load or unload passengers or freight, but the driver must remain with the vehicle at all times. Time limits are usually posted. In some areas yellow means a 20-minute commercial loading zone.'
+  },
+  zh: { q: '黄色路缘线是什么意思？', opts: ['仅允许装卸货物——司机须留守车内；可能有时间限制', '不得泊车但允许停车', '允许停车30分钟', '仅商业车辆可在此停车'], exp: '黄色路缘线是商业车辆的装卸区。您可以停车装卸乘客或货物，但驾驶员须随时留在车旁。通常会标明时间限制。在某些地区，黄色表示商业车辆20分钟装卸区。' },
+  zhTW: { q: '黃色路緣線是什麼意思？', opts: ['僅允許裝卸貨物——司機須留守車內；可能有時間限制', '不得泊車但允許停車', '允許停車30分鐘', '僅商業車輛可在此停車'], exp: '黃色路緣線是商業車輛的裝卸區。您可以停車裝卸乘客或貨物，但駕駛員須隨時留在車旁。通常會標明時間限制。在某些地區，黃色表示商業車輛20分鐘裝卸區。' },
+  es: { q: '¿Qué significa un bordillo pintado de amarillo?', opts: ['Solo carga y descarga — los conductores deben permanecer con el vehículo; pueden aplicar límites de tiempo', 'Sin estacionar pero se permite detener', 'Estacionamiento permitido por 30 minutos', 'Solo vehículos comerciales pueden estacionar aquí'], exp: 'Un bordillo amarillo es una zona de carga para vehículos comerciales. Puede detenerse para cargar o descargar pasajeros o mercancía, pero el conductor debe permanecer con el vehículo en todo momento. Generalmente se publican límites de tiempo.' },
+  ans: 0
+},
+
+{
+  id: 73, cat: 'parking',
+  en: {
+    q: 'What does a white-painted curb mean?',
+    opts: ['Passenger loading and unloading only — usually limited to a few minutes', 'No parking at any time', 'Parking allowed for 15 minutes', 'Disabled parking — permit required'],
+    exp: 'A white curb marks a passenger loading zone. Drivers may stop briefly to drop off or pick up passengers, but must remain with the vehicle. Time limits are typically 5 minutes. It is common near hotels, airports, and theaters.'
+  },
+  zh: { q: '白色路缘线是什么意思？', opts: ['仅限乘客上下车——通常限几分钟', '任何时候均不得停车', '允许停车15分钟', '残障停车——需要许可证'], exp: '白色路缘线标示乘客上下车区。驾驶员可短暂停车让乘客上下车，但须留在车旁。时间限制通常为5分钟。常见于酒店、机场和剧院附近。' },
+  zhTW: { q: '白色路緣線是什麼意思？', opts: ['僅限乘客上下車——通常限幾分鐘', '任何時候均不得停車', '允許停車15分鐘', '殘障停車——需要許可證'], exp: '白色路緣線標示乘客上下車區。駕駛員可短暫停車讓乘客上下車，但須留在車旁。時間限制通常為5分鐘。常見於酒店、機場和劇院附近。' },
+  es: { q: '¿Qué significa un bordillo pintado de blanco?', opts: ['Solo carga y descarga de pasajeros — generalmente limitado a unos minutos', 'Sin estacionar en ningún momento', 'Estacionamiento permitido por 15 minutos', 'Estacionamiento para discapacitados — se requiere permiso'], exp: 'Un bordillo blanco marca una zona de carga de pasajeros. Los conductores pueden detenerse brevemente para dejar o recoger pasajeros, pero deben permanecer con el vehículo. Los límites de tiempo son típicamente 5 minutos. Es común cerca de hoteles, aeropuertos y teatros.' },
+  ans: 0
+},
+
+{
+  id: 74, cat: 'parking',
+  en: {
+    q: 'What does a green-painted curb mean?',
+    opts: ['Time-limited parking — you may park for the posted time limit only', 'Parking is free with no time limit', 'No parking — for deliveries only', 'Electric vehicle charging zone'],
+    exp: 'A green curb indicates time-limited parking, usually 10 to 30 minutes. The time limit is posted on a sign nearby. Green curbs are common in front of post offices, banks, and stores where short-term customer parking is needed.'
+  },
+  zh: { q: '绿色路缘线是什么意思？', opts: ['限时停车——仅可在标示的时间内停车', '免费停车，无时间限制', '禁止停车——仅限送货', '电动车充电区'], exp: '绿色路缘线表示限时停车，通常为10至30分钟。附近标志会标明时间限制。绿色路缘线常见于邮局、银行和商店前，这些地方需要短时间客户停车。' },
+  zhTW: { q: '綠色路緣線是什麼意思？', opts: ['限時停車——僅可在標示的時間內停車', '免費停車，無時間限制', '禁止停車——僅限送貨', '電動車充電區'], exp: '綠色路緣線表示限時停車，通常為10至30分鐘。附近標誌會標明時間限制。綠色路緣線常見於郵局、銀行和商店前，這些地方需要短時間客戶停車。' },
+  es: { q: '¿Qué significa un bordillo pintado de verde?', opts: ['Estacionamiento con límite de tiempo — solo puede estacionar por el límite de tiempo publicado', 'Estacionamiento gratuito sin límite de tiempo', 'Sin estacionar — solo para entregas', 'Zona de carga de vehículos eléctricos'], exp: 'Un bordillo verde indica estacionamiento con límite de tiempo, generalmente de 10 a 30 minutos. El límite de tiempo está publicado en una señal cercana. Los bordillos verdes son comunes frente a oficinas de correos, bancos y tiendas donde se necesita estacionamiento a corto plazo.' },
+  ans: 0
+},
+
+{
+  id: 75, cat: 'parking',
+  en: {
+    q: 'How far from a fire hydrant must you park in California?',
+    opts: ['At least 15 feet from either side of a fire hydrant', 'At least 10 feet', 'At least 20 feet', 'At least 5 feet'],
+    exp: 'California law requires you to park at least 15 feet from a fire hydrant (unless your car is within a designated parking space or a sign indicates otherwise). Violating this can result in a fine and your vehicle being towed. Emergency responders need clear access to hydrants.'
+  },
+  zh: { q: '在加州，停车时与消防栓的最小距离是多少？', opts: ['消防栓两侧各至少15英尺', '至少10英尺', '至少20英尺', '至少5英尺'], exp: '加州法律要求停车时距消防栓至少15英尺（除非您的车在指定停车位内或有标志另行规定）。违规可能被罚款并被拖车。紧急救援人员需要畅通进入消防栓。' },
+  zhTW: { q: '在加州，停車時與消防栓的最小距離是多少？', opts: ['消防栓兩側各至少15英尺', '至少10英尺', '至少20英尺', '至少5英尺'], exp: '加州法律要求停車時距消防栓至少15英尺（除非您的車在指定停車位內或有標誌另行規定）。違規可能被罰款並被拖車。緊急救援人員需要暢通進入消防栓。' },
+  es: { q: '¿A qué distancia de una toma de agua debe estacionar en California?', opts: ['Al menos 15 pies de cualquier lado de una toma de agua', 'Al menos 10 pies', 'Al menos 20 pies', 'Al menos 5 pies'], exp: 'La ley de California requiere estacionar al menos 15 pies de una toma de agua (a menos que su auto esté dentro de un espacio de estacionamiento designado o una señal indique lo contrario). Violarlo puede resultar en una multa y que su vehículo sea remolcado.' },
+  ans: 0
+},
+
+{
+  id: 76, cat: 'parking',
+  en: {
+    q: 'When parking uphill on a street with a curb, which direction should you turn your front wheels?',
+    opts: ['Turn wheels away from the curb (left, toward the road)', 'Turn wheels toward the curb (right)', 'Keep wheels straight', 'Turn wheels in whichever direction is easier'],
+    exp: 'When parking uphill with a curb, turn your front wheels away from the curb (to the left). If your brakes fail, the car will roll back into the curb instead of into traffic. When parking downhill with a curb, turn wheels toward the curb. Without any curb (uphill or downhill), turn wheels toward the edge of the road.'
+  },
+  zh: { q: '在有路缘的街道上坡方向停车时，前轮应转向哪个方向？', opts: ['将车轮转向远离路缘的方向（向左，朝向道路）', '将车轮转向靠近路缘的方向（向右）', '车轮保持直行', '转向较容易的方向'], exp: '在有路缘的上坡处停车时，将前轮转向远离路缘的方向（向左）。如果刹车失灵，车辆会向后滚向路缘而不是滚向行车道。在有路缘的下坡处停车时，将车轮转向路缘。在没有路缘时（无论上坡或下坡），将车轮转向路边。' },
+  zhTW: { q: '在有路緣的街道上坡方向停車時，前輪應轉向哪個方向？', opts: ['將車輪轉向遠離路緣的方向（向左，朝向道路）', '將車輪轉向靠近路緣的方向（向右）', '車輪保持直行', '轉向較容易的方向'], exp: '在有路緣的上坡處停車時，將前輪轉向遠離路緣的方向（向左）。如果剎車失靈，車輛會向後滾向路緣而不是滾向行車道。在有路緣的下坡處停車時，將車輪轉向路緣。在沒有路緣時（無論上坡或下坡），將車輪轉向路邊。' },
+  es: { q: 'Al estacionar cuesta arriba en una calle con bordillo, ¿en qué dirección debe girar sus ruedas delanteras?', opts: ['Girar las ruedas alejándolas del bordillo (a la izquierda, hacia la carretera)', 'Girar las ruedas hacia el bordillo (a la derecha)', 'Mantener las ruedas rectas', 'Girar en la dirección que sea más fácil'], exp: 'Al estacionar cuesta arriba con bordillo, gire las ruedas delanteras alejándolas del bordillo (a la izquierda). Si los frenos fallan, el auto rodará hacia atrás hacia el bordillo en lugar de hacia el tráfico. Cuesta abajo con bordillo, gire hacia el bordillo.' },
+  ans: 0
+},
+
+{
+  id: 77, cat: 'parking',
+  en: {
+    q: 'You may not park within how many feet of a railroad crossing?',
+    opts: ['50 feet from the nearest rail', '25 feet', '100 feet', '15 feet'],
+    exp: 'California law prohibits parking within 7.5 feet of a railroad track (the space needed for trains to pass) and within 50 feet of a railroad crossing. Parking too close obstructs the view of train signals and may place your vehicle dangerously close to the tracks.'
+  },
+  zh: { q: '在铁路道口多少英尺以内不得停车？', opts: ['距最近铁轨50英尺以内', '25英尺', '100英尺', '15英尺'], exp: '加州法律禁止在铁轨7.5英尺以内（火车通过所需空间）和铁路道口50英尺以内停车。停车太近会遮挡列车信号的视线，并可能使您的车辆危险地靠近铁轨。' },
+  zhTW: { q: '在鐵路道口多少英尺以內不得停車？', opts: ['距最近鐵軌50英尺以內', '25英尺', '100英尺', '15英尺'], exp: '加州法律禁止在鐵軌7.5英尺以內（火車通過所需空間）和鐵路道口50英尺以內停車。停車太近會遮擋列車信號的視線，並可能使您的車輛危險地靠近鐵軌。' },
+  es: { q: '¿A cuántos pies de un cruce ferroviario no puede estacionar?', opts: ['50 pies del riel más cercano', '25 pies', '100 pies', '15 pies'], exp: 'La ley de California prohíbe estacionar dentro de 7.5 pies de una vía de tren (el espacio necesario para que pasen los trenes) y dentro de 50 pies de un cruce ferroviario. Estacionar demasiado cerca obstruye la vista de las señales del tren.' },
+  ans: 0
+},
+
+{
+  id: 78, cat: 'parking',
+  en: {
+    q: 'What is the rule for parking facing the wrong direction on a two-way street?',
+    opts: ['It is illegal — you must always park in the direction of traffic flow on your side', 'It is legal if you are only stopping briefly', 'It is legal on residential streets at night only', 'It is legal anywhere as long as you signal when pulling out'],
+    exp: 'Parking facing the wrong direction (against traffic) on a two-way street is illegal in California. You must always park on the right side of the road, headed in the direction of traffic. Facing traffic means you would have to cross into opposing lanes to leave the parking space.'
+  },
+  zh: { q: '在双向街道上逆向停车（面向来车方向）有什么规定？', opts: ['违法——您必须始终顺着您所在一侧的交通方向停车', '如果只是短暂停车则合法', '仅限住宅街道夜间合法', '只要驶出时打转向灯，任何地方均合法'], exp: '在加州，在双向街道上逆向停车（逆着交通方向）是违法的。您必须始终在道路右侧、顺着交通方向停车。逆向停车意味着您需要穿越对向车道才能驶出停车位。' },
+  zhTW: { q: '在雙向街道上逆向停車（面向來車方向）有什麼規定？', opts: ['違法——您必須始終順著您所在一側的交通方向停車', '如果只是短暫停車則合法', '僅限住宅街道夜間合法', '只要駛出時打轉向燈，任何地方均合法'], exp: '在加州，在雙向街道上逆向停車（逆著交通方向）是違法的。您必須始終在道路右側、順著交通方向停車。逆向停車意味著您需要穿越對向車道才能駛出停車位。' },
+  es: { q: '¿Cuál es la regla para estacionar en dirección contraria al tráfico en una calle de dos sentidos?', opts: ['Es ilegal — siempre debe estacionar en la dirección del flujo de tráfico de su lado', 'Es legal si solo se detiene brevemente', 'Es legal en calles residenciales solo de noche', 'Es legal en cualquier lugar siempre que señalice al salir'], exp: 'Estacionar en dirección contraria (contra el tráfico) en una calle de dos sentidos es ilegal en California. Siempre debe estacionar en el lado derecho de la carretera, en la dirección del tráfico. Estacionar en sentido contrario significa que tendría que cruzar a los carriles opuestos para salir.' },
+  ans: 0
+},
+
+{
+  id: 79, cat: 'parking',
+  en: {
+    q: 'You want to park in a space reserved for people with disabilities. What do you need?',
+    opts: ['A valid disabled person placard (DP) or disabled veteran (DV) license plate displayed properly', 'Any vehicle may park there if no disabled person is waiting', 'Just the DP placard — you don\'t need to display it', 'A doctor\'s note is sufficient without a placard'],
+    exp: 'To legally park in a disabled parking space, you must have a valid disabled person (DP) placard displayed on the rearview mirror, or a disabled veteran (DV) license plate. The placard must be issued to you (or someone in the vehicle). Misuse of a placard is a misdemeanor.'
+  },
+  zh: { q: '您想停在残障人士专用停车位。您需要什么？', opts: ['有效的残障人士车标（DP）或残障退伍军人（DV）牌照，并正确展示', '如果没有残障人士等待，任何车辆均可停在此处', '有DP车标即可——无需展示', '医生证明就足够，不需要车标'], exp: '要合法停在残障停车位，您必须在后视镜上展示有效的残障人士（DP）车标，或拥有残障退伍军人（DV）车牌。车标必须是您本人（或车内某人）的。滥用车标是违法行为。' },
+  zhTW: { q: '您想停在殘障人士專用停車位。您需要什麼？', opts: ['有效的殘障人士車標（DP）或殘障退伍軍人（DV）牌照，並正確展示', '如果沒有殘障人士等待，任何車輛均可停在此處', '有DP車標即可——無需展示', '醫生證明就足夠，不需要車標'], exp: '要合法停在殘障停車位，您必須在後視鏡上展示有效的殘障人士（DP）車標，或擁有殘障退伍軍人（DV）車牌。車標必須是您本人（或車內某人）的。濫用車標是違法行為。' },
+  es: { q: '¿Qué necesita para estacionar en un espacio reservado para personas con discapacidad?', opts: ['Un permiso de persona discapacitada (DP) válido o placa de veterano discapacitado (DV) exhibido correctamente', 'Cualquier vehículo puede estacionar si no hay una persona discapacitada esperando', 'Solo el permiso DP — no necesita exhibirlo', 'Una nota del médico es suficiente sin permiso'], exp: 'Para estacionar legalmente en un espacio de estacionamiento para discapacitados, debe tener un permiso de persona discapacitada (DP) válido exhibido en el espejo retrovisor, o una placa de veterano discapacitado (DV). El permiso debe estar emitido a usted (o a alguien en el vehículo).' },
+  ans: 0
+},
+
+{
+  id: 80, cat: 'parking',
+  en: {
+    q: 'When must you set your parking brake (emergency brake) in California?',
+    opts: ['Whenever you park — it is required by law', 'Only on hills steeper than a 3% grade', 'Only when parallel parking', 'Only for vehicles without automatic transmissions'],
+    exp: 'California Vehicle Code requires drivers to set the parking brake whenever they park a vehicle. In addition to the parking brake, you must turn your front wheels to curb the vehicle when parked on a hill (or toward the road edge if there is no curb). This prevents runaway vehicles.'
+  },
+  zh: { q: '在加州，什么时候必须拉驻车制动器（手刹）？', opts: ['每次停车时——法律要求', '仅在坡度超过3%的坡道上', '仅在平行停车时', '仅在非自动变速箱车辆上'], exp: '加州车辆法规要求驾驶员在每次停车时都要拉驻车制动器。除驻车制动器外，在坡道上停车时，您还必须将前轮转向路缘（或在没有路缘时转向路边），以防止车辆溜走。' },
+  zhTW: { q: '在加州，什麼時候必須拉駐車制動器（手剎）？', opts: ['每次停車時——法律要求', '僅在坡度超過3%的坡道上', '僅在平行停車時', '僅在非自動變速箱車輛上'], exp: '加州車輛法規要求駕駛員在每次停車時都要拉駐車制動器。除駐車制動器外，在坡道上停車時，您還必須將前輪轉向路緣（或在沒有路緣時轉向路邊），以防止車輛溜走。' },
+  es: { q: '¿Cuándo debe aplicar el freno de estacionamiento (freno de emergencia) en California?', opts: ['Cada vez que estacione — es requerido por la ley', 'Solo en pendientes superiores al 3% de inclinación', 'Solo al estacionar en paralelo', 'Solo para vehículos sin transmisiones automáticas'], exp: 'El Código de Vehículos de California requiere que los conductores apliquen el freno de estacionamiento cada vez que estacionen un vehículo. Además del freno, debe girar las ruedas delanteras hacia el bordillo cuando esté estacionado en una pendiente (o hacia el borde si no hay bordillo).' },
+  ans: 0
+},
+
 ] // end of questions array — more batches to be appended
