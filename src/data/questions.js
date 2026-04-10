@@ -3966,4 +3966,85 @@ export const questions = [
   ans:1
 },
 
+{
+  id:381, cat:'laws',
+  en:{q:'What does California\'s "move over" law require when you pass a stopped tow truck with amber lights flashing on a freeway?',opts:['Only slow down by 5 mph','Move over one lane away or slow to 20 mph below the posted speed limit','No action required for tow trucks — only emergency vehicles','Use hazard lights and maintain speed'],exp:'California\'s Move Over law (CVC 21809) applies to ALL vehicles with warning lights on the freeway shoulder: police, fire, ambulance, CHP, Caltrans, AND tow trucks. You must move over one lane (if safe) or reduce speed by 20 mph below the limit.'},
+  zh:{q:'当您在高速公路上经过一辆停着并闪烁琥珀色灯光的拖车时，加州的"让行"法律要求您怎么做？',opts:['只需减速5英里/小时','向远处变换一条车道或减速至低于限速20英里/小时','拖车不需要采取行动——只有紧急车辆才需要','使用危险警示灯并保持速度'],exp:'加州让行法（车辆法典21809）适用于高速公路肩道上所有带警示灯的车辆：警察、消防、救护车、加州公路巡逻队、加州交通运输局和拖车。您必须变换一条车道（如果安全）或减速低于限速20英里/小时。'},
+  zhTW:{q:'當您在高速公路上經過一輛停著並閃爍琥珀色燈光的拖車時，加州的「讓行」法律要求您怎麼做？',opts:['只需減速5英里/小時','向遠處變換一條車道或減速至低於限速20英里/小時','拖車不需要採取行動——只有緊急車輛才需要','使用危險警示燈並保持速度'],exp:'加州讓行法（車輛法典21809）適用於高速公路肩道上所有帶警示燈的車輛：警察、消防、救護車、加州公路巡邏隊、加州交通運輸局和拖車。您必須變換一條車道（如果安全）或減速低於限速20英里/小時。'},
+  es:{q:'¿Qué requiere la ley de "ceder el paso" de California cuando pasa una grúa detenida con luces ámbar parpadeando en una autopista?',opts:['Solo reduzca 5 mph','Cámbiese un carril o reduzca a 20 mph por debajo del límite publicado','No se requiere acción para grúas — solo vehículos de emergencia','Use luces de emergencia y mantenga la velocidad'],exp:'La ley Ceder el Paso de California (CVC 21809) aplica a TODOS los vehículos con luces de advertencia en el arcén de la autopista: policía, bomberos, ambulancias, CHP, Caltrans Y grúas. Debe cambiarse un carril (si es seguro) o reducir la velocidad en 20 mph.'},
+  ans:1
+},
+{
+  id:382, cat:'signs',
+  en:{q:'What does a rectangular white sign with black lettering typically indicate?',opts:['Warning of a hazard ahead','Regulatory information — a rule you must follow (e.g., speed limit, turn restrictions)','Information about services ahead','A recommended route'],exp:'Rectangular white signs with black lettering are regulatory signs — they tell you the rules you must follow, such as speed limits, turn restrictions, lane-use rules, and parking restrictions. Failing to obey a regulatory sign is a traffic violation.'},
+  zh:{q:'白色底黑色文字的矩形标志通常表示什么？',opts:['前方有危险警告','法规信息——您必须遵守的规则（例如，限速、转弯限制）','前方服务信息','建议路线'],exp:'白色底黑色文字的矩形标志是法规标志——它们告诉您必须遵守的规则，如限速、转弯限制、车道使用规则和停车限制。不服从法规标志是交通违规。'},
+  zhTW:{q:'白色底黑色文字的矩形標誌通常表示什麼？',opts:['前方有危險警告','法規信息——您必須遵守的規則（例如，限速、轉彎限制）','前方服務信息','建議路線'],exp:'白色底黑色文字的矩形標誌是法規標誌——它們告訴您必須遵守的規則，如限速、轉彎限制、車道使用規則和停車限制。不服從法規標誌是交通違規。'},
+  es:{q:'¿Qué indica típicamente una señal rectangular blanca con letras negras?',opts:['Advertencia de un peligro adelante','Información regulatoria — una regla que debe seguir (por ejemplo, límite de velocidad, restricciones de giro)','Información sobre servicios adelante','Una ruta recomendada'],exp:'Las señales rectangulares blancas con letras negras son señales regulatorias — le dicen las reglas que debe seguir, como límites de velocidad, restricciones de giro, reglas de uso de carriles y restricciones de estacionamiento.'},
+  ans:1
+},
+{
+  id:383, cat:'rightofway',
+  en:{q:'You are waiting to turn left. Oncoming traffic is heavy. When may you proceed?',opts:['When you can make the turn quickly enough','When you have waited 30 seconds','Only when there is a gap in traffic large enough to complete the turn safely, or when oncoming traffic stops','Whenever the car behind you honks'],exp:'You must yield to oncoming traffic when turning left. Only proceed when there is a sufficient gap in traffic to complete the turn safely without requiring oncoming vehicles to slow down or swerve. Never turn left in front of an oncoming vehicle just because you are impatient.'},
+  zh:{q:'您在等候左转。对向交通繁忙。什么时候可以前进？',opts:['当您能足够快地完成转弯时','等候30秒后','只有当交通中有足够大的空隙可以安全完成转弯时，或对向交通停止时','每当后面的车鸣喇叭时'],exp:'左转时必须让行对向车辆。只有当交通中有足够空隙可以安全完成转弯而无需对向车辆减速或转向时才可前进。不要仅因为不耐烦就在对向车辆前面左转。'},
+  zhTW:{q:'您在等候左轉。對向交通繁忙。什麼時候可以前進？',opts:['當您能足夠快地完成轉彎時','等候30秒後','只有當交通中有足夠大的空隙可以安全完成轉彎時，或對向交通停止時','每當後面的車鳴喇叭時'],exp:'左轉時必須讓行對向車輛。只有當交通中有足夠空隙可以安全完成轉彎而無需對向車輛減速或轉向時才可前進。不要僅因為不耐煩就在對向車輛前面左轉。'},
+  es:{q:'Espera para girar a la izquierda. El tráfico que viene es intenso. ¿Cuándo puede proceder?',opts:['Cuando puede completar el giro lo suficientemente rápido','Después de esperar 30 segundos','Solo cuando hay un espacio en el tráfico lo suficientemente grande para completar el giro de manera segura, o cuando el tráfico que viene se detiene','Cuando el auto detrás toca la bocina'],exp:'Debe ceder el paso al tráfico que viene al girar a la izquierda. Solo proceda cuando haya un espacio suficiente en el tráfico para completar el giro de manera segura sin requerir que los vehículos que vienen reduzcan la velocidad o se desvíen.'},
+  ans:2
+},
+{
+  id:384, cat:'safety',
+  en:{q:'At what blood alcohol level does driving ability begin to be impaired for most people?',opts:['0.08%','0.05%','0.02%','Any amount of alcohol can begin to affect driving'],exp:'Research shows that driving ability begins to decline at any level of alcohol consumption. Even below 0.08%, reaction time slows, judgment worsens, and multitasking ability decreases. This is why California law can charge DUI even below 0.08% if driving is actually impaired.'},
+  zh:{q:'对于大多数人来说，在什么血液酒精水平下驾驶能力开始受损？',opts:['0.08%','0.05%','0.02%','任何量的酒精都可能开始影响驾驶'],exp:'研究表明，任何量的饮酒都会导致驾驶能力下降。即使低于0.08%，反应时间减慢、判断力变差，多任务处理能力下降。这就是为什么加州法律即使BAC低于0.08%，如果驾驶实际上受损，也可以指控DUI。'},
+  zhTW:{q:'對於大多數人來說，在什麼血液酒精水平下駕駛能力開始受損？',opts:['0.08%','0.05%','0.02%','任何量的酒精都可能開始影響駕駛'],exp:'研究表明，任何量的飲酒都會導致駕駛能力下降。即使低於0.08%，反應時間減慢、判斷力變差，多任務處理能力下降。這就是為什麼加州法律即使BAC低於0.08%，如果駕駛實際上受損，也可以指控DUI。'},
+  es:{q:'¿A qué nivel de alcohol en sangre comienza a deteriorarse la capacidad de conducción para la mayoría de las personas?',opts:['0.08%','0.05%','0.02%','Cualquier cantidad de alcohol puede comenzar a afectar la conducción'],exp:'La investigación muestra que la capacidad de conducción comienza a disminuir con cualquier nivel de consumo de alcohol. Incluso por debajo de 0.08%, el tiempo de reacción se ralentiza, el juicio empeora y la capacidad multitarea disminuye.'},
+  ans:3
+},
+{
+  id:385, cat:'speed',
+  en:{q:'What is the prima facie speed limit near a senior center or blind persons\' facility when children or seniors are present?',opts:['15 mph','20 mph','25 mph','35 mph'],exp:'The prima facie speed limit near a senior center or facility for the blind is 25 mph when seniors or blind persons are present and the road is within 500–1,000 feet of the facility. This is similar to the school zone speed limit and requires similar caution.'},
+  zh:{q:'当有老人或视障人士在场时，在老人中心或视障人士设施附近的初步限速是多少？',opts:['15英里/小时','20英里/小时','25英里/小时','35英里/小时'],exp:'当老人或视障人士在场且道路在设施500-1,000英尺范围内时，在老人中心或视障人士设施附近的初步限速为25英里/小时。这类似于学校区限速，需要同样的谨慎。'},
+  zhTW:{q:'當有老人或視障人士在場時，在老人中心或視障人士設施附近的初步限速是多少？',opts:['15英里/小時','20英里/小時','25英里/小時','35英里/小時'],exp:'當老人或視障人士在場且道路在設施500-1,000英尺範圍內時，在老人中心或視障人士設施附近的初步限速為25英里/小時。這類似於學校區限速，需要同樣的謹慎。'},
+  es:{q:'¿Cuál es el límite de velocidad prima facie cerca de un centro para personas mayores o instalación para personas ciegas cuando hay personas mayores o ciegas presentes?',opts:['15 mph','20 mph','25 mph','35 mph'],exp:'El límite de velocidad prima facie cerca de un centro para personas mayores o instalación para ciegos es 25 mph cuando hay personas mayores o ciegas presentes y la carretera está dentro de 500–1,000 pies de la instalación.'},
+  ans:2
+},
+{
+  id:386, cat:'parking',
+  en:{q:'You want to park next to a yellow curb. What does a yellow curb mean?',opts:['No parking at any time','Commercial vehicle loading and unloading only, during posted hours — drivers must stay with the vehicle','Parking for disabled persons only','30-minute parking limit'],exp:'A yellow curb designates a loading zone for commercial vehicles during posted hours. The driver must remain with the vehicle (or be actively loading/unloading). In some areas, yellow curbs also apply to passenger vehicles for brief loading/unloading. Check posted signs for time limits.'},
+  zh:{q:'您想停在黄色路缘旁边。黄色路缘意味着什么？',opts:['任何时候禁止停车','仅限在标注时间内商业车辆装卸，司机必须留在车辆旁','仅限残障人士停车','30分钟停车限制'],exp:'黄色路缘在标注时间内指定商业车辆装卸区。司机必须留在车辆旁（或正在积极装卸）。在某些地区，黄色路缘也适用于乘用车的短暂装卸。检查标注标志了解时间限制。'},
+  zhTW:{q:'您想停在黃色路緣旁邊。黃色路緣意味著什麼？',opts:['任何時候禁止停車','僅限在標注時間內商業車輛裝卸，司機必須留在車輛旁','僅限殘障人士停車','30分鐘停車限制'],exp:'黃色路緣在標注時間內指定商業車輛裝卸區。司機必須留在車輛旁（或正在積極裝卸）。在某些地區，黃色路緣也適用於乘用車的短暫裝卸。檢查標注標誌了解時間限制。'},
+  es:{q:'Quiere estacionar junto a un bordillo amarillo. ¿Qué significa un bordillo amarillo?',opts:['Sin estacionamiento en ningún momento','Carga y descarga de vehículos comerciales solamente, durante horas publicadas — los conductores deben quedarse con el vehículo','Estacionamiento solo para personas discapacitadas','Límite de estacionamiento de 30 minutos'],exp:'Un bordillo amarillo designa una zona de carga para vehículos comerciales durante las horas publicadas. El conductor debe permanecer con el vehículo (o estar cargando/descargando activamente). En algunas áreas, los bordillos amarillos también aplican a vehículos de pasajeros para carga/descarga breve.'},
+  ans:1
+},
+{
+  id:387, cat:'highway',
+  en:{q:'When approaching a freeway exit, what should you do?',opts:['Begin slowing down on the freeway, then exit and slow further on the ramp if needed','Exit first, then brake hard on the ramp to slow to local street speed','It does not matter when you slow down','Only signal and slow down in the last 50 feet before the exit'],exp:'When taking a freeway exit: 1) Signal early, 2) Move to the right lane in advance, 3) Stay at freeway speed until you reach the deceleration lane or ramp, 4) Then reduce speed on the ramp to match local street speed. Braking hard on the freeway itself causes rear-end risks.'},
+  zh:{q:'接近高速公路出口时，您应该怎么做？',opts:['在高速公路上开始减速，然后在需要时在匝道上进一步减速','先驶出，然后在匝道上猛刹车以减速到地面道路速度','减速时机无关紧要','只在出口前50英尺内打信号灯并减速'],exp:'下高速公路出口时：1）提前打信号灯，2）提前移至右侧车道，3）在高速公路上保持高速公路速度直到到达减速车道或匝道，4）然后在匝道上降速至地面道路速度。在高速公路本身猛刹车会造成追尾风险。'},
+  zhTW:{q:'接近高速公路出口時，您應該怎麼做？',opts:['在高速公路上開始減速，然後在需要時在匝道上進一步減速','先駛出，然後在匝道上猛剎車以減速到地面道路速度','減速時機無關緊要','只在出口前50英尺內打信號燈並減速'],exp:'下高速公路出口時：1）提前打信號燈，2）提前移至右側車道，3）在高速公路上保持高速公路速度直到到達減速車道或匝道，4）然後在匝道上降速至地面道路速度。在高速公路本身猛剎車會造成追尾風險。'},
+  es:{q:'Al acercarse a una salida de autopista, ¿qué debe hacer?',opts:['Comience a reducir la velocidad en la autopista, luego salga y siga reduciendo en la rampa si es necesario','Salga primero, luego frene fuerte en la rampa para reducir a la velocidad de la calle local','No importa cuándo reduce la velocidad','Solo señalice y reduzca en los últimos 50 pies antes de la salida'],exp:'Al tomar una salida de autopista: 1) Señalice temprano, 2) Muévase al carril derecho con anticipación, 3) Mantenga la velocidad de la autopista hasta el carril de desaceleración o la rampa, 4) Luego reduzca la velocidad en la rampa. Frenar fuerte en la autopista causa riesgos de colisión trasera.'},
+  ans:0
+},
+{
+  id:388, cat:'dui',
+  en:{q:'You are pulled over and suspected of DUI. The officer asks you to take a preliminary alcohol screening (PAS) test. Are you required to take it?',opts:['Yes — all drivers must take it if asked','Only if you are over 21 and not on probation for DUI — you may refuse the PAS before arrest, but must take a chemical test after arrest','No — the PAS is always optional regardless of circumstances','Yes, but only if the officer has a warrant'],exp:'The PAS (preliminary alcohol screening) test is OPTIONAL for drivers over 21 who are not on DUI probation — you may legally refuse it before arrest. However, once arrested for DUI, you MUST submit to a chemical test (blood or breath) under implied consent law. Refusing after arrest results in mandatory license suspension.'},
+  zh:{q:'您被拦截并怀疑DUI。执法官要求您进行初步酒精筛查（PAS）测试。您必须接受吗？',opts:['是的——所有驾驶员被要求时必须接受','只有当您年满21岁且不在DUI缓刑期间——您可以在被捕前拒绝PAS，但被捕后必须接受化学测试','不——无论情况如何，PAS始终是可选的','是的，但只有当执法官有逮捕令时'],exp:'对于年满21岁且不在DUI缓刑期间的驾驶员，PAS（初步酒精筛查）测试是可选的——您可以在被捕前合法拒绝。但是，一旦因DUI被捕，根据默示同意法，您必须接受化学测试（血液或呼气）。被捕后拒绝将导致强制吊销驾照。'},
+  zhTW:{q:'您被攔截並懷疑DUI。執法官要求您進行初步酒精篩查（PAS）測試。您必須接受嗎？',opts:['是的——所有駕駛員被要求時必須接受','只有當您年滿21歲且不在DUI緩刑期間——您可以在被捕前拒絕PAS，但被捕後必須接受化學測試','不——無論情況如何，PAS始終是可選的','是的，但只有當執法官有逮捕令時'],exp:'對於年滿21歲且不在DUI緩刑期間的駕駛員，PAS（初步酒精篩查）測試是可選的——您可以在被捕前合法拒絕。但是，一旦因DUI被捕，根據默示同意法，您必須接受化學測試（血液或呼氣）。被捕後拒絕將導致強制吊銷駕照。'},
+  es:{q:'Lo detienen y sospechan DUI. El oficial le pide que tome una prueba preliminar de alcohol (PAS). ¿Está obligado a tomarla?',opts:['Sí — todos los conductores deben tomarla si se les pide','Solo si tiene más de 21 años y no está en libertad condicional por DUI — puede rechazar la PAS antes del arresto, pero debe tomar una prueba química después del arresto','No — la PAS siempre es opcional independientemente de las circunstancias','Sí, pero solo si el oficial tiene una orden judicial'],exp:'La prueba PAS es OPCIONAL para conductores mayores de 21 años que no están en libertad condicional por DUI — puede negarla legalmente antes del arresto. Sin embargo, una vez arrestado por DUI, DEBE someterse a una prueba química (sangre o aliento) bajo la ley de consentimiento implícito.'},
+  ans:1
+},
+{
+  id:389, cat:'laws',
+  en:{q:'What must you do when you see or hear an emergency vehicle approaching while you are in an intersection?',opts:['Stop immediately in the intersection','Clear the intersection first, then pull to the right and stop','Speed through the intersection to clear it faster','Stay in the intersection until the emergency vehicle passes'],exp:'If you are already in an intersection when an emergency vehicle approaches, do NOT stop there — you will block the emergency vehicle. Instead, proceed through the intersection, then immediately pull to the right edge of the road and stop. Remain stopped until the vehicle passes.'},
+  zh:{q:'当您在路口时看到或听到紧急车辆驶来，您应该怎么做？',opts:['立即在路口停车','先通过路口，然后靠右停车','加速通过路口以更快清空它','在路口等候直到紧急车辆通过'],exp:'如果您已经在路口时紧急车辆驶来，不要在那里停车——您会阻挡紧急车辆。应先通过路口，然后立即靠到道路右侧边缘停车。保持停车直到车辆通过。'},
+  zhTW:{q:'當您在路口時看到或聽到緊急車輛駛來，您應該怎麼做？',opts:['立即在路口停車','先通過路口，然後靠右停車','加速通過路口以更快清空它','在路口等候直到緊急車輛通過'],exp:'如果您已經在路口時緊急車輛駛來，不要在那裡停車——您會阻擋緊急車輛。應先通過路口，然後立即靠到道路右側邊緣停車。保持停車直到車輛通過。'},
+  es:{q:'¿Qué debe hacer cuando ve u oye un vehículo de emergencia acercándose mientras está en una intersección?',opts:['Deténgase inmediatamente en la intersección','Despeje la intersección primero, luego orillese a la derecha y deténgase','Acelere a través de la intersección para despejarla más rápido','Quédese en la intersección hasta que pase el vehículo de emergencia'],exp:'Si ya está en una intersección cuando se acerca un vehículo de emergencia, NO se detenga allí — bloqueará el vehículo. En cambio, proceda a través de la intersección, luego orillese inmediatamente al lado derecho del camino y deténgase.'},
+  ans:1
+},
+{
+  id:390, cat:'safety',
+  en:{q:'How should you adjust your driving when roads are wet after rain?',opts:['Maintain your normal speed — wet roads have minimal effect on modern vehicles','Increase following distance, reduce speed, and avoid sudden braking or sharp turns','Only adjust if there is standing water','Wet roads require no change from dry-road driving techniques'],exp:'Wet roads reduce tire traction dramatically. You should: reduce speed (especially on first rain — oil residue makes roads extra slippery), increase following distance to 4+ seconds, avoid sudden braking, acceleration, or sharp turns. Allow more time to stop — wet roads can double your stopping distance.'},
+  zh:{q:'下雨后道路湿滑时，您应该如何调整驾驶？',opts:['保持正常速度——潮湿道路对现代车辆影响最小','增加跟车距离，降低速度，避免突然刹车或急转','只有在有积水时才调整','潮湿道路不需要改变干燥道路的驾驶技术'],exp:'潮湿道路大大降低轮胎抓地力。您应该：降低速度（尤其是第一场雨——油污残留使道路格外滑），将跟车距离增加到4秒以上，避免突然刹车、加速或急转。留出更多制动时间——潮湿道路可以使制动距离翻倍。'},
+  zhTW:{q:'下雨後道路濕滑時，您應該如何調整駕駛？',opts:['保持正常速度——潮濕道路對現代車輛影響最小','增加跟車距離，降低速度，避免突然剎車或急轉','只有在有積水時才調整','潮濕道路不需要改變乾燥道路的駕駛技術'],exp:'潮濕道路大大降低輪胎抓地力。您應該：降低速度（尤其是第一場雨——油污殘留使道路格外滑），將跟車距離增加到4秒以上，避免突然剎車、加速或急轉。留出更多制動時間——潮濕道路可以使制動距離翻倍。'},
+  es:{q:'¿Cómo debe ajustar su conducción cuando las carreteras están mojadas después de la lluvia?',opts:['Mantenga su velocidad normal — las carreteras mojadas tienen un efecto mínimo en los vehículos modernos','Aumente la distancia de seguimiento, reduzca la velocidad y evite el frenado repentino o giros bruscos','Solo ajuste si hay agua estancada','Las carreteras mojadas no requieren cambios respecto a las técnicas en carretera seca'],exp:'Las carreteras mojadas reducen dramáticamente la tracción de los neumáticos. Debe: reducir la velocidad, aumentar la distancia de seguimiento a 4+ segundos, evitar el frenado repentino, la aceleración o los giros bruscos. Las carreteras mojadas pueden duplicar la distancia de frenado.'},
+  ans:1
+},
+
 ] // end of questions array — more batches to be appended
