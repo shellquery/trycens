@@ -1921,4 +1921,87 @@ export const questions = [
   ans:0
 },
 
+
+// ── Batch 14 · Safety & Emergency · Q131–140 ─────────────────
+{
+  id:131,cat:'safety',
+  en:{q:'Who is required to wear a seat belt in California?',opts:['All occupants of any age in every seating position','Only the driver and front-seat passengers','Only children under 16','Only the driver'],exp:'California law requires all occupants — driver and all passengers — to wear seat belts regardless of where they are sitting. Infants and young children must be in approved child safety seats. The driver is responsible for ensuring all passengers under 16 are properly restrained.'},
+  zh:{q:'在加州，谁必须系安全带？',opts:['所有乘员，不论年龄，任何座位上均须系安全带','仅驾驶员和前排乘客','仅16岁以下儿童','仅驾驶员'],exp:'加州法律要求所有乘员——驾驶员和所有乘客——无论坐在哪个位置都必须系安全带。婴幼儿必须坐在经批准的儿童安全座椅中。驾驶员负责确保所有16岁以下乘客正确使用约束装置。'},
+  zhTW:{q:'在加州，誰必須繫安全帶？',opts:['所有乘員，不論年齡，任何座位上均須繫安全帶','僅駕駛員和前排乘客','僅16歲以下兒童','僅駕駛員'],exp:'加州法律要求所有乘員——駕駛員和所有乘客——無論坐在哪個位置都必須繫安全帶。嬰幼兒必須坐在經批准的兒童安全座椅中。駕駛員負責確保所有16歲以下乘客正確使用約束裝置。'},
+  es:{q:'¿Quién debe usar cinturón de seguridad en California?',opts:['Todos los ocupantes de cualquier edad en cada posición de asiento','Solo el conductor y los pasajeros del asiento delantero','Solo los niños menores de 16 años','Solo el conductor'],exp:'La ley de California requiere que todos los ocupantes — conductor y todos los pasajeros — usen cinturones de seguridad independientemente de dónde estén sentados. Los bebés y niños pequeños deben estar en sillas de seguridad para niños aprobadas. El conductor es responsable de asegurarse de que todos los pasajeros menores de 16 estén correctamente restringidos.'},
+  ans:0
+},
+{
+  id:132,cat:'safety',
+  en:{q:'Children under what age must be secured in a rear-facing car seat in the back seat?',opts:['Under 2 years old, or until they reach the maximum height/weight for the seat','Under 4 years old','Under 1 year old','Under 3 years old'],exp:'California law requires children under 2 years old to be in a rear-facing car seat in the back seat unless the child weighs 40 pounds or more or is 40 inches or taller. Rear-facing seats provide the best protection for infants in a crash by distributing crash forces over the whole body.'},
+  zh:{q:'几岁以下的儿童必须在后排座位的后向儿童安全座椅中？',opts:['2岁以下，或直到超过座椅的最大身高/体重限制','4岁以下','1岁以下','3岁以下'],exp:'加州法律要求2岁以下的儿童必须坐在后排座位的后向儿童安全座椅中，除非儿童体重达到40磅或身高达到40英寸以上。后向安全座椅通过将碰撞力分散到整个身体，为婴儿提供最好的碰撞保护。'},
+  zhTW:{q:'幾歲以下的兒童必須在後排座位的後向兒童安全座椅中？',opts:['2歲以下，或直到超過座椅的最大身高/體重限制','4歲以下','1歲以下','3歲以下'],exp:'加州法律要求2歲以下的兒童必須坐在後排座位的後向兒童安全座椅中，除非兒童體重達到40磅或身高達到40英寸以上。後向安全座椅通過將碰撞力分散到整個身體，為嬰兒提供最好的碰撞保護。'},
+  es:{q:'¿Los niños menores de qué edad deben estar asegurados en una silla de auto orientada hacia atrás en el asiento trasero?',opts:['Menores de 2 años, o hasta que alcancen la altura/peso máximo para la silla','Menores de 4 años','Menores de 1 año','Menores de 3 años'],exp:'La ley de California requiere que los niños menores de 2 años estén en una silla de auto orientada hacia atrás en el asiento trasero, a menos que el niño pese 40 libras o más o tenga 40 pulgadas o más de altura. Las sillas orientadas hacia atrás ofrecen la mejor protección en un choque.'},
+  ans:0
+},
+{
+  id:133,cat:'safety',
+  en:{q:'What should you do if your accelerator sticks while driving?',opts:['Shift to neutral, apply brakes firmly, keep eyes on the road, and pull safely off — do not turn off ignition while moving','Immediately turn off the ignition','Keep pressing the accelerator and hope it unsticks','Pump the brakes rapidly'],exp:'If your accelerator sticks: (1) Keep your eyes on the road. (2) Shift to neutral (N) — this disconnects engine power from the wheels. (3) Apply firm, steady braking. (4) Pull off the road safely. (5) Turn off the engine only after you are stopped. Never turn off a moving car — you lose power steering and brakes.'},
+  zh:{q:'如果在驾驶时油门卡住了，您应该怎么做？',opts:['换到空挡，用力踩刹车，保持眼睛盯着路面，安全靠边停车——行驶时不要关闭点火开关','立即关闭点火开关','继续踩油门希望它自行恢复','快速地泵踩刹车'],exp:'如果油门卡住：(1) 保持眼睛盯着路面。(2) 换到空挡(N)——这会断开发动机动力与车轮的连接。(3) 施加稳定有力的制动。(4) 安全靠边停车。(5) 停车后再关闭发动机。切勿关闭正在行驶的车辆——您将失去助力转向和刹车功能。'},
+  zhTW:{q:'如果在駕駛時油門卡住了，您應該怎麼做？',opts:['換到空檔，用力踩剎車，保持眼睛盯著路面，安全靠邊停車——行駛時不要關閉點火開關','立即關閉點火開關','繼續踩油門希望它自行恢復','快速地泵踩剎車'],exp:'如果油門卡住：(1) 保持眼睛盯著路面。(2) 換到空檔(N)——這會斷開發動機動力與車輪的連接。(3) 施加穩定有力的制動。(4) 安全靠邊停車。(5) 停車後再關閉發動機。切勿關閉正在行駛的車輛——您將失去助力轉向和剎車功能。'},
+  es:{q:'¿Qué debe hacer si su acelerador se atasca mientras conduce?',opts:['Cambie a punto muerto, aplique los frenos firmemente, mantenga los ojos en la carretera y salga con seguridad — no apague el motor mientras está en movimiento','Apague el encendido inmediatamente','Siga presionando el acelerador con la esperanza de que se desatasque','Bombee los frenos rápidamente'],exp:'Si su acelerador se atasca: (1) Mantenga los ojos en la carretera. (2) Cambie a punto muerto (N). (3) Aplique frenado firme y constante. (4) Salga de la carretera con seguridad. (5) Apague el motor solo después de detenerse. Nunca apague un auto en movimiento — pierde la dirección asistida y los frenos.'},
+  ans:0
+},
+{
+  id:134,cat:'safety',
+  en:{q:'What should you do if your brakes suddenly fail while driving?',opts:['Pump the brakes, downshift, use the emergency/parking brake gradually, and steer to safety','Immediately steer off the road at full speed','Turn off the engine immediately','Slam into a barrier to stop the car'],exp:'If your brakes fail: (1) Pump the brakes rapidly — this can sometimes restore hydraulic pressure. (2) Downshift to a lower gear to slow the engine. (3) Gradually apply the emergency/parking brake. (4) Look for an escape route — a runaway truck ramp, uphill grade, or soft shoulder. (5) Steer to safety and signal for help.'},
+  zh:{q:'驾驶时刹车突然失灵，您应该怎么做？',opts:['快速泵踩刹车，降低档位，逐渐使用手刹，并向安全方向驾驶','立即全速驾离道路','立即关闭发动机','撞入护栏使车辆停下'],exp:'如果刹车失灵：(1) 快速泵踩刹车——这有时可以恢复液压。(2) 降低到更低档位以减慢发动机转速。(3) 逐渐施加手刹/驻车制动。(4) 寻找逃生路线——失控卡车坡道、上坡路段或松软路肩。(5) 向安全方向驾驶并发信号求助。'},
+  zhTW:{q:'駕駛時剎車突然失靈，您應該怎麼做？',opts:['快速泵踩剎車，降低檔位，逐漸使用手剎，並向安全方向駕駛','立即全速駕離道路','立即關閉發動機','撞入護欄使車輛停下'],exp:'如果剎車失靈：(1) 快速泵踩剎車——這有時可以恢復液壓。(2) 降低到更低檔位以減慢發動機轉速。(3) 逐漸施加手剎/駐車制動。(4) 尋找逃生路線——失控卡車坡道、上坡路段或鬆軟路肩。(5) 向安全方向駕駛並發信號求助。'},
+  es:{q:'¿Qué debe hacer si sus frenos fallan repentinamente mientras conduce?',opts:['Bombee los frenos, reduzca la marcha, use el freno de emergencia/estacionamiento gradualmente y dirija hacia la seguridad','Inmediatamente dirija el auto fuera de la carretera a toda velocidad','Apague el motor inmediatamente','Choque contra una barrera para detener el auto'],exp:'Si fallan sus frenos: (1) Bombee los frenos rápidamente. (2) Reduzca a una marcha más baja para frenar el motor. (3) Aplique gradualmente el freno de emergencia/estacionamiento. (4) Busque una ruta de escape. (5) Dirija hacia la seguridad y señalice pidiendo ayuda.'},
+  ans:0
+},
+{
+  id:135,cat:'safety',
+  en:{q:'If you have a tire blowout while driving, what should you do?',opts:['Hold the steering wheel firmly, ease off the gas, let the car slow gradually, then pull over safely','Brake hard immediately to stop quickly','Turn sharply to the shoulder','Accelerate briefly to maintain control'],exp:'If a tire blows out: (1) Grip the steering wheel firmly — the car will pull toward the flat tire. (2) Do NOT brake hard — this can cause a spinout. (3) Ease off the accelerator gradually. (4) Let the car slow down on its own. (5) When speed is low enough (~30 mph), gently steer to the shoulder and stop.'},
+  zh:{q:'行驶中发生爆胎，您应该怎么做？',opts:['紧握方向盘，轻松松开油门，让车辆逐渐减速，然后安全靠边停车','立即用力刹车以快速停车','急转向路肩','短暂加速以保持控制'],exp:'如果发生爆胎：(1) 紧握方向盘——车辆会朝爆胎方向偏转。(2) 不要用力刹车——这可能导致车辆失控打转。(3) 逐渐松开油门。(4) 让车辆自行减速。(5) 当速度降至足够低（约30英里/小时）时，轻轻转向路肩并停车。'},
+  zhTW:{q:'行駛中發生爆胎，您應該怎麼做？',opts:['緊握方向盤，輕鬆鬆開油門，讓車輛逐漸減速，然後安全靠邊停車','立即用力剎車以快速停車','急轉向路肩','短暫加速以保持控制'],exp:'如果發生爆胎：(1) 緊握方向盤——車輛會朝爆胎方向偏轉。(2) 不要用力剎車——這可能導致車輛失控打轉。(3) 逐漸鬆開油門。(4) 讓車輛自行減速。(5) 當速度降至足夠低（約30英里/小時）時，輕輕轉向路肩並停車。'},
+  es:{q:'Si tiene un reventón de llanta mientras conduce, ¿qué debe hacer?',opts:['Sostenga el volante firmemente, suelte el gas gradualmente, deje que el auto se desacelere y luego orillese con seguridad','Frene fuerte inmediatamente para detenerse rápido','Gire bruscamente hacia el hombro','Acelere brevemente para mantener el control'],exp:'Si una llanta explota: (1) Agarre el volante firmemente. (2) NO frene fuerte — esto puede causar un trompo. (3) Suelte el acelerador gradualmente. (4) Deje que el auto se desacelere solo. (5) Cuando la velocidad sea suficientemente baja (~30 mph), dirija suavemente hacia el hombro y deténgase.'},
+  ans:0
+},
+{
+  id:136,cat:'safety',
+  en:{q:'What should you do if you start to skid on a slippery surface?',opts:['Steer in the direction the rear of the car is skidding, ease off the gas, and avoid hard braking','Brake hard and turn the wheel sharply in the opposite direction','Accelerate to regain traction','Turn the wheel opposite to the skid and brake firmly'],exp:'If your rear end skids (oversteer): steer in the direction the rear is sliding (steer into the skid) and ease off the gas. Do not brake hard — this worsens the skid. On cars with ABS, if braking is needed, apply steady pressure. If the front skids (understeer), ease off the gas and avoid sharp steering.'},
+  zh:{q:'在湿滑路面上开始打滑时，您应该怎么做？',opts:['向车尾打滑的方向转动方向盘，轻踩油门，避免用力刹车','用力刹车并向相反方向急转方向盘','加速以重新获得抓地力','向打滑相反方向转动方向盘并用力刹车'],exp:'如果车尾打滑（转向过度）：向车尾滑动的方向转动方向盘（顺着打滑方向）并轻踩油门。不要用力刹车——这会使打滑更严重。在配备ABS的车辆上，如果需要制动，施加稳定的压力。如果前轮打滑（转向不足），轻踩油门并避免急转方向盘。'},
+  zhTW:{q:'在濕滑路面上開始打滑時，您應該怎麼做？',opts:['向車尾打滑的方向轉動方向盤，輕踩油門，避免用力剎車','用力剎車並向相反方向急轉方向盤','加速以重新獲得抓地力','向打滑相反方向轉動方向盤並用力剎車'],exp:'如果車尾打滑（轉向過度）：向車尾滑動的方向轉動方向盤（順著打滑方向）並輕踩油門。不要用力剎車——這會使打滑更嚴重。在配備ABS的車輛上，如果需要制動，施加穩定的壓力。如果前輪打滑（轉向不足），輕踩油門並避免急轉方向盤。'},
+  es:{q:'¿Qué debe hacer si comienza a patinar en una superficie resbaladiza?',opts:['Dirija en la dirección en que la parte trasera del auto está patinando, suelte el gas y evite frenar fuerte','Frene fuerte y gire el volante bruscamente en la dirección opuesta','Acelere para recuperar la tracción','Gire el volante opuesto al patinaje y frene firmemente'],exp:'Si la parte trasera patea (sobreviraje): dirija en la dirección en que el trasero está deslizándose (dirija hacia el patinaje) y suelte el gas. No frene fuerte — esto empeora el patinaje. En autos con ABS, si se necesita frenar, aplique presión constante.'},
+  ans:0
+},
+{
+  id:137,cat:'safety',
+  en:{q:'When should you use your hazard (emergency flasher) lights?',opts:['When your vehicle is stopped or disabled on the road, or moving very slowly due to an emergency','Whenever it is raining heavily','To thank another driver for letting you in','While legally parked on a city street'],exp:'Hazard lights (four-way flashers) should be used when your vehicle is stopped or broken down on the roadway or shoulder, creating a hazard for other drivers. They may also be used if you must drive very slowly in an emergency. Do not use them while normally parked or to signal thanks.'},
+  zh:{q:'何时应该使用危险警报灯（双闪灯）？',opts:['当您的车辆在道路上停止或抛锚，或因紧急情况行驶非常缓慢时','每当大雨时','感谢另一位驾驶员让您并入时','在城市街道上合法停车时'],exp:'危险警报灯（四路闪烁灯）应在您的车辆在路面或路肩上停止或抛锚，对其他驾驶员构成危险时使用。在紧急情况下必须非常缓慢行驶时也可以使用。不要在正常停车时或用来表示感谢时使用。'},
+  zhTW:{q:'何時應該使用危險警報燈（雙閃燈）？',opts:['當您的車輛在道路上停止或拋錨，或因緊急情況行駛非常緩慢時','每當大雨時','感謝另一位駕駛員讓您並入時','在城市街道上合法停車時'],exp:'危險警報燈（四路閃爍燈）應在您的車輛在路面或路肩上停止或拋錨，對其他駕駛員構成危險時使用。在緊急情況下必須非常緩慢行駛時也可以使用。不要在正常停車時或用來表示感謝時使用。'},
+  es:{q:'¿Cuándo debe usar las luces de emergencia (destelladores de cuatro vías)?',opts:['Cuando su vehículo está detenido o averiado en la carretera, o moviéndose muy lento debido a una emergencia','Cuando llueve intensamente','Para agradecer a otro conductor por dejarlo pasar','Mientras está estacionado legalmente en una calle de la ciudad'],exp:'Las luces de emergencia (destelladores de cuatro vías) deben usarse cuando su vehículo está detenido o averiado en la calzada o el hombro, creando un peligro para otros conductores. También pueden usarse si debe conducir muy lentamente en una emergencia.'},
+  ans:0
+},
+{
+  id:138,cat:'safety',
+  en:{q:'What is the law in California regarding texting while driving?',opts:['Texting while driving is completely illegal for all drivers — no exceptions','Texting is allowed only at red lights','Texting is allowed on the freeway but not in cities','Only voice texting is banned'],exp:'Texting while driving is illegal for ALL drivers in California regardless of age. Even reading a text is illegal. For drivers under 18, NO use of any electronic device is permitted while driving — hands-free or not. Fines start at $162 for the first offense and increase significantly for subsequent violations.'},
+  zh:{q:'加州关于驾驶时发短信的法律是什么？',opts:['驾驶时发短信对所有驾驶员完全违法——无例外','仅在红灯时可以发短信','在高速公路上可以发短信，但在城市内不行','仅语音短信被禁止'],exp:'在加州，无论年龄如何，驾驶时发短信对所有驾驶员均属违法。即使只是阅读短信也是违法的。18岁以下的驾驶员在驾驶时不得使用任何电子设备——无论是否免提。首次违规罚款从162美元起，后续违规罚款大幅增加。'},
+  zhTW:{q:'加州關於駕駛時發短信的法律是什麼？',opts:['駕駛時發短信對所有駕駛員完全違法——無例外','僅在紅燈時可以發短信','在高速公路上可以發短信，但在城市內不行','僅語音短信被禁止'],exp:'在加州，無論年齡如何，駕駛時發短信對所有駕駛員均屬違法。即使只是閱讀短信也是違法的。18歲以下的駕駛員在駕駛時不得使用任何電子設備——無論是否免提。首次違規罰款從162美元起，後續違規罰款大幅增加。'},
+  es:{q:'¿Cuál es la ley en California sobre enviar mensajes de texto mientras conduce?',opts:['Enviar mensajes de texto mientras conduce es completamente ilegal para todos los conductores — sin excepciones','Enviar mensajes está permitido solo en semáforos en rojo','Enviar mensajes está permitido en la autopista pero no en ciudades','Solo los mensajes de texto por voz están prohibidos'],exp:'Enviar mensajes de texto mientras conduce es ilegal para TODOS los conductores en California independientemente de la edad. Incluso leer un texto es ilegal. Para conductores menores de 18, NO se permite el uso de ningún dispositivo electrónico mientras se conduce. Las multas comienzan en $162 para la primera infracción.'},
+  ans:0
+},
+{
+  id:139,cat:'safety',
+  en:{q:'What should you do if you feel drowsy while driving on the highway?',opts:['Pull off safely at the next exit or rest area and rest — do not try to fight drowsiness','Open your window and turn up the radio','Drive faster to reach your destination sooner','Drink coffee and continue driving'],exp:'Drowsy driving is as dangerous as drunk driving. If you feel sleepy: pull off the road safely at a rest area, parking lot, or safe shoulder. Take a short nap (20–30 minutes), then get out and stretch. Caffeine provides only temporary relief. Never try to fight sleep while driving — you can fall asleep in seconds without warning.'},
+  zh:{q:'在高速公路上驾驶时感到困倦，您应该怎么做？',opts:['在下一个出口或休息区安全停车休息——不要试图对抗困倦','打开车窗并调高收音机音量','加速以更快到达目的地','喝咖啡后继续驾驶'],exp:'疲劳驾驶与醉酒驾驶一样危险。如果感到困倦：在休息区、停车场或安全路肩安全靠边停车。小睡片刻（20-30分钟），然后下车伸展肢体。咖啡因只能提供暂时的缓解。切勿在驾驶时试图对抗睡意——您可能会毫无预警地在数秒内睡着。'},
+  zhTW:{q:'在高速公路上駕駛時感到困倦，您應該怎麼做？',opts:['在下一個出口或休息區安全停車休息——不要試圖對抗困倦','打開車窗並調高收音機音量','加速以更快到達目的地','喝咖啡後繼續駕駛'],exp:'疲勞駕駛與醉酒駕駛一樣危險。如果感到困倦：在休息區、停車場或安全路肩安全靠邊停車。小睡片刻（20-30分鐘），然後下車伸展肢體。咖啡因只能提供暫時的緩解。切勿在駕駛時試圖對抗睡意——您可能會毫無預警地在數秒內睡著。'},
+  es:{q:'¿Qué debe hacer si se siente somnoliento mientras conduce en la autopista?',opts:['Salirse con seguridad en la próxima salida o área de descanso y descansar — no intente luchar contra la somnolencia','Abra su ventana y suba el radio','Conduzca más rápido para llegar a su destino antes','Tome café y continúe conduciendo'],exp:'Conducir con sueño es tan peligroso como conducir ebrio. Si se siente somnoliento: salga de la carretera con seguridad en un área de descanso, estacionamiento o hombro seguro. Duerma una siesta corta (20–30 minutos). La cafeína solo proporciona alivio temporal. Nunca intente luchar contra el sueño mientras conduce.'},
+  ans:0
+},
+{
+  id:140,cat:'safety',
+  en:{q:'What should you do if an object falls from your vehicle onto the highway?',opts:['Pull over safely and call 911 — never attempt to retrieve the object yourself from the freeway','Stop in the lane and quickly retrieve it','Continue driving — the object is not your responsibility once it falls','Turn on hazard lights and back up to retrieve it'],exp:'If cargo falls from your vehicle, pull over safely and call 911 to report the road hazard. Never attempt to retrieve items from a freeway yourself — this is extremely dangerous. You may be liable for any accidents caused by the fallen debris. Secure your load properly before driving to prevent this.'},
+  zh:{q:'如果物品从您的车辆掉落到高速公路上，您应该怎么做？',opts:['安全靠边停车并拨打911——切勿自己尝试从高速公路捡回物品','在车道内停车并快速捡回','继续行驶——物品掉落后与您无关','开启危险灯并倒车捡回'],exp:'如果货物从您的车辆掉落，请安全靠边停车并拨打911报告道路危险。切勿自己尝试从高速公路上捡回物品——这极其危险。因掉落碎片造成的任何事故，您可能承担责任。驾驶前请妥善固定您的货物以防止此类情况发生。'},
+  zhTW:{q:'如果物品從您的車輛掉落到高速公路上，您應該怎麼做？',opts:['安全靠邊停車並撥打911——切勿自己嘗試從高速公路撿回物品','在車道內停車並快速撿回','繼續行駛——物品掉落後與您無關','開啟危險燈並倒車撿回'],exp:'如果貨物從您的車輛掉落，請安全靠邊停車並撥打911報告道路危險。切勿自己嘗試從高速公路上撿回物品——這極其危險。因掉落碎片造成的任何事故，您可能承擔責任。駕駛前請妥善固定您的貨物以防止此類情況發生。'},
+  es:{q:'¿Qué debe hacer si un objeto cae de su vehículo en la autopista?',opts:['Orillese con seguridad y llame al 911 — nunca intente recuperar el objeto usted mismo en la autopista','Deténgase en el carril y recupérelo rápidamente','Continúe conduciendo — el objeto no es su responsabilidad una vez que cae','Encienda las luces de emergencia y dé marcha atrás para recuperarlo'],exp:'Si la carga cae de su vehículo, orillese con seguridad y llame al 911 para reportar el peligro vial. Nunca intente recuperar artículos de una autopista usted mismo — esto es extremadamente peligroso. Puede ser responsable de cualquier accidente causado por los escombros caídos.'},
+  ans:0
+},
+
 ] // end of questions array — more batches to be appended
