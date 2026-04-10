@@ -59,7 +59,7 @@ export default function Home({ lang, onStart, onOpenWrongBank, totalQuestions, c
            lang === 'es'   ? 'Guía DMV California' :
                              'CA DMV Study Guide'}
         </h1>
-        <p className="home-subtitle">{t('sub', lang)}</p>
+
       </div>
 
       {/* Stats */}
